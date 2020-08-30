@@ -26,5 +26,4 @@ home: true
 {% endif %}
 {% endfor %}
 
-### Collaborators
-- Prof Richard Dobson, KCL
+{% include_relative collaborators.md %}
