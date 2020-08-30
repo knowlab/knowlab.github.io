@@ -27,3 +27,4 @@ home: true
 {% endif %}
 {% endfor %}
 
+<div style="color: #999999;margin:60px 0 20px 0;font-style: italic;text-align: center;">Acknowledgement: Logo designed by Yuchen Wu</div>
