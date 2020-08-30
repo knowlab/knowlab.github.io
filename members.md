@@ -9,7 +9,7 @@ permalink: /group-members/
     Team Lead
     </div>
     <div class="info">
-    I am a lecturer at Institute of Health Informatics, UCL and hold a Rutherford personal fellowship funded by MRC/HDR UK. I am also a visiting research fellow at Department of Biostatistics and Health Informatics of King's College London. Before moving to UCL, I was doing the first part of my Rutherford fellowship at Centre for Medical Informatics, University of Edinburgh.
+    Dr Honghan Wu is a lecturer at Institute of Health Informatics, UCL and holds a Rutherford personal fellowship funded by MRC/HDR UK. He is also a visiting research fellow at King's College London and University of Edinburgh. Before moving to UCL, he was doing the first part of his Rutherford fellowship at Centre for Medical Informatics, University of Edinburgh. Dr Wu holds a PhD in Computing Science. His current research interest is in using text technologies and Knowledge Graph techniques to analyse electronic health records (EHRs).
     </div>
 </div>
 
@@ -42,6 +42,9 @@ permalink: /group-members/
 - David Drake, MSc student, Bayes Centre, University of Edinburgh
 - Joesph Powell, MSc student, Institute of Health Informaatics, UCL
 - Steven Cassady, MSc student, School of Informatics, University of Edinburgh
+
+### Visiting Researchers
+- Cheng Wan, Nanjing Medical University
 
 ### Alumni
 - Qianyi Zeng, MSc, School of Informatics, University of Edinburgh

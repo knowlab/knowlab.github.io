@@ -1,3 +1,3 @@
-KnowLab is a health informatics research group, aiming at improving healthcare by artificial intelligence technologies. Our research focuses are machine learning, text analytics, knowledge graph, and their applications in health care. We are based in University College London and University of Edinburgh.
-
-We work closely with National Health Service (NHS) across the UK to use our [health informatics tools](/tools) for improving services and clinical research, including [South London and Maudsley NHS Trust](https://www.slam.nhs.uk/), [King's College Hospital NHS Foundation Trust](https://www.kch.nhs.uk/), [University College London Hospitals NHS Foundation Trust](https://www.uclh.nhs.uk/Pages/Home.aspx), [NHS Lothian](https://www.nhslothian.scot/Pages/default.aspx), and [NHS Education for Scotland](https://www.nhslothian.scot/Pages/default.aspx).
+<div class="grpInfo">
+KnowLab is a health informatics research group, led by Dr Honghan Wu. We aim at improving healthcare using artificial intelligence. Our research focuses are machine learning, text analytics, knowledge graph, and their applications in health care. We are based in University College London and University of Edinburgh.
+</div>

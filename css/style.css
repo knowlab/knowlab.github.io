@@ -46,20 +46,19 @@ i, em {
   font-style: italic;
 }
 a {
-  color: inherit;
+  color: #0366d6;
   text-decoration: none;
   position: relative;
-  background: -webkit-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: -moz-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: -o-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: -ms-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
-  background: linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
   -webkit-background-size: 1px 1px;
   -moz-background-size: 1px 1px;
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-size: 1px 1px;
   background-position: 0 87%;
+}
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #dd5555;
 }
 .no-cssgradients a {
   text-decoration: underline;
@@ -80,7 +79,7 @@ li {
   line-height: 1.4;
 }
 li * {
-  line-height: 1em; /* Bold font line-height fix */
+  line-height: 1.2em; /* Bold font line-height fix */
 }
 img {
   max-width: 100%;
@@ -265,11 +264,12 @@ header {
   color: rgba({{ site.text-color }},.5);
 }
 header img {
-  height: 32px;
+  height: 64px;
   display: inline-block;
 }
 nav {
   margin: 20px 0;
+  border-bottom: gray 1px solid;
 }
 article {
   margin-top: 30px;
@@ -384,7 +384,7 @@ nav a {
   position: relative;
 }
 nav a:hover {
-  color: rgba({{ site.text-color }},.76);
+  color: #dd5555;
 }
 nav a.current {
   color: rgba({{ site.text-color }}, .76)
@@ -444,13 +444,13 @@ nav a.current {
     margin-bottom: -10px;
   }
   h2 {
-    font-size: 1.8em;
-    margin-top: 60px;
+    font-size: 1.4em;
+    margin-top: 40px;
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
-    font-size: 1.2em;
-    margin-top: 60px;
+    font-size: 1.1em;
+    margin-top: 40px;
     margin-bottom: -10px;
   }
   .img-only {
@@ -464,7 +464,7 @@ nav a.current {
     font-size: 1.3em;
   }
   hr {
-    margin: 90px auto;
+    margin: 60px auto;
   }
 }
 @media all and (min-width: {{ site.nav-breaking-point }}) {
@@ -631,4 +631,9 @@ select{
   font-size: 100%;
   line-height: 1.4;
   text-align: left;
+}
+
+.grpInfo{
+  font-size: 120%;
+  line-height: 1.4;
 }
