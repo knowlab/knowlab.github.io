@@ -264,7 +264,7 @@ header {
   color: rgba({{ site.text-color }},.5);
 }
 header img {
-  height: 64px;
+  height: 100px;
   display: inline-block;
 }
 nav {
