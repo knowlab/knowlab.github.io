@@ -4,7 +4,8 @@ home: true
 ---
 
 {% include_relative info.md %}
----
+
+<hr/>
 {% for post in site.categories.news limit:3%}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
