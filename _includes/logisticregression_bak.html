@@ -1,0 +1,151 @@
+<script src="{{ site.baseurl }}/js/api.js"></script>
+<script>
+    var full_feature_set = {
+        "age": "value",
+        "male": "binary",
+        "diabetes_mellitus": "binary",
+        "chronic_lung_disease": "binary",
+        "immunocompromised": "binary",
+        "malignancy": "binary",
+        "hypertension": "binary",
+        "heart_disease": "binary",
+        "chronic_renal_disease": "binary",
+        "fever": "binary",
+        "coughing": "binary",
+        "fatigue": "binary",
+        "dyspnea": "binary",
+        "diarrhea": "binary",
+        "curb": "value",
+        "days_in_disease_at_admission": "value",
+        "neutrophil_1": "value",
+        "lymphocyte_1": "value",
+        "platelet_1": "value",
+        "crp_1": "value",
+        "creatinine": "value",
+        "alt": "value"
+    };
+
+    var feature_group = {
+        "Demographic": ["age", "male"],
+        "Underlying conditions": ["diabetes_mellitus", "chronic_lung_disease", "immunocompromised", "malignancy", "hypertension", "heart_disease", "chronic_renal_disease"],
+        "Symptoms": ["fever", "coughing", "fatigue", "dyspnea", "diarrhea"],
+        "Admission clinical features": ["curb", "days_in_disease_at_admission", "number_pre_existing_condition", "neutrophil_1", "lymphocyte_1", "platelet_1", "crp_1", "creatinine", "alt"],
+    };
+
+    var model_30032020_lss = {
+        "b0": -6.8563498344027100,
+        "b1": {
+            "age": 0.05753793150641020,
+            "male": 0.28369071702967800,
+            "diabetes_mellitus": 0.5172992661822400,
+            "chronic_lung_disease": 0.8579107366299130,
+            "immunocompromised": 0.89574063560346,
+            "malignancy": 0.2786531103946370,
+            "hypertension": -0.13319550928906300,
+            "heart_disease": 0.847628103023917,
+            "chronic_renal_disease": 0.49003957787237900,
+            "fever": -0.4430027223719780,
+            "coughing": 0.6040980606979770,
+            "fatigue": -0.3060898276639020,
+            "dyspnea": 0.703865300149534,
+            "diarrhea": -0.6515846281589120
+        }
+    }
+    function logisticRegressionCal(b0, b1, X){
+        var sum = 0.0
+        for (var i=0;i<b1.length;i++){
+            sum += b1[i] * X[i];
+        }
+        var pv = b0 + sum;
+        console.log(pv);
+        return 1 / (1 + Math.exp(-pv))
+    }
+
+    function cal() {
+        $('.predictionResult').html('');
+        $('.predictionResult').removeClass('predicted');
+        if ($("input[name='age']").val().trim() == "" || parseInt($("input[name='age']").val()) > 150 || parseInt($("input[name='age']").val()) < 0){
+            alert("Please input correct age ([0-150]!");
+            return false;
+        }
+        var data = {
+            "age": parseInt($("input[name='age']").val()),
+            "male": $("input[name='Sex']:checked").val() == 'male' ? 1 : 0,
+            "diabetes_mellitus": $('#diabetes_mellitus').is(":checked")? 1 : 0,
+            "chronic_lung_disease": $('#chronic_lung_disease').is(":checked")? 1 : 0,
+            "immunocompromised": $('#immunocompromised').is(":checked")? 1 : 0,
+            "malignancy": $('#malignancy').is(":checked")? 1 : 0,
+            "hypertension": $('#hypertension').is(":checked")? 1 : 0,
+            "heart_disease": $('#heart_disease').is(":checked")? 1 : 0,
+            "chronic_renal_disease": $('#chronic_renal_disease').is(":checked")? 1 : 0,
+            "fever": $('#fever').is(":checked")? 1 : 0,
+            "coughing": $('#coughing').is(":checked")? 1 : 0,
+            "fatigue": $('#fatigue').is(":checked")? 1 : 0,
+            "dyspnea": $('#dyspnea').is(":checked")? 1 : 0,
+            "diarrhea": $('#diarrhea').is(":checked")? 1 : 0,
+        }
+        var b1 = [];
+        var X = [];
+        for (var key in data){
+            X.push(data[key]);
+            b1.push(model_30032020_lss.b1[key]);
+        }
+        var p = logisticRegressionCal(model_30032020_lss.b0, b1, X);
+        $('.predictionResult').html('mortality probability: ' + p.toFixed(5));
+        $('.predictionResult').addClass('predicted');
+        $('html, body').animate({
+            scrollTop: ($('.predictionResult').offset().top)
+        },500)
+        return false;
+    }
+    $( document ).ready(function() {
+        $('#btnCal').click(function () {
+            cal();
+        });
+
+        qbb.inf.getModelList("sampleDSModels", function(s){
+            console.log(s);
+        });
+    });
+</script>
+<div class="modelTitle">Logistic Regression Model for COVID-19 learned from <a href="/data/Wuhan">data:Wuhan</a></div>
+<div class="caution">CAUTION: the model was learnt on clinical data from a very small number of patients with relatively severe conditions
+</div>
+{% highlight r %}
+    # model details
+    N: 207
+    Model: Logistic Regression model
+    Outcome: mortality
+    Known issue: model has higher specificity and lower sensitivity
+{% endhighlight %}
+<form onsubmit="return cal()" id="dataFrm">
+    <div class="sect">Demographic</div>
+    <input type="number" name="age" placeholder="age"/>
+    Sex: <input type="radio" name="Sex" value="male" id="male"> <label for="male">male</label>
+    <input type="radio" name="Sex" value="female" id="female" checked>  <label for="female">female</label>
+
+    <div class="sect">Underlying conditions</div>
+    <input type="checkbox" name="chronic_lung_disease" id="chronic_lung_disease"/> <label for="chronic_lung_disease">chronic lung disease </label><br/>
+    <input type="checkbox" name="diabetes_mellitus" id="diabetes_mellitus"/> <label for="diabetes_mellitus">diabetes mellitus</label><br/>
+    <input type="checkbox" name="immunocompromised" id="immunocompromised"/> <label for="immunocompromised">immunocompromised</label><br/>
+    <input type="checkbox" name="malignancy" id="malignancy"/> <label for="malignancy">malignancy</label><br/>
+    <input type="checkbox" name="hypertension" id="hypertension"/> <label for="hypertension">hypertension</label><br/>
+    <input type="checkbox" name="heart_disease" id="heart_disease"/> <label for="heart_disease">heart disease</label><br/>
+    <input type="checkbox" name="chronic_renal_disease" id="chronic_renal_disease"/> <label for="chronic_renal_disease">chronic renal disease</label><br/>
+
+    <div class="sect">Symptoms</div>
+    <input type="checkbox" name="coughing" id="coughing"/> <label for="coughing">coughing</label><br/>
+    <input type="checkbox" name="fatigue" id="fatigue"/> <label for="fatigue">fatigue</label><br/>
+    <input type="checkbox" name="dyspnea" id="dyspnea"/> <label for="dyspnea">dyspnea</label><br/>
+    <input type="checkbox" name="diarrhea" id="diarrhea"/> <label for="diarrhea">diarrhea</label><br/>
+<!--
+    <div class="sect">Admission Labs</div>
+    <input type="email" name="Neutrophil" placeholder="Neutrophil"/>
+    <input type="email" name="Lymphocyte" placeholder="Lymphocyte"/>
+    <input type="email" name="Platelet" placeholder="Platelet"/>
+    <input type="email" name="Crp" placeholder="Crp"/>
+-->
+    <p/>
+    <input type="button" value="Calculate" id="btnCal">
+    <div class="predictionResult"></div>
+</form>
