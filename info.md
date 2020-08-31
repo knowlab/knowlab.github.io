@@ -1,3 +1,3 @@
 <div class="grpInfo">
-KnowLab is a health informatics research group, led by Dr Honghan Wu. We aim at improving healthcare using artificial intelligence. Our research focuses are machine learning, text analytics, knowledge graph, and their applications in health care. We are based in University College London and University of Edinburgh.
+KnowLab is a health informatics research group, led by <a href="/group-members#hw">Dr Honghan Wu</a>. We aim at improving healthcare using artificial intelligence. Our research focuses are machine learning, text analytics, knowledge graph, and their applications in health care. We are based in <a href="https://www.ucl.ac.uk/health-informatics/" target="_blank">IHI, University College London</a> and <a href="https://www.ed.ac.uk/usher/our-centres/medical-informatics" target="_blank">CMI, University of Edinburgh</a>.
 </div>
