@@ -46,7 +46,7 @@ i, em {
   font-style: italic;
 }
 a {
-  color: #0366d6;
+  color: #034999;
   text-decoration: none;
   position: relative;
   -webkit-background-size: 1px 1px;
@@ -58,7 +58,7 @@ a {
 }
 a:hover{
   text-decoration: underline;
-  text-decoration-color: #dd5555;
+  text-decoration-color: #034999;
 }
 .no-cssgradients a {
   text-decoration: underline;
@@ -269,7 +269,7 @@ header img {
 }
 nav {
   margin: 20px 0;
-  border-bottom: gray 1px solid;
+  border-bottom: #485366 1px solid;
 }
 article {
   margin-top: 30px;

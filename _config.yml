@@ -54,7 +54,7 @@ ms-tile-color: "#515675"
 theme-color: 47, 95, 107 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
+text-color: 54, 61, 71 # Original: 0, 0, 0
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
