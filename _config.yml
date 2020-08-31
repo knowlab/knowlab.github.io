@@ -71,7 +71,7 @@ date_format: "%b %-d, %Y"
 
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
-nav-breaking-point: 520px
+nav-breaking-point: 800px
 
 # Number of posts on each page.
 paginate: 3
