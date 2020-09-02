@@ -6,10 +6,14 @@ permalink: /group-members/
 
 <div class="div-tbl">
     <div class="title"><img src="/img/pics/Honghan-Wu-255x348.jpg">
-    Team Lead<br/> <a href="mailto:honghan.wu@ucl.ac.uk">email</a>
+    Team Lead
     </div>
     <div class="info">
     <a id="hw">Dr Honghan Wu</a> is a lecturer at Institute of Health Informatics, UCL and holds a Rutherford personal fellowship funded by MRC/HDR UK. He is also a visiting research fellow at King's College London and University of Edinburgh. Before moving to UCL, he was doing the first part of his Rutherford fellowship at Centre for Medical Informatics, University of Edinburgh. Dr Wu holds a PhD in Computing Science. His current research interest is in using text technologies and Knowledge Graph techniques to analyse electronic health records (EHRs).
+    <p/>
+    <a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=HWWUX46">UCL Homepage</a> |
+    <a href="mailto:honghan.wu@ucl.ac.uk">Contact: honghan.wu@ucl.ac.uk</a>
+    
     </div>
 </div>
 
@@ -17,7 +21,7 @@ permalink: /group-members/
     <div class="title">
     Postdoctoral Researcher
     </div>
-    <div class="info"> Dr Huayu Zhang
+    <div class="info"> Dr Huayu Zhang is a Research Fellow based in Centre for Medical Informatics, Usher Institute at the University of Edinburgh. He is working on network analysis and knowledge graph techniques for gene prioritisation.
     </div>
 </div>
 

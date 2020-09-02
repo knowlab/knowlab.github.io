@@ -10,3 +10,8 @@ permalink: /grants/
 | Towards an AI-driven Health Informatics Platform for supporting clinical decision making in Scotland – a pilot study in NHS Lothian  | Wellcome Trust | 2020-2021 |  £29,200 |
 | [National Text Analytics Project](https://www.ed.ac.uk/usher/clinical-natural-language-processing/our-research/hdr-uk-national-text-analytics-implementation-proj)  | MRC/HDR UK | 2019-2023 |  £650,000 |
 | [Graph-Based Data Federation for Healthcare Data Science](https://gtr.ukri.org/projects?ref=MC_PC_18029)  | MRC/HDR UK | 2019-2020 |  £260,057 |
+
+## Awards
+{% for post in site.categories.award%}
+{{post.content}}
+{% endfor %}
