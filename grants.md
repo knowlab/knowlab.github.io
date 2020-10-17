@@ -12,7 +12,7 @@ permalink: /grants/
 | [National Text Analytics Project](https://www.ed.ac.uk/usher/clinical-natural-language-processing/our-research/hdr-uk-national-text-analytics-implementation-proj)  | MRC/HDR UK | 2019-2023 |  £650,000 | Technical Lead |
 | [Graph-Based Data Federation for Healthcare Data Science](https://gtr.ukri.org/projects?ref=MC_PC_18029)  | MRC/HDR UK | 2019-2020 |  £260,057 | CoI, Academic co-lead |
 
-## Awards
+## <a id="awards">Awards</a>
 {% for post in site.categories.award%}
 {{post.content}}
 {% endfor %}

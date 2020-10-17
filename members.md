@@ -29,14 +29,14 @@ permalink: /group-members/
     <div class="title"><img src="/img/pics/hang_dong_100x130_0.jpg">
         Postdoctoral Researcher
     </div>
-    <div class="info">Dr Hang Dong is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
+    <div class="info"><a id="HD">Dr Hang Dong</a> is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
 </div>
 
 <div class="div-tbl">
     <div class="title"><img src="/img/pics/rsz_vsp-cropped.jpg">
         Postdoctoral Researcher
     </div>    
-    <div class="info">Dr Víctor Suárez Paniagua is a Research Fellow funded by the Health Data Research UK in the Centre for Medical Informatics, Usher Institute of the University of Edinburgh. His research is on machine learning, with an emphasis on deep learning, for natural language processing in order to extract relevant information from medical documents accurately.
+    <div class="info"><a id="VSP">Dr Víctor Suárez Paniagua</a> is a Research Fellow funded by the Health Data Research UK in the Centre for Medical Informatics, Usher Institute of the University of Edinburgh. His research is on machine learning, with an emphasis on deep learning, for natural language processing in order to extract relevant information from medical documents accurately.
     </div>
 </div>
 
