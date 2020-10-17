@@ -12,3 +12,4 @@ permalink: /tools/
 | KGPhenotyping  | Knowledge Graph, Ontology, Phenotyping| [https://github.com/Honghan/KGPhenotyping](https://github.com/Honghan/KGPhenotyping) |
 | NapEasy  | NLP, Ontology| [https://github.com/Honghan/NapEasy](https://github.com/Honghan/NapEasy) |
 | EBEncoding  | Machine Learning, Time Series| [https://github.com/Honghan/EBEncoding](https://github.com/Honghan/EBEncoding) |
+| Gene prioritisation benchmarking toolkit | Knowledge graph, machine learning, Gene-disase association | [https://github.com/huayu-zhang/gp-bench](https://github.com/huayu-zhang/gp-bench) |
