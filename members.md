@@ -18,7 +18,7 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
-    <div class="title">
+    <div class="title"><img src="/img/pics/IMG_5835_small.JPG">
     Postdoctoral Researcher
     </div>
     <div class="info"> Dr Huayu Zhang is a Research Fellow based in Centre for Medical Informatics, Usher Institute at the University of Edinburgh. He is working on network analysis and knowledge graph techniques for gene prioritisation.
