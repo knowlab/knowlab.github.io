@@ -13,3 +13,4 @@ permalink: /tools/
 | NapEasy  | NLP, Ontology| [https://github.com/Honghan/NapEasy](https://github.com/Honghan/NapEasy) |
 | EBEncoding  | Machine Learning, Time Series| [https://github.com/Honghan/EBEncoding](https://github.com/Honghan/EBEncoding) |
 | Gene prioritisation benchmarking toolkit | Knowledge graph, machine learning, Gene-disase association | [https://github.com/huayu-zhang/gp-bench](https://github.com/huayu-zhang/gp-bench) |
+|Explanable Automated Medical Coding| deep learning, NLP, automated coding, attention visualisation, explainable AI | [https://github.com/acadTags/Explainable-Automated-Medical-Coding](https://github.com/acadTags/Explainable-Automated-Medical-Coding)|
