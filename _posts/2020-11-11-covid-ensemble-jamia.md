@@ -6,4 +6,4 @@ categories: [news]
 tags: [covid]
 ---
 Honghan Wu, Huayu Zhang, Andreas Karwath, Zina Ibrahim, Ting Shi, Xin Zhang, Kun Wang, Jiaxing Sun, Kevin Dhaliwal, Daniel Bean, Victor Roth Cardoso, Kezhi Li, James T. Teo, Amitava Banerjee, Fang Gao-Smith, Tony Whitehouse, Tonny Veenith, Georgios V. Gkoutos, Xiaodong Wu, Richard Dobson, and Bruce Guthrie.
-*Ensemble learning for poor prognosis predictions: a case study on SARS-CoV2*. November 2020. Accepted by [Journal of the American Medical Informatics Association](https://academic.oup.com/jamia). [DOI:10.1093/jamia/ocaa295](https://doi.org/10.1093/jamia/ocaa295). [GitHub Repo](https://github.com/Honghan/EnsemblePrediction)
+*Ensemble learning for poor prognosis predictions: a case study on SARS-CoV2*. November 2020. Accepted by Journal of the American Medical Informatics Association: [DOI:10.1093/jamia/ocaa295](https://doi.org/10.1093/jamia/ocaa295). [GitHub Repo](https://github.com/Honghan/EnsemblePrediction)
