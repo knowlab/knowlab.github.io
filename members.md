@@ -40,17 +40,24 @@ permalink: /group-members/
     </div>
 </div>
 
-### Students
+### PhD Students
 - Charlotte Greene, PhD student, Usher Institute, University of Edinburgh
+- Tina Yao, PhD student, Institute of Health Informatics, UCL
+- Emma Whitfield, PhD Student, HDR UK-Turing Wellcome PhD Programme
+- Claire Coffey, PhD Student, HDR UK-Turing Wellcome PhD Programme
 - Farah Francis (starts in 2021), PhD student, Usher Institute, University of Edinburgh
+  
+### MSc Students
 - David Drake, MSc student, Bayes Centre, University of Edinburgh
-- Joesph Powell, MSc student, Institute of Health Informaatics, UCL
-- Steven Cassady, MSc student, School of Informatics, University of Edinburgh
+- Alexander Dobres,  MSc student, Institute of Health Informatics, UCL
+- Fahad Siddiqui,  MSc student, Institute of Health Informatics, UCL
 
 ### Visiting Researchers
 - Cheng Wan, Nanjing Medical University
 
 ### Alumni
+- Joesph Powell, MSc student, Institute of Health Informatics, UCL
+- Steven Cassady, MSc student, School of Informatics, University of Edinburgh
 - Qianyi Zeng, MSc, School of Informatics, University of Edinburgh
 - Wenjun Chen, MSc, School of Informatics, University of Edinburgh
 - Quan Sun, MSc, King's College London
