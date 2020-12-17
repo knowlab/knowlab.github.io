@@ -41,11 +41,12 @@ permalink: /group-members/
 </div>
 
 ### PhD Students
-- Charlotte Greene, PhD student, Usher Institute, University of Edinburgh
-- Tina Yao, PhD student, Institute of Health Informatics, UCL
-- Emma Whitfield (COVID-19 Project Placement), PhD Student, HDR UK-Turing Wellcome PhD Programme
-- Claire Coffey (COVID-19 Project Placement), PhD Student, HDR UK-Turing Wellcome PhD Programme
-- Farah Francis (starts in 2021), PhD student, Usher Institute, University of Edinburgh
+- Charlotte Greene, Usher Institute, University of Edinburgh
+- Tina Yao, Institute of Health Informatics, UCL
+- Minhong Wang (AI in EHR Project Placement), Usher Institute, University of Edinburgh
+- Emma Whitfield (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
+- Claire Coffey (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
+- Farah Francis (starts in 2021), Usher Institute, University of Edinburgh
   
 ### MSc Students
 - David Drake, MSc student, Bayes Centre, University of Edinburgh
