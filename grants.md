@@ -18,6 +18,7 @@ permalink: /grants/
 {% endfor %}
 
 ## <a id="studentship">Studentships</a>
+
 |  Title | Funder  | Year  | Student |
 |---|---|---|---|
 | [Using Artificial Intelligence to Manage New-onset Atrial Fibrillation in Patients with Critical Illnesses](https://gtr.ukri.org/projects?ref=studentship-2420472) | EPSRC | 2020-2024 |  Tina Yao |
