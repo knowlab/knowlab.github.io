@@ -6,14 +6,14 @@ home: true
 {% include_relative info.md %}
 
 <hr/>
+## Latest news | [all updates](/updates/)
 {% for post in site.categories.news limit:3%}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
 {% if forloop.first %}
-## Latest news | [all updates](/updates/)
-
+### {{this_year}}
 {% endif %}
 
 - ({{ post.date | date: "%-d %B %Y"}}) {{ post.title }}
