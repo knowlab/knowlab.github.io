@@ -49,10 +49,10 @@ permalink: /group-members/
 - Farah Francis, Usher Institute, University of Edinburgh
   
 ### MSc Students
-- David Drake, MSc student, Bayes Centre, University of Edinburgh
-- Alexander Dobres,  MSc student, Institute of Health Informatics, UCL
-- Fahad Siddiqui,  MSc student, Institute of Health Informatics, UCL
-- Aneeta Sylolypavan, MSc student, Institute of Health Informatics, UCL
+- David Drake, Bayes Centre, University of Edinburgh
+- Alexander Dobres,  Institute of Health Informatics, UCL
+- Fahad Siddiqui, Institute of Health Informatics, UCL
+- Aneeta Sylolypavan, Institute of Health Informatics, UCL
 
 ### Visiting Researchers
 - Cheng Wan, Nanjing Medical University
