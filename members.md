@@ -53,6 +53,7 @@ permalink: /group-members/
 - Alexander Dobres,  Institute of Health Informatics, UCL
 - Fahad Siddiqui, Institute of Health Informatics, UCL
 - Aneeta Sylolypavan, Institute of Health Informatics, UCL
+- Menka Shah, Institute of Health Informatics, UCL
 
 ### Visiting Researchers
 - Cheng Wan, Nanjing Medical University
