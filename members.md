@@ -44,8 +44,6 @@ permalink: /group-members/
 - Charlotte Greene, Usher Institute, University of Edinburgh
 - Tina Yao, Institute of Health Informatics, UCL
 - Minhong Wang (AI in EHR Project Placement), Usher Institute, University of Edinburgh
-- Emma Whitfield (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
-- Claire Coffey (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
 - Farah Francis, Usher Institute, University of Edinburgh
   
 ### MSc Students
@@ -55,10 +53,10 @@ permalink: /group-members/
 - Aneeta Sylolypavan, Institute of Health Informatics, UCL
 - Menka Shah, Institute of Health Informatics, UCL
 
-### Visiting Researchers
-- Cheng Wan, Nanjing Medical University
-
 ### Alumni
+- Emma Whitfield (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
+- Claire Coffey (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
+- Cheng Wan (visiting researcher), Nanjing Medical University
 - Joesph Powell, MSc student, Institute of Health Informatics, UCL
 - Steven Cassady, MSc student, School of Informatics, University of Edinburgh
 - Qianyi Zeng, MSc, School of Informatics, University of Edinburgh
