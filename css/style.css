@@ -70,7 +70,7 @@ a {
 }
 a:hover{
   text-decoration: underline;
-  text-decoration-color: #034999;
+  text-decoration-color: #dd5555;
 }
 .no-cssgradients a {
   text-decoration: underline;
@@ -120,7 +120,6 @@ h1 {
 }
 h2 {
   font-size: 1.4em;
-  margin-top: 40px;
   margin-bottom: 30px;
 }
 h3, h4, h5, h6 {
@@ -457,7 +456,6 @@ nav a.current {
   }
   h2 {
     font-size: 1.4em;
-    margin-top: 40px;
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
@@ -653,5 +651,18 @@ select{
 .selectedPub{
   background-color: #fbfbfb;
   padding: 3px;
+  margin: 20px;
+}
+
+u{
+  text-decoration:none;
+  color: #3085d6
+}
+
+.hpPanel{
+  display: flex;
+}
+
+.hpPanel div{
   margin: 20px;
 }
