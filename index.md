@@ -16,8 +16,9 @@ home: true
 ### {{this_year}}
 {% endif %}
 
-- ({{ post.date | date: "%-d %B %Y"}}) {{ post.title }}
-
+- ({{ post.date | date: "%-d %B %Y"}}) {{ post.title }} {% if post.categories contains 'events'%}
+  <a href="{{ post.url }}">Event Details</a>
+  {% endif %} 
 {% if forloop.last %}
 
 {% else %}

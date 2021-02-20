@@ -40,6 +40,14 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+    <div class="title">
+        Postdoctoral Researcher
+    </div>    
+    <div class="info"><a id="MHW">Minhong Wang</a> is working on machine learning and natural language processing in healthcare. Her current project is the automated triage using Electronic Health Records.
+    </div>
+</div>
+
 ### PhD Students
 - Charlotte Greene, Usher Institute, University of Edinburgh
 - Tina Yao, Institute of Health Informatics, UCL
