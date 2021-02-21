@@ -41,7 +41,7 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
-    <div class="title"><img src="/img/pics/minhong_wang01.jpg">
+    <div class="title"><img src="/img/pics/minhong_wang01.jpg" alt="drawing" width="100">
         Postdoctoral Researcher
     </div>    
     <div class="info"><a id="MHW">Minhong Wang</a> is working on machine learning and natural language processing in healthcare. Her current project is the automated triage using Electronic Health Records.
