@@ -5,7 +5,7 @@ permalink: /publications/
 --- 
 ### selected publications
 <div class="selectedPub">
-{% for post in site.categories.selected limit:3%}
+{% for post in site.categories.selected limit:5%}
 {{post.excerpt}}
 {% endfor %}
 </div>
