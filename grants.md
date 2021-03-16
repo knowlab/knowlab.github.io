@@ -5,7 +5,7 @@ permalink: /grants/
 ---
 |  Title | Funder  | Year  | £  | Role  |
 |---|---|---|---|---|
-| Intelligent automated triage in Dermatology and beyond | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
+| [Intelligent automated triage in Dermatology and beyond](https://ddi.ac.uk/ddi-building-back-better-open-call-awards/) | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
 | [The Advanced Care Research Centre Programme](https://www.ed.ac.uk/usher/advanced-care-research-centre) | Legal & General/University of Edinburgh | 2020-2026 |  £20m | CoI |
 |[Improving the quality and value of care for people with poor prognosis cancers - a national, mixed methods study across Scotland](https://www.health.org.uk/funding-and-partnerships/programmes/improving-quality-of-care-for-people-with-poor-prognosis-cancers) | The Health Foundation | 2020-2024 | £399,224 | CoI |
 | [Deriving an actionable patient phenome from healthcare data](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F1)  | MRC/HDR UK | 2018-2021 |  £315,181 | PI |
