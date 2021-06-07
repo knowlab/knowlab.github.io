@@ -29,7 +29,7 @@ permalink: /group-members/
     <div class="title"><img src="/img/pics/hang_dong_100x130_0.jpg">
         Postdoctoral Researcher
     </div>
-    <div class="info"><a id="HD">Dr Hang Dong</a> is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
+    <div class="info"><a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
 </div>
 
 <div class="div-tbl">
@@ -44,7 +44,7 @@ permalink: /group-members/
     <div class="title"><img src="/img/pics/minhong_wang01.jpg" alt="drawing" width="100">
         Postdoctoral Researcher
     </div>    
-    <div class="info"><a id="MHW">Minhong Wang</a> is working on machine learning and natural language processing in healthcare. Her current project is the automated triage using Electronic Health Records.
+    <div class="info"><a id="MHW">Dr Minhong Wang</a> is working on machine learning and natural language processing in healthcare. Her current project is the automated triage using Electronic Health Records.
     </div>
 </div>
 
