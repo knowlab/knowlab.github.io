@@ -30,13 +30,6 @@ permalink: /group-members/
         Postdoctoral Researcher
     </div>
     <div class="info"><a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
-</div>
-
-<div class="div-tbl">
-    <div class="title"><img src="/img/pics/rsz_vsp-cropped.jpg">
-        Postdoctoral Researcher
-    </div>    
-    <div class="info"><a id="VSP">Dr Víctor Suárez Paniagua</a> is a Research Fellow funded by the Health Data Research UK in the Centre for Medical Informatics, Usher Institute of the University of Edinburgh. His research is on machine learning, with an emphasis on deep learning, for natural language processing in order to extract relevant information from medical documents accurately.
     </div>
 </div>
 
@@ -62,6 +55,7 @@ permalink: /group-members/
 - Menka Shah, Institute of Health Informatics, UCL
 
 ### Alumni
+- Dr Víctor Suárez Paniagua was a Research Fellow on machine learning, with an emphasis on deep learning; now works in the industry.
 - Emma Whitfield (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
 - Claire Coffey (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
 - Cheng Wan (visiting researcher), Nanjing Medical University
