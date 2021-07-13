@@ -10,12 +10,12 @@ permalink: /group-members/
     </div>
     <div class="info">
     <a id="hw">Dr Honghan Wu</a> is a lecturer at Institute of Health Informatics, UCL and holds a Rutherford personal fellowship funded by MRC/HDR UK. He is also a visiting research fellow at King's College London and University of Edinburgh. Before moving to UCL, he was doing the first part (Feb 2018 - April 2020) of his Rutherford fellowship at Centre for Medical Informatics, University of Edinburgh. Dr Wu holds a PhD in Computing Science. His current research interest is in using text technologies and Knowledge Graph techniques to analyse electronic health records (EHRs).
-    <p/>
-    <a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=HWWUX46">UCL Homepage</a> |
-    <a href="mailto:honghan.wu@ucl.ac.uk">Contact: honghan.wu@ucl.ac.uk</a>
-    
+<p/>
+<a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=HWWUX46">UCL Homepage</a> |
+<a href="mailto:honghan.wu@ucl.ac.uk">Contact: honghan.wu@ucl.ac.uk</a>
     </div>
 </div>
+
 
 <div class="div-tbl">
     <div class="title"><img src="/img/pics/IMG_5835_small.JPG">
