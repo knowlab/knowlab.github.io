@@ -30,7 +30,6 @@ permalink: /group-members/
         Postdoctoral Researcher
     </div>
     <div class="info"><a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
-    </div>
 </div>
 
 <div class="div-tbl">
