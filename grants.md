@@ -5,7 +5,7 @@ permalink: /grants/
 ---
 |  Title | Funder  | Year  | £  | Role  |
 |---|---|---|---|---|
-| [Deriving an actionable patient phenome from healthcare data](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F1) *Transferred to UCL, Extended to 2022*  | MRC/HDR UK | 2018-2022 |  £315,181 | PI |
+| [Deriving an actionable patient phenome from healthcare data](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F1) <br/> *[Transferred to UCL, Extended to 2022](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F2)*  | MRC/HDR UK | 2018-2022 |  £315,181 | PI |
 | Iris.AI - The AI Chemist | Iris.AI, Research Council of Norway | 2021 - 2022 | £39,000 | PI |
 | [Intelligent automated triage in Dermatology and beyond](https://ddi.ac.uk/ddi-building-back-better-open-call-awards/) | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
 | [The Advanced Care Research Centre Programme](https://www.ed.ac.uk/usher/advanced-care-research-centre) | Legal & General/University of Edinburgh | 2020-2026 |  £20m | CoI |
