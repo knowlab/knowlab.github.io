@@ -5,7 +5,8 @@ home: true
 
 {% include_relative info.md %}
 
-<hr/>
+---
+
 ## Latest news | [all updates](/updates/)
 {% for post in site.categories.news limit:3%}
 

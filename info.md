@@ -1,4 +1,3 @@
 <div class="grpInfo">
-KnowLab is a health informatics research group. We aim at improving healthcare using artificial intelligence. Our research focuses are <u>machine learning, text analytics, knowledge graph</u>, and their applications in <u>health care</u>. We are based in <a href="https://www.ucl.ac.uk/health-informatics/" target="_blank">Institute of Health Informatics, University College London</a> and <a href="https://www.ed.ac.uk/usher/our-centres/medical-informatics" target="_blank">Centre for Medical Informatics, University of Edinburgh</a>. 
-<p>Contact: <a href="mailto:honghan.wu@ucl.ac.uk">honghan.wu@ucl.ac.uk</a></p>
+KnowLab is a health informatics research group, doing machine learning, text analytics, and knowledge graph; based in <a href="https://www.ucl.ac.uk/health-informatics/" target="_blank">University College London</a> and <a href="https://www.ed.ac.uk/usher/our-centres/medical-informatics" target="_blank">University of Edinburgh</a>. <p/>Contact: <a href="mailto:honghan.wu@ucl.ac.uk">honghan.wu@ucl.ac.uk</a>
 </div>
