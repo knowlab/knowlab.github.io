@@ -683,6 +683,7 @@ select{
 .grpInfo{
   font-size: 110%;
   line-height: 1.4;
+  color: #333333;
 }
 
 .selectedPub{
@@ -722,4 +723,13 @@ u{
   color: #888888;
   font-family: Arial;
   font-size: 80%;
+}
+
+.h_title{
+  border-bottom: #cfcfcf 1px solid;
+  font-size: 160%;
+  padding: 6px;
+  font-weight: bold;
+  color: #888888;
+  margin-top: 30px;
 }
