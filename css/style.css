@@ -164,25 +164,61 @@ blockquote {
   padding: 0 20px;
   font-style: italic;
 }
-blockquote::before,
-blockquote::after {
-  font-weight: 400;
-  font-size: 80px;
-  color: rgba({{ site.theme-color }}, .4);
-  display: block;
-  text-align: center;
-  vertical-align: bottom;
-  height: 40px;
+/*blockquote::before,*/
+/*blockquote::after {*/
+/*  font-weight: 400;*/
+/*  font-size: 80px;*/
+/*  color: rgba({{ site.theme-color }}, .4);*/
+/*  display: block;*/
+/*  text-align: center;*/
+/*  vertical-align: bottom;*/
+/*  height: 40px;*/
+/*  font-style: normal;*/
+/*}*/
+/*blockquote::before {*/
+/*  content: "“";*/
+/*  text-align: left;*/
+/*  margin-top: 30px;*/
+/*}*/
+/*blockquote::after {*/
+/*  content: "”";*/
+/*  margin-bottom: 30px;*/
+/*}*/
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#f8f8f8;
+}
+
+blockquote::before{
+  font-family:Arial;
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
   font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
 }
-blockquote::before {
-  content: "“";
-  margin-top: 30px;
-}
-blockquote::after {
-  content: "”";
-  margin-bottom: 30px;
-}
+
 code {
   font-family: "Source Code Pro", monospace;
 }
@@ -666,4 +702,24 @@ u{
 
 .hpPanel div{
   margin: 20px;
+}
+
+.img-cap{
+  text-align: center;
+  color: #888888;
+  font-family: Arial;
+  font-size: 80%;
+  margin: 6px;
+}
+
+.excerpt{
+  color: #777;
+  font-size: 90%;
+  margin: 6px;
+}
+
+.blog-meta{
+  color: #888888;
+  font-family: Arial;
+  font-size: 80%;
 }
