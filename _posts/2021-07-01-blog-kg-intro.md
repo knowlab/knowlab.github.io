@@ -26,7 +26,7 @@ Also, not surprisingly, if you search `Google Knowledge Graph`, Google will show
 Alright, so, where and when did this concept of `Knowledge Graph` come from? Sir Tim Berners-Lee, the father of the World Wide Web, proposed the idea of so-called `the Web of Linked Data`, meaning the Web should not just be interlinked documents but also interlinked data. It has another name of `Semantic Web`. The main game changing idea behind it is that interlinked data is directly understandable and usable by computers. In such a way, computers can automate tasks for you by talking to different web services directly. The idea of "web of data" is the root of `knowledge graph`. For those who would like to know more, you can check Sir [Tim's 2009 TED Talk on *The Next Web*](https://www.ted.com/talks/tim_berners_lee_the_next_web). 
 
 ### Knowledge Representation is the core of Knowledge Graph
-![kg-atom-Metformin.png](/img/blog/kg-atom-Metformin.png)
+![kg-atom-Metformin.png](/img/blog/KG-atom-Metformin.png)
 Both "web of data" and "knowledge graph" share the same technical stack called `knowledge representation`. Essentially, it is composed of two main components:
 - the first one is called **Ontology**: which is a domain specific artifact that describes the concepts and their relationships in a particular domain. For example (the figure above), Type 2 diabetes is a human disease and Metformin is a drug that is used for treating type 2 diabetes.
 - the second component is the **Computation**, that is how computer can do human like inference on ontology terms. It is called reasoning. Roughly, there are two types of inferences: one is based on set theory, and the other is rule based.
