@@ -103,7 +103,7 @@ The rectangle at the bottom is the consumption sub-system that tackles the third
 
 ## Automated inference for easing challenge #3
 
-In 2017 I supported a study to look at the associations between mood stabilizers and heart diseases.
+In 2017, I supported a study to look at the associations between mood stabilizers and heart diseases.
 
 Let's say that our NLP results generated a simple structured knowledge graph like this. It says: a patient `Pat001` hasPresciption of a thing with an ID of `13965000` which has a preferredName called `Valproic acid`; Also, this patient hasDocument with an ID `doc0123` which mentioned another thing with an ID `HP_0001658`, which has a preferredName `Mayocardial infarction`.
 
@@ -119,11 +119,15 @@ Look at A-box data only, the computer might say no, I don't see any patients on 
 In this case, from an terminology called SNOMED CT, which is integrated by UMLS, there is an axiom that says the thing `13965000` is a subClass of `358927005`, which has a label called `mood stablizing drug`. With this axiom, actually, the computer can expand our A-box with a new assertion, which tells us `Pat001` is actually on one type of **mood stabilizer** (see below).
 ![inferred data](/img/blog/img-axiom1-inferance.png)
 
-Ok, the second query of our research question is `Any mood stablizer users had heart diseases?`. Again, using the A-box only the computer would say no. But, with T-box expansions, in this case, using two ontologies (see below), the A-box can be expanded. Now, we know that `Pat001` actually had a type of **heart disease** called `myocardial infarction`.
+Ok, the second query of our research question is 
+> Any mood stablizer users had heart diseases? 
+
+Again, using the A-box only the computer would say no. But, with T-box expansions, in this case, using two ontologies (see below), the A-box can be expanded. Now, we know that `Pat001` actually had a type of **heart disease** called `myocardial infarction`.
 
 ![Axioms for heart disease inference](/img/blog/img-axiom2.png)
 
-The final knowledge graph including both T-box axioms used and expanded A-box assertions is shown below.
+The final knowledge graph including both T-box axioms used and expanded A-box assertions is shown below. It's important to 
+emphasise that <span class="blog-highlight">computer can answer questions that previously not answerable, thanks to such knowledge graph based expansion.</span>
 
 ![Expanded KG with axioms used](/img/blog/img-expanded-kg.png)
 
@@ -159,10 +163,10 @@ Ok, that's all the main content I would like to share with you. Now, let's spend
 
 ### What works of using knowledge graph in health care?
 
-So, if I have to use one sentence to summarise the benefit of knowledge graphs for health care, that would be: **the provision of super valuable biomedical T-boxes plus lightweight reasoning mechanisms**.
+So, if I have to use one sentence to summarise the benefit of knowledge graphs for health care, that would be: **<span class="blog-highlight">the provision of super valuable biomedical T-boxes plus lightweight reasoning mechanisms</span>**.
 
 ### What is missing of knowledge graph for health care?
 
-What's missing in current health knowledge graphs? The first thing I would like to say is the patient-level knowledge is missing. When you combine things at the life timeline of a patient, things do conflict with each other or have causal relationships. But current knowledge graph technologies could not represent these. For example, we know if a person has type 1 diabetes it's very unlikely he/she has type 2 diabetes. But we do not have such conflicting knowledge expressed in any ontologies.
+What's missing in current health knowledge graphs? The first thing I would like to say is <span class="blog-highlight">the patient-level knowledge is missing</span>. When you combine things at the life timeline of a patient, things do conflict with each other or have causal relationships. But current knowledge graph technologies could not represent these. For example, we know if a person has type 1 diabetes it's very unlikely he/she has type 2 diabetes. But, <span class="blog-highlight">we do not have such conflicting knowledge expressed in any ontologies</span>.
 
 Similarly, is it possible to have both ischemic stroke and hemorrhagic stroke? A quick thinker might say NO, because the two mechanisms are not compatible. But, what if a patient had an ischemic stroke and then had a fall? Again, We don't have such mechanism knowledge representation at patient level.

@@ -54,7 +54,7 @@ With such knowledge, computers can now infer some new knowledge from our knowled
 
 Now, the computer looks at the the definition of `suffersFrom` relationship, which says it associates `patient` to `diseases`. Now, because `Tom Smith` has two relationships of `suffersFrom`, then this person must be a `patient`. Therefore, it draws another dashed arrow.
 
-Both inferred relationships might seem trivial to humans. **But, it's a pretty big step as computers can do human-like inferences, albeit tiny baby steps.**
+Both inferred relationships might seem trivial to humans. **<span class="blog-highlight">But, it's a pretty big step as computers can do human-like inferences, albeit tiny baby steps</span>.**
 
 ![kg-sample-5: T/A Boxes](/img/blog/kg-sample-5.png)
 In knowledge graphs, we usually separate things into two groups: `T-box` and `A-box`. Anything about concepts and their relationships is part of the T-box, which stands for terminology box. Anything describing actual entities like specific patients is part of A-box, which stands for assertion box. Apparently, T-box is domain specific knowledge similar to schema of relational databases and A-box is the actual data that similar to the data rows in data tables.
@@ -71,4 +71,4 @@ We have learned the four things about knowledge graph.
 - What is a knowledge graph?
 - Where did it come from?
 - A toy example in clinical domain
-Online resources for using knowledge graph
+- Online resources for using knowledge graph

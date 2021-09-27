@@ -733,3 +733,11 @@ u{
   color: #888888;
   margin-top: 30px;
 }
+
+.blog-highlight {
+  background-image: linear-gradient(120deg, #a6e22e 0%, #a6e22e 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.4em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
