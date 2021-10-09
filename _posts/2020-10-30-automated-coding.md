@@ -6,4 +6,4 @@ categories: [news, paper, selected]
 tags: [covid]
 ---
 Hang Dong, Víctor Suárez-Paniagua, William Whiteley, Honghan Wu.
-*Explainable Automated Coding of Clinical Notes using Hierarchical Label-wise Attention Networks and Label Embedding Initialisation*. Accepted by *[Journal of Biomedical Informatics](https://doi.org/10.1016/j.jbi.2021.103728)*. February 2021. [DOI:10.1016/j.jbi.2021.103728](https://doi.org/10.1016/j.jbi.2021.103728), [GitHub Repo](https://github.com/acadTags/Explainable-Automated-Medical-Coding)
+*Explainable Automated Coding of Clinical Notes using Hierarchical Label-wise Attention Networks and Label Embedding Initialisation*. Accepted by *[Journal of Biomedical Informatics](https://doi.org/10.1016/j.jbi.2021.103728)*. February 2021. [DOI:10.1016/j.jbi.2021.103728](https://doi.org/10.1016/j.jbi.2021.103728), [GitHub Repo](https://github.com/acadTags/Explainable-Automated-Medical-Coding) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.jbi.2021.103728" data-hide-no-mentions="true" class="altmetric-embed"></span>

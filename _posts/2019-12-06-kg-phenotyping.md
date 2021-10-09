@@ -4,4 +4,4 @@ title: Knowledge driven phenotyping on [medrxiv](https://www.medrxiv.org/content
 date: 2019-12-06
 categories: [news, paper]
 ---
-Honghan Wu, Minhong Wang, Qianyi Zeng, Wenjun Chen, Jeff Z. Pan, Cathie Sudlow, Dave Robertson. Knowledge Driven Phenotyping. Preprint: medrxiv [doi:10.1101/19013748](https://www.medrxiv.org/content/10.1101/19013748v1)
+Honghan Wu, Minhong Wang, Qianyi Zeng, Wenjun Chen, Jeff Z. Pan, Cathie Sudlow, Dave Robertson. Knowledge Driven Phenotyping. Preprint: medrxiv [doi:10.1101/19013748](https://www.medrxiv.org/content/10.1101/19013748v1) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1101/19013748" data-hide-no-mentions="true" class="altmetric-embed"></span>

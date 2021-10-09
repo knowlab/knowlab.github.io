@@ -4,4 +4,4 @@ title: Our paper "Developing automated methods for disease subtyping in UK Bioba
 date: 2021-06-08
 categories: [news, paper]
 ---
-Kristiina Rannikmäe, Honghan Wu, Steven Tominey, William Whiteley, Naomi Allen and Cathie Sudlow. *Developing automated methods for disease subtyping in UK Biobank: an exemplar study on stroke.* [BMC Medical Informatics and Decision Making](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01556-0). Volume 21, Article number: 191 (2021). [DOI:10.1186/s12911-021-01556-0](https://doi.org/10.1186/s12911-021-01556-0).
+Kristiina Rannikmäe, Honghan Wu, Steven Tominey, William Whiteley, Naomi Allen and Cathie Sudlow. *Developing automated methods for disease subtyping in UK Biobank: an exemplar study on stroke.* [BMC Medical Informatics and Decision Making](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01556-0). Volume 21, Article number: 191 (2021). [DOI:10.1186/s12911-021-01556-0](https://doi.org/10.1186/s12911-021-01556-0). <span data-badge-popover="right" data-badge-type="4" data-doi="10.1186/s12911-021-01556-0" data-hide-no-mentions="true" class="altmetric-embed"></span>
