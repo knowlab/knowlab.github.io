@@ -33,7 +33,7 @@ permalink: /group-members/
     <div class="title"><img src="/img/pics/minhong_wang01.jpg" alt="drawing" width="100">
         Postdoctoral Researcher
     </div>    
-    <div class="info"><a id="MHW">Dr Minhong Wang</a> is working on machine learning and natural language processing in healthcare. Her current project is the automated triage using Electronic Health Records.
+    <div class="info"><a id="MHW">Dr Minhong Wang</a> is a Research Fellow at Institute of Health Informatics, UCL. Her research interests include applying machine learning, deep learning and natural language processing in healthcare. Currently she is working on ontology learning and automated triage using GP referrals.
     </div>
 </div>
 
