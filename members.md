@@ -40,17 +40,18 @@ permalink: /group-members/
 ### PhD Students
 - Charlotte Greene, Usher Institute, University of Edinburgh
 - Tina Yao, Institute of Health Informatics, UCL
-- Minhong Wang (AI in EHR Project Placement), Usher Institute, University of Edinburgh
 - Farah Francis, Usher Institute, University of Edinburgh
   
 ### MSc Students
-- David Drake, Bayes Centre, University of Edinburgh
-- Alexander Dobres,  Institute of Health Informatics, UCL
-- Fahad Siddiqui, Institute of Health Informatics, UCL
-- Aneeta Sylolypavan, Institute of Health Informatics, UCL
-- Menka Shah, Institute of Health Informatics, UCL
+- Aneeta Sylolypavan, Institute of Health Informatics, UCL. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
+- Hengrui Zhang, Institute of Health Informatics, UCL. Hengrui works on deep learning models for automated coding from discharge summaries.
+- Yun-Hsuan Chang, Institute of Health Informatics, UCL. Yun works on Parkinson's Disease Modelling using mutimodal data.
+- David Drake, Bayes Centre, University of Edinburgh. Gene disease association mining using graph neural networks.
+- Alexander Dobres,  Institute of Health Informatics, UCL. Knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
 
 ### Alumni
+- Menka Shah was an MSc student at Institute of Health Informatics, UCL. She now works at Frimley Health NHS Foundation Trust.
+- Fahad Siddiqui was an Msc Institute of Health Informatics, UCL. He works at Kettering General Hospital.
 - Dr Víctor Suárez Paniagua was a Research Fellow on machine learning, with an emphasis on deep learning; now works in the industry.
 - Emma Whitfield (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
 - Claire Coffey (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
