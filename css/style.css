@@ -493,12 +493,13 @@ nav a.current {
   }
   h2 {
     font-size: 1.4em;
-    margin-bottom: -10px;
+    margin-top:40px;
+    margin-bottom:20px;
   }
   h3, h4, h5, h6 {
     font-size: 1.1em;
     margin-top: 40px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
   }
   .img-only {
     margin: 0 -30px;
@@ -713,6 +714,14 @@ u{
   margin: 6px;
 }
 
+.img-cap.sub{
+  text-align: center;
+  color: #87adbd;
+  font-size: 80%;
+  margin: 6px;
+  font-style: italic;
+}
+
 .excerpt{
   color: #777;
   font-size: 90%;
@@ -727,11 +736,11 @@ u{
 
 .h_title{
   border-bottom: #cfcfcf 1px solid;
-  font-size: 160%;
+  font-size: 128%;
   padding: 6px;
   font-weight: bold;
   color: #888888;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .blog-highlight {
