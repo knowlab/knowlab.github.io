@@ -7,7 +7,7 @@ home: true
 
 <div class="h_title">Latest news | <a href="/updates/">all updates</a></div>
 
-{% for post in site.categories.news limit:2%}
+{% for post in site.categories.news limit:5%}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
