@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Grants
-permalink: /grants/
+title: Projects
+permalink: /projects/
 ---
 
 ## Active Projects
+
 |  Title | Funder  | Year  | £  | Role  |
 |---|---|---|---|---|
 | [Deriving an actionable patient phenome from healthcare data](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F1) <br/> *[Transferred to UCL, Extended to 2022](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F2)*  | MRC/HDR UK | 2018-2022 |  £315,181 | PI |
@@ -27,6 +28,7 @@ permalink: /grants/
 | [Using Artificial Intelligence to Manage New-onset Atrial Fibrillation in Patients with Critical Illnesses](https://gtr.ukri.org/projects?ref=studentship-2420472) | EPSRC | 2020-2024 |  Tina Yao |
 
 ## Finalised Projects
+
 |  Title | Funder  | Year  | £  | Role  |
 |---|---|---|---|---|
 | [Intelligent automated triage in Dermatology and beyond](https://ddi.ac.uk/ddi-building-back-better-open-call-awards/) | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
