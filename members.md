@@ -38,9 +38,35 @@ permalink: /group-members/
 </div>
 
 ### PhD Students
-- Charlotte Greene, Usher Institute, University of Edinburgh
-- Tina Yao, Institute of Health Informatics, UCL
-- Farah Francis, Usher Institute, University of Edinburgh
+
+<div class="div-tbl">
+    <div class="title"><a id="CG">Charlotte Greene</a>
+    </div>
+    <div class="info">Charlotte is based in Usher Institute, University of Edinburgh. She studies antidepressant and antipsychotic drug prescribing in people with diabetes.
+    </div>
+</div>
+
+<div class="div-tbl">
+ <div class="title"><a id="TY">Tina Yao</a>
+    </div>
+    <div class="info"> Tina is based at the Institute of Health Informatics, UCL. She works on deep learning methods for facilitating the management of atrial fibrillation in patients with critical illnesses.
+    </div>
+</div>
+
+<div class="div-tbl">
+ <div class="title"><a id="FF">Farah Francis</a>
+    </div>
+    <div class="info"> Farah Francis is based at Usher Institute, University of Edinburgh. She works on machine learning methods for detecting and predicting fetal hypoxia.
+    </div>
+</div>
+
+<div class="div-tbl">
+ <div class="title"><a id="JW">Jinge Wu</a>
+    </div>
+    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She will start with us in January 2022, working on neural-symbolic and knowledge graph methods for modelling human diseases and predicting prognosis.
+    </div>
+</div>
+
   
 ### MSc Students
 - Aneeta Sylolypavan, Institute of Health Informatics, UCL. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
