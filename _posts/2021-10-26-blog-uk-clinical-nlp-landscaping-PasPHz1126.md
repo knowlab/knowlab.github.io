@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Landscaping Clinical Natural Language Processing in the United Kingdom 
 date: 2021-10-26
 author: 
