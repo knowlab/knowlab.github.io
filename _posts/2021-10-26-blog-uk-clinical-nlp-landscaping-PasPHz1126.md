@@ -6,7 +6,7 @@ author:
     name: Honghan Wu
 categories: article
 ---
-This article aims to present an overall, timestamped and multifaceted understanding of the development clinical NLP in the UK.
+This article aims to present an overall, timestamped and multifaceted understanding of the development of clinical Natural Language Processing (NLP) in the UK.
 <!--more-->
 Specifically, the main objectives are to gain understanding in the following key aspects:
 - Stakeholders: NHS, clinical professionals, informatics researchers, funders, industry
