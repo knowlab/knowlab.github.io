@@ -23,13 +23,6 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
-    <div class="title"><img src="/img/pics/hang_dong_100x130_0.jpg">
-        Postdoctoral Researcher
-    </div>
-    <div class="info"><a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> is a Research Fellow (funded by HDR UK) in the Centre for Medical Informatics, Usher Institute. He is working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records.</div>
-</div>
-
-<div class="div-tbl">
     <div class="title"><img src="/img/pics/minhong_wang01.jpg" alt="drawing" width="100">
         Postdoctoral Researcher
     </div>    
@@ -76,6 +69,7 @@ permalink: /group-members/
 - Alexander Dobres,  Institute of Health Informatics, UCL. Knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
 
 ### Alumni
+- <a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> was working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records. He is now a research fellow at Oxford University.
 - Menka Shah was an MSc student at Institute of Health Informatics, UCL. She now works at Frimley Health NHS Foundation Trust.
 - Fahad Siddiqui was an Msc Institute of Health Informatics, UCL. He works at Kettering General Hospital.
 - Dr Víctor Suárez Paniagua was a Research Fellow on machine learning, with an emphasis on deep learning; now works in the industry.
