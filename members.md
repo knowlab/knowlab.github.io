@@ -65,6 +65,8 @@ permalink: /group-members/
 - Aneeta Sylolypavan, Institute of Health Informatics, UCL. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
 - Hengrui Zhang, Institute of Health Informatics, UCL. Hengrui works on deep learning models for automated coding from discharge summaries.
 - Yun-Hsuan Chang, Institute of Health Informatics, UCL. Yun works on Parkinson's Disease Modelling using mutimodal data.
+- Xuezhe Wang, Institute of Health Informatics, UCL. Xuezhe works on graphic neural network algorithms for predicting adverse drug reactions of COVID-19 treatments.
+- Zhaolong Wu, Institute of Health Informatics, UCL. Zhaolong works on clinical NLP models utilising multi-documents for automating medical coding from free-text EHR data. 
 - David Drake, Bayes Centre, University of Edinburgh. Gene disease association mining using graph neural networks.
 - Alexander Dobres,  Institute of Health Informatics, UCL. Knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
 
