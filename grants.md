@@ -9,6 +9,7 @@ permalink: /projects/
 |  Title | Funder  | Year  | £  | Role  |
 |---|---|---|---|---|
 | [Deriving an actionable patient phenome from healthcare data](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F1) <br/> *[Transferred to UCL, Extended to 2022](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F2)*  | MRC/HDR UK | 2018-2022 |  £315,181 | PI |
+|  [UCL-NMU-SEU International Collaboration On Artificial Intelligence In Medicine: Tackling Challenges Of Low Generalisability And Health Inequality](https://www.britishcouncil.cn/en/programmes/education/higher/going-global-2021winner) | British Council | 2022 - 2023 | £29,400 | PI |
 | [Artificial Intelligence and Multimorbidity: Clustering in Individuals, Space and Clinical Context](https://fundingawards.nihr.ac.uk/award/NIHR202639) | NIHR | 2021-2024 | £3.9m | CoI |
 | Iris.AI - The AI Chemist | Iris.AI, Research Council of Norway | 2021 - 2022 | £39,000 | PI |
 | [The Advanced Care Research Centre Programme](https://www.ed.ac.uk/usher/advanced-care-research-centre) | Legal & General/University of Edinburgh | 2020-2026 |  £20m | CoI |
