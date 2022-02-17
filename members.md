@@ -40,13 +40,6 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
- <div class="title"><a id="TY">Tina Yao</a>
-    </div>
-    <div class="info"> Tina is based at the Institute of Health Informatics, UCL. She works on deep learning methods for facilitating the management of atrial fibrillation in patients with critical illnesses.
-    </div>
-</div>
-
-<div class="div-tbl">
  <div class="title"><a id="FF">Farah Francis</a>
     </div>
     <div class="info"> Farah Francis is based at Usher Institute, University of Edinburgh. She works on machine learning methods for detecting and predicting fetal hypoxia.
@@ -66,10 +59,11 @@ permalink: /group-members/
 - Hengrui Zhang, Institute of Health Informatics, UCL. Hengrui works on deep learning models for automated coding from discharge summaries.
 - Yun-Hsuan Chang, Institute of Health Informatics, UCL. Yun works on Parkinson's Disease Modelling using mutimodal data.
 - Xuezhe Wang, Institute of Health Informatics, UCL. Xuezhe works on graphic neural network algorithms for predicting adverse drug reactions of COVID-19 treatments.
-- Zhaolong Wu, Institute of Health Informatics, UCL. Zhaolong works on clinical NLP models utilising multi-documents for automating medical coding from free-text EHR data. 
-- Alexander Dobres,  Institute of Health Informatics, UCL. Knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
+- Zhaolong Wu, Institute of Health Informatics, UCL. Zhaolong works on clinical NLP models utilising multi-documents for automating medical coding from free-text EHR data.
 
 ### Alumni
+- Alexander Dobres was a Msc student worked on knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
+-  Tina Yao was a MRes student based at the Institute of Health Informatics, UCL. She worked on deep learning methods for facilitating the management of atrial fibrillation in patients with critical illnesses.
 - <a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> was working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records. He is now a research fellow at Oxford University.
 - Menka Shah was an MSc student at Institute of Health Informatics, UCL. She now works at Frimley Health NHS Foundation Trust.
 - Fahad Siddiqui was an Msc Institute of Health Informatics, UCL. He works at Kettering General Hospital.
