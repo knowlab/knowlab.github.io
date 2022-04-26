@@ -30,6 +30,14 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+    <div class="title">
+        Research Associate
+    </div>    
+    <div class="info"><a id="AS">Aneeta Sylolypavan</a> is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
+    </div>
+</div>
+
 ### PhD Students
 
 <div class="div-tbl">
@@ -55,7 +63,6 @@ permalink: /group-members/
 
   
 ### MSc Students
-- Aneeta Sylolypavan, Institute of Health Informatics, UCL. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
 - Hengrui Zhang, Institute of Health Informatics, UCL. Hengrui works on deep learning models for automated coding from discharge summaries.
 - Yun-Hsuan Chang, Institute of Health Informatics, UCL. Yun works on Parkinson's Disease Modelling using mutimodal data.
 - Xuezhe Wang, Institute of Health Informatics, UCL. Xuezhe works on graphic neural network algorithms for predicting adverse drug reactions of COVID-19 treatments.

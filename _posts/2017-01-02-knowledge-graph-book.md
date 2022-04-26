@@ -2,7 +2,7 @@
 layout: post
 date: 2017-01-02
 title: knowledge graph book
-categories: [paper, book, selected]
+categories: [paper, book]
 ---
 Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and **Honghan Wu** (Editors) *Exploiting Linked Data and Knowledge Graphs for Large Organisations.* Springer International Publishing. 2017. ISBN: 978-3-319-45652-2. DOI: [10.1007/978-3-319-45654-6](https://dx.doi.org/10.1007/978-3-319-45654-6) Available at: [Springer](http://www.springer.com/gp/book/9783319456522) (Edited Book)
 
