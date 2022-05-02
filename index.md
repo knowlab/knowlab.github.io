@@ -16,7 +16,9 @@ home: true
 ### {{this_year}}
 {% endif %}
 
-- ({{ post.date | date: "%-d %B %Y"}}) {{ post.title }} {% if post.categories contains 'events'%}
+- ({{ post.date | date: "%-d %B %Y"}}) {% if post.related_image %}
+  <img src="{{post.related_image}}" width="500px" style="filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.3)); margin-bottom:20px"/>
+  {% endif %}  {{ post.title }} {% if post.categories contains 'events'%}
   <a href="{{ post.url }}">Event Details</a>
   {% endif %} 
 {% if forloop.last %}
