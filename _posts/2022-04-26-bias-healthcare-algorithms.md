@@ -4,4 +4,4 @@ title: Study led by [Isabel Straw](https://www.linkedin.com/in/isabel-straw-b375
 date: 2022-04-26
 categories: [news, paper]
 ---
-Isabel Straw and Honghan Wu. "Investigating for bias in healthcare algorithms: a sex-stratified analysis of supervised machine learning models in liver disease prediction". BMJ Health & Care Informatics 2022;29:e100457. doi: [10.1136/bmjhci-2021-100457](http://dx.doi.org/10.1136/bmjhci-2021-100457) (April 2022).
+Isabel Straw and Honghan Wu. "Investigating for bias in healthcare algorithms: a sex-stratified analysis of supervised machine learning models in liver disease prediction". BMJ Health & Care Informatics 2022;29:e100457. doi: [10.1136/bmjhci-2021-100457](https://informatics.bmj.com/content/29/1/e100457) (April 2022).
