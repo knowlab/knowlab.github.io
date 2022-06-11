@@ -1,7 +1,7 @@
 ---
 layout: post
 related_image: img/news/covid-LDH.png
-title: _COVID-19 trajectories among 57 million adults in England - a cohort study using electronic health records_ now out with [Lancet Digital Health](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00091-7/fulltext). Our analyses illustrate the wide spectrum of disease trajectories as shown by differences in incidence, survival, and clinical pathways. We have provided a modular analytical framework that can be used to monitor the impact of the pandemic and generate evidence of clinical and policy relevance using multiple EHR sources. 
+title: Out work, titled _COVID-19 trajectories among 57 million adults in England - a cohort study using electronic health records_, is now out with [Lancet Digital Health](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00091-7/fulltext). Our analyses illustrate the wide spectrum of disease trajectories as shown by differences in incidence, survival, and clinical pathways. We have provided a modular analytical framework that can be used to monitor the impact of the pandemic and generate evidence of clinical and policy relevance using multiple EHR sources. 
 date: 2022-06-08
 categories: [news, paper, selected]
 ---
