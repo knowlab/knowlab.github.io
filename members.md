@@ -38,6 +38,14 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+    <div class="title">
+        Research Associate
+    </div>    
+    <div class="info"><a id="RS">Rowena Smith</a> is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project uses linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care. 
+    </div>
+</div>
+
 ### PhD Students
 
 <div class="div-tbl">

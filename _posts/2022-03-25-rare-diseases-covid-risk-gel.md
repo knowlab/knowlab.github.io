@@ -5,5 +5,5 @@ title: Study led by Huayu, [*Increased COVID-19 mortality rate in rare disease p
 date: 2022-03-25
 categories: [news, paper]
 ---
-Huayu Zhang, Johan H. Thygesen, Ting Shi, Georgios Gkoutos, Harry Hemingway , Bruce Guthrie, Honghan Wu and Genomics England Research Consortium "Increased COVID-19 mortality rate in rare disease patients: a retrospective cohort study in participants of the Genomics England 100,000 Genomes project". Accepted by [Orphanet Journal of Rare Diseases](https://ojrd.biomedcentral.com/), [preprint version](/preprints/OJRD-D-21-00740_R2.pdf) (March, 2022).
+Huayu Zhang, Johan H. Thygesen, Ting Shi, Georgios Gkoutos, Harry Hemingway , Bruce Guthrie, Honghan Wu and Genomics England Research Consortium "Increased COVID-19 mortality rate in rare disease patients: a retrospective cohort study in participants of the Genomics England 100,000 Genomes project". Orphanet Journal of Rare Diseases 17, 166 (2022). April 2022. [DOI:10.1186/s13023-022-02312-x](https://doi.org/10.1186/s13023-022-02312-x). [preprint version](/preprints/OJRD-D-21-00740_R2.pdf).
 
