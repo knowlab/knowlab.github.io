@@ -31,7 +31,7 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
-    <div class="title">
+    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100">
         Research Associate
     </div>    
     <div class="info"><a id="AS">Aneeta Sylolypavan</a> is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
@@ -39,7 +39,7 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
-    <div class="title">
+    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100">
         Research Associate
     </div>    
     <div class="info"><a id="RS">Rowena Smith</a> is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project uses linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care. 
