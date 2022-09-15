@@ -5,11 +5,11 @@ permalink: /vacancies/
 ---
 ---
 ## Research Fellow in Clinical Text Analytics
-- Grade: UCL07 or 08 (see [UCL Salary Grade](https://www.ucl.ac.uk/human-resources/sites/human_resources/files/22_23ucl_non-clinical_grade_structure_with_spinal_points.pdf))
+- Grade: UCL07 (see [UCL Salary Grade](https://www.ucl.ac.uk/human-resources/sites/human_resources/files/22_23ucl_non-clinical_grade_structure_with_spinal_points.pdf))
 - Institution: Institute of Health Informatics, UCL 
 - Location: London
 - Term: 2 years
-- How to apply: application URL comes out soon (in September 2022). 
+- How to apply:[application submission link](https://atsv7.wcn.co.uk/search_engine/jobs.cgi?SID=amNvZGU9MTg4NzczNyZ2dF90ZW1wbGF0ZT05NjUmb3duZXI9NTA0MTE3OCZvd25lcnR5cGU9ZmFpciZicmFuZF9pZD0wJmpvYl9yZWZfY29kZT0xODg3NzM3JnBvc3RpbmdfY29kZT0yMjQ=)
 - Contact: informal discussion with [honghan.wu@ucl.ac.uk](mailto:honghan.wu@ucl.ac.uk)
 
 ### Report to
