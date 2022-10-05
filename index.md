@@ -6,7 +6,6 @@ home: true
 {% include_relative info.md %}
 
 <div class="h_title">Latest news | <a href="/updates/">all updates</a></div>
-<h2 style="color: #bf5d3c;text-align: center">We are hiring: <a href="/vacancies">Research Fellow in Clinical Text Analytics</a></h2> 
 {% for post in site.categories.news limit:5%}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
