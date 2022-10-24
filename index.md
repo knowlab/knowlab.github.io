@@ -29,7 +29,6 @@ home: true
 {% endif %}
 {% endfor %}
 
-
 <div class="h_title">Latest blog articles | <a href="/blog">all articles</a></div>
 {% for post in site.categories.blog limit:2%}
 [{{post.title}}]({{post.url}})
