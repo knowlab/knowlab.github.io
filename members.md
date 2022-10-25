@@ -28,6 +28,7 @@ permalink: /group-members/
     </div>    
     <div class="info"><a id="RS">Abul Hasan</a> will join us in Nov 2022 as a research fellow based in Institue of Health Informatics, UCL. He will be working on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
     </div>
+</div>
 
 <div class="div-tbl">
     <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100">
