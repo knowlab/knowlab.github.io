@@ -24,6 +24,14 @@ permalink: /group-members/
 
 <div class="div-tbl">
     <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100">
+        Research Fellow
+    </div>    
+    <div class="info"><a id="RS">Abul Hasan</a> will join us in Nov 2022 as a research fellow based in Institue of Health Informatics, UCL. He will be working on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
+    </div>
+</div>
+
+<div class="div-tbl">
+    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100">
         Research Associate
     </div>    
     <div class="info"><a id="AS">Aneeta Sylolypavan</a> is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
@@ -57,7 +65,14 @@ permalink: /group-members/
 <div class="div-tbl">
  <div class="title"><a id="JW">Jinge Wu</a>
     </div>
-    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She will start with us in January 2022, working on neural-symbolic and knowledge graph methods for modelling human diseases and predicting prognosis.
+    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She starts with us in January 2022, working on neural-symbolic and knowledge graph methods for modelling human diseases and predicting prognosis.
+    </div>
+</div>
+ 
+<div class="div-tbl">
+ <div class="title"><a id="FW">Feiyi Wang</a>
+    </div>
+    <div class="info"> Feiyi is based in the University of Helsinki, funded by a joint programme with University of Edinburgh. She is working on using deep learning and NLP for translating free-text queries in to structured SQL queries. She will be doing research with us from the end of 2022 for a period of one year.
     </div>
 </div>
 
