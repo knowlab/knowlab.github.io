@@ -123,7 +123,7 @@ permalink: /group-members/
 - Minhong Wang was a Research Fellow at Institute of Health Informatics, UCL (2020-2022). Her research interests include applying machine learning, deep learning and natural language processing in healthcare. She worked on domain specific word embeddings and automated triage using GP referrals. She works now with HSBC.
 - Alexander Dobres was a Msc student (2021) worked on knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
 -  Tina Yao was a MRes student (2021) based at the Institute of Health Informatics, UCL. She worked on deep learning methods for facilitating the management of atrial fibrillation in patients with critical illnesses.
-- <a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> was working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records (2018-2020). He is now a research fellow at Oxford University.
+- <a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> was working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records (2018-2021). He is now a research fellow at Oxford University.
 - Menka Shah was an MSc student at Institute of Health Informatics, UCL (2021). She now works at Frimley Health NHS Foundation Trust.
 - Fahad Siddiqui was an Msc Institute of Health Informatics, UC (2021). He works at Kettering General Hospital.
 - Dr Víctor Suárez Paniagua was a Research Fellow on machine learning (2021), with an emphasis on deep learning; now works in the industry.
