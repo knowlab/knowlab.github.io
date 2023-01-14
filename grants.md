@@ -11,6 +11,7 @@ permalink: /projects/
 | Using rare disease phenotype models to identify people at risk of COVID-19 adverse outcomes | Health Data Research UK | 2023 |  £38,065.54 | PI |
 | Towards self-updatable knowledge base for evidence based medicine - join force with iris.ai (Norway) and beyond | UCL Global Engagement Funding | 2023 |  £5,000 | PI |
 |  [UCL-NMU-SEU International Collaboration On Artificial Intelligence In Medicine: Tackling Challenges Of Low Generalisability And Health Inequality](https://www.britishcouncil.cn/en/programmes/education/higher/going-global-2021winner) | British Council | 2022 - 2023 | £29,400 | PI |
+|  ExplainHealth: reducing inequalities in health literacy | Moorfields Eye Charity | 2023 - 2024 | £142,306 | NLP Lead |
 | [Artificial Intelligence and Multimorbidity: Clustering in Individuals, Space and Clinical Context](https://fundingawards.nihr.ac.uk/award/NIHR202639) | NIHR | 2021-2024 | £3.9m | CoI |
 | [The Advanced Care Research Centre Programme](https://www.ed.ac.uk/usher/advanced-care-research-centre) | Legal & General/University of Edinburgh | 2020-2026 |  £20m | CoI |
 |[Improving the quality and value of care for people with poor prognosis cancers - a national, mixed methods study across Scotland](https://www.health.org.uk/funding-and-partnerships/programmes/improving-quality-of-care-for-people-with-poor-prognosis-cancers) | The Health Foundation | 2021-2024 | £399,224 | CoI |
