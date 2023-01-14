@@ -71,14 +71,14 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
- <div class="title"><a id="JW">Quang Ngoc Nguyen</a>
+ <div class="title"><a id="QNN">Quang Ngoc Nguyen</a>
     </div>
     <div class="info">Quang is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
     </div>
 </div>
 
 <div class="div-tbl">
- <div class="title"><a id="JW">Mohanad Mohammed S Alsaleh</a>
+ <div class="title"><a id="MMA">Mohanad Mohammed S Alsaleh</a>
     </div>
     <div class="info">Mohanad is based at the Institute of Health Informatics UCL. He works on predictive models of disease comorbidity using Artificial Intelligence technologies.
     </div>
@@ -94,7 +94,7 @@ permalink: /group-members/
 ### Visiting Researchers
 
 <div class="div-tbl">
- <div class="title"><a id="FW">Daqian Shi</a>
+ <div class="title"><a id="DQS">Daqian Shi</a>
     </div>
     <div class="info"> Daqian Shi is a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian is a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
     </div>
@@ -106,33 +106,33 @@ permalink: /group-members/
 - <a id="YJW">Yingjia Wang</a> is an MSc student at UCL doing an internship on health data science projects.
   
 ### MSc Students
-- Tianyue Qi and Ying Gao, they both work on the project titled *Reproducible machine learning based risk prediction models for cardiovascular disease*. Ying focuses on the literature review and Tianyue focuses on reproducing ML models from the literature. 
-- Guitao Fang works on *Benchmarking distributed representations for Chemistry knowledge graph*. This is a collaboration with iris.ai.
-- Kai Chen works on *Addressing NHS Nurse Shortage with Machine Learning and Behavioural Science*. This is a collaboration with Mid and South Essex NHS Foundation Trust.- 
-- Zewei Shen works on *Pretraining a language model on NHS A-Z corpus*. This is part of the ExplainHealth project, funded by Moorfields Charity.
-- Xinyi Yue works on *Deriving a knowledge graph from NHS A-Z website*. This is part of the ExplainHealth project, funded by Moorfields Charity.
-- Eva Keller works on *Analysing data embedded bias for treating cardiovascular diseases*. This is a collaboration with Profs Sarah Wild and Cathie Sudlow.
-- Siyuan Zhao works on *Lab linkage: can we unlock research into the rise of antibiotic resistant bacteria?*. This is a collaboration with Royal Veterinary College.
-- Qihe Wang works on *Understanding reasons of patient attendance to General Practice using natural language processing and machine learning*. This is a collaboration with NHS Frimley Health Foundation Trust.
+- <a id="TYQ">Tianyue Qi</a> and <a id="YG">Ying Gao</a>, they both work on the project titled *Reproducible machine learning based risk prediction models for cardiovascular disease*. Ying focuses on the literature review and Tianyue focuses on reproducing ML models from the literature. 
+- <a id="GTF">Guitao Fang</a> works on *Benchmarking distributed representations for Chemistry knowledge graph*. This is a collaboration with iris.ai.
+- <a id="KC">Kai Chen</a> works on *Addressing NHS Nurse Shortage with Machine Learning and Behavioural Science*. This is a collaboration with Mid and South Essex NHS Foundation Trust.- 
+- <a id="ZWS">Zewei Shen</a> works on *Pretraining a language model on NHS A-Z corpus*. This is part of the ExplainHealth project, funded by Moorfields Charity.
+- <a id="XYY">Xinyi Yue</a> works on *Deriving a knowledge graph from NHS A-Z website*. This is part of the ExplainHealth project, funded by Moorfields Charity.
+- <a id="EK">Eva Keller</a> works on *Analysing data embedded bias for treating cardiovascular diseases*. This is a collaboration with Profs Sarah Wild and Cathie Sudlow.
+- <a id="SYZ">Siyuan Zhao</a> works on *Lab linkage: can we unlock research into the rise of antibiotic resistant bacteria?*. This is a collaboration with Royal Veterinary College.
+- <a id="YHW">Qihe Wang</a> works on *Understanding reasons of patient attendance to General Practice using natural language processing and machine learning*. This is a collaboration with NHS Frimley Health Foundation Trust.
 
 ### Alumni
-- Hengrui Zhang, pursuing PhD opportunities. Hengrui worked on deep learning models for automated coding from discharge summaries.
-- Yun-Hsuan Chang, Clinical Informatics Lead at uMed. Yun worked on Parkinson's Disease Modelling using mutimodal data.
-- Xuezhe Wang, now a PhD student at UCL. Xuezhe worked on graphic neural network algorithms for predicting adverse drug reactions of COVID-19 treatments.
-- Zhaolong Wu, now a PhD student at Hong Kong University. Zhaolong worked on clinical NLP models utilising multi-documents for automating medical coding from free-text EHR data.
-- Minhong Wang was a Research Fellow at Institute of Health Informatics, UCL. Her research interests include applying machine learning, deep learning and natural language processing in healthcare. She worked on domain specific word embeddings and automated triage using GP referrals. She works now with HSBC.
-- Alexander Dobres was a Msc student worked on knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
--  Tina Yao was a MRes student based at the Institute of Health Informatics, UCL. She worked on deep learning methods for facilitating the management of atrial fibrillation in patients with critical illnesses.
-- <a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> was working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records. He is now a research fellow at Oxford University.
-- Menka Shah was an MSc student at Institute of Health Informatics, UCL. She now works at Frimley Health NHS Foundation Trust.
-- Fahad Siddiqui was an Msc Institute of Health Informatics, UCL. He works at Kettering General Hospital.
-- Dr Víctor Suárez Paniagua was a Research Fellow on machine learning, with an emphasis on deep learning; now works in the industry.
-- Emma Whitfield (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
-- Claire Coffey (COVID-19 Project Placement), HDR UK-Turing Wellcome PhD Programme
-- Cheng Wan (visiting researcher), Nanjing Medical University
-- Joesph Powell, MSc student, Institute of Health Informatics, UCL
-- Steven Cassady, MSc student, School of Informatics, University of Edinburgh
-- Qianyi Zeng, MSc, School of Informatics, University of Edinburgh
-- Wenjun Chen, MSc, School of Informatics, University of Edinburgh
-- Quan Sun, MSc, King's College London
-- Hui Wang, MSc, King's College London
+- Hengrui Zhang was an MSc student at UCL (2022) and worked on deep learning models for automated coding from discharge summaries. He is now pursuing PhD opportunities.
+- Yun-Hsuan Chang was an MSc student at UCL (2022) and worked on Parkinson's Disease Modelling using mutimodal data. She is now a Clinical Informatics Lead at uMed.
+- Xuezhe Wang was an MSc student at UCL (2022) and worked on graphic neural network algorithms for predicting adverse drug reactions of COVID-19 treatments. He is now a PhD student at UCL.
+- Zhaolong Wu was an MSc student at UCL (2022) and worked on clinical NLP models utilising multi-documents for automating medical coding from free-text EHR data. He is now a PhD student at Hong Kong University.
+- Minhong Wang was a Research Fellow at Institute of Health Informatics, UCL (2020-2022). Her research interests include applying machine learning, deep learning and natural language processing in healthcare. She worked on domain specific word embeddings and automated triage using GP referrals. She works now with HSBC.
+- Alexander Dobres was a Msc student (2021) worked on knowledge graph based approaches for predicting adverse drug events of COVID-19 drugs.
+-  Tina Yao was a MRes student (2021) based at the Institute of Health Informatics, UCL. She worked on deep learning methods for facilitating the management of atrial fibrillation in patients with critical illnesses.
+- <a href="https://intranet.csc.liv.ac.uk/~hang/">Dr Hang Dong</a> was working on applied machine learning, natural language processing (NLP), and data mining for phenotyping from electronic health records (2018-2020). He is now a research fellow at Oxford University.
+- Menka Shah was an MSc student at Institute of Health Informatics, UCL (2021). She now works at Frimley Health NHS Foundation Trust.
+- Fahad Siddiqui was an Msc Institute of Health Informatics, UC (2021). He works at Kettering General Hospital.
+- Dr Víctor Suárez Paniagua was a Research Fellow on machine learning (2021), with an emphasis on deep learning; now works in the industry.
+- Emma Whitfield (COVID-19 Project Placement, 2020), HDR UK-Turing Wellcome PhD Programme
+- Claire Coffey (COVID-19 Project Placement, 2020), HDR UK-Turing Wellcome PhD Programme
+- Cheng Wan (visiting researcher 2019-2020), Nanjing Medical University
+- Joesph Powell, MSc student (2020), Institute of Health Informatics, UCL
+- Steven Cassady, MSc student (2019), School of Informatics, University of Edinburgh
+- Qianyi Zeng, MSc (2019), School of Informatics, University of Edinburgh
+- Wenjun Chen, MSc (2019), School of Informatics, University of Edinburgh
+- Quan Sun, MSc (2017), King's College London
+- Hui Wang, MSc (2017), King's College London
