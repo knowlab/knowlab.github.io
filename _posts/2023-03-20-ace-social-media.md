@@ -6,4 +6,4 @@ title: <h3>Workshop paper on <i>"Ontology-driven Self-supervision for Adverse Ch
 date: 2023-03-20
 categories: [news, paper]
 ---
-Wu, Jinge, Rowena Smith, and Honghan Wu. "Ontology-Driven Self-Supervision for Adverse Childhood Experiences Identification Using Social Media Datasets." In *Proceedings of the 1st Workshop on Scarce Data in Artificial Intelligence for Healthcare - SDAIH*, ISBN 978-989-758-629-3, SciTePress, pages 5-10. [DOI: 10.5220/0011531100003523](https://doi.org/10.5220/0011531100003523), [Github Repo](https://github.com/knowlab/ACE-NLP)
+Wu, Jinge, Rowena Smith, and Honghan Wu. "Ontology-Driven Self-Supervision for Adverse Childhood Experiences Identification Using Social Media Datasets." In *Proceedings of the 1st Workshop on Scarce Data in Artificial Intelligence for Healthcare - SDAIH*, ISBN 978-989-758-629-3, SciTePress, pages 5-10. [DOI: 10.5220/0011531100003523](https://doi.org/10.5220/0011531100003523), [pdf](https://www.scitepress.org/Papers/2022/115311/115311.pdf), [Github Repo](https://github.com/knowlab/ACE-NLP)
