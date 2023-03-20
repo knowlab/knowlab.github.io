@@ -3,7 +3,7 @@ layout: post
 related_image: img/news/JW-ace.png
 title: <h3>Workshop paper on <i>"Ontology-driven Self-supervision for Adverse Childhood Experiences Identification using Social Media Datasets"</i> now <a href="https://doi.or/10.5220/0011531100003523">published</a>!</h3>  Adverse Childhood Experiences (ACEs) are defined as a collection of highly stressful, and potentially traumatic, events or circumstances that occur throughout childhood and/or adolescence. They have been shown to be associated with increased risks of mental health diseases or other abnormal behaviours in later lives. In this paper, Jinge and colleages present an ontology-driven self-supervised approach (derive concept embeddings using an auto-encoder from baseline NLP results) for producing a publicly available resource that would support large-scale machine learning (e.g., training transformer based large language models) on social media corpus. Jinge presented this paper in 2022 summer at [the 1st Workshop on Scarce Data in Artificial Intelligence for Healthcare](https://hslu-abiz.github.io/sdaih22/), which was with IJCAI 2022 in Vienna. Check - [Paper](https://doi.or/10.5220/0011531100003523), [Github Repo](https://github.com/knowlab/ACE-NLP)
 
-date: 2023-03-07
+date: 2023-03-20
 categories: [news, paper]
 ---
 Wu, Jinge, Rowena Smith, and Honghan Wu. "Ontology-Driven Self-Supervision for Adverse Childhood Experiences Identification Using Social Media Datasets." In *Proceedings of the 1st Workshop on Scarce Data in Artificial Intelligence for Healthcare - SDAIH*, ISBN 978-989-758-629-3, SciTePress, pages 5-10. [DOI: 10.5220/0011531100003523](https://doi.or/10.5220/0011531100003523), [Github Repo](https://github.com/knowlab/ACE-NLP)
