@@ -46,6 +46,14 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100">
+        Research Associate
+    </div>    
+    <div class="info"><a id="YA">Yusuf Abdulle</a> is a Research Assistant based at the Institute of Health Informatics at University College London. He is currently working on using Graph Neural Networks and Knowledge Graphs to work on early diagnosis of rare neurodegenerative diseases.
+    </div>
+</div>
+
 ### PhD Students 
 *PhD candidates (co-)supervised at KnowLab*
 
