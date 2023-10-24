@@ -46,6 +46,14 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100">
+        Research Associate
+    </div>    
+    <div class="info"><a id="YA">Yusuf Abdulle</a> is a Research Assistant based at the Institute of Health Informatics at University College London. He is currently working on using Graph Neural Networks and Knowledge Graphs to work on early diagnosis of rare neurodegenerative diseases.
+    </div>
+</div>
+
 ### PhD Students 
 *PhD candidates (co-)supervised at KnowLab*
 
@@ -64,9 +72,9 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
- <div class="title"><a id="JW">Jinge Wu</a>
+ <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg"><a id="JW" href="https://jingewu.github.io/">Jinge Wu</a>
     </div>
-    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She starts with us in January 2022, working on neural-symbolic and knowledge graph methods for modelling human diseases and predicting prognosis.
+    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She works on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
     </div>
 </div>
 
@@ -88,6 +96,13 @@ permalink: /group-members/
  <div class="title"><a id="FW">Feiyi Wang</a>
     </div>
     <div class="info"> Feiyi is based in the University of Helsinki, funded by a joint programme with University of Edinburgh. She is working on using deep learning and NLP for translating free-text queries in to structured SQL queries. She will be doing research with us from the Feb 2023 for a period of one year.
+    </div>
+</div>
+
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/9_yunsoo.jpg"><a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a>
+    </div>
+    <div class="info"> Yunsoo is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
     </div>
 </div>
 
