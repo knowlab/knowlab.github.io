@@ -93,7 +93,7 @@ permalink: /group-members/
 ### Visiting Researchers
 
 <div class="div-tbl">
- <div class="title"><a id="ygao">Yue Gao</a>
+ <div class="title"><img src="/img/pics/yue_gao.jpeg" width="100"> <a id="ygao">Yue Gao</a>
     </div>
     <div class="info"> Yue Gao is a PhD student from Beijing University of Posts and Telecommunications. Funded by CSC, Yue is visiting KnowLab for one year doing research on human in the loop AI models for automated clinical coding. 
     </div>
