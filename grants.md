@@ -20,17 +20,18 @@ permalink: /projects/
 | [National Text Analytics Project](https://www.ed.ac.uk/usher/clinical-natural-language-processing/our-research/hdr-uk-national-text-analytics-implementation-proj)                                                                                                 | MRC/HDR UK                              | 2019-2023   |  £650,000 | CoI|
 
 
-## <a id="awards">Awards</a>
-{% for post in site.categories.award%}
-{{post.content}}
-{% endfor %}
-
 ## Finalised Projects
 
 |  Title | Funder  | Year  | £  | Role  |
 |---|---|---|---|---|
-| [Intelligent automated triage in Dermatology and beyond](https://ddi.ac.uk/ddi-building-back-better-open-call-awards/) | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
-| Towards an AI-driven Health Informatics Platform for supporting clinical decision making in Scotland – a pilot study in NHS Lothian  | Wellcome Trust | 2020-2021 |  £29,200 | PI |
-| [Graph-Based Data Federation for Healthcare Data Science](https://gtr.ukri.org/projects?ref=MC_PC_18029)  | MRC/HDR UK | 2019-2020 |  £260,057 | CoI<br/>Academic co-lead |
 | [Deriving an actionable patient phenome from healthcare data](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F1) <br/> *[Transferred to UCL, Extended to 2022](https://gtr.ukri.org/projects?ref=MR%2FS004149%2F2)*  | MRC/HDR UK | 2018-2022 |  £315,181 | PI |
+| Towards an AI-driven Health Informatics Platform for supporting clinical decision making in Scotland – a pilot study in NHS Lothian  | Wellcome Trust | 2020-2021 |  £29,200 | PI |
 | Iris.AI - The AI Chemist | Iris.AI, Research Council of Norway | 2021 - 2022 | £39,000 | PI |
+| [Intelligent automated triage in Dermatology and beyond](https://ddi.ac.uk/ddi-building-back-better-open-call-awards/) | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
+| [Graph-Based Data Federation for Healthcare Data Science](https://gtr.ukri.org/projects?ref=MC_PC_18029)  | MRC/HDR UK | 2019-2020 |  £260,057 | CoI<br/>Academic co-lead |
+
+
+## <a id="awards">Awards</a>
+{% for post in site.categories.award%}
+{{post.content}}
+{% endfor %}
