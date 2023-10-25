@@ -106,19 +106,19 @@ permalink: /group-members/
 - <a id="EK">Eva Keller</a> works on *Analysing data embedded bias for treating cardiovascular diseases*. This is a collaboration with Profs Sarah Wild and Cathie Sudlow.
 
 ### Alumni
-- Daqian Shi is a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian is a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
-- Aneeta Sylolypavan is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
-- Rowena Smith is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project uses linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care.
-- <a id="TYQ">Tianyue Qi</a> and <a id="YG">Ying Gao</a>, they both work on the project titled *Reproducible machine learning based risk prediction models for cardiovascular disease*. Ying focuses on the literature review and Tianyue focuses on reproducing ML models from the literature.
-- <a id="EG">Emily Groves</a> is an MSc student at UCL doing an internship on evaluating embedding models for chemistry ontology enrichment tasks.
-- <a id="ZXL">Zexi Li</a> is an MSc student at UCL doing an internship on health data science projects.
-- <a id="YJW">Yingjia Wang</a> is an MSc student at UCL doing an internship on health data science projects.
-- <a id="GTF">Guitao Fang</a> works on *Benchmarking distributed representations for Chemistry knowledge graph*. This is a collaboration with iris.ai.
-- <a id="KC">Kai Chen</a> works on *Addressing NHS Nurse Shortage with Machine Learning and Behavioural Science*. This is a collaboration with Mid and South Essex NHS Foundation Trust.-
-- <a id="ZWS">Zewei Shen</a> works on *Pretraining a language model on NHS A-Z corpus*. This is part of the ExplainHealth project, funded by Moorfields Charity.
-- <a id="XYY">Xinyi Yue</a> works on *Deriving a knowledge graph from NHS A-Z website*. This is part of the ExplainHealth project, funded by Moorfields Charity.
-- <a id="SYZ">Siyuan Zhao</a> works on *Lab linkage: can we unlock research into the rise of antibiotic resistant bacteria?*. This is a collaboration with Royal Veterinary College.
-- <a id="YHW">Qihe Wang</a> works on *Understanding reasons of patient attendance to General Practice using natural language processing and machine learning*. This is a collaboration with NHS Frimley Health Foundation Trust.
+- Daqian Shi (2022-2023) is a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian is a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
+- Aneeta Sylolypavan (2021-2022) is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
+- Rowena Smith  (2022) is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project uses linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care.
+- Tianyue Qi (2023) and Ying Gao (2023), they both work on the project titled *Reproducible machine learning based risk prediction models for cardiovascular disease*. Ying focuses on the literature review and Tianyue focused on reproducing ML models from the literature.
+- <a id="EG">Emily Groves</a>  (2023) was an MSc student at UCL doing an internship on evaluating embedding models for chemistry ontology enrichment tasks.
+- <a id="ZXL">Zexi Li</a> (2023) was an MSc student at UCL doing an internship on health data science projects.
+- <a id="YJW">Yingjia Wang</a> (2023) was an MSc student at UCL doing an internship on health data science projects.
+- <a id="GTF">Guitao Fang</a> (2023) worked on *Benchmarking distributed representations for Chemistry knowledge graph*. This is a collaboration with iris.ai.
+- <a id="KC">Kai Chen</a> (2023) works on *Addressing NHS Nurse Shortage with Machine Learning and Behavioural Science*. This is a collaboration with Mid and South Essex NHS Foundation Trust.-
+- <a id="ZWS">Zewei Shen</a> (2023) worked on *Pretraining a language model on NHS A-Z corpus*. This is part of the ExplainHealth project, funded by Moorfields Charity.
+- <a id="XYY">Xinyi Yue</a> (2023) worked on *Deriving a knowledge graph from NHS A-Z website*. This is part of the ExplainHealth project, funded by Moorfields Charity.
+- <a id="SYZ">Siyuan Zhao</a> (2023) worked on *Lab linkage: can we unlock research into the rise of antibiotic resistant bacteria?*. This is a collaboration with Royal Veterinary College.
+- <a id="YHW">Qihe Wang</a> (2023) worked on *Understanding reasons of patient attendance to General Practice using natural language processing and machine learning*. This is a collaboration with NHS Frimley Health Foundation Trust.
 - Hengrui Zhang was an MSc student at UCL (2022) and worked on deep learning models for automated coding from discharge summaries. He is now pursuing PhD opportunities.
 - Yun-Hsuan Chang was an MSc student at UCL (2022) and worked on Parkinson's Disease Modelling using mutimodal data. She is now a Clinical Informatics Lead at uMed.
 - Xuezhe Wang was an MSc student at UCL (2022) and worked on graphic neural network algorithms for predicting adverse drug reactions of COVID-19 treatments. He is now a PhD student at UCL.
