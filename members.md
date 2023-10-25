@@ -106,8 +106,9 @@ permalink: /group-members/
 - <a id="EK">Eva Keller</a> works on *Analysing data embedded bias for treating cardiovascular diseases*. This is a collaboration with Profs Sarah Wild and Cathie Sudlow.
 
 ### Alumni
-
 - Daqian Shi is a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian is a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
+- Aneeta Sylolypavan is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
+- Rowena Smith is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project uses linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care.
 - <a id="TYQ">Tianyue Qi</a> and <a id="YG">Ying Gao</a>, they both work on the project titled *Reproducible machine learning based risk prediction models for cardiovascular disease*. Ying focuses on the literature review and Tianyue focuses on reproducing ML models from the literature.
 - <a id="EG">Emily Groves</a> is an MSc student at UCL doing an internship on evaluating embedding models for chemistry ontology enrichment tasks.
 - <a id="ZXL">Zexi Li</a> is an MSc student at UCL doing an internship on health data science projects.
