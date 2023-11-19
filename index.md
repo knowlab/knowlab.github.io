@@ -20,6 +20,7 @@ home: true
   {% endif %}  {{ post.title }} {% if post.categories contains 'events'%}
   <a href="{{ post.url }}">Event Details</a>
   {% endif %} 
+ <hr style="text-align: center"/>
 {% if forloop.last %}
 
 {% else %}
@@ -30,13 +31,4 @@ home: true
 {% endfor %}
 
 
-<div class="h_title">Latest blog articles | <a href="/blog">all articles</a></div>
-{% for post in site.categories.blog limit:2%}
-[{{post.title}}]({{post.url}})
-<div class="excerpt">{{ post.excerpt }}
-{% assign minutes = post.content | number_of_words | divided_by: 180 %}
-<span class="blog-meta">by {{ post.author.name }} on {{ post.date | date: '%b %d, %Y' }}. {{minutes}} min read.
-</span>
-</div>
-{% endfor %}
 <div style="color: #999999;margin:60px 0 20px 0;font-style: italic;text-align: center;font-size: 90%">Acknowledgement: Logo designed by Yuchen Wu</div>
