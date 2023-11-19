@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
+Funded research and development projects.
 ## Active Projects
 
 | Title                                                                                                                                                                                                                                                              | Funder                                  | Year        | £  | Role                   |
@@ -29,9 +29,3 @@ permalink: /projects/
 | Iris.AI - The AI Chemist | Iris.AI, Research Council of Norway | 2021 - 2022 | £39,000 | PI |
 | [Intelligent automated triage in Dermatology and beyond](https://ddi.ac.uk/ddi-building-back-better-open-call-awards/) | Data-Driven Innovation | 2021 | £19,301.63 | CoI<br/>AI Lead |
 | [Graph-Based Data Federation for Healthcare Data Science](https://gtr.ukri.org/projects?ref=MC_PC_18029)  | MRC/HDR UK | 2019-2020 |  £260,057 | CoI<br/>Academic co-lead |
-
-
-## <a id="awards">Awards</a>
-{% for post in site.categories.award%}
-{{post.content}}
-{% endfor %}
