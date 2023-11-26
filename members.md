@@ -104,6 +104,11 @@ permalink: /group-members/
   
 ### MSc Students
 - <a id="EK">Eva Keller</a> works on *Analysing data embedded bias for treating cardiovascular diseases*. This is a collaboration with Profs Sarah Wild and Cathie Sudlow.
+- <a id="RR">Rajan Rai</a> works on a multimodal LLM project titled *Multi-view medical image classification/captioning*. 
+- <a id="JC">Jamie chow</a> works on a project titled *What are the key factors that need to be considered when monitoring AI applications in radiology?*.
+- <a id="JIDR">Julia Isabelle Dela Rosa</a> works on a project titled *Evaluating bias mitigation methods for clinical prediction models* as part of our MRC funded QMIA project.
+- <a id="JAA">Jaime Anton Arnal</a> works on a project titled *Synthesising Diverse Health Datasets for Risk Prediction from the Literature*.
+- <a id="YH">Yuxuan Huang</a> works on a project titled *Deciphering the Decision-Making Processes of Transformer-Based Pretrained Models in Clinical NLP Tasks*.
 
 ### Alumni
 - Daqian Shi (2022-2023) is a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian is a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
