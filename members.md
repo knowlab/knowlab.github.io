@@ -9,7 +9,7 @@ permalink: /group-members/
     Team Lead
     </div>
     <div class="info">
-    <a id="hw" href="https://profiles.ucl.ac.uk/78197">Dr Honghan Wu</a> is an associate professor at Institute of Health Informatics, UCL. He is a <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Dr Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a>, <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a> and <a href="https://www.nature.com/srep/">Scientific Reports</a>. For PhD opportunities, please check <a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=HWWUX46">his UCL webpage</a>. 
+    <a id="hw" href="https://profiles.ucl.ac.uk/78197">Dr Honghan Wu</a> is an associate professor at Institute of Health Informatics, UCL. He is a <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Dr Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. For PhD opportunities, please check <a href="https://profiles.ucl.ac.uk/78197-honghan-wu/">his UCL webpage</a>. 
     </div>
 </div>
 
@@ -103,17 +103,18 @@ permalink: /group-members/
 - <a id="EmSun">Emily Sun</a> is a high school student doing an internship on a knowledge graph project for early ALS prediction.
   
 ### MSc Students
-- <a id="EK">Eva Keller</a> works on *Analysing data embedded bias for treating cardiovascular diseases*. This is a collaboration with Profs Sarah Wild and Cathie Sudlow.
 - <a id="RR">Rajan Rai</a> works on a multimodal LLM project titled *Multi-view medical image classification/captioning*. 
 - <a id="JC">Jamie chow</a> works on a project titled *What are the key factors that need to be considered when monitoring AI applications in radiology?*.
 - <a id="JIDR">Julia Isabelle Dela Rosa</a> works on a project titled *Evaluating bias mitigation methods for clinical prediction models* as part of our MRC funded QMIA project.
 - <a id="JAA">Jaime Anton Arnal</a> works on a project titled *Synthesising Diverse Health Datasets for Risk Prediction from the Literature*.
 - <a id="YH">Yuxuan Huang</a> works on a project titled *Deciphering the Decision-Making Processes of Transformer-Based Pretrained Models in Clinical NLP Tasks*.
+- <a id="FL">Yifan Li</a> works on using machine learning and large language models for interlinking research datasets for research on antibiotic resistant bacteria in the veterinary space.
 
 ### Alumni
-- Daqian Shi (2022-2023) is a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian is a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
-- Aneeta Sylolypavan (2021-2022) is a part-time research associate based at University of Edinburgh. Aneeta works on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
-- Rowena Smith  (2022) is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project uses linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care.
+- <a id="EK">Eva Keller</a> worked on *Analysing data embedded bias for treating cardiovascular diseases*. This was a collaboration with Profs Sarah Wild and Cathie Sudlow.
+- Daqian Shi (2022-2023) was a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian was a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
+- Aneeta Sylolypavan (2021-2022) was a part-time research associate based at University of Edinburgh. Aneeta worked on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
+- Rowena Smith  (2022) is a part-time clinical research associate based at University of Edinburgh. Rowena works on a project studying the associations between childhood adverse events and later life mental disorders. This project used linked health datasets in Scotland including free-text clinical notes from both primary care and secondary care.
 - Tianyue Qi (2023) and Ying Gao (2023), they both work on the project titled *Reproducible machine learning based risk prediction models for cardiovascular disease*. Ying focuses on the literature review and Tianyue focused on reproducing ML models from the literature.
 - <a id="EG">Emily Groves</a>  (2023) was an MSc student at UCL doing an internship on evaluating embedding models for chemistry ontology enrichment tasks.
 - <a id="ZXL">Zexi Li</a> (2023) was an MSc student at UCL doing an internship on health data science projects.
