@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/benchmarking-chebi.png
+title: New preprint - *Benchmarking and Analyzing In-context Learning, Fine-tuning and Supervised Learning for Biomedical Knowledge Curation - a focused study on chemical entities of biological interest* - on [arxiv](https://arxiv.org/abs/2312.12989)  <br/><br/> We had a task to implement an automated approach for knowledge curation for a biomedical ontology - ChEBI ([Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/)). We asked ourselves the above question and decided to compare and analyze three NLP paradigms for curation tasks - in-context learning, fine tuning, and supervised learning. We broke down the general question into four specific questions. After comprehensive experiments and analysis on 3 GPT models (including gpt4), one domain specific PubmedBERT, 6 embedding models for supervised learning in 15 experiment setups on >1.8m triples, we believe we obtained good evidence for answering them properly. <br/><br/> Read it at [arXiv:2312.12989](https://arxiv.org/abs/2312.12989) or [this short LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7143566271983353856/).
+date: 2023-12-20
+categories: [news, paper]
+---
+Emily Groves, Minhong Wang, Yusuf Abdulle, Holger Kunz, Jason Hoelscher-Obermaier, Ronin Wu, and Honghan Wu. "Benchmarking and Analyzing In-context Learning, Fine-tuning and Supervised Learning for Biomedical Knowledge Curation: a focused study on chemical entities of biological interest." arXiv preprint arXiv:2312.12989 (2023). [arXiv:2312.12989](https://arxiv.org/abs/2312.12989)

@@ -58,8 +58,9 @@ i, em {
   font-style: italic;
 }
 a {
-  color: #034999;
-  text-decoration: none;
+  color: #4257a8;
+  text-decoration: underline;
+  text-decoration-color: #5773e0;
   position: relative;
   -webkit-background-size: 1px 1px;
   -moz-background-size: 1px 1px;
@@ -70,10 +71,14 @@ a {
 }
 a:hover{
   text-decoration: underline;
+  color: #dd5555;
   text-decoration-color: #dd5555;
 }
 .no-cssgradients a {
   text-decoration: underline;
+}
+i,em {
+  color: #3e529f;
 }
 ul,
 ol {

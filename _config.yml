@@ -42,7 +42,7 @@ social-icons-open-newtab: true
 footer-text: KnowLab | University College London | University of Edinburgh
 
 # Preferably 64px in height. Leave empty = disable.
-logo-image: /img/knowlab.png
+logo-image: /img/knowlab.v2.png
 
 # Toolbar color for Chrome on Android.
 theme-color-attr: "#515675"
