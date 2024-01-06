@@ -5,4 +5,4 @@ title: New paper - *Applying contrastive pre-training for depression and anxiety
 date: 2023-12-7
 categories: [news, paper]
 ---
-Wei Feng, Honghan Wu, Hui Ma, Zhenhuan Tao, Mengdie Xu, Xin Zhang, Shan Lu, Cheng Wan, and Yun Liu. "Applying contrastive pre-training for depression and anxiety risk prediction in type 2 diabetes patients based on heterogeneous electronic health records: a primary healthcare case study." Journal of the American Medical Informatics Association (2023): ocad228. [DOI:10.1093/jamia/ocad228](https://doi.org/10.1093/jamia/ocad228)
+Wei Feng, Honghan Wu, Hui Ma, Zhenhuan Tao, Mengdie Xu, Xin Zhang, Shan Lu, Cheng Wan, and Yun Liu. *"Applying contrastive pre-training for depression and anxiety risk prediction in type 2 diabetes patients based on heterogeneous electronic health records: a primary healthcare case study."* Journal of the American Medical Informatics Association (2023): ocad228. [DOI:10.1093/jamia/ocad228](https://doi.org/10.1093/jamia/ocad228)

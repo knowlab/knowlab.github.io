@@ -5,5 +5,5 @@ title: New paper - a systematic review on antidepressant and antipsychotic drug 
 date: 2023-04-07
 categories: [news, paper]
 ---
-Charlotte R.L. Greene, Hanna Ward-Penny, Marianna F. Ioannou, Sarah H. Wild, Honghan Wu, Daniel J. Smith, Caroline A. Jackson. ‘Antidepressant and antipsychotic drug prescribing and diabetes outcomes: A systematic review of observational studies’. Diabetes Research and Clinical Practice (2023). [DOI:10.1016/j.diabres.2023.110649](https://doi.org/10.1016/j.diabres.2023.110649) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.diabres.2023.110649" data-hide-no-mentions="true" class="altmetric-embed"></span>.
+Charlotte R.L. Greene, Hanna Ward-Penny, Marianna F. Ioannou, Sarah H. Wild, Honghan Wu, Daniel J. Smith, Caroline A. Jackson. *"Antidepressant and antipsychotic drug prescribing and diabetes outcomes: A systematic review of observational studies".* Diabetes Research and Clinical Practice (2023). [DOI:10.1016/j.diabres.2023.110649](https://doi.org/10.1016/j.diabres.2023.110649) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.diabres.2023.110649" data-hide-no-mentions="true" class="altmetric-embed"></span>.
 

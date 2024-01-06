@@ -5,4 +5,4 @@ title: New preprint - *Benchmarking and Analyzing In-context Learning, Fine-tuni
 date: 2023-12-20
 categories: [news, paper, selected]
 ---
-Emily Groves, Minhong Wang, Yusuf Abdulle, Holger Kunz, Jason Hoelscher-Obermaier, Ronin Wu, and Honghan Wu. "Benchmarking and Analyzing In-context Learning, Fine-tuning and Supervised Learning for Biomedical Knowledge Curation: a focused study on chemical entities of biological interest." arXiv preprint arXiv:2312.12989 (2023). [arXiv:2312.12989](https://arxiv.org/abs/2312.12989)
+Emily Groves, Minhong Wang, Yusuf Abdulle, Holger Kunz, Jason Hoelscher-Obermaier, Ronin Wu, and Honghan Wu. *"Benchmarking and Analyzing In-context Learning, Fine-tuning and Supervised Learning for Biomedical Knowledge Curation: a focused study on chemical entities of biological interest."* arXiv preprint arXiv:2312.12989 (2023). [arXiv:2312.12989](https://arxiv.org/abs/2312.12989)

@@ -5,4 +5,4 @@ title: New paper - *Term-BLAST-Like Alignment Tool for Concept Recognition in No
 date: 2023-11-23
 categories: [news, paper]
 ---
-Tudor Groza, Honghan Wu, Marcel E Dinger, Daniel Danis, Coleman Hilton, Anita Bagley, Jon R Davids, Ling Luo, Zhiyong Lu, Peter N Robinson. "Term-BLAST-Like Alignment Tool for Concept Recognition in Noisy Clinical Texts." Bioinformatics (2023): btad716. [DOI:10.1093/bioinformatics/btad716](https://doi.org/10.1093/bioinformatics/btad716)
+Tudor Groza, Honghan Wu, Marcel E Dinger, Daniel Danis, Coleman Hilton, Anita Bagley, Jon R Davids, Ling Luo, Zhiyong Lu, Peter N Robinson. *"Term-BLAST-Like Alignment Tool for Concept Recognition in Noisy Clinical Texts."* Bioinformatics (2023): btad716. [DOI:10.1093/bioinformatics/btad716](https://doi.org/10.1093/bioinformatics/btad716)

@@ -268,6 +268,7 @@ hr {
   margin: 60px auto;
   width: 30%;
   height: 2px;
+  background-color: #dd5555;
 }
 .cover-image-container {
   position: absolute;
@@ -321,7 +322,7 @@ header img {
 }
 nav {
   margin: 20px 0;
-  border-bottom: #485366 1px solid;
+  border-bottom: #dd5555 1px solid;
 }
 article {
   margin-top: 30px;
