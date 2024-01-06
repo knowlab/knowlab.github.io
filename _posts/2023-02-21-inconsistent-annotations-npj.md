@@ -5,4 +5,4 @@ title: New paper - *The impact of inconsistent human annotations on AI driven cl
 date: 2023-02-21
 categories: [news, paper, selected]
 ---
-Aneeta Sylolypavan, Derek Sleeman, Honghan Wu, and Malcolm Sim. The impact of inconsistent human annotations on AI driven clinical decision making. npj Digital Medicine 6, 26 (2023). [DOI:10.1038/s41746-023-00773-3](https://doi.org/10.1038/s41746-023-00773-3) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-023-00773-3" data-hide-no-mentions="true" class="altmetric-embed"></span>.
+Aneeta Sylolypavan, Derek Sleeman, Honghan Wu, and Malcolm Sim. *"The impact of inconsistent human annotations on AI driven clinical decision making."* npj Digital Medicine 6, 26 (2023). [DOI:10.1038/s41746-023-00773-3](https://doi.org/10.1038/s41746-023-00773-3) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-023-00773-3" data-hide-no-mentions="true" class="altmetric-embed"></span>.

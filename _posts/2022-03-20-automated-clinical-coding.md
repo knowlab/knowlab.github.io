@@ -5,5 +5,5 @@ title: Clinical coding is the task of transforming medical information in a pati
 date: 2022-03-20
 categories: [news]
 ---
-Hang Dong, Matúš Falis, William Whiteley, Beatrice Alex, Shaoxiong Ji, JiaoyanChen & Honghan Wu. "Automated Clinical Coding - What, Why, and Where We Are." npj Digital Medicine 5, 159 (2022). [DOI:10.1038/s41746-022-00705-7](https://doi.org/10.1038/s41746-022-00705-7). October, 2022.
+Hang Dong, Matúš Falis, William Whiteley, Beatrice Alex, Shaoxiong Ji, JiaoyanChen & Honghan Wu. *"Automated Clinical Coding - What, Why, and Where We Are."* npj Digital Medicine 5, 159 (2022). [DOI:10.1038/s41746-022-00705-7](https://doi.org/10.1038/s41746-022-00705-7). October, 2022.
 

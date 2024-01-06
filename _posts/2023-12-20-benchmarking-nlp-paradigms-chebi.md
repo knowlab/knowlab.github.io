@@ -5,4 +5,4 @@ title: New preprint - *Exploring Multimodal Large Language Models for Radiology 
 date: 2023-12-20
 categories: [news, paper, selected]
 ---
-Jinge Wu, Yunsoo Kim, Eva C. Keller, Jamie Chow, Adam P. Levine, Nikolas Pontikos, Zina Ibrahim, Paul Taylor, Michelle C. Williams, and Honghan Wu. "Exploring Multimodal Large Language Models for Radiology Report Error-checking." arXiv preprint arXiv:2312.13103 (2023). [arXiv:2312.13103](https://arxiv.org/abs/2312.13103)
+Jinge Wu, Yunsoo Kim, Eva C. Keller, Jamie Chow, Adam P. Levine, Nikolas Pontikos, Zina Ibrahim, Paul Taylor, Michelle C. Williams, and Honghan Wu. *"Exploring Multimodal Large Language Models for Radiology Report Error-checking."* arXiv preprint arXiv:2312.13103 (2023). [arXiv:2312.13103](https://arxiv.org/abs/2312.13103)

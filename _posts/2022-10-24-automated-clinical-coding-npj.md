@@ -5,5 +5,5 @@ title: Dr Hang Dong's great perspective piece on **automated coding** using NLP 
 date: 2022-10-22
 categories: [news, paper, selected]
 ---
-Hang Dong, Matúš Falis, William Whiteley, Beatrice Alex, Joshua Matterson, Shaoxiong Ji, JiaoyanChen & Honghan Wu. "Automated Clinical Coding - What, Why, and Where We Are." npj Digital Medicine 5, 159 (2022). [DOI:10.1038/s41746-022-00705-7](https://doi.org/10.1038/s41746-022-00705-7) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-022-00705-7" data-hide-no-mentions="true" class="altmetric-embed"></span>.
+Hang Dong, Matúš Falis, William Whiteley, Beatrice Alex, Joshua Matterson, Shaoxiong Ji, JiaoyanChen & Honghan Wu. *"Automated Clinical Coding - What, Why, and Where We Are."* npj Digital Medicine 5, 159 (2022). [DOI:10.1038/s41746-022-00705-7](https://doi.org/10.1038/s41746-022-00705-7) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-022-00705-7" data-hide-no-mentions="true" class="altmetric-embed"></span>.
 
