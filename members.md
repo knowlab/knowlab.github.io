@@ -9,7 +9,7 @@ permalink: /group-members/
     Team Lead
     </div>
     <div class="info">
-    <a id="hw" href="https://profiles.ucl.ac.uk/78197">Dr Honghan Wu</a> is an associate professor at Institute of Health Informatics, UCL. He is a <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Dr Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. For PhD opportunities, please check <a href="https://profiles.ucl.ac.uk/78197-honghan-wu/">his UCL webpage</a>. 
+    <a id="hw" href="https://profiles.ucl.ac.uk/78197">Dr Honghan Wu</a> is an associate professor at Institute of Health Informatics, UCL. He is a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Dr Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. For PhD opportunities, please check <a href="https://profiles.ucl.ac.uk/78197-honghan-wu/">his UCL webpage</a>. 
     </div>
 </div>
 
@@ -27,6 +27,14 @@ permalink: /group-members/
         Research Fellow
     </div>    
     <div class="info"><a id="RS">Abul Hasan</a> joined us in Nov 2022 as a research fellow based in Institute of Health Informatics, UCL. He is working on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
+    </div>
+</div>
+
+<div class="div-tbl">
+    <div class="title"><img src="/img/pics/no-photo.png">
+    Postdoctoral Researcher
+    </div>
+    <div class="info"> Harry Wilde is a part-time postdoctoral researcher working on <a href="https://gtr.ukri.org/projects?ref=MR%2FX030075%2F1">the QMIA project</a> on "Quantifying and Mitigating Bias affecting and induced by AI in Medicine". Harry will start full time from July 2024.
     </div>
 </div>
 
