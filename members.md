@@ -114,9 +114,12 @@ permalink: /group-members/
 - <a id="RR">Rajan Rai</a> works on a multimodal LLM project titled *Multi-view medical image classification/captioning*. 
 - <a id="JC">Jamie chow</a> works on a project titled *What are the key factors that need to be considered when monitoring AI applications in radiology?*.
 - <a id="JIDR">Julia Isabelle Dela Rosa</a> works on a project titled *Evaluating bias mitigation methods for clinical prediction models* as part of our MRC funded QMIA project.
-- <a id="JAA">Jaime Anton Arnal</a> works on a project titled *Synthesising Diverse Health Datasets for Risk Prediction from the Literature*.
 - <a id="YH">Yuxuan Huang</a> works on a project titled *Deciphering the Decision-Making Processes of Transformer-Based Pretrained Models in Clinical NLP Tasks*.
 - <a id="FL">Yifan Li</a> works on using machine learning and large language models for interlinking research datasets for research on antibiotic resistant bacteria in the veterinary space.
+- <a id="IKM">Irini Kanaris Miyashiro</a> works on a project aiming to use AI technologies for facilitating tackling the NHS workforce challenge. She is working with a start-up company, Shiftpartner, and Mid and South Essex NHS Foundation Trust. Technically, she will use large language models for digitalising competency frameworks of health professionals and skills/knowledge needed for ever-changing bankshifts at the NHS.
+
+### Undergraduate Students
+- <a id="NB2024">Neel Basak</a> works on a dissertation project titled *Knowledge graph-based approaches to drug repurposing for rare and novel diseases: A Systematic Review*.
 
 ### Alumni
 - <a id="EK">Eva Keller</a> worked on *Analysing data embedded bias for treating cardiovascular diseases*. This was a collaboration with Profs Sarah Wild and Cathie Sudlow.
