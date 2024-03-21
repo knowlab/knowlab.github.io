@@ -64,7 +64,7 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
- <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg"><a id="JW" href="https://jingewu.github.io/">Jinge Wu</a>
+ <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg"><a id="JW">Jinge Wu</a>
     </div>
     <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She works on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
     </div>
