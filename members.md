@@ -9,18 +9,10 @@ permalink: /group-members/
     Team Lead
     </div>
     <div class="info">
-    <a id="hw" href="https://profiles.ucl.ac.uk/78197">Dr Honghan Wu</a> is an associate professor at Institute of Health Informatics, UCL. He is a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Dr Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. For PhD opportunities, please check <a href="https://profiles.ucl.ac.uk/78197-honghan-wu/">his UCL webpage</a>. 
+    <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu</a> is a Professor of Health Informatics and Data Science, based in the School of Health and Wellbeing of the University of Glasgow. He also is <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. 
     </div>
 </div>
 
-
-<div class="div-tbl">
-    <div class="title"><img src="/img/pics/IMG_5835_small.JPG">
-    Postdoctoral Researcher
-    </div>
-    <div class="info"> Dr Huayu Zhang is a Research Fellow based in Centre for Medical Informatics, Usher Institute at the University of Edinburgh. He is working on network analysis and knowledge graph techniques for gene prioritisation.
-    </div>
-</div>
 
 <div class="div-tbl">
     <div class="title"> <img src="/img/pics/Photo_Abul_Hasan.jpg" alt="drawing" width="100">
