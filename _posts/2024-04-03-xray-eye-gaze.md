@@ -5,4 +5,4 @@ title: New preprint - *Enhancing Human-Computer Interaction in Chest X-ray Analy
 date: 2024-04-05
 categories: [news, paper, selected]
 ---
-Kim, Yunsoo, Jinge Wu, Yusuf Abdulle, Yue Gao, and Honghan Wu. "Enhancing Human-Computer Interaction in Chest X-ray Analysis using Vision and Language Model with Eye Gaze Patterns." arXiv preprint arXiv:2404.02370 (2024). [arXiv:2404.02370](https://arxiv.org/abs/2404.02370)
+Kim, Yunsoo, Jinge Wu, Yusuf Abdulle, Yue Gao, and Honghan Wu. "Enhancing Human-Computer Interaction in Chest X-ray Analysis using Vision and Language Model with Eye Gaze Patterns." arXiv preprint arXiv:2404.02370 (2024). [arXiv:2404.02370](https://arxiv.org/abs/2404.02370) 
