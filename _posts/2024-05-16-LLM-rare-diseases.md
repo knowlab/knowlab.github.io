@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/llm-rd-fig.png
+title: New preprint - *Retrieving and Refining - A Hybrid Framework with Large Language Models for Rare Disease Identification* - on [arxiv](https://arxiv.org/abs/2405.10440)  <br/><br/> The infrequency and heterogeneity of clinical presentations in rare diseases often lead to underdiagnosis and their exclusion from structured datasets. This necessitates the utilization of unstructured text data for comprehensive analysis. However, the manual identification from clinical reports is an arduous and intrinsically subjective task. This study proposes a novel hybrid approach that synergistically combines a traditional dictionary-based natural language processing (NLP) tool with the powerful capabilities of large language models (LLMs) to enhance the identification of rare diseases from unstructured clinical notes. We comprehensively evaluate various prompting strategies on six large language models (LLMs) of varying sizes and domains (general and medical). This evaluation encompasses zero-shot, few-shot, and retrieval-augmented generation (RAG) techniques to enhance the LLMs' ability to reason about and understand contextual information in patient reports. The results demonstrate effectiveness in rare disease identification, highlighting the potential for identifying underdiagnosed patients from clinical notes. <br/><br/> Read it at [arXiv:2405.10440](https://arxiv.org/abs/2405.10440).
+date: 2024-05-16
+categories: [news, paper, selected]
+---
+Wu, Jinge, Hang Dong, Zexi Li, Arijit Patra, Honghan Wu. "Retrieving and Refining: A Hybrid Framework with Large Language Models for Rare Disease Identification." arXiv preprint 2405.10440 (2024). [arXiv:2405.10440](https://arxiv.org/abs/2405.10440)
