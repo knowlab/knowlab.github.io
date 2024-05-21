@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/acm-surveys-coding.png
+title: Our survey paper titled *A Unified Review of Deep Learning for Automated Medical Coding* has just been accepted by ACM Surveys <br/><br/> Automated medical coding, an essential task for healthcare operation and delivery, makes unstructured data manageable by predicting medical codes from clinical documents. Recent advances in deep learning and natural language processing have been widely applied to this task. However, deep learning-based medical coding lacks a unified view of the design of neural network architectures. This review proposes a unified framework to provide a general understanding of the building blocks of medical coding models and summarizes recent advanced models under the proposed framework. Our unified framework decomposes medical coding into four main components, i.e., encoder modules for text feature extraction, mechanisms for building deep encoder architectures, decoder modules for transforming hidden representations into medical codes, and the usage of auxiliary information. Finally, we introduce the benchmarks and real-world usage and discuss key research challenges and future directions. <br/><br/> Read the paper at [doi:10.1145/3664615](https://doi.org/10.1145/3664615). 
+date: 2024-05-20
+categories: [news, paper]
+---
+Shaoxiong Ji, Xiaobo Li, Wei Sun, Hang Dong, Ara Taalas, Yijia Zhang, Honghan Wu, Esa Pitkänen, Pekka Marttinen. "A Unified Review of Deep Learning for Automated Medical Coding." ACM Computing Surveys. Accepted in May 2024. [doi:10.1145/3664615](https://doi.org/10.1145/3664615) (2024).
