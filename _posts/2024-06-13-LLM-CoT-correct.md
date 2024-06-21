@@ -5,4 +5,4 @@ title: Paper accepted by NAACL 2024 Workshop Clinical NLP - *Chain-of-Though (Co
 date: 2024-06-05
 categories: [news, paper]
 ---
-Wu, Zhaolong, Abul Hasan, Jinge Wu, Yunsoo Kim, Jason PY Cheung, Teng Zhang, and Honghan Wu. "Chain-of-Though (CoT) prompting strategies for medical error detection and correction." arXiv e-prints (2024): arXiv-2406. [arXiv:2406.09103](https://arxiv.org/abs/2406.09103)
+Wu, Zhaolong, Abul Hasan, Jinge Wu, Yunsoo Kim, Jason PY Cheung, Teng Zhang, and Honghan Wu. "Chain-of-Though (CoT) prompting strategies for medical error detection and correction." arXiv e-prints (2024): arXiv-2406. Accepted by [NAACL 2024 Workshop Clinical NLP](https://clinical-nlp.github.io/2024/). [arXiv:2406.09103](https://arxiv.org/abs/2406.09103)
