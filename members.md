@@ -26,7 +26,7 @@ permalink: /group-members/
     <div class="title"><img src="/img/pics/no-photo.png">
     Postdoctoral Researcher
     </div>
-    <div class="info"> Harry Wilde is a part-time postdoctoral researcher working on <a href="https://gtr.ukri.org/projects?ref=MR%2FX030075%2F1">the QMIA project</a> on "Quantifying and Mitigating Bias affecting and induced by AI in Medicine". Harry will start full time from July 2024.
+    <div class="info"> Harry Wilde is a postdoctoral researcher working on <a href="https://gtr.ukri.org/projects?ref=MR%2FX030075%2F1">the QMIA project</a> on "Quantifying and Mitigating Bias affecting and induced by AI in Medicine". 
     </div>
 </div>
 
