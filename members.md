@@ -30,13 +30,6 @@ permalink: /group-members/
     </div>
 </div>
 
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100">
-        Research Assistant
-    </div>    
-    <div class="info"><a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is a Research Assistant at the Institute of Health Informatics, University College London. He's currently using Graph Neural Networks and Knowledge Graphs to enhance early diagnosis of rare neurodegenerative diseases.
-    </div>
-</div>
 
 ### PhD Students 
 *PhD candidates (co-) supervised at KnowLab*
@@ -73,6 +66,14 @@ permalink: /group-members/
  <div class="title"><a id="MMA">Mohanad Mohammed S Alsaleh</a>
     </div>
     <div class="info">Mohanad is based at the Institute of Health Informatics UCL. He works on predictive models of disease comorbidity using Artificial Intelligence technologies.
+    </div>
+</div>
+
+<div class="div-tbl">
+    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100">
+        Research Assistant
+    </div>    
+    <div class="info"><a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is a a PhD student in the Department of Biostatistics and Health Informatics, part of the Institute of Psychiatry, Psychology & Neuroscience (IoPPN), King’s College London. His PhD thesis is focusing on the development and training of a multimodal AI model for early diagnosis of individuals at risk of ALS/MND and predict their prognosis. 
     </div>
 </div>
  
