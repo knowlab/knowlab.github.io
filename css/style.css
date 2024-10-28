@@ -756,3 +756,7 @@ u{
   background-position: 0 88%;
   transition: background-size 0.25s ease-in;
 }
+
+.img_head{
+  border-radius: 50%;
+}
