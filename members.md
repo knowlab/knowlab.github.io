@@ -5,17 +5,17 @@ permalink: /group-members/
 ---
 
 <div class="div-tbl">
-    <div class="title"><img src="/img/pics/Honghan-Wu-255x348.jpg">
+    <div class="title"><img src="/img/pics/Honghan-Wu-255x348.jpg" class="img_head">
     Team Lead
     </div>
     <div class="info">
-    <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow. He also is <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He co-leads <a href="https://www.ed.ac.uk/usher/clinical-natural-language-processing">Edinburgh Clinical NLP group</a>. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. 
+    <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow,  where he leads <a href="https://www.gla.ac.uk/schools/healthwellbeing/research/datascience/">the research theme of data science and AI</a>. He also is an honorary professor at Hong Kong University, <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine. He also serves as an editorial board member of these journals: <a href="https://bmcdigitalhealth.biomedcentral.com/">BMC Digital Health</a> and <a href="https://bmcmedinformdecismak.biomedcentral.com/">BMC Medical Informatics and Decision Making</a>. 
     </div>
 </div>
 
 
 <div class="div-tbl">
-    <div class="title"> <img src="/img/pics/Photo_Abul_Hasan.jpg" alt="drawing" width="100">
+    <div class="title"> <img src="/img/pics/Photo_Abul_Hasan.jpg" alt="drawing" width="100"  class="img_head">
         Research Fellow
     </div>    
     <div class="info"><a id="RS">Abul Hasan</a> joined us in Nov 2022 as a research fellow based in Institute of Health Informatics, UCL. He is working on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
@@ -23,23 +23,45 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
-    <div class="title"><img src="/img/pics/no-photo.png">
+    <div class="title"><img src="/img/pics/HW.png"  class="img_head">
     Postdoctoral Researcher
     </div>
-    <div class="info"> Harry Wilde is a postdoctoral researcher working on <a href="https://gtr.ukri.org/projects?ref=MR%2FX030075%2F1">the QMIA project</a> on "Quantifying and Mitigating Bias affecting and induced by AI in Medicine". 
-    </div>
-</div>
-
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100">
-        Research Assistant
-    </div>    
-    <div class="info"><a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is a Research Assistant at the Institute of Health Informatics, University College London. He's currently using Graph Neural Networks and Knowledge Graphs to enhance early diagnosis of rare neurodegenerative diseases.
+    <div class="info"> <a href="https://profiles.ucl.ac.uk/82882-harry-wilde">Harry Wilde</a> is a postdoctoral researcher working on <a href="https://gtr.ukri.org/projects?ref=MR%2FX030075%2F1">the QMIA project</a> on "Quantifying and Mitigating Bias affecting and induced by AI in Medicine". 
     </div>
 </div>
 
 ### PhD Students 
-*PhD candidates (co-) supervised at KnowLab*
+
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg" class="img_head"><a id="JW">Jinge Wu</a>
+    </div>
+    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She works on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
+    </div>
+</div>
+
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/9_yunsoo.jpg" class="img_head"><a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a>
+    </div>
+    <div class="info"> Yunsoo is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
+    </div>
+</div>
+
+
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/no-photo.png" class="img_head"><a id="BP" href="#BP">Bo Peng</a>
+    </div>
+    <div class="info">Bo Peng is based at the Institute of Health Informatics, UCL. He works on <i>Applying Multimodal AI for Timely, Accurate Brain Tumor Diagnosis and Treatment Efficacy Prediction</i>. 
+    </div>
+</div>
+
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/FS.png" class="img_head"><a id="FS" href="#FS">Fanny (Fran) Silavong</a>
+    </div>
+    <div class="info">Fran is based at the Institute of Health Informatics, UCL. She works on <i>Enhancing Health Literacy Using Large Language Models and Knowledge Graph</i>. 
+    </div>
+</div>
+
+---
 
 <div class="div-tbl">
     <div class="title"><a id="CG">Charlotte Greene</a>
@@ -56,13 +78,6 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
- <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg"><a id="JW">Jinge Wu</a>
-    </div>
-    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She works on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
-    </div>
-</div>
-
-<div class="div-tbl">
  <div class="title"><a id="QNN">Quang Ngoc Nguyen</a>
     </div>
     <div class="info">Quang is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
@@ -75,27 +90,20 @@ permalink: /group-members/
     <div class="info">Mohanad is based at the Institute of Health Informatics UCL. He works on predictive models of disease comorbidity using Artificial Intelligence technologies.
     </div>
 </div>
- 
+
 <div class="div-tbl">
- <div class="title"><a id="FW">Feiyi Wang</a>
-    </div>
-    <div class="info"> Feiyi is based in the University of Helsinki, funded by a joint programme with University of Edinburgh. She is working on using deep learning and NLP for translating free-text queries in to structured SQL queries. She will be doing research with us from the Feb 2023 for a period of one year.
+    <div class="title"> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head">
+        <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a>
+    </div>   
+    <div class="info">Chao Xu is based in School of Health and Wellbeing. He works on <i>Developing a risk stratification tool to detect ADHD in children and adolescents</i>. His research interest is around big data analysis applying statistical machine learning in child and adolescent health.
     </div>
 </div>
 
 <div class="div-tbl">
- <div class="title"><img src="/img/pics/9_yunsoo.jpg"><a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a>
-    </div>
-    <div class="info"> Yunsoo is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
-    </div>
-</div>
-
-### Visiting Researchers
-
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/yue_gao.jpeg" width="100"> <a id="ygao">Yue Gao</a>
-    </div>
-    <div class="info"> Yue Gao is a PhD student from Beijing University of Posts and Telecommunications. Funded by CSC, Yue is visiting KnowLab for one year doing research on human in the loop AI models for automated clinical coding. 
+    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100" class="img_head">
+        <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a>
+    </div>    
+    <div class="info"><a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
     </div>
 </div>
 
@@ -114,6 +122,7 @@ permalink: /group-members/
 - <a id="NB2024">Neel Basak</a> works on a dissertation project titled *Knowledge graph-based approaches to drug repurposing for rare and novel diseases: A Systematic Review*.
 
 ### Alumni
+- <a id="YG">Yue Gao</a> is a PhD student from Beijing University of Posts and Telecommunications. Funded by CSC, Yue visited KnowLab for one year doing research on human in the loop AI models for automated clinical coding.
 - <a id="EK">Eva Keller</a> worked on *Analysing data embedded bias for treating cardiovascular diseases*. This was a collaboration with Profs Sarah Wild and Cathie Sudlow.
 - Daqian Shi (2022-2023) was a visiting Knowledge Graph Embedding (KGE) aims to model information in KGs into higher dimensional space. Daqian was a Ph.D. student in the Department of Information Engineering and Computer Science of the University of Trento, supervised by Prof. Fausto Giunchiglia.
 - Aneeta Sylolypavan (2021-2022) was a part-time research associate based at University of Edinburgh. Aneeta worked on evaluating disparities between clinicians in labelling data for training machine learning models, particularly in the context of decision making supports within Intensive Care Units. 
