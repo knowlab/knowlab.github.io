@@ -48,7 +48,7 @@ permalink: /group-members/
 
 
 <div class="div-tbl">
- <div class="title"><img src="/img/pics/no-photo.png" class="img_head"><a id="BP" href="#BP">Bo Peng</a>
+ <div class="title"><img src="/img/pics/BPeng.jpg" class="img_head"><a id="BP" href="#BP">Bo Peng</a>
     </div>
     <div class="info">Bo Peng is based at the Institute of Health Informatics, UCL. He works on <i>Applying Multimodal AI for Timely, Accurate Brain Tumor Diagnosis and Treatment Efficacy Prediction</i>. 
     </div>
