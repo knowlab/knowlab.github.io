@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/clinicoco-fig.png
+title: Paper published on npj Digital Medicine - *Optimising the paradigms of human AI collaborative clinical coding* - at [DOI:10.1038/s41746-024-01363-7](https://doi.org/10.1038/s41746-024-01363-7)  <br/><br/>Clinical coding is the process of assigning standardised codes (eg hashtag#ICD-10 for diagnosis or procedures) for an interaction with the health service (a visit to GP or a hospital stay). Such 'coded' information is widely used for patient care, auditing and research. However, currently this is mainly a manual process done by clinical coders, which is expensive, time-consuming, and error-prone (quantified in the paper). Yue Gao, a visiting PhD student at KnowLab during 2023-2024, developed a deep-learning based human-AI collaborative paradigm to facilitate the clinical coding process. The system, called CliniCoCo, was developed using real-world hashtag#EHR datasets from two hospitals in China and further evaluated by human coders in a third Chinese hospital. CliniCoCo was able to reduce coding time by 40% and enable professional coders achieving a F1 score more than 0.93.  <br/><br/> Read it at [DOI:10.1038/s41746-024-01363-7](https://doi.org/10.1038/s41746-024-01363-7).
+date: 2024-12-19
+categories: [news, selected, paper]
+---
+Gao, Yue, Yuepeng Chen, Minghao Wang, Jinge Wu, Yunsoo Kim, Kaiyin Zhou, Miao Li, Xien Liu, Xiangling Fu, Ji Wu & Honghan Wu. "Optimising the paradigms of human AI collaborative clinical coding." npj Digital Medicine 7, no. 1 (2024): 368. [DOI:10.1038/s41746-024-01363-7](https://doi.org/10.1038/s41746-024-01363-7)
