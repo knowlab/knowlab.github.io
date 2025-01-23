@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/depression-dl-ehr.png
+title: Paper published on International Journal of Medical Informatics - *Deep Learning Based Prediction of Depression and Anxiety in Patients with Type 2 Diabetes Mellitus Using Regional Electronic Health Records* - at [DOI:10.1016/j.ijmedinf.2025.105801](https://doi.org/10.1016/j.ijmedinf.2025.105801)  <br/><br/>The study aimed to develop the Regional EHR for Depression and Anxiety Prediction Model (REDAPM), which integrates both structured and unstructured electronic health record (EHR) data to predict the onset of depression and anxiety among individuals with Type 2 Diabetes Mellitus (T2DM). REDAPM showed superior performance over baseline models, achieving high ROC-AUC and PR-AUC scores in both internal and external validation datasets, indicating its effectiveness in predicting mental health conditions. The REDAPM's ability to leverage regional EHR data and its demonstrated clinical utility positions it as a promising tool for healthcare professionals and informaticians, offering a novel contribution to the field of medical informatics, especially in predicting mental health within the diabetic population.  <br/><br/> Read it at [DOI:10.1016/j.ijmedinf.2025.105801](https://doi.org/10.1016/j.ijmedinf.2025.105801).
+date: 2025-01-22
+categories: [news, paper]
+---
+Feng, Wei, Honghan Wu, Hui Ma,  Yuechuchu Yin, Zhenhuan Tao, Shan Lu, Xin Zhang, Yun Yu, Cheng Wan, and Yun Liu. "Deep Learning Based Prediction of Depression and Anxiety in Patients with Type 2 Diabetes Mellitus Using Regional Electronic Health Records". International Journal of Medical Informatics. In press. 2025.  [DOI:10.1016/j.ijmedinf.2025.105801](https://doi.org/10.1016/j.ijmedinf.2025.105801)
