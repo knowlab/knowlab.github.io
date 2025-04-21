@@ -1,0 +1,9 @@
+---
+layout: post
+related_image: img/news/antihypertension-covid19.png
+title: Published in American Journal of Hypertension – *A Transformer-Based Framework for Counterfactual Estimation of Antihypertensive Treatment Effect on COVID-19 Infection Risk - A Proof-of-Concept Study* – at [https://doi.org/10.1093/ajh/hpaf055](https://doi.org/10.1093/ajh/hpaf055) <br/><br/>A new study in the American Journal of Hypertension investigates the relationship between antihypertensive medications and COVID-19 infection risk. The research employed a transformer-based framework to analyze real-world data from over 300,000 patients. <br/><br/>Key findings indicate that while ACE inhibitors showed a negligible effect on COVID-19 risk, beta-blockers and calcium channel blockers were associated with a protective effect. Statins and thiazides showed a slight increase in risk. <br/><br/>This study demonstrates the potential of advanced causal inference models in evaluating treatment outcomes in complex healthcare scenarios and offers important insights for clinical consideration. <br/><br/>Read the full paper at [https://doi.org/10.1093/ajh/hpaf055](https://doi.org/10.1093/ajh/hpaf055).
+date: 2025-04-18
+categories: [news, paper]
+---
+Tran QB Tran, Stefanie Lip, Honghan Wu, Shyam Visweswaran, Jill P Pell, Sandosh Padmanabhan. *A Transformer-Based Framework for Counterfactual Estimation of Antihypertensive Treatment Effect on COVID-19 Infection Risk - A Proof-of-Concept Study*. American Journal of Hypertension, 2025;, hpaf055, [https://doi.org/10.1093/ajh/hpaf055](https://doi.org/10.1093/ajh/hpaf055)
+<span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/ajh/hpaf055" data-hide-no-mentions="true" class="altmetric-embed"></span>.

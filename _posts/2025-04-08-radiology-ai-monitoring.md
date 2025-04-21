@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/ai-monitoring-radiology.png
+title: Paper published in *Journal of Imaging Informatics in Medicine* – *How Do Radiologists Currently Monitor AI in Radiology and What Challenges Do They Face?* – at [DOI:10.1007/s10278-025-01493-8](https://doi.org/10.1007/s10278-025-01493-8) <br/><br/> As AI tools become more common in radiology, monitoring their performance is increasingly important—but still underdeveloped. A recent qualitative study interviewed 16 radiologists across Europe and the U.S., revealing that many AI systems are still in early validation phases. Current monitoring typically involves manual, retrospective comparisons to radiology reports—effective, but labor-intensive.  <br/><br/> Key barriers include a lack of standardized monitoring guidelines, limited technological tools, and constrained resources. The study recommends mixed-method monitoring, dedicated governance teams, and long-term resource planning. <br/><br/> This research highlights the need for clearer frameworks and investment to ensure AI improves clinical workflows.<br/><br/>Read it at [DOI:10.1007/s10278-025-01493-8](https://doi.org/10.1007/s10278-025-01493-8).
+date: 2025-04-08
+categories: [news, paper]
+---
+Jamie Chow, Ryan Lee, Honghan Wu. *How Do Radiologists Currently Monitor AI in Radiology and What Challenges Do They Face? An Interview Study and Qualitative Analysis.* *Journal of Imaging Informatics in Medicine* (2025). [DOI:10.1007/s10278-025-01493-8](https://doi.org/10.1007/s10278-025-01493-8) <span data-badge-popover="right" data-badge-type="4" data-doi="10.1007/s10278-025-01493-8" data-hide-no-mentions="true" class="altmetric-embed"></span>.
