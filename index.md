@@ -6,6 +6,9 @@ home: true
 {% include_relative info.md %}
 
 <div class="h_title">Latest news | <a href="/updates/">all updates</a></div>
+
+<img src="img/announcement.png" width="30" style="float:left">&nbsp;&nbsp;**We are hiring a postdocral researcher on Clinical AI and Health Equity. Check [job advert](https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs/details?nPostingId=14329&nPostingTargetId=35063&id=Q1KFK026203F3VBQBLO8M8M07&LG=UK&languageSelect=UK&mask=ext).**
+
 {% for post in site.categories.news limit:5%}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
