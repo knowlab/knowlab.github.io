@@ -14,13 +14,6 @@ permalink: /group-members/
 </div>
 
 
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/Photo_Abul_Hasan.jpg" alt="drawing" width="100"  class="img_head">
-        Research Fellow
-    </div>    
-    <div class="info"><a id="RS">Abul Hasan</a> joined us in Nov 2022 as a research fellow based in Institute of Health Informatics, UCL. He is working on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
-    </div>
-</div>
 
 ### PhD Students 
 
@@ -56,20 +49,6 @@ permalink: /group-members/
 ---
 
 <div class="div-tbl">
-    <div class="title"><a id="CG">Charlotte Greene</a>
-    </div>
-    <div class="info">Charlotte is based in Usher Institute, University of Edinburgh. She studies antidepressant and antipsychotic drug prescribing in people with diabetes.
-    </div>
-</div>
-
-<div class="div-tbl">
- <div class="title"><a id="FF">Farah Francis</a>
-    </div>
-    <div class="info"> Farah Francis is based at Usher Institute, University of Edinburgh. She works on machine learning methods for detecting and predicting fetal hypoxia.
-    </div>
-</div>
-
-<div class="div-tbl">
  <div class="title"><a id="QNN">Quang Ngoc Nguyen</a>
     </div>
     <div class="info">Quang is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
@@ -100,12 +79,18 @@ permalink: /group-members/
 </div>
  
 ### MSc Students
-- <a id="RR">Rajan Rai</a> works on a multimodal LLM project titled *Multi-view medical image classification/captioning*. 
-- <a id="JC">Jamie chow</a> works on a project titled *What are the key factors that need to be considered when monitoring AI applications in radiology?*.
 - <a id="LYKong2025">Lingyu Kong</a> works on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He is based at the University of Glasgow.
 
 ## Alumni
+
+### 2025
+- <a id="abh">Abul Hasan</a> joined us in Nov 2022 as a research fellow based in Institute of Health Informatics, UCL. He worked on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
+- Charlotte Greene was a PhD student based in Usher Institute, University of Edinburgh. She studied antidepressant and antipsychotic drug prescribing in people with diabetes.
+- Farah Francis was a PhD student based at Usher Institute, University of Edinburgh. She worked on machine learning methods for detecting and predicting fetal hypoxia.
+
 ### 2024
+- <a id="RR">Rajan Rai</a> worked on a multimodal LLM project titled *Multi-view medical image classification/captioning*.
+- <a id="JC">Jamie chow</a> worked on a project titled *What are the key factors that need to be considered when monitoring AI applications in radiology?*.
 - <a id="hwilde"> Harry Wilde</a> was a postdoctoral researcher working on <a href="https://gtr.ukri.org/projects?ref=MR%2FX030075%2F1">the QMIA project</a> on "Quantifying and Mitigating Bias affecting and induced by AI in Medicine".
 - <a id="JIDR">Julia Isabelle Dela Rosa</a> worked on a project titled *Evaluating bias mitigation methods for clinical prediction models* as part of our MRC funded QMIA project.
 - <a id="EmSun">Emily Sun</a> was a high school student doing an internship on a knowledge graph project for early ALS prediction.
