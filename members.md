@@ -63,6 +63,14 @@ permalink: /group-members/
 </div>
 
 <div class="div-tbl">
+    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
+        <a id="SBN" href="https://profiles.ucl.ac.uk/99274-sindhu-bhaarrati-naidu">Sindhu Bhaarrati Naidu</a>
+    </div>    
+    <div class="info"><a id="SBN" href="https://profiles.ucl.ac.uk/99274-sindhu-bhaarrati-naidu">Dr Sindhu Bhaarrati Naidu</a> is doing her PhD research, titled <i>"OLIVE: Improving the early detection of lung cancer in never-smokers</i>", which is funded by NIHR (<a href="https://fundingawards.nihr.ac.uk/award/NIHR303686">Award NIHR303686</a>).
+    </div>
+</div>
+
+<div class="div-tbl">
     <div class="title"> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head">
         <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a>
     </div>   
