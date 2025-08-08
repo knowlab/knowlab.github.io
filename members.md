@@ -85,6 +85,23 @@ permalink: /group-members/
     <div class="info"><a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
     </div>
 </div>
+
+### Research Assistants
+<div class="div-tbl">
+    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
+        <a id="Kai">Kai Chen</a>
+    </div>    
+    <div class="info"><a id="Kai">Kai Chen</a> is doing research on utilising LLMs and Ontologies for improving the workforce efficiency at NHS. This is a project funded by ShiftPartner.
+    </div>
+</div>
+
+<div class="div-tbl">
+    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
+        <a id="Xinru">Xinru Hu</a>
+    </div>    
+    <div class="info"><a id="Xinru">Xinru Hu</a> is doing research on utilising deep learning approaches like Variational Autoencoder for generating synthetic urineflow data for facilitating urology care and research.
+    </div>
+</div>
  
 ### MSc Students
 - <a id="LYKong2025">Lingyu Kong</a> works on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He is based at the University of Glasgow.
