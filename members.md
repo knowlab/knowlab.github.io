@@ -46,6 +46,13 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/zhaoyang.jpg" class="img_head"><a id="jzy" href="#jzy">Zhaoyang Jiang</a>
+    </div>
+    <div class="info">Zhaoyang Jiang is based at School of Health and Wellbeing, University of Glasgow. He works on his PhD topic of <i>Marrying Causal Inference with Foundation AI for Alzheimer’s Disease</i>. 
+    </div>
+</div>
+
 ---
 
 <div class="div-tbl">
