@@ -5,6 +5,4 @@ title: Paper accepted by AAAI 2026 *Artificial Intelligence for Social Impact Tr
 date: 2025-11-04
 categories: [news, paper, selected]
 ---
-Jinge Wu
-~Jinge_Wu1
-, Zhaolong Wu, Ruizhe Li, Tong Chen, Abul Hasan, Yunsoo Kim, Jason Pui-Yin Cheung, Teng Zhang, Honghan Wu. "Medical Knowledge Infusion and Multi-Stage Correction Make LLMs Better Proofreaders for Radiology Reports." Accepted by AAAI 2025 *Artificial Intelligence for Social Impact Track*.
+Jinge Wu, Zhaolong Wu, Ruizhe Li, Tong Chen, Abul Hasan, Yunsoo Kim, Jason Pui-Yin Cheung, Teng Zhang, Honghan Wu. "Medical Knowledge Infusion and Multi-Stage Correction Make LLMs Better Proofreaders for Radiology Reports." Accepted by AAAI 2025 *Artificial Intelligence for Social Impact Track*.
