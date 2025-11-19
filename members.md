@@ -13,16 +13,14 @@ permalink: /group-members/
     </div>
 </div>
 
-
-
-### PhD Students 
-
 <div class="div-tbl">
  <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg" class="img_head"><a id="JW">Jinge Wu</a>
     </div>
-    <div class="info"> Jinge is based at the Institute of Health Informatics, UCL. She works on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
+    <div class="info"> Jinge is a postdoctoral researcher working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). She is based at the Institute of Health Informatics, UCL. Jinge's has a background on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
     </div>
 </div>
+
+### PhD Students
 
 <div class="div-tbl">
  <div class="title"><img src="/img/pics/9_yunsoo.jpg" class="img_head"><a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a>
