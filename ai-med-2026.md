@@ -1,7 +1,7 @@
 ---
-
 layout: notion
 title: AI in Healthcare 2026 Summer School
+cover: /img/ai-med-header.png
 permalink: /ai-med-2026/
 ---
 # 2026 格拉斯哥大学暑期课程｜人工智能在医疗中的原理与应用
