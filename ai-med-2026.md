@@ -9,8 +9,7 @@ permalink: /ai-med-2026/
 # 🌿 Artificial Intelligence in Healthcare**: Principles and Applications**
 
 > - 一门为期 2 周的国际课程，聚焦 AI 与医疗结合的基础、技术与前沿。
-> 
-> 
+>
 > - 以下费用为预估，最终以学校公布为准。
 > 
 > - `意向登记请见最后一节`。
