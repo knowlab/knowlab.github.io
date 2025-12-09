@@ -111,20 +111,13 @@ For further information, please email: [**internationalsummerschools@glasgow.ac.
 
 ---
 
-## 💰 Estimated cost (final cost to be determined)
+## 💰 Estimated cost for Tuition and Accommodation
 
-### Tuition Fee
-
-- £2,200
-
-### Accommodation
-
-- £30 per night × 16 nights
-- Estimated £480
+Accommodation dates: 9th - 26th July 2026
 
 ### Total
 
-- **Approx. £2,680**
+- **Approx. £2,538**
 - Excluding flights, visas, meals and personal expenses.
 
 ---
