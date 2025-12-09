@@ -1,6 +1,6 @@
 ---
 layout: notion
-title: AI in Healthcare 2026 Summer School
+title: 人工智能在医疗中的原理与应用 - AI in Healthcare 2026 Summer School
 cover: /img/ai-med-header.png
 permalink: /ai-med-2026/
 ---
@@ -106,20 +106,10 @@ permalink: /ai-med-2026/
 
 ---
 
-## 💰 预估费用（最终费用待定）
-
-### 学费
-
-- £2,200
-
-### 住宿费
-
-- £30 每晚 × 16 晚
-- 预计 £480
-
+## 💰 学费和住宿费用
+住宿时间：7月9日-7月26日
 ### 合计
-
-- **约 £2,680**
+- **约 £2,538**
 - 不含机票、签证、餐饮与个人开支
 
 ---
