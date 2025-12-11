@@ -20,6 +20,13 @@ permalink: /group-members/
     </div>
 </div>
 
+<div class="div-tbl">
+ <div class="title"><img src="/img/pics/xld.png" class="img_head"><a id="xld">Xiaolei Diao</a>
+    </div>
+    <div class="info"> Xiaolei is a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She is based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
+    </div>
+</div>
+
 ### PhD Students
 
 <div class="div-tbl">
