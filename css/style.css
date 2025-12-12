@@ -35,7 +35,7 @@ body {
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
-  color: rgba({{ site.text-color }}, .8);
+  /*color: rgba({{ site.text-color }}, .8);*/
   background-color: rgb({{ site.background-color }});
   background-repeat: no-repeat;
   background-size: 100%;
@@ -266,9 +266,10 @@ hr {
   border:none;
   background-color: rgba({{ site.theme-color }}, .4);
   margin: 60px auto;
-  width: 30%;
+  width: 80%;
   height: 2px;
-  background-color: #dd5555;
+  background-color: #666666;
+  opacity: 0.2;
 }
 .cover-image-container {
   position: absolute;
@@ -759,4 +760,78 @@ u{
 
 .img_head{
   border-radius: 50%;
+  width: 200px;
+}
+
+
+/* 1. The Container (The "Table") */
+.grid-list {
+  display: grid;
+  /* This creates columns that are at least 200px wide, fitting as many as possible */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px; /* Space between boxes */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  /* THIS IS THE CRITICAL LINE */
+  align-items: start;
+}
+
+.grid-list li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  /* MULTI-LINE TRUNCATION MAGIC */
+  display: -webkit-box;          /* Required for line-clamp */
+  -webkit-line-clamp: 9;         /* Limit to 3 lines */
+  -webkit-box-orient: vertical;  /* Required for line-clamp */
+  overflow: hidden;              /* Hides the extra text */
+}
+
+/* EXPAND ON HOVER */
+.grid-list li:hover {
+  -webkit-line-clamp: unset;     /* Remove the limit */
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 1. The Container (The "Table") */
+.wider-grid-list {
+  display: grid;
+  /* This creates columns that are at least 200px wide, fitting as many as possible */
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 15px; /* Space between boxes */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  /* THIS IS THE CRITICAL LINE */
+  align-items: start;
+}
+
+.wider-grid-list li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  /* MULTI-LINE TRUNCATION MAGIC */
+  display: -webkit-box;          /* Required for line-clamp */
+  -webkit-line-clamp: 10;         /* Limit to 3 lines */
+  -webkit-box-orient: vertical;  /* Required for line-clamp */
+  overflow: hidden;              /* Hides the extra text */
+}
+
+/* EXPAND ON HOVER */
+.wider-grid-list  li:hover {
+  -webkit-line-clamp: unset;     /* Remove the limit */
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }

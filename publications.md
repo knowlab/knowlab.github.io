@@ -5,9 +5,11 @@ permalink: /publications/
 --- 
 ### selected publications
 <div class="selectedPub">
+<ul class="grid-list" style="grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));">
 {% for post in site.categories.selected limit:10%}
-{{post.excerpt}}
+<li>{{post.excerpt}}</li>
 {% endfor %}
+</ul>
 </div>
 
 ### recent publications (2017 ~)

@@ -4,117 +4,75 @@ title: Members
 permalink: /group-members/
 ---
 
-<div class="div-tbl">
-    <div class="title"><img src="/img/pics/honghan-mj-sq.jpg" class="img_head">
-    Team Lead
-    </div>
-    <div class="info">
-    <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu (吴鸿汉)</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow,  where he leads <a href="https://www.gla.ac.uk/schools/healthwellbeing/research/datascience/">the research theme of data science and AI</a>. Prof Wu is <a href="https://www.hdruk.ac.uk/research/regional-networks/health-data-research-uk-hdr-uk-scotland/">a co-director of Health Data Research Scotland</a>. He also is an honorary professor at Hong Kong University, <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine.
-    </div>
-</div>
+<ul class="grid-list">
+<li> 
+<img src="/img/pics/honghan-mj-sq.jpg" class="img_head"> <p/>
+<a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu (吴鸿汉)</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow,  where he leads <a href="https://www.gla.ac.uk/schools/healthwellbeing/research/datascience/">the research theme of data science and AI</a>. Prof Wu is <a href="https://www.hdruk.ac.uk/research/regional-networks/health-data-research-uk-hdr-uk-scotland/">a co-director of Health Data Research Scotland</a>. He also is an honorary professor at Hong Kong University, <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine.
+</li>
 
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/bio_pic_jinge.jpeg" class="img_head"><a id="JW">Jinge Wu</a>
-    </div>
-    <div class="info"> Jinge is a postdoctoral researcher working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). She is based at the Institute of Health Informatics, UCL. Jinge's has a background on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
-    </div>
-</div>
+<li> 
+<img src="/img/pics/bio_pic_jinge.jpeg" class="img_head"> <p/>
+    <a id="JW">Jinge Wu</a> is a postdoctoral researcher working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). She is based at the Institute of Health Informatics, UCL. Jinge's has a background on AI in Healthcare, including disease modelling/phenotyping, clinical NLP with multimodal data.
+</li>
 
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/xld.png" class="img_head"><a id="xld">Xiaolei Diao</a>
-    </div>
-    <div class="info"> Xiaolei is a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She is based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
-    </div>
-</div>
+<li> <img src="/img/pics/xld.png" class="img_head">
+    <p/> <a id="xld">Xiaolei Diao</a> is a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She is based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
+</li> 
+
+</ul>
 
 ### PhD Students
+<ul class="grid-list">
+<li> <img src="/img/pics/9_yunsoo.jpg" class="img_head"> <p/>
+    <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
+</li>
 
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/9_yunsoo.jpg" class="img_head"><a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a>
-    </div>
-    <div class="info"> Yunsoo is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
-    </div>
-</div>
+<li><img src="/img/pics/BPeng.jpg" class="img_head"> <p/><a id="BP" href="#BP">Bo Peng</a>
+    works on <i>Applying Multimodal AI for Timely, Accurate Brain Tumor Diagnosis and Treatment Efficacy Prediction</i>. 
+</li>
+
+<li><img src="/img/pics/FS.png" class="img_head"> <p/> <a id="FS" href="#FS">Fanny (Fran) Silavong</a> is based at the Institute of Health Informatics, UCL. She works on <i>Enhancing Health Literacy Using Large Language Models and Knowledge Graph</i>. 
+</li>
+
+<li> <img src="/img/pics/zhaoyang.jpg" class="img_head"> <p/> <a id="jzy" href="#jzy">Zhaoyang Jiang</a> is based at School of Health and Wellbeing, University of Glasgow. He works on his PhD topic of <i>Marrying Causal Inference with Foundation AI for Alzheimer’s Disease</i>. 
+
+</li>
 
 
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/BPeng.jpg" class="img_head"><a id="BP" href="#BP">Bo Peng</a>
-    </div>
-    <div class="info">Bo Peng is based at the Institute of Health Informatics, UCL. He works on <i>Applying Multimodal AI for Timely, Accurate Brain Tumor Diagnosis and Treatment Efficacy Prediction</i>. 
-    </div>
-</div>
+<li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head"> <p/>
+    <a id="QNN">Quang Ngoc Nguyen</a> is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
+</li>
 
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/FS.png" class="img_head"><a id="FS" href="#FS">Fanny (Fran) Silavong</a>
-    </div>
-    <div class="info">Fran is based at the Institute of Health Informatics, UCL. She works on <i>Enhancing Health Literacy Using Large Language Models and Knowledge Graph</i>. 
-    </div>
-</div>
+<li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head"> <p/> 
+    <a id="MMA">Mohanad Mohammed S Alsaleh</a> is based at the Institute of Health Informatics UCL. He works on predictive models of disease comorbidity using Artificial Intelligence technologies.
+</li>
 
-<div class="div-tbl">
- <div class="title"><img src="/img/pics/zhaoyang.jpg" class="img_head"><a id="jzy" href="#jzy">Zhaoyang Jiang</a>
-    </div>
-    <div class="info">Zhaoyang Jiang is based at School of Health and Wellbeing, University of Glasgow. He works on his PhD topic of <i>Marrying Causal Inference with Foundation AI for Alzheimer’s Disease</i>. 
-    </div>
-</div>
+<li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
+        <a id="SBN" href="https://profiles.ucl.ac.uk/99274-sindhu-bhaarrati-naidu">Dr Sindhu Bhaarrati Naidu</a> is doing her PhD research, titled <i>"OLIVE: Improving the early detection of lung cancer in never-smokers</i>", which is funded by NIHR (<a href="https://fundingawards.nihr.ac.uk/award/NIHR303686">Award NIHR303686</a>).
+</li>
 
----
+<li> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a> is based in School of Health and Wellbeing. He works on <i>Developing a risk stratification tool to detect ADHD in children and adolescents</i>. His research interest is around big data analysis applying statistical machine learning in child and adolescent health.
+</li>
 
-<div class="div-tbl">
- <div class="title"><a id="QNN">Quang Ngoc Nguyen</a>
-    </div>
-    <div class="info">Quang is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
-    </div>
-</div>
+<li> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
+</li>
 
-<div class="div-tbl">
- <div class="title"><a id="MMA">Mohanad Mohammed S Alsaleh</a>
-    </div>
-    <div class="info">Mohanad is based at the Institute of Health Informatics UCL. He works on predictive models of disease comorbidity using Artificial Intelligence technologies.
-    </div>
-</div>
-
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
-        <a id="SBN" href="https://profiles.ucl.ac.uk/99274-sindhu-bhaarrati-naidu">Sindhu Bhaarrati Naidu</a>
-    </div>    
-    <div class="info"><a id="SBN" href="https://profiles.ucl.ac.uk/99274-sindhu-bhaarrati-naidu">Dr Sindhu Bhaarrati Naidu</a> is doing her PhD research, titled <i>"OLIVE: Improving the early detection of lung cancer in never-smokers</i>", which is funded by NIHR (<a href="https://fundingawards.nihr.ac.uk/award/NIHR303686">Award NIHR303686</a>).
-    </div>
-</div>
-
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head">
-        <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a>
-    </div>   
-    <div class="info">Chao Xu is based in School of Health and Wellbeing. He works on <i>Developing a risk stratification tool to detect ADHD in children and adolescents</i>. His research interest is around big data analysis applying statistical machine learning in child and adolescent health.
-    </div>
-</div>
-
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100" class="img_head">
-        <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a>
-    </div>    
-    <div class="info"><a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
-    </div>
-</div>
+</ul>
 
 ### Research Assistants
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
-        <a id="Kai">Kai Chen</a>
-    </div>    
-    <div class="info"><a id="Kai">Kai Chen</a> is doing research on utilising LLMs and Ontologies for improving the workforce efficiency at NHS. This is a project funded by ShiftPartner.
-    </div>
-</div>
+<ul class="grid-list">
+<li><img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">  <p/>
+        <a id="Kai">Kai Chen</a> is doing research on utilising LLMs and Ontologies for improving the workforce efficiency at NHS. This is a project funded by ShiftPartner.
+</li>
 
-<div class="div-tbl">
-    <div class="title"> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
-        <a id="Xinru">Xinru Hu</a>
-    </div>    
-    <div class="info"><a id="Xinru">Xinru Hu</a> is doing research on utilising deep learning approaches like Variational Autoencoder for generating synthetic urineflow data for facilitating urology care and research.
-    </div>
-</div>
- 
+<li> <img src="/img/pics/xinru.png" alt="Xinru" width="100" class="img_head"> <p/>
+        <a id="Xinru">Xinru Hu</a> is doing research on utilising deep learning approaches like Variational Autoencoder for generating synthetic urineflow data for facilitating urology care and research.
+</li>
+
+</ul>
+
 ### MSc Students
 - <a id="LYKong2025">Lingyu Kong</a> works on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He is based at the University of Glasgow.
 
