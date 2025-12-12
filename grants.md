@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+cover-image: gla-ucl-sketch.png
 ---
 Funded research and development projects.
 ## Active Projects

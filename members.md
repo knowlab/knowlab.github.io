@@ -2,6 +2,7 @@
 layout: page
 title: Members
 permalink: /group-members/
+cover-image: gla-ucl-sketch.png
 ---
 
 <ul class="grid-list">

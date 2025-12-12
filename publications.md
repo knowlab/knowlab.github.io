@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
+cover-image: gla-ucl-sketch.png
 --- 
 ### selected publications
 <div class="selectedPub">
