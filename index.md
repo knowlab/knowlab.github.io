@@ -10,7 +10,7 @@ cover-image: gla-ucl-sketch.png
 
 
 <ul class="grid-list">
-{% for post in site.categories.news limit:6%}
+{% for post in site.categories.news limit:12%}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -23,13 +23,7 @@ cover-image: gla-ucl-sketch.png
   <a href="{{ post.url }}">Event Details</a>
   {% endif %} 
 </li>
-{% if forloop.last %}
 
-{% else %}
-    {% if this_year != next_year %}
-### {{next_year}}
-    {% endif %}
-{% endif %}
 {% endfor %}
 
 </ul>
