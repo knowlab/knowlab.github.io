@@ -1,6 +1,7 @@
 ---
 layout: default
 home: true
+cover-image: gla-ucl-sketch.png
 ---
 
 {% include_relative info.md %}

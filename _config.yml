@@ -5,10 +5,10 @@ name: KnowLab
 description:
 
   # Description of your site. This will show up in google.
-  meta: a research group in text analytics, knowledge graph and their applications in health care
+  meta: a research group doing machine learning, multimodal large language model, knowledge graph and their applications in health care
 
   # Description of your site. This will show up on the front page.
-  subtitle: led by Dr Honghan Wu; based in University of Edinburgh and University College London
+  subtitle: led by Prof Honghan Wu; based in University of Glasgow and University College London
 
 author:
   name: KnowLab

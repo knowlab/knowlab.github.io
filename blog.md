@@ -2,6 +2,7 @@
 layout: page
 title: Articles
 permalink: /blog/
+cover-image: gla-ucl-sketch.png
 --- 
 {% for post in site.categories.blog %}
 
