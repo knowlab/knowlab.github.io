@@ -5,7 +5,7 @@ permalink: /group-members/
 ---
 
 <div class="div-tbl">
-    <div class="title"><img src="/img/pics/Honghan-Wu-255x348.jpg" class="img_head">
+    <div class="title"><img src="/img/pics/Honghan-2025.png" class="img_head">
     Team Lead
     </div>
     <div class="info">
