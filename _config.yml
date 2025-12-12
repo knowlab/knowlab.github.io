@@ -39,7 +39,7 @@ display-social-icons: false
 # If you want social links to open in a new tab, set this as true
 social-icons-open-newtab: true
 
-footer-text: KnowLab | University College London | University of Edinburgh
+footer-text: KnowLab | University of Glasgow | University College London
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: /img/knowlab.v2.png
