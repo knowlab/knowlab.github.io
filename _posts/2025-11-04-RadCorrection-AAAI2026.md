@@ -5,4 +5,4 @@ title: Paper accepted by AAAI 2026 *Artificial Intelligence for Social Impact Tr
 date: 2025-11-04
 categories: [news, paper, selected]
 ---
-Jinge Wu, Zhaolong Wu, Ruizhe Li, Tong Chen, Abul Hasan, Yunsoo Kim, Jason Pui-Yin Cheung, Teng Zhang, Honghan Wu. "Error Correction in Radiology Reports: A Knowledge Distillation-Based Multi-Stage Framework" Accepted by AAAI 2025 *Artificial Intelligence for Social Impact Track*. [https://arxiv.org/abs/2406.15045v3](https://arxiv.org/abs/2406.15045v3)
+Jinge Wu, Zhaolong Wu, Ruizhe Li, Tong Chen, Abul Hasan, Yunsoo Kim, Jason Pui-Yin Cheung, Teng Zhang, Honghan Wu. "Error Correction in Radiology Reports: A Knowledge Distillation-Based Multi-Stage Framework" Accepted by AAAI 2026 *Artificial Intelligence for Social Impact Track*. [https://arxiv.org/abs/2406.15045v3](https://arxiv.org/abs/2406.15045v3)
