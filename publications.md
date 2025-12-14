@@ -6,7 +6,7 @@ cover-image: gla-ucl-sketch.png
 --- 
 ### selected publications
 <div class="selectedPub">
-<ul class="grid-list" style="grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));">
+<ul class="grid-list" style="grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));">
 {% for post in site.categories.selected limit:10%}
 <li>{{post.excerpt}}</li>
 {% endfor %}

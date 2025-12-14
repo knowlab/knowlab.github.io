@@ -795,6 +795,7 @@ u{
 
 /* EXPAND ON HOVER */
 .grid-list li:hover {
+  display: block;
   -webkit-line-clamp: unset;     /* Remove the limit */
   background: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
