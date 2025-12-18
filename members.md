@@ -75,11 +75,14 @@ cover-image: gla-ucl-sketch.png
 </ul>
 
 ### MSc Students
-- <a id="LYKong2025">Lingyu Kong</a> works on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He is based at the University of Glasgow.
+- <a id="XJN">Xujia Ning</a> joins the project titled "Model performance constrained synthetic electronic health record generation" working on his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
+- <a id="QY2025">Quan Yu</a> joins the project titled "Model performance constrained synthetic electronic health record generation" working on his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
+- <a id="SardarK">Sardar Khan</a> works the project titled "Detecting and Analysing Errors in Real-world Radiology Reports with LLM based Proofreading" as his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
 
 ## Alumni
 
 ### 2025
+- <a id="LYKong2025">Lingyu Kong</a> worked on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He was based at the University of Glasgow as a master student.
 - <a id="abh">Abul Hasan</a> joined us in Nov 2022 as a research fellow based in Institute of Health Informatics, UCL. He worked on deep learning and clinical NLP on NIHR funded project, <a href="https://fundingawards.nihr.ac.uk/award/NIHR202639" target="_top">AIM-CISC</a>.
 - Charlotte Greene was a PhD student based in Usher Institute, University of Edinburgh. She studied antidepressant and antipsychotic drug prescribing in people with diabetes.
 - Farah Francis was a PhD student based at Usher Institute, University of Edinburgh. She worked on machine learning methods for detecting and predicting fetal hypoxia.
