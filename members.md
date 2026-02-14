@@ -72,6 +72,18 @@ cover-image: gla-ucl-sketch.png
         <a id="Xinru">Xinru Hu</a> is doing research on utilising deep learning approaches like Variational Autoencoder for generating synthetic urineflow data for facilitating urology care and research.
 </li>
 
+<li> <img src="/img/pics/tyw-2025.jpg" alt="Tianyan" width="100" class="img_head"> <p/>
+        <a id="Tianyan">Tianyan Wang</a> is doing research on benchmarking multihop reasoning capabilities of large language models in medicine, co-supervised by Kai Chen and Honghan Wu.
+</li>
+
+</ul>
+
+### Visiting Researcher
+<ul class="grid-list">
+<li><img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">  <p/>
+        <a id="Ruochen">Ruochen Huang</a> is doing research on investigating the detection, quantification and mitigation of fairness and bias of multimodal large language models in healthcare.
+</li>
+
 </ul>
 
 ### MSc Students
