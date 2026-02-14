@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/rd-ethnicity-2026.png
+title: Preprint *Prevalence of 406 rare diseases by ethnicity and their associated COVID-19 infection burden - A national cross-sectional study of 62.5 million people in England* at [https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1](https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1) <br/><br/> The burden of the COVID-19 pandemic disproportionately affected individuals with rare diseases. However, the patterning of this risk by ethnicity is complex and runs contrary to general population trends, likely reflecting the deep-seated ethnic disparities in the prevalence of specific RDs. Our foundational map of 406 rare diseases by granular ethnicity is essential for understanding these factors and identifying which specific patient-ethnic subgroups face the greatest intersectional risk. <br/><br/>Read the preprint version at [https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1](https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1).
+date: 2026-01-16
+categories: [news, paper]
+---
+Gu, Qingze, Seyed Alireza Hasheminasab, Marta Pineda-Moncusi, Chimweta Chilala, Johan H. Thygesen, Honghan Wu, Sara Khalid, and CVD-COVID-UK/COVID-IMPACT consortium. "Prevalence of 406 rare diseases by ethnicity and their associated COVID-19 infection burden: A national cross-sectional study of 62.5 million people in England." medRxiv (2026): 2026-01. [https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1](https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1)
