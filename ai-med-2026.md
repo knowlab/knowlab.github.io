@@ -8,13 +8,6 @@ permalink: /ai-med-2026/
 
 # 🌿 Artificial Intelligence in Healthcare**: Principles and Applications**
 
-> - 一门为期 2 周的国际课程，聚焦 AI 与医疗结合的基础、技术与前沿。
->
-> - 以下费用为预估，最终以学校公布为准。
-> 
-> - `意向登记请见最后一节`。
-> 
-
 ---
 
 ## 📅 日期安排
@@ -35,6 +28,7 @@ permalink: /ai-med-2026/
 
   - **雅思（IELTS Academic）** 总分 **6.0**，且各单项不得低于 **5.5**
   - 也接受其他被认可的同等英语成绩（如 **托福 iBT、CAE、CPE** 等）
+  - 与格拉斯哥大学已建立官方合作的院校的报名者如具有用英语完成学术课程的语言能力，可豁免上诉英语要求;
 
 以上要求仅供参考，如需更多信息，请发送邮件至：**internationalsummerschools@glasgow.ac.uk**
 
@@ -132,17 +126,3 @@ permalink: /ai-med-2026/
 - 将理论 (AI / 机器学习 / 深度学习) 与医疗 / 生物医学实际案例结合 — 有利于理解 AI 在真实医疗场景中的应用与挑战。
 - 与经验丰富的教师团队合作 — 教师既有 AI 研究背景 (Prof. Wu)，也有临床经验和初级保健(Primary Care)背景 (Dr. Jani)，有利于从多维角度理解医疗 AI。
 - 短期 (两周) 集中学习 + 获得学分 — 对于希望尝试医疗 + AI 交叉领域但时间有限的人非常友好。
-
-## ✉️ 意向登记（Express of Interest）
-
-如有兴趣了解或加入本课程，请发送电子邮件：
-
-- **收件人**： [honghan.wu@glasgow.ac.uk](mailto:honghan.wu@glasgow.ac.uk)
-- **邮件标题**：`ai-med-glasgow-2026`
-- **邮件正文需包含以下信息**：
-    - Your full name
-    - Your email address
-    - Your university or organisation
-    - Your country
-
-这是一个非正式登记，用于表达兴趣并获得后续资讯。
