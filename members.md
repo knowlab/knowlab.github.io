@@ -13,7 +13,7 @@ cover-image: gla-ucl-sketch.png
 
 <li> 
 <img src="/img/pics/bio_pic_jinge.jpg" class="img_head"> <p/>
-    <a id="JW">Jinge Wu</a> is a research fellow working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). Based at the UCL Institute of Health Informatics, her research draws on a background in clinical NLP, multimodal data, and disease modelling to develop and audit fair AI systems for real-world healthcare settings. She works closely with collaborators across academia, industry, and clinical practice to bridge the gap between AI research and deployment in healthcare settings.
+    <a id="JW">Jinge Wu</a> is a research fellow working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). Based at the UCL Institute of Health Informatics, her research draws on a background in clinical NLP/LLM, multimodal EHR analysis, and disease modelling to develop and audit fair AI systems for real-world healthcare settings. She works closely with collaborators across academia, industry, and clinical practice to bridge the gap between AI research and deployment in healthcare settings.
 </li>
 
 <li> <img src="/img/pics/xld.png" class="img_head">
