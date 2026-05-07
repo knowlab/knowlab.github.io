@@ -16,10 +16,6 @@ cover-image: gla-ucl-sketch.png
     <a id="JW">Jinge Wu</a> is a research fellow working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). Based at the UCL Institute of Health Informatics, her research draws on a background in clinical NLP/LLM, multimodal EHR analysis, and disease modelling to develop and audit fair AI systems for real-world healthcare settings. She works closely with collaborators across academia, industry, and clinical practice to bridge the gap between AI research and deployment in healthcare settings.
 </li>
 
-<li> <img src="/img/pics/xld.png" class="img_head">
-    <p/> <a id="xld">Xiaolei Diao</a> is a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She is based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
-</li> 
-
 </ul>
 
 ### PhD Students
@@ -30,9 +26,6 @@ cover-image: gla-ucl-sketch.png
 
 <li><img src="/img/pics/BPeng.jpg" class="img_head"> <p/><a id="BP" href="#BP">Bo Peng</a>
     works on <i>Applying Multimodal AI for Timely, Accurate Brain Tumor Diagnosis and Treatment Efficacy Prediction</i>. 
-</li>
-
-<li><img src="/img/pics/FS.png" class="img_head"> <p/> <a id="FS" href="#FS">Fanny (Fran) Silavong</a> is based at the Institute of Health Informatics, UCL. She works on <i>Enhancing Health Literacy Using Large Language Models and Knowledge Graph</i>. 
 </li>
 
 <li> <img src="/img/pics/zhaoyang.jpg" class="img_head"> <p/> <a id="jzy" href="#jzy">Zhaoyang Jiang</a> is based at School of Health and Wellbeing, University of Glasgow. He works on his PhD topic of <i>Marrying Causal Inference with Foundation AI for Alzheimer’s Disease</i>. 
@@ -92,6 +85,10 @@ cover-image: gla-ucl-sketch.png
 - <a id="SardarK">Sardar Khan</a> works the project titled "Detecting and Analysing Errors in Real-world Radiology Reports with LLM based Proofreading" as his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
 
 ## Alumni
+
+### 2026
+- <a id="xld">Xiaolei Diao</a> was, 2025-2026, a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She was based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
+- <a id="FS" href="#FS">Fanny (Fran) Silavong</a> was based at the Institute of Health Informatics, UCL. She worked on <i>Enhancing Health Literacy Using Large Language Models and Knowledge Graph</i>. 
 
 ### 2025
 - <a id="LYKong2025">Lingyu Kong</a> worked on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He was based at the University of Glasgow as a master student.
