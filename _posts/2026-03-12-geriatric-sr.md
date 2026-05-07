@@ -2,7 +2,7 @@
 layout: post
 related_image: img/news/geriatric-sr.png
 title: New Paper *Natural language processing for geriatric syndromes - a systematic review of methods, applications, and challenges* published at [DOI:10.1186/s12911-026-03417-0](https://link.springer.com/article/10.1186/s12911-026-03417-0). <br/><br/> Geriatric syndromes (GS) are complex conditions that affect older adults and often require multidisciplinary assessment. Natural language processing (NLP) has emerged as a promising tool for extracting relevant clinical information from unstructured text in electronic health records (EHRs). However, the application of NLP in detecting and monitoring GS remains an evolving area of research. This systematic review explores the role of NLP in the identification and analysis of GS, examining its applications, methodologies, and effectiveness. Furthermore, this review discusses the existing challenges, limitations, and future directions to advance NLP applications in the GS research. <br/><br/>Read it at [DOI:10.1186/s12911-026-03417-0](https://link.springer.com/article/10.1186/s12911-026-03417-0).
-date: 2026-03-23
+date: 2026-03-12
 categories: [news, paper]
 ---
 Rahman, Fahrurrozi, Imane Guellil, Abul Hasan, Huayu Zhang, Matúš Falis, Arlene Casey, Honghan Wu, Bruce Guthrie, and Beatrice Alex. "Natural language processing for geriatric syndromes: a systematic review of methods, applications, and challenges." BMC Medical Informatics and Decision Making (2026). [DOI:10.1186/s12911-026-03417-0](https://link.springer.com/article/10.1186/s12911-026-03417-0).
