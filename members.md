@@ -24,14 +24,22 @@ cover-image: gla-ucl-sketch.png
     <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
 </li>
 
-<li><img src="/img/pics/BPeng.jpg" class="img_head"> <p/><a id="BP" href="#BP">Bo Peng</a>
-    works on <i>Applying Multimodal AI for Timely, Accurate Brain Tumor Diagnosis and Treatment Efficacy Prediction</i>. 
+<li><img src="/img/pics/BPeng.jpg" class="img_head"> <p/><a id="BP" href="#BP">Bo Peng</a> is based at the Institute of Health Informatics, UCL. He
+    works on <i>Agentic reasoning on multimodal health data for
+better respiratory care</i>. 
 </li>
 
 <li> <img src="/img/pics/zhaoyang.jpg" class="img_head"> <p/> <a id="jzy" href="#jzy">Zhaoyang Jiang</a> is based at School of Health and Wellbeing, University of Glasgow. He works on his PhD topic of <i>Marrying Causal Inference with Foundation AI for Alzheimer’s Disease</i>. 
 
 </li>
 
+<li> <img src="/img/pics/Image_zc.jpg" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="mjc">Zicheng Li</a> is based in School of Health and Wellbeing, University of Glasgow. She is implementing <i>an LLM-driven agentic framework designed to simulate and evaluate the efficacy of generative artificial intelligence within clinical consultations for individuals with depressive and anxiety-related disorders</i>.
+</li>
+
+<li> <img src="/img/pics/mjc.jpg" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="mjc">Jiacong Mi</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Multimodal AI for enhancing healthcare research, <i>particularly focusing on the utilisation of longitudinal information and the fusion of diverse data modalities in large-scale electronic health records</i>.
+</li>
 
 <li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head"> <p/>
     <a id="QNN">Quang Ngoc Nguyen</a> is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
@@ -51,10 +59,6 @@ cover-image: gla-ucl-sketch.png
 
 <li> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100" class="img_head"> <p/>
         <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
-</li>
-
-<li> <img src="/img/pics/mjc.jpg" alt="drawing" width="100" class="img_head"> <p/>
-        <a id="mjc">Jiacong Mi</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Multimodal AI for enhancing healthcare research.
 </li>
 
 </ul>
