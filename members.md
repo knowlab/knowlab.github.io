@@ -53,6 +53,10 @@ cover-image: gla-ucl-sketch.png
         <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
 </li>
 
+<li> <img src="/img/pics/mjc.jpg" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="mjc">Jiacong Mi</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Multimodal AI for enhancing healthcare research.
+</li>
+
 </ul>
 
 ### Research Assistants
