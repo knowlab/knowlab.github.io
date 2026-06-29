@@ -11,18 +11,10 @@ cover-image: gla-ucl-sketch.png
 <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu (吴鸿汉)</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow,  where he leads <a href="https://www.gla.ac.uk/schools/healthwellbeing/research/datascience/">the research theme of data science and AI</a>. Prof Wu is <a href="https://www.hdruk.ac.uk/research/regional-networks/health-data-research-uk-hdr-uk-scotland/">a co-director of Health Data Research Scotland</a>. He also is an honorary professor at Hong Kong University, <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine.
 </li>
 
-<li> 
-<img src="/img/pics/bio_pic_jinge.jpg" class="img_head"> <p/>
-    <a id="JW">Jinge Wu</a> is a research fellow working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). Based at the UCL Institute of Health Informatics, her research draws on a background in clinical NLP/LLM, multimodal EHR analysis, and disease modelling to develop and audit fair AI systems for real-world healthcare settings. She works closely with collaborators across academia, industry, and clinical practice to bridge the gap between AI research and deployment in healthcare settings.
-</li>
-
 </ul>
 
 ### PhD Students
 <ul class="grid-list">
-<li> <img src="/img/pics/9_yunsoo.jpg" class="img_head"> <p/>
-    <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> is based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also includes applications of the models in diagnosis and prognosis of neurodiseases such as dementia.
-</li>
 
 <li><img src="/img/pics/BPeng.jpg" class="img_head"> <p/><a id="BP" href="#BP">Bo Peng</a> is based at the Institute of Health Informatics, UCL. He
     works on <i>Agentic reasoning on multimodal health data for
@@ -41,12 +33,8 @@ better respiratory care</i>.
         <a id="mjc">Jiacong Mi</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Multimodal AI for enhancing healthcare research, <i>particularly focusing on the utilisation of longitudinal information and the fusion of diverse data modalities in large-scale electronic health records</i>.
 </li>
 
-<li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head"> <p/>
-    <a id="QNN">Quang Ngoc Nguyen</a> is based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He works on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records. 
-</li>
-
-<li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head"> <p/> 
-    <a id="MMA">Mohanad Mohammed S Alsaleh</a> is based at the Institute of Health Informatics UCL. He works on predictive models of disease comorbidity using Artificial Intelligence technologies.
+<li> <img src="/img/pics/ZHZ_IMG_7184.jpg" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="zhz">Zhehao Zhang</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Mitigation of Algorithmic Bias in Healthcare Workforce Intelligent Systems through Dynamic Ontology System</i>.
 </li>
 
 <li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
@@ -95,8 +83,12 @@ better respiratory care</i>.
 ## Alumni
 
 ### 2026
+- <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> was based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also included applications of the models in diagnosis and prognosis of neurodiseases such as dementia. 
+-  <a id="JW">Jinge Wu</a> was a research fellow working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). Based at the UCL Institute of Health Informatics, her research drew on a background in clinical NLP/LLM, multimodal EHR analysis, and disease modelling to develop and audit fair AI systems for real-world healthcare settings. She worked closely with collaborators across academia, industry, and clinical practice to bridge the gap between AI research and deployment in healthcare settings.
+- <a id="QNN">Quang Ngoc Nguyen</a> was based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He worked on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records.
 - <a id="xld">Xiaolei Diao</a> was, 2025-2026, a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She was based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
 - <a id="FS" href="#FS">Fanny (Fran) Silavong</a> was based at the Institute of Health Informatics, UCL. She worked on <i>Enhancing Health Literacy Using Large Language Models and Knowledge Graph</i>. 
+- <a id="MMA">Mohanad Mohammed S Alsaleh</a> was a PhD student based at the Institute of Health Informatics UCL. He worked on predictive models of disease comorbidity using Artificial Intelligence technologies.
 
 ### 2025
 - <a id="LYKong2025">Lingyu Kong</a> worked on a systematic review and meta-analysis on adverse outcome predictors for elderlies in the era of large language models. He was based at the University of Glasgow as a master student.
