@@ -5,4 +5,4 @@ title: New Preprint *Better Accuracies, Worse Reasoning - A Step-Level Audit of 
 date: 2026-05-27
 categories: [news, paper]
 ---
-Zhaoyang Jiang, Xuanqi Peng, Fei Teng, Zhizhong Fu, Yunsoo Kim, Jiacong Mi, Zicheng Li, Honghan Wu. "A Regime Theory of Controller Class Selection for LLM Action Decisions." arXiv preprint arXiv:2605.06339 (2026). [arXiv:2605.28301](https://arxiv.org/abs/2605.28301).
+Jiang, Zhaoyang, Xuanqi Peng, Fei Teng, Zhizhong Fu, Yunsoo Kim, Jiacong Mi, Zicheng Li, and Honghan Wu. "Better Accuracies, Worse Reasoning: A Step-Level Audit of Medical Chain-of-Thought Distillation." arXiv preprint arXiv:2605.28301 (2026). [arXiv:2605.28301](https://arxiv.org/abs/2605.28301).

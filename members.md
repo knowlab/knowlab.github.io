@@ -76,6 +76,7 @@ better respiratory care</i>.
 </ul>
 
 ### MSc Students
+- <a id="XQP">Xuanqi Peng</a> is a MSc student in Publich Health based at the School of Health and Wellbeing, University of Glasgow. Xuanqi studies *Early Recognition of Relapsing Polychondritis in MIMIC-IV: A Computable Phenotyping Approach*.
 - <a id="XJN">Xujia Ning</a> joins the project titled "Model performance constrained synthetic electronic health record generation" working on his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
 - <a id="QY2025">Quan Yu</a> joins the project titled "Model performance constrained synthetic electronic health record generation" working on his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
 - <a id="SardarK">Sardar Khan</a> works the project titled "Detecting and Analysing Errors in Real-world Radiology Reports with LLM based Proofreading" as his MSc dissertation project. He is based at Institute of Health Informatics, UCL.
