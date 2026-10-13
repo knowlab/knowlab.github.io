@@ -11,6 +11,15 @@ cover-image: gla-ucl-sketch.png
 <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu (吴鸿汉)</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow,  where he leads <a href="https://www.gla.ac.uk/schools/healthwellbeing/research/datascience/">the research theme of data science and AI</a>. Prof Wu is <a href="https://www.hdruk.ac.uk/research/regional-networks/health-data-research-uk-hdr-uk-scotland/">a co-director of Health Data Research Scotland</a>. He also is an honorary professor at Hong Kong University, <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine.
 </li>
 
+<li> <img src="/img/pics/profile_image_yk.jpg" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> is a research fellow based at UCL. He works on HDR UK's AI initatives including the <a href="https://gtr.ukri.org/projects?ref=UKRI2701">PAIR Project</a>. His research focuses on multimodal large language model in health data, particularly on applications for diagnosis and prognosis of neurodiseases such as dementia.
+</li>
+
+<li> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a> is based in School of Health and Wellbeing, University of Glasgow. He works on the HDR UK's AI initiatives including <a href="https://gtr.ukri.org/projects?ref=UKRI2701">PAIR Project</a>. His research interest is at the intersection of big health data analysis and data infrastructures for facilitating LLMs on EHRs.
+</li>
+
+
 </ul>
 
 ### PhD Students
@@ -33,17 +42,23 @@ better respiratory care</i>.
         <a id="mjc">Jiacong Mi</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Multimodal AI for enhancing healthcare research, <i>particularly focusing on the utilisation of longitudinal information and the fusion of diverse data modalities in large-scale electronic health records</i>.
 </li>
 
+<li><img src="/img/pics/kai.png" alt="drawing" width="100" class="img_head">  <p/>
+        <a id="Kai">Kai Chen</a> is doing <i>Enhancing Mechanistic Reasoning of LLMs for Rare Disease Screening and Diagnosis</i>. He is also doing research on utilising LLMs and Ontologies for improving the workforce efficiency at NHS. This is a project funded by ShiftPartner.
+</li>
+
 <li> <img src="/img/pics/ZHZ_IMG_7184.jpg" alt="drawing" width="100" class="img_head"> <p/>
-        <a id="zhz">Zhehao Zhang</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing Mitigation of Algorithmic Bias in Healthcare Workforce Intelligent Systems through Dynamic Ontology System</i>.
+        <a id="zhz">Zhehao Zhang</a> is based in School of Health and Wellbeing, University of Glasgow. He is doing <i>Mitigation of Algorithmic Bias in Healthcare Workforce Intelligent Systems through Dynamic Ontology System</i>.
+</li>
+
+<li> <img src="/img/pics/hlz.JPG" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="zhz">Lizhen Hao</a> is based in School of Health and Wellbeing, University of Glasgow. She is doing <i> Trajectories in Talk: Multitask Language Models for AD–MDD Differentiation and MCI to AD Conversion </i>.
 </li>
 
 <li> <img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">
         <a id="SBN" href="https://profiles.ucl.ac.uk/99274-sindhu-bhaarrati-naidu">Dr Sindhu Bhaarrati Naidu</a> is doing her PhD research, titled <i>"OLIVE: Improving the early detection of lung cancer in never-smokers</i>", which is funded by NIHR (<a href="https://fundingawards.nihr.ac.uk/award/NIHR303686">Award NIHR303686</a>).
 </li>
 
-<li> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head"> <p/>
-        <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a> is based in School of Health and Wellbeing. He works on <i>Developing a risk stratification tool to detect ADHD in children and adolescents</i>. His research interest is around big data analysis applying statistical machine learning in child and adolescent health.
-</li>
+
 
 <li> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100" class="img_head"> <p/>
         <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
@@ -53,9 +68,6 @@ better respiratory care</i>.
 
 ### Research Assistants
 <ul class="grid-list">
-<li><img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">  <p/>
-        <a id="Kai">Kai Chen</a> is doing research on utilising LLMs and Ontologies for improving the workforce efficiency at NHS. This is a project funded by ShiftPartner.
-</li>
 
 <li> <img src="/img/pics/xinru.png" alt="Xinru" width="100" class="img_head"> <p/>
         <a id="Xinru">Xinru Hu</a> is doing research on utilising deep learning approaches like Variational Autoencoder for generating synthetic urineflow data for facilitating urology care and research.
@@ -65,6 +77,10 @@ better respiratory care</i>.
         <a id="Tianyan">Tianyan Wang</a> is doing research on benchmarking multihop reasoning capabilities of large language models in medicine, co-supervised by Kai Chen and Honghan Wu.
 </li>
 
+
+<li> <img src="/img/pics/no-photo.png" alt="Dimitra" width="100" class="img_head"> <p/>
+        <a id="Dimitra">Dimitra Karagiannopoulou</a> is a PhD student funded by <a href="https://www.gla.ac.uk/postgraduate/doctoraltraining/bhf/">BHF DTP</a> at the University of Glasgow. She is doing a rotation project with KnowLab on <i>Evaluating Multi-Hop Reasoning in Cardiovascular Disease Decision-Making: A Benchmark Study Using Multimodal Large Language Models</i>. She co-supervised by Yunsoo Kim and Honghan Wu.
+</li>
 </ul>
 
 ### Visiting Researcher
@@ -72,6 +88,12 @@ better respiratory care</i>.
 <li><img src="/img/pics/no-photo.png" alt="drawing" width="100" class="img_head">  <p/>
         <a id="Ruochen">Ruochen Huang</a> is doing research on investigating the detection, quantification and mitigation of fairness and bias of multimodal large language models in healthcare.
 </li>
+
+<li><img src="/img/pics/profile_zqy.jpg" alt="drawing" width="100" class="img_head">  <p/>
+        <a id="ziqiyang">Ziqi Yang</a> is a research assistant from Shanghai East Hospital, who visits KnowLab on doing research on the rare diseaes of Relapsing Polychondritis using real-world EHR data. </li>
+
+<li><img src="/img/pics/profile_image_xw.jpg" alt="drawing" width="100" class="img_head">  <p/>
+        <a id="xiwang">Xi Wang</a> is a PhD student from Nanjing University, who visits KnowLab on researching the safety of polypharmacy prescribing in older adults using AI and knowledge graph technologies.</li>
 
 </ul>
 
@@ -84,7 +106,8 @@ better respiratory care</i>.
 ## Alumni
 
 ### 2026
-- <a id="YK" href="https://bluesky333.github.io">Yunsoo Kim</a> was based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also included applications of the models in diagnosis and prognosis of neurodiseases such as dementia. 
+
+[//]: # (- <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> was based at the Institute of Health Informatics, UCL. He works on multimodal large language model in health data. His research interest also included applications of the models in diagnosis and prognosis of neurodiseases such as dementia. )
 -  <a id="JW">Jinge Wu</a> was a research fellow working on <i>Quantifying and Mitigating Bias affecting and induced by AI in Medicine</i> (the MRC funded QMIA project). Based at the UCL Institute of Health Informatics, her research drew on a background in clinical NLP/LLM, multimodal EHR analysis, and disease modelling to develop and audit fair AI systems for real-world healthcare settings. She worked closely with collaborators across academia, industry, and clinical practice to bridge the gap between AI research and deployment in healthcare settings.
 - <a id="QNN">Quang Ngoc Nguyen</a> was based at the Institute of Health Informatics and also Institute of Ophthalmology, UCL. He worked on AI technologies for ophthalmology using both unstructured and structured Electronic Health Records.
 - <a id="xld">Xiaolei Diao</a> was, 2025-2026, a postdoctoral researcher working on <i>PAIR: Building a cloneable Pipeline for utilizing foundation AI on EHRs: a proof-of-concept study on automated patient summary for hypertension clinic</i> (the EPSRC funded PAIR project). She was based at the School of Health and Wellbeing, University of Glasgow. Xiaolei did her PhD at the University of Trento, and she has a background in computing science, with keen interest on machine learning, computer vision and their applications in healthcare.
