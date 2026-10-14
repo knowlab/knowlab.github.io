@@ -60,8 +60,8 @@ better respiratory care</i>.
 
 
 
-<li> <img src="/img/pics/IMG_6382_Yusuf.jpg" alt="drawing" width="100" class="img_head"> <p/>
-        <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Exploiting the electronic health records and multimodal data to model patters of onset and progression in Motor Neurone disease (MND/ALS)</i>.
+<li> <img src="/img/pics/yusuf.png" alt="drawing" width="100" class="img_head"> <p/>
+        <a id="YA" href="https://yabdulle.github.io/">Yusuf Abdulle</a> is based at King's College London. He works on <i>Multimodal Foundation Models for Rare Neurological Disease: Knowledge Graphs, Genomics, and Clinical Trajectories in Motor Neuron Disease</i>.
 </li>
 
 </ul>
