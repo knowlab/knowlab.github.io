@@ -5,6 +5,4 @@ title: Tokenizer work published - *Infusing clinical knowledge into language mod
 date: 2025-08-08
 categories: [news, paper, selected]
 ---
-Abul Hasan, Jinge Wu, Quang Ngoc Nguyen, Salomé Andres, Imane Guellil, Huayu Zhang, Arlene Casey, Beatrice Alex, Bruce Guthrie, Honghan Wu,
-Infusing clinical knowledge into language models by subword optimisation and embedding initialisation, Computers in Biology and Medicine,
-Volume 196, Part C, 2025, 110747, ISSN 0010-4825, [10.1016/j.compbiomed.2025.110747](https://doi.org/10.1016/j.compbiomed.2025.110747).
+Abul Hasan, Jinge Wu, Quang Ngoc Nguyen, Salomé Andres, Imane Guellil, Huayu Zhang, Arlene Casey, Beatrice Alex, Bruce Guthrie, Honghan Wu. "Infusing clinical knowledge into language models by subword optimisation and embedding initialisation." Computers in Biology and Medicine, Volume 196, Part C, 2025, 110747, ISSN 0010-4825, [10.1016/j.compbiomed.2025.110747](https://doi.org/10.1016/j.compbiomed.2025.110747).

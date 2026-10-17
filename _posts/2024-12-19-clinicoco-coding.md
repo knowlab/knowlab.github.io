@@ -5,4 +5,4 @@ title: Paper published on npj Digital Medicine - *Optimising the paradigms of hu
 date: 2024-12-19
 categories: [news, selected, paper]
 ---
-Gao, Yue, Yuepeng Chen, Minghao Wang, Jinge Wu, Yunsoo Kim, Kaiyin Zhou, Miao Li, Xien Liu, Xiangling Fu, Ji Wu & Honghan Wu. "Optimising the paradigms of human AI collaborative clinical coding." npj Digital Medicine 7, no. 1 (2024): 368. [DOI:10.1038/s41746-024-01363-7](https://doi.org/10.1038/s41746-024-01363-7)
+Gao, Yue, Yuepeng Chen, Minghao Wang, Jinge Wu, Yunsoo Kim, Kaiyin Zhou, Miao Li, Xien Liu, Xiangling Fu, Ji Wu & Honghan Wu. "Optimising the paradigms of human AI collaborative clinical coding." npj Digital Medicine 7,  1 (2024): 368. [DOI:10.1038/s41746-024-01363-7](https://doi.org/10.1038/s41746-024-01363-7)
