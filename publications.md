@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 cover-image: gla-ucl-sketch.png
 --- 
+
+### Selected publications
 <div class="selectedPub">
 <ul class="grid-list" style="grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));">
 {% for post in site.categories.selected limit:10 %}
