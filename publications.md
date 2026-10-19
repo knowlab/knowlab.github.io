@@ -32,23 +32,36 @@ cover-image: gla-ucl-sketch.png
 {% assign pub_title = post.title %}
 {% endunless %}
 
-  <!-- 2. Clean up trailing ", no" if the split cut off at "no." -->
+  <!-- 2. Clean up trailing ", no" -->
 {% if venue_year contains ', no' %}
 {% assign venue_year = venue_year | remove: ', no' | strip %}
 {% endif %}
 
-  <!-- 3. Extract External Link Safely -->
+  <!-- 3. Robust External Link Extraction -->
 {% assign ext_link = "" %}
 {% if post.content contains 'https://' %}
-{% assign link_parts = post.content | split: 'https://' %}
-{% assign candidate = link_parts[1] | split: ')' | first | split: ' ' | first | split: '"' | first | split: '<' | first %}
-{% assign ext_link = candidate | prepend: 'https://' | strip %}
+{% assign link_chunks = post.content | split: 'https://' %}
+{% for chunk in link_chunks %}
+{% if forloop.first %}{% continue %}{% endif %}
+<!-- Clean up common trailing markdown/HTML symbols -->
+{% assign raw_candidate = chunk | split: '"' | first | split: "'" | first | split: '>' | first | split: ']' | first | strip %}
+<!-- If it's a valid URL chunk, capture it and break -->
+{% if ext_link == "" and raw_candidate != "" %}
+{% assign ext_link = raw_candidate | prepend: 'https://' %}
+{% endif %}
+{% endfor %}
 {% elsif post.content contains 'http://' %}
-{% assign link_parts = post.content | split: 'http://' %}
-{% assign candidate = link_parts[1] | split: ')' | first | split: ' ' | first | split: '"' | first | split: '<' | first %}
-{% assign ext_link = candidate | prepend: 'http://' | strip %}
+{% assign link_chunks = post.content | split: 'http://' %}
+{% for chunk in link_chunks %}
+{% if forloop.first %}{% continue %}{% endif %}
+{% assign raw_candidate = chunk | split: '"' | first | split: "'" | first | split: '>' | first | split: ']' | first | strip %}
+{% if ext_link == "" and raw_candidate != "" %}
+{% assign ext_link = raw_candidate | prepend: 'http://' %}
+{% endif %}
+{% endfor %}
 {% endif %}
 
+  <!-- Fallback only if absolutely no link was found -->
 {% if ext_link == "" %}
 {% assign ext_link = post.url %}
 {% endif %}
