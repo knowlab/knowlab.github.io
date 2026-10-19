@@ -1,0 +1,8 @@
+---
+layout: post
+related_image: img/news/proactive_triage.png
+title: Invited commentary on Lancet Digital Health *From reactive diagnosis to proactive triage - connecting the dots at labour onset*. [DOI:10.1016/j.landig.2026.101066](https://doi.org/10.1016/j.landig.2026.101066). <br/><br/> Our invited Comment, “From reactive diagnosis to proactive triage - connecting the dots at labour onset”, is now published online in The Lancet Digital Health. It accompanies Bozhilova and colleagues’ Fit4Labour study, a prognostic model that uses the first 20 minutes of computerised CTG and routine clinical risk factors to flag severe fetal compromise at the start of labour. <br/><br/> We argue that the field needs to shift from diagnosing damage, often too late to change outcomes, to identifying at-risk fetuses early enough to prevent injury. It is identifying at-risk fetuses early enough to prevent injury. We see Fit4Labour as one layer of a broader, multimodal risk picture that would add three data streams developed largely in isolation - linked longitudinal health records, maternal oral health and the oral microbiome, and continuous wearable monitoring. We also highlight the AI challenges in fusing these streams - knowing when a model is extrapolating reliably, and whether a signal is genuinely biological or just a proxy for factors such as smoking and deprivation. <br/><br/>Read it at [DOI:10.1016/j.landig.2026.101066](https://doi.org/10.1016/j.landig.2026.101066). 
+date: 2026-09-02
+categories: [news, paper, selected]
+---
+Wu, Honghan, and Zhi Wang. "From reactive diagnosis to proactive triage: connecting the dots at labour onset." The Lancet Digital Health (2026). [DOI:10.1016/j.landig.2026.101066](https://doi.org/10.1016/j.landig.2026.101066).
