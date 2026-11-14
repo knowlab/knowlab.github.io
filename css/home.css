@@ -165,3 +165,19 @@
   .kl .row-date{flex-basis:auto}
   .kl .row .chip{min-width:0}
 }
+
+/* ---------- small-screen safety ---------- */
+/* min() keeps grid columns from forcing sideways scroll on phones narrower than the column minimum */
+.kl .tiles{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
+.kl .cards{grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr))}
+.kl .prose ul.grid-list{grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr))}
+/* publications.md sets its own 330px minimum inline, so it needs !important to be overridden */
+.kl .selectedPub ul.grid-list{grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr)) !important}
+/* long URLs and unbroken strings in publication lists must wrap, not widen the page */
+.kl .prose,.kl .card-title,.kl .card-text{overflow-wrap:anywhere}
+.kl{overflow-x:hidden}
+
+/* ---------- member profile links (Profile, Scholar, ORCID, LinkedIn) ---------- */
+.kl .prose .grid-list .links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.kl .prose .grid-list .links a{display:inline-block;padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:13px;font-weight:500;line-height:1.4;color:var(--ink);text-decoration:none}
+.kl .prose .grid-list .links a:hover{border-color:var(--accent);color:var(--accent)}
