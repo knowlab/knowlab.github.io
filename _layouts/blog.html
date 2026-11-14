@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" prefix="og: http://ogp.me/ns#">
+<head>
+  {% include kl-head.html %}
+</head>
+<body class="kl">
+  {% include kl-header.html %}
+  {%- assign topic = site.data.topics | where: 'slug', page.topic | first -%}
+  {%- assign stories = site.stories | concat: site.categories.blog | sort: 'date' | reverse -%}
+  <main class="inner">
+    <div class="wrap">
+      <div class="page-head">
+        <div class="eyebrow">Blog</div>
+        <h1 class="serif">{% if topic %}{{ topic.name }}{% else %}Our research, in plain English{% endif %}</h1>
+        <p class="lede">{% if topic %}{{ topic.blurb }}{% else %}One short story for each paper we publish. No jargon, written for anyone curious about health and AI.{% endif %}</p>
+      </div>
+      <nav class="filters" aria-label="Filter stories by research direction">
+        <a class="pill{% unless topic %} on{% endunless %}" href="{{ site.baseurl }}/blog/">All stories</a>
+        {%- for t in site.data.topics %}
+        <a class="pill {{ t.cls }}{% if page.topic == t.slug %} on{% endif %}" href="{{ site.baseurl }}/blog/topic/{{ t.slug }}/">{{ t.short }}</a>
+        {%- endfor %}
+      </nav>
+      {%- assign shown = 0 -%}
+      <div class="cards story-grid">
+        {%- for story in stories -%}
+          {%- if topic == nil or story.topics contains topic.slug -%}
+            {%- assign shown = shown | plus: 1 -%}
+            {% include story-card.html story=story %}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      {%- if shown == 0 %}<p class="meta">No stories here yet.</p>{% endif %}
+      <div class="load-more" id="load-more" hidden><button type="button" class="pill" id="load-more-btn">Show more stories</button><span class="meta" id="load-more-count"></span></div>
+      <script>
+      (function(){
+        var STEP=12, cards=[].slice.call(document.querySelectorAll('.story-grid .story-card'));
+        if(cards.length<=STEP) return;
+        var shown=STEP, box=document.getElementById('load-more'), btn=document.getElementById('load-more-btn'), cnt=document.getElementById('load-more-count');
+        function render(){
+          cards.forEach(function(c,i){c.hidden=i>=shown;});
+          cnt.textContent='Showing '+Math.min(shown,cards.length)+' of '+cards.length;
+          box.hidden=shown>=cards.length;
+        }
+        btn.addEventListener('click',function(){shown+=STEP;render();});
+        render();
+      })();
+      </script>
+      <p class="blog-note">Looking for the formal papers? Every story links to its paper. <a class="readmore" href="{{ site.baseurl }}/publications/">Browse publications &rarr;</a></p>
+    </div>
+  </main>
+  {% include kl-footer.html %}
+</body>
+</html>

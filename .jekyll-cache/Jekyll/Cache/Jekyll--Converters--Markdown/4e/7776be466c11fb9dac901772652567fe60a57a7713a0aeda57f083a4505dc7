@@ -1,0 +1,16 @@
+I"<h2 id="the-question">The question</h2>
+
+<p>Doctors need to find the clinically important findings in a radiology report quickly, without reading every detail. A good automatic summary of the impression section would help. But general language models do not know radiology well.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built RadBARTsum in two steps. First we retrained the BART language model on a large collection of radiology reports, using a new entity masking strategy that hides medical entities so the model must learn to predict them, which deepens its biomedical knowledge. Then we fine-tuned it to predict the Impression section from the Findings and Background sections.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Retraining with knowledge-guided masking improved performance consistently across settings.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>The work gives a domain-specific model for summarising radiology reports and a way of using medical knowledge to make language models better in specialist areas.</p>
+:ET

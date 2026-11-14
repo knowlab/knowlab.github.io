@@ -1,0 +1,16 @@
+I"ç<h2 id="the-question">The question</h2>
+
+<p>Computer-aided diagnosis for chest X-rays has become good, but the conversation between the AI and the radiologist is usually one-way, with the radiologist only supplying the image. What if the AI also knew where the radiologist was looking?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We recorded eye-gaze data from radiologists and turned it into heatmaps that we overlaid on the X-ray, highlighting the areas of intense focus. We gave these, together with text prompts, to vision-language models and tested four tasks: visual question answering, report automation, error detection and differential diagnosis.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Adding eye gaze significantly improved the accuracy of the analysis. Fine-tuning with gaze also outperformed other medical vision-language models on every task except visual question answering.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A radiologist‚Äôs attention is expert knowledge that the AI can learn from. This points to a more human-centred way of building diagnostic AI. It is the starting point for the later Look &amp; Mark work.</p>
+:ET

@@ -1,0 +1,16 @@
+I"0<h2 id="the-question">The question</h2>
+
+<p>Radiology reports hold a lot of information in free text, and language technology can turn it into structured data. Earlier reviews of the area were limited, so we asked what had been done since 2015.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We carried out a systematic review that started from 4,799 search results and, after automated and manual screening, analysed 164 publications on 21 variables covering the radiology setting, NLP methods, performance, study design and clinical application. Each publication was assigned to one of six clinical application categories.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Publications in 2019 were almost triple those in 2015. Deep learning use increased, but conventional machine learning remains common, and deep learning struggles when data is scarce. There is little evidence of adoption in clinical practice. Although 17% of studies reported F1 scores above 0.85, most use different datasets so they are hard to compare. Only 14 studies shared their data, 15 shared their code, and 10 validated their results externally.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Sharing code and reporting studies in a consistent way would make the field’s results comparable, reproducible and ready for clinical use.</p>
+:ET

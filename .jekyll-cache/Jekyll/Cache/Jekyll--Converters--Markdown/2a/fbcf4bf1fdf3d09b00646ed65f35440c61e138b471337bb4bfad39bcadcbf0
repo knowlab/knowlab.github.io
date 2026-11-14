@@ -1,0 +1,16 @@
+I"D<h2 id="the-question">The question</h2>
+
+<p>Hard exudates, small bright deposits in the retina, are a key sign used to grade diabetic retinopathy. They take up little of the image, have irregular shapes and low contrast, so they are easily confused with other structures such as the optic disc, and automatic outlining is hard.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We designed a neural network called RMCA U-net. It uses a U-shaped design with residual connections to capture subtle features, plus a module that fuses information at multiple scales and an improved channel attention module to find small, sparse lesions. We trained and tested it on three datasets.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>RMCA U-net beat the other convolutional networks we compared with. Against a standard U-net it improved PR-mAP by 6% on one public dataset, recall by 10% on another, and F1 score by 20% on a local dataset.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>More accurate lesion outlining supports more reliable grading of diabetic retinopathy from eye images.</p>
+:ET

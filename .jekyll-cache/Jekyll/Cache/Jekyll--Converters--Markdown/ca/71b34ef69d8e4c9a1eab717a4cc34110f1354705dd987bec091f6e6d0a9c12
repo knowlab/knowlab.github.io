@@ -1,0 +1,16 @@
+I"j<h2 id="the-question">The question</h2>
+
+<p>AI can now draft medical reports, but how do you tell whether a draft is clinically good? Standard text-similarity scores are a poor guide, and metrics designed for radiology do not suit histopathology, which has its own vocabulary of markers, anatomical sites and diagnoses.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built HARE, which stands for Histopathology Automated Report Evaluation. It has four parts: a dataset in which we labelled 813 de-identified clinical reports and 652 reports from The Cancer Genome Atlas, models that recognise the key entities and the relations between them, and a new score that compares the important findings in a reference report and a generated one. We also collected expert pathologists’ ratings of generated reports to check the score against.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Our entity-recognition and relation models, built on GatorTronS, reached the highest overall F1 score of 0.915 among those tested. The HARE score matched the experts better than conventional metrics such as ROUGE and METEOR, and better than radiology-based ones such as RadGraph-XL.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Measuring what matters in a report is a precondition for making report-writing AI better. We are releasing the datasets, models and code for others to use.</p>
+:ET

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can AI that sees X-rays catch mistakes in radiology reports? &bull; KnowLab</title>
+<meta name="description" content="a research group doing machine learning, multimodal large language model, knowledge graph and their applications in health care">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<meta name="theme-color" content="#515675">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css?v=1794679885">
+
+</head>
+<body class="kl">
+  <header class="site-header">
+  <div class="wrap bar">
+    <a href="/" aria-label="KnowLab home"><img class="logo" src="/img/knowlab.v2.png" alt="KnowLab"></a>
+    <nav class="nav" aria-label="Main">
+      <a class="link" href="/">Home</a>
+      <a class="link" href="/updates/">News</a>
+      <a class="link on" href="/blog/">Blog</a>
+      <a class="link" href="/publications/">Publications</a>
+      <a class="link" href="/group-members/">Members</a>
+      <a class="link" href="/projects/">Projects</a>
+    </nav>
+  </div>
+</header>
+<main class="inner">
+    <div class="wrap">
+      <a class="readmore back" href="/blog/">&larr; All stories</a>
+      <div class="story-layout">
+        <article class="story">
+          <div class="tags"><a class="tp t3" href="/blog/topic/multimodal/">Multimodal data</a><a class="tp t1" href="/blog/topic/reliability/">AI reliability</a></div>
+          <h1 class="serif">Can AI that sees X-rays catch mistakes in radiology reports?</h1>
+          <div class="meta">20 Dec 2023 &middot; 2 min read &middot; by the KnowLab team</div><div class="short-version"><div class="eyebrow">The short version</div><p>We tested multimodal language models on spotting errors in chest X-ray reports by checking them against the radiograph.</p></div>
+          <div class="story-body"><h2 id="the-question">The question</h2>
+
+<p>Generative AI and foundation models are moving fast. In radiology, one practical question is whether they could be good assistants for spotting mistakes in reports by cross-checking them against the X-ray.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We created 1,000 reports with synthetic errors from two real-world chest X-ray datasets. We then set two kinds of tasks: a yes-or-no question, whether there is an error, and a multi-way question, what type of error it is. Multimodal language models were tested on both.</p>
+
+<h2 id="what-we-found">What we found</h2>
+<p>Among publicly available models, LLaVA v1.5 did best at the yes-or-no check. Instruction tuning, which means training it on examples of this task, improved it by 47.4% on MIMIC-CXR and 25.4% on IU X-ray, and it surpassed the domain expert’s accuracy on MIMIC-CXR by 1.67%. Where a clinician got a case wrong in a small test set, the ensemble of models picked up 71.4% of those. All the models did poorly at naming the type of error, so that harder task remains open.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Reports with errors can delay or misdirect care. An AI second reader that checks the words against the image could be a useful safety net, which is why we kept developing this line of work.</p>
+</div>
+        </article>
+        <aside class="story-side">
+          <div class="side-card">
+            <div class="eyebrow">The paper</div>
+            <div class="serif paper-title">Exploring Multimodal Large Language Models for Radiology Report Error-checking</div><div class="meta">Wu et al.. arXiv preprint, 2023</div>
+            <div class="links"><a href="https://arxiv.org/abs/2312.13103" target="_blank" rel="noopener">Read the paper</a></div>
+          </div>
+          <div class="side-card">
+            <div class="eyebrow">Part of</div><a class="side-link" href="/blog/topic/multimodal/">Multimodal health data</a><a class="side-link" href="/blog/topic/reliability/">AI reliability in medicine</a></div><div class="side-card"><div class="eyebrow">Keep reading</div><a class="side-link serif" href="/blog/cot-audit/">Better answers, shakier reasoning in small medical AI</a><a class="side-link serif" href="/blog/proactive-triage/">From spotting damage to preventing it: AI at the start of labour</a></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="contact">
+  <div class="wrap foot">
+    <div class="foot-about">
+      <div class="foot-name">KnowLab</div>
+      <div class="meta">School of Health and Wellbeing, University of Glasgow, and Institute of Health Informatics, University College London.</div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="/blog/">Blog</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/group-members/">Members</a>
+    </nav>
+  </div>
+  <div class="wrap meta foot-credit">Logo designed by Yuchen Wu.</div>
+</footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72059605-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72059605-3');
+</script>
+
+
+</body>
+</html>

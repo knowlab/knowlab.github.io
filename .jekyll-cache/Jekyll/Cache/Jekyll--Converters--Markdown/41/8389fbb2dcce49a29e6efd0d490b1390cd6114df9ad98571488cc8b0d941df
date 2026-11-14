@@ -1,0 +1,16 @@
+I"ˆ<h2 id="the-question">The question</h2>
+
+<p>During labour, cardiotocography (CTG) tracks the babyâ€™s heart rate to spot a lack of oxygen. Reading it is hard and varies between clinicians. Could machine learning help?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We searched PubMed, EMBASE and IEEE Xplore and reviewed 36 studies that used signal processing and machine learning on CTG.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Studies used many ways to extract signals and many algorithms. Most used one open-access database and treated fetal acidosis as the benchmark for hypoxia, with differing pH cut-offs, which we flagged as a concern. That database has few subjects for machine learning.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>ML shows potential, but progress to the clinic needs more diverse data, standard definitions of hypoxia and better algorithms and features.</p>
+:ET

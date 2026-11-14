@@ -1,0 +1,16 @@
+I"Ñ<h2 id="the-question">The question</h2>
+
+<p>The National Early Warning Score (NEWS2) is recommended in the UK to judge how sick hospital patients are, including those with COVID-19. But little was known about how well it spots the patients who go on to need intensive care or die.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We trained models on 1,276 patients admitted to Kingâ€™s College Hospital, then tested them on 6,237 patients from five other UK NHS trusts, a hospital in Norway and two hospitals in Wuhan. The outcome was transfer to intensive care or death within 14 days of admission.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>NEWS2 plus age had poor-to-moderate discrimination (AUC 0.700 in the training cohort). Adding routine measurements, including supplemental oxygen and blood markers such as urea, C-reactive protein, kidney function and neutrophil count, gave moderate improvement that held up across hospitals, though the model tended to underestimate risk in most sites.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A few common measurements can sharpen an existing score without new tests. But the miscalibration shows that early warning scores need careful local checking for COVID-19.</p>
+:ET

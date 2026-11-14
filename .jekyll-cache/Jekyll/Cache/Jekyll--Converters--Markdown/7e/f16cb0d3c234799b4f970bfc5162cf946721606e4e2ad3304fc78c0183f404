@@ -1,0 +1,16 @@
+I"@<h2 id="the-question">The question</h2>
+
+<p>The L+M-24 shared task asks AI to describe a molecule in plain language, a task called molecule captioning. Does a small language model need special training to do it well?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We chose a small language model, Phi-3-mini, and tested continued pretraining and instruction tuning for chemistry knowledge. It was pretrained further on 90 million chemistry textbooks and abstracts, then instruction-tuned on 150,000 question-answer sets about molecule notation and general chemistry.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Although the continued pretraining never directly showed the model molecule notation, it greatly improved the results, a 300% increase in BLEU score (a standard measure of how closely generated text matches a reference description) on molecule captioning. We released the code and model.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Domain reading can matter more than task-specific examples, and small, affordable models can be adapted to specialist areas.</p>
+:ET

@@ -1,0 +1,16 @@
+I"B<h2 id="the-question">The question</h2>
+
+<p>Natural language processing could read radiology reports automatically, but is it reliable enough for real clinical use when tools are taken from one setting to another?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We compared four off-the-shelf rule-based and neural tools (EdIE-R, ALARM+, ESPRESSO and Sem-EHR) on three findings in brain reports: ischaemic stroke, small vessel disease and atrophy. We used two cohorts, one from NHS Fife and one from Generation Scotland, and compared tool output with clinical experts and with readings of the scan images.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>EdIE-R scored highest for ischaemic stroke in both cohorts (F1 of at least 93%), followed by ALARM+. Against the scan reads, however, ALARM+ scored 80% and EdIE-R 66% for stroke. Scores differed across tools, phenotypes and cohorts.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Tools cannot simply be used out of the box. Knowing the context a tool was built in is essential to judge whether it fits, or needs retraining.</p>
+:ET

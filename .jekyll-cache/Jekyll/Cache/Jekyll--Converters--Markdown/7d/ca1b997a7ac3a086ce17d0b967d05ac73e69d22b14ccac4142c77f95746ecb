@@ -1,0 +1,16 @@
+I"Ï<h2 id="the-question">The question</h2>
+
+<p>AI language models could help radiologists with summaries, decision support, proofreading and more. But the number of studies testing them is growing fast, and each one describes its methods differently. That makes results hard to reproduce, compare or trust.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>First we reviewed the existing studies of language models in radiology. Of 511 screened, 57 were used to work out what a good report of such a study should include. Then 20 international experts went through a structured agreement process, called a Delphi process, to settle the final list.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The result is a checklist called FLAIR, the Framework for LLM Assessment in Radiology. It has 32 items in six groups, covering general information and data, prompting and fine-tuning, performance measures, ethics and data transparency, implementation and risks, and optional extras.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>When studies report the same things in the same way, readers can judge them fairly and others can repeat them. That is a step towards AI tools that are ready for real patients, not only for papers.</p>
+:ET

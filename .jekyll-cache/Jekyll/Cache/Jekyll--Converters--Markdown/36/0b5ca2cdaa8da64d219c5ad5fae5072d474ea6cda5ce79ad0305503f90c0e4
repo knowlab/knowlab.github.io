@@ -1,0 +1,16 @@
+I"ž<h2 id="the-question">The question</h2>
+
+<p>Adverse drug events, the unintended harms of treatment, hit patientsâ€™ quality of life and burden health services. Hospital records document them, but mostly as free-text notes that software cannot read easily. In a note, a side effect may be something that happened long ago, something that might happen, or something being discussed in general, and each of those means something different.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built ADEPt, a rule-based pipeline, and tested it on records of 264,000 patients from four UK psychiatric hospitals. It tells apart whether a mention is historical or current, whether it is asserted, hypothetical, retrospective or general discussion, and cases where the status is only implied by the surrounding text. We wrote the rules by hand, with clinicians and pharmacists, after studying how side effects appear in different kinds of notes.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Across 19 side effects of antipsychotic and antidepressant drugs, the average F-measure (a combined accuracy score, where 1 is perfect) and accuracy were both 0.83. ADEPt also improved on ConText, a widely used method for reading the context around a mention.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Side effects of psychiatric drugs are poorly captured in coded data. Reading the notes gives researchers a way to study them at scale.</p>
+:ET

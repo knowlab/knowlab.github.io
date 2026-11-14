@@ -1,0 +1,16 @@
+I".<h2 id="the-question">The question</h2>
+
+<p>Predicting which patients will deteriorate supports timely decisions, resource planning and personalised care. But bad outcomes are infrequent, and most prediction models struggle to catch the rare positive cases.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>In work led by Zina Ibrahim at King’s College London, we built a scalable framework that uses vital signs and laboratory results from the first 24 hours after admission. It stacks two parts. The first is an unsupervised model that learns a representation of the time series and separates the uncommon patterns that end in an adverse event from the common ones that do not. The second is a gradient boosting model that refines the prediction using static information such as demographics, admission details and clinical summaries. It also gives visual justifications for its predictions.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>In three case studies, covering intensive care and general ward settings, the model outperformed existing platforms, with average PR-AUCs of 0.891 for mortality and 0.908 for ICU admission and readmission.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Handling rare outcomes well, with explanations attached, is what makes this kind of prediction useful at the bedside.</p>
+:ET

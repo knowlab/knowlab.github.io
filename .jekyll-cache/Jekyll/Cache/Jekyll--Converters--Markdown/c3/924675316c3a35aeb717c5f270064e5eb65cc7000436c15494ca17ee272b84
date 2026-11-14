@@ -1,0 +1,16 @@
+I"f<h2 id="the-question">The question</h2>
+
+<p>To find, say, people with type 2 diabetes in routine health data, a researcher must turn a clinical definition into queries that a particular database can run. That takes specialist skill, copes badly with messy, varied data, and is slow and error-prone. It is also hard to share or reproduce in a different setting, which weakens the credibility of data-driven studies.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We proposed a framework that separates what a phenotype means from the data it is computed on. Researchers state the meaning in familiar terms, using a formal knowledge representation of ontologies and rules, and the system generates the right queries and runs them on the data sources. It can also map definitions between standard medical vocabularies.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>We report preliminary results from deploying the framework on five Scottish health datasets.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A phenotype defined once can be shared and re-run elsewhere, which makes studies easier to check and repeat.</p>
+:ET

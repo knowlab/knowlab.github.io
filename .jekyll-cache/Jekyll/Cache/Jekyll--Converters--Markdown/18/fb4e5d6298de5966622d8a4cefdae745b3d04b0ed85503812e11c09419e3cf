@@ -1,0 +1,16 @@
+I"Ê<h2 id="the-question">The question</h2>
+
+<p>A patientâ€™s record holds a sequence of diagnosis codes over time. Can deep learning use that sequence to predict what happens next, and can we trust those predictions to work elsewhere and to explain themselves?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We led a systematic review of the existing deep learning studies that use sequences of diagnosis codes as a key predictor of patient outcomes. We also examined how well these models generalise and how explainable they are.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Deep learning on diagnosis sequences shows remarkable promise. Using several types of features and including the time intervals between events improved prediction. The main remaining challenges are generalisation and explainability.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Tackling those two challenges is what will let such models improve health care outcomes in practice.</p>
+:ET

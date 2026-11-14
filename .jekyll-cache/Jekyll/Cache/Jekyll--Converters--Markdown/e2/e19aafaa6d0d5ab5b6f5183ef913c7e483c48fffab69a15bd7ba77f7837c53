@@ -1,0 +1,16 @@
+I"�<h2 id="the-question">The question</h2>
+
+<p>Most COVID-19 risk models predict a simple outcome such as severe or not. But the disease is very heterogeneous, and two patients with poor outcomes can look very different. Can we find the subtypes?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>This work was led by two first-year PhD students. We proposed two clustering approaches, “Layered Axes” and “Prognosis Space”, that organise outcomes along several axes, such as where in the body things deteriorate, how severe it is and how long it lasts. We then used a random forest to predict from admission data which subgroup a patient will fall in. We tested it on 2,815 inpatient records from two Wuhan hospitals.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>We found interesting subgroups of poor prognosis, particularly among respiratory patients, and predicted respiratory subgroup membership with high accuracy.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Knowing the likely pathway at admission could help clinicians choose treatment. The same method could be used to explore subtypes of long COVID and other diseases with varied outcomes.</p>
+:ET

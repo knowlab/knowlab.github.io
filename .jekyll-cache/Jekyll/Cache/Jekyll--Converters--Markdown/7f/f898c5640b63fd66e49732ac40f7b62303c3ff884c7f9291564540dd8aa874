@@ -1,0 +1,16 @@
+I"«<h2 id="the-question">The question</h2>
+
+<p>Large studies such as UK Biobank mostly find diseases through routinely collected codes, which are often incomplete and less accurate for specific subtypes. Stroke is a good example: it has several subtypes with different causes, so researchers need to tell them apart.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>From a sub-population of 17,249 Scottish UK Biobank participants, we identified those with a stroke code in hospital, death or primary care data and at least one brain scan report. We combined language processing of the scan reports with clinical knowledge, written as reusable rules, to work out the subtype: intracerebral haemorrhage, subarachnoid haemorrhage or ischaemic stroke.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Of 225 participants with an incident stroke code, 207 had a usable scan report. Precision and recall for the individual findings ranged from 78 to 100%. At patient level the method was very good for intracerebral haemorrhage (89% for both), good for subarachnoid haemorrhage (82%) and lower for ischaemic stroke (73% precision, 64% recall), where coded data remain the better source.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Used alongside coded data, automated reading of scan reports is a feasible and scalable way to improve disease subtyping. It was our first work combining NLP with reusable domain knowledge to derive sub-phenotypes.</p>
+:ET

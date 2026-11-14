@@ -1,0 +1,16 @@
+I"è<h2 id="the-question">The question</h2>
+
+<p>People with type 2 diabetes face a higher risk of cardiovascular disease, but most risk scores were built on Western populations. Can routine hospital data from China give a useful score, and does it work elsewhere?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We used records of 84,630 people newly diagnosed with type 2 diabetes at a Nanjing hospital to build basic and extended five-year risk models. We then tested them on a Scottish national diabetes register of 119,891 people.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The extended model had a C-statistic of 0.723 in internal validation and 0.716 in the Scottish data. That is moderate discrimination, and it transferred across populations of very different ancestry.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A model built from routinely collected data can still travel across countries, which is the evidence needed before anyone considers using it to guide prevention.</p>
+:ET

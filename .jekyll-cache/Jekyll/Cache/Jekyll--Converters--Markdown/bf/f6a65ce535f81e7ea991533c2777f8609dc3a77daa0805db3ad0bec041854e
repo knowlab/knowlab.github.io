@@ -1,0 +1,68 @@
+I"z%<p>This article aims for a very quick introduction of knowledge graph 
+for those who are interested in its applications in health data science.</p>
+
+<!--more-->
+<hr />
+
+<h2 id="what-is-knowledge-graph">What is knowledge graph?</h2>
+
+<p><img src="/img/blog/img-kg-inforbox.png" alt="KG Info boxes" />
+Ok, what is a knowledge graph? In fact, many of us are using it almost everyday. For example, when you search the word <code class="highlighter-rouge">UCL</code> in Google. You will see a small box, called Infobox, at the right hand side of the the search result page. It gives you a quick summary of University College London, which includes the logo, Google map link, and key attributes including its address, the phone number and people related to UCL. All these data are actually pulled out by Google from ==its Knowledge Graph==. The assumption is that some or all of such information could serve as direct answers to the supposed question behind your search. And, like all of us have experienced, in many cases, the assumption holds.</p>
+
+<p>Similarly, if you search a disease like <code class="highlighter-rouge">Pneuonnia</code>, Google will show you an even more structured infobox, which gives you the overview of the disease, its symptoms and also treatments.</p>
+
+<p>Also, not surprisingly, if you search <code class="highlighter-rouge">Google Knowledge Graph</code>, Google will show you infobox of it. Of course, the information of <code class="highlighter-rouge">Google Knowledge Graph</code> is from <code class="highlighter-rouge">Google Knoweledge Graph</code>.</p>
+
+<h3 id="where-did-knowledge-graph-come-from">Where did Knowledge Graph come from?</h3>
+<p>Alright, so, where and when did this concept of <code class="highlighter-rouge">Knowledge Graph</code> come from? Sir Tim Berners-Lee, the father of the World Wide Web, proposed the idea of so-called <code class="highlighter-rouge">the Web of Linked Data</code>, meaning the Web should not just be interlinked documents but also interlinked data. It has another name of <code class="highlighter-rouge">Semantic Web</code>. The main game changing idea behind it is that interlinked data is directly understandable and usable by computers. In such a way, computers can automate tasks for you by talking to different web services directly. The idea of “web of data” is the root of <code class="highlighter-rouge">knowledge graph</code>. For those who would like to know more, you can check Sir <a href="https://www.ted.com/talks/tim_berners_lee_the_next_web">Tim’s 2009 TED Talk on <em>The Next Web</em></a>.</p>
+
+<h3 id="knowledge-representation-is-the-core-of-knowledge-graph">Knowledge Representation is the core of Knowledge Graph</h3>
+<p><img src="/img/blog/KG-atom-Metformin.png" alt="kg-atom-Metformin.png" />
+Both “web of data” and “knowledge graph” share the same technical stack called <code class="highlighter-rouge">knowledge representation</code>. Essentially, it is composed of two main components:</p>
+<ul>
+  <li>the first one is called <strong>Ontology</strong>: which is a domain specific artifact that describes the concepts and their relationships in a particular domain. For example (the figure above), Type 2 diabetes is a human disease and Metformin is a drug that is used for treating type 2 diabetes.</li>
+  <li>the second component is the <strong>Computation</strong>, that is how computer can do human like inference on ontology terms. It is called reasoning. Roughly, there are two types of inferences: one is based on set theory, and the other is rule based.</li>
+</ul>
+
+<p>Technically, there is a suite of technologies for realising web of data (see <a href="https://en.wikipedia.org/wiki/Semantic_Web_Stack">here</a>). W3C, the world wide web consortium, specifies technical details of all these technologies. As promised, I will not discuss any of these technical details.</p>
+
+<h3 id="a-toy-example-of-a-clinical-knowledge-graph">A toy example of a clinical knowledge graph</h3>
+<p><img src="/img/blog/kg-sample-1.png" alt="kg-sample-1.png" />
+Let’s look at an example of knowledge graph. Suppose we all agree that <code class="highlighter-rouge">heart attack</code> is a type of <code class="highlighter-rouge">heart disease</code> and put it as a piece of knowledge in our knowledge graph (as above).</p>
+
+<p><img src="/img/blog/kg-sample-2.png" alt="kg-sample-2: Tom Smith" />
+Now, we have a guy called <code class="highlighter-rouge">Tom Smith</code>. We know his basic information including names and date of birth. Unfortunately, Tom has had heart attack. We add all such information about Tom in our graph.</p>
+
+<p><img src="/img/blog/kg-sample-3.png" alt="kg-sample-3: all knowledge.png" />
+We now extend our knowledge about <code class="highlighter-rouge">heart diseases</code> a bit further. Let’s say all <code class="highlighter-rouge">heart diseases</code> is a <code class="highlighter-rouge">disease</code>. And, we define a relationship called <code class="highlighter-rouge">suffersFrom</code>, which associates <code class="highlighter-rouge">patient</code> to <code class="highlighter-rouge">diseases</code>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> rdfs:Property is a relationship or an attribute in Knowledge Graph terminology.
+ rdfs:domain and rdfs:range define the possible values of the source/target respectively of a rdfs:Property
+</code></pre></div></div>
+
+<p><img src="/img/blog/kg-sample-4.png" alt="kg-sample-4: inferences" />
+With such knowledge, computers can now infer some new knowledge from our knowledge graph. For example, it will say - okey, you said all <code class="highlighter-rouge">heart attacks</code> are <code class="highlighter-rouge">heart diseases</code>. So, anyone who suffers from <code class="highlighter-rouge">heart attacks</code> also suffers from <code class="highlighter-rouge">heart diseases</code>. Hence, the computer will draw the dashed arrow labelled <code class="highlighter-rouge">suffersFrom</code> above.</p>
+
+<p>Now, the computer looks at the the definition of <code class="highlighter-rouge">suffersFrom</code> relationship, which says it associates <code class="highlighter-rouge">patient</code> to <code class="highlighter-rouge">diseases</code>. Now, because <code class="highlighter-rouge">Tom Smith</code> has two relationships of <code class="highlighter-rouge">suffersFrom</code>, then this person must be a <code class="highlighter-rouge">patient</code>. Therefore, it draws another dashed arrow.</p>
+
+<p>Both inferred relationships might seem trivial to humans. <strong><span class="blog-highlight">But, it’s a pretty big step as computers can do human-like inferences, albeit tiny baby steps</span>.</strong></p>
+
+<p><img src="/img/blog/kg-sample-5.png" alt="kg-sample-5: T/A Boxes" />
+In knowledge graphs, we usually separate things into two groups: <code class="highlighter-rouge">T-box</code> and <code class="highlighter-rouge">A-box</code>. Anything about concepts and their relationships is part of the T-box, which stands for terminology box. Anything describing actual entities like specific patients is part of A-box, which stands for assertion box. Apparently, T-box is domain specific knowledge similar to schema of relational databases and A-box is the actual data that similar to the data rows in data tables.</p>
+
+<h3 id="online-resources-of-t-boxes-and-a-boxes">Online Resources of T-Boxes and A-Boxes</h3>
+<p>The semantic web community has done a great job in creating and sharing both T-boxes and A-boxes for many domains and life-science is one of the most popular ones. For open-domain T-boxes, there is a great website called <a href="https://lov.linkeddata.es/dataset/lov/">Linked Open Vocabularies</a>. LOV now contains about 760 vocabularies (Ontologies) as of September, 2021.</p>
+
+<p>For the biomedical domain T-boxes, there is a website called <a href="https://bioportal.bioontology.org/">Bioportal</a>, which is maintained by the U.S. National Center for Biomedical Ontology and led by the Stanford University. It is a must-have tool for people doing biomedical informatics. It has 922 ontologies (as of September 2021) including a lot of widely used ones covering diseases, drugs, genetics, and clinical procedures. Things like <a href="https://bioportal.bioontology.org/ontologies/SNOMEDCT">SNOMED-CT</a>, UMLS, <a href="https://bioportal.bioontology.org/ontologies/ICD10">ICD</a> and <a href="https://bioportal.bioontology.org/ontologies/GO">gene ontology</a> are widely used.</p>
+
+<p>For openly accessible A-boxes, the <a href="https://www.dbpedia.org/">DBpedia</a> is a widely used knowledge base that is essentially the structured version of Wikipedia. Understandably, it contains a wide range of open domain and common sense knowledge. This was a project led by German researchers. <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> is a collaboratively edited knowledge graph. It is maintained by &gt;22k users and currently contains data of &gt;95m entities, that is about 20 times more than DBpedia. There is also a community effort on open and interlinked A-boxes. It’s called the <a href="https://lod-cloud.net/">linked open data cloud</a> and there are &gt;1200 datasets across 10 different domains.</p>
+
+<h2 id="summary">Summary</h2>
+<p>We have learned the four things about knowledge graph.</p>
+<ul>
+  <li>What is a knowledge graph?</li>
+  <li>Where did it come from?</li>
+  <li>A toy example in clinical domain</li>
+  <li>Online resources for using knowledge graph</li>
+</ul>
+:ET

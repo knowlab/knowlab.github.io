@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+	<title>人工智能在医疗中的原理与应用 - AI in Healthcare 2026 Summer School</title>
+	<style>
+
+		/* -----------------------------------------------------------
+       PAGE LAYOUT
+    ----------------------------------------------------------- */
+		.page-content {
+			max-width: 720px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 2rem 1rem;
+			box-sizing: border-box;
+			width: 100%;
+		}
+
+		/* neutralize theme wrappers that fight the centering */
+		.wrapper,
+		.container {
+			max-width: none !important;
+			padding: 0 !important;
+		}
+
+		/* -----------------------------------------------------------
+           TYPOGRAPHY
+        ----------------------------------------------------------- */
+		body {
+			font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+			line-height: 1.65;
+			font-size: 1.05rem;
+			color: #2f3437;
+			background: #ffffff;
+		}
+
+		/* -----------------------------------------------------------
+           HEADINGS
+        ----------------------------------------------------------- */
+		h1, h2, h3, h4 {
+			font-weight: 600;
+			line-height: 1.3;
+			margin-top: 2rem;
+			margin-bottom: 0.7rem;
+		}
+
+		h1 { font-size: 2rem; }
+		h2 { font-size: 1.55rem; }
+		h3 { font-size: 1.25rem; }
+		h4 { font-size: 1.1rem; }
+
+		/* -----------------------------------------------------------
+           GENERAL ELEMENTS
+        ----------------------------------------------------------- */
+		p {
+			margin: 1rem 0;
+		}
+
+		img {
+			max-width: 100%;
+			border-radius: 4px;
+		}
+
+		hr {
+			border: none;
+			border-top: 1px solid #e6e6e6;
+			margin: 2rem 0;
+		}
+
+		/* -----------------------------------------------------------
+           LISTS
+        ----------------------------------------------------------- */
+		ul, ol {
+			margin: 1rem 0 1rem 1.2rem;
+			padding: 0;
+		}
+
+		li {
+			margin: 0.4rem 0;
+		}
+
+		/* -----------------------------------------------------------
+           CHECKBOXES
+        ----------------------------------------------------------- */
+		input[type="checkbox"] {
+			width: 1rem;
+			height: 1rem;
+			margin-right: 0.4rem;
+			accent-color: #2f3437;
+		}
+
+		/* -----------------------------------------------------------
+           BLOCKQUOTES (Notion-style Callouts)
+        ----------------------------------------------------------- */
+		blockquote {
+			background: #f7f6f3;
+			border-left: 4px solid #e5e3dd;
+			border-radius: 6px;
+			padding: 1rem 1.2rem;
+			margin: 1.5rem 0;
+			color: #3f4042;
+		}
+
+		/* -----------------------------------------------------------
+           CODE BLOCKS
+        ----------------------------------------------------------- */
+		pre, code {
+			font-family: "JetBrains Mono", Consolas, monospace;
+			background: #f6f8fa;
+			border-radius: 6px;
+		}
+
+		pre {
+			padding: 1rem;
+			overflow-x: auto;
+			margin: 1.5rem 0;
+		}
+
+		code {
+			padding: 0.2rem 0.35rem;
+			font-size: 0.95rem;
+		}
+
+		/* -----------------------------------------------------------
+           TABLES (Notion-style)
+        ----------------------------------------------------------- */
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 1.5rem 0;
+			font-size: 0.95rem;
+
+			/* Keeps long tables from exploding layout */
+			display: block;
+			overflow-x: auto;
+		}
+
+		th, td {
+			border: 1px solid #e5e5e5;
+			padding: 0.6rem 0.8rem;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		th {
+			background: #f7f7f7;
+			font-weight: 600;
+		}
+
+		tr:nth-child(even) td {
+			background: #fafafa;
+		}
+
+		/* Smooth edges like Notion */
+		table {
+			border-radius: 6px;
+			overflow: hidden;
+		}
+
+		/* -----------------------------------------------------------
+           LINKS
+        ----------------------------------------------------------- */
+		a {
+			color: #0b5fff;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		/* -----------------------------------------------------------
+           CALLOUT ICON (optional mini touch)
+        ----------------------------------------------------------- */
+		.callout {
+			display: flex;
+			gap: 0.75rem;
+			padding: 1rem;
+			background: #f7f6f3;
+			border-radius: 6px;
+			margin: 1.5rem 0;
+		}
+
+		.callout-icon {
+			font-size: 1.4rem;
+		}
+
+		/* Inline code (matches Notion’s reddish accent) */
+		code {
+			color: #eb5757; /* Notion's red-500-ish tone */
+			background: rgba(235, 87, 87, 0.08);
+			padding: 0.2rem 0.35rem;
+			border-radius: 4px;
+			font-family: "JetBrains Mono", Consolas, monospace;
+			font-size: 0.95rem;
+		}
+
+
+		.notion-cover {
+			width: 100%;
+			height: 220px;                    /* Notion’s default height */
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			/*border-radius: 8px;*/
+			margin: 0 auto 2rem auto;
+		}
+
+		/* Optional default background (neutral grey grid, like Notion’s “no cover” state) */
+		.notion-cover-default {
+			background: linear-gradient(135deg, #f3f3f3 0%, #e8e8e8 100%);
+		}
+
+		/* Title styling */
+		.page-title {
+			font-family: "Inter", sans-serif;
+			font-size: 2rem;
+			font-weight: 600;
+			margin-top: -1rem;       /* pulls it slightly toward cover, Notion style */
+			margin-bottom: 1.5rem;
+			padding-left: .25rem;
+		}
+
+		body,
+		.site-header,
+		.header,
+		.page-header {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="notion-cover"
+	 style="background-image:url('/img/ai-med-header.png');height:220px;">
+</div>
+<div class="page-content">
+	<h1 id="2026-格拉斯哥大学暑期课程人工智能在医疗中的原理与应用">2026 格拉斯哥大学暑期课程｜人工智能在医疗中的原理与应用</h1>
+
+<h1 id="-artificial-intelligence-in-healthcare-principles-and-applications">🌿 Artificial Intelligence in Healthcare<strong>: Principles and Applications</strong></h1>
+
+<hr />
+
+<h2 id="-日期安排">📅 日期安排</h2>
+
+<ul>
+  <li>抵达日期：Thursday 9 July 2026</li>
+  <li>迎新 / Orientation：Friday 10 July 2026</li>
+  <li>课程开始：Monday 13 July 2026</li>
+  <li>课程结束：Friday 24 July 2026</li>
+  <li>退房日期：Sunday 26 July 2026</li>
+</ul>
+
+<hr />
+
+<h2 id="-入学要求">📘 入学要求</h2>
+
+<ul>
+  <li>需具备 <strong>3.0 GPA</strong>（或同等成绩）</li>
+  <li>申请者必须 <strong>目前就读于大学或其他高等教育机构</strong></li>
+  <li>
+    <p>若母语非英语，需满足最低英语语言要求：</p>
+
+    <ul>
+      <li><strong>雅思（IELTS Academic）</strong> 总分 <strong>6.0</strong>，且各单项不得低于 <strong>5.5</strong></li>
+      <li>也接受其他被认可的同等英语成绩（如 <strong>托福 iBT、CAE、CPE</strong> 等）</li>
+      <li>与格拉斯哥大学已建立官方合作的院校的报名者如具有用英语完成学术课程的语言能力，可豁免上述英语要求;</li>
+    </ul>
+  </li>
+</ul>
+
+<p>以上要求仅供参考，如需更多信息，请发送邮件至：<strong>internationalsummerschools@glasgow.ac.uk</strong></p>
+
+<h2 id="-授课教师">👨‍🏫 授课教师</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>姓名</th>
+      <th>职称</th>
+      <th>个人主页 / 研究组主页</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Prof. Honghan Wu<br />(吴鸿汉教授)<br /><a href="mailto:honghan.wu@glasgow.ac.uk">honghan.wu@glasgow.ac.uk</a></td>
+      <td>Professor of Health Informatics and AI</td>
+      <td><a href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/">Prof Wu’s Glasgow University Profile</a><br /> <br /> <a href="https://knowlab.github.io/">Prof Wu’s KnowLab 研究组主页</a></td>
+    </tr>
+    <tr>
+      <td>Dr. Bhautesh Jani<br /><a href="mailto:Bhautesh.Jani@glasgow.ac.uk">Bhautesh.Jani@glasgow.ac.uk</a></td>
+      <td>Clinical Senior Lecturer / Honorary Consultant (General Practice &amp; Primary Care)</td>
+      <td><a href="https://www.gla.ac.uk/schools/healthwellbeing/staff/bhauteshjani/">Dr Jani’s Glasgow University Profile</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-课程概览">📌 课程概览</h2>
+
+<ul>
+  <li>主办院校：University of Glasgow</li>
+  <li>课程名称：Artificial Intelligence in Healthcare: Principles and Applications</li>
+  <li>学分：10 SCQF (苏格兰学历与学分框架，可在英国其他地区和部分国际机构承认和转换)</li>
+  <li>时长：2 周</li>
+  <li>面向对象：全球学生，无需编程背景</li>
+</ul>
+
+<hr />
+
+<h2 id="-你将获得什么">✨ 你将获得什么？</h2>
+
+<h3 id="-ai-基础认知">🧠 AI 基础认知</h3>
+
+<ul>
+  <li>人工智能核心概念</li>
+  <li>医疗场景应用</li>
+  <li>医疗数据特点与挑战</li>
+</ul>
+
+<h3 id="-核心机器学习方法">🤖 核心机器学习方法</h3>
+
+<ul>
+  <li>决策树</li>
+  <li>逻辑回归</li>
+  <li>支持向量机（SVM）</li>
+  <li>神经网络 / 深度学习</li>
+  <li>集成学习模型</li>
+</ul>
+
+<h3 id="-ai-在医疗的前沿探索">🔬 AI 在医疗的前沿探索</h3>
+
+<ul>
+  <li>临床自然语言处理（Clinical NLP）</li>
+  <li>生物医学领域中的生成式 AI</li>
+  <li>医学影像深度模型</li>
+  <li>AI 辅助临床决策</li>
+</ul>
+
+<h3 id="️-医疗-ai-的限制与挑战">⚠️ 医疗 AI 的限制与挑战</h3>
+
+<ul>
+  <li>数据偏差与公平性问题</li>
+  <li>可解释性不足</li>
+  <li>部署风险</li>
+  <li>医疗伦理与监管</li>
+</ul>
+
+<hr />
+
+<h2 id="-课程结构">🧪 课程结构</h2>
+
+<ul>
+  <li>周一至周五上课</li>
+  <li>每日约 4 小时</li>
+  <li>包含：讲座、案例研究、工具实操、讨论环节</li>
+</ul>
+
+<hr />
+
+<h2 id="-评估方式">📝 评估方式</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>项目</th>
+      <th>权重</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>个人实践展示</td>
+      <td>60%</td>
+    </tr>
+    <tr>
+      <td>实操表现</td>
+      <td>40%</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-学费和住宿费用">💰 学费和住宿费用</h2>
+<p>住宿时间：7月9日-7月26日</p>
+<h3 id="合计">合计</h3>
+<ul>
+  <li><strong>约 £2,538</strong></li>
+  <li>不含机票、签证、餐饮与个人开支</li>
+</ul>
+
+<hr />
+
+<h2 id="-适合人群">🎓 适合人群</h2>
+
+<ul>
+  <li>想入门人工智能但无编程基础</li>
+  <li>医学、生物学、生物信息、公共卫生相关专业</li>
+  <li>对医疗 AI 有兴趣</li>
+  <li>希望体验英国名校暑期项目</li>
+</ul>
+
+<hr />
+
+<h2 id="-官方课程页面">🔗 官方课程页面</h2>
+
+<p><a href="https://www.gla.ac.uk/study/visiting/internationalsummerschool/ourcourses/artificialintelligenceinhealthcare/">https://www.gla.ac.uk/study/visiting/internationalsummerschool/ourcourses/artificialintelligenceinhealthcare/</a></p>
+
+<h2 id="-课程优势">✅ 课程优势</h2>
+
+<ul>
+  <li>将理论 (AI / 机器学习 / 深度学习) 与医疗 / 生物医学实际案例结合 — 有利于理解 AI 在真实医疗场景中的应用与挑战。</li>
+  <li>与经验丰富的教师团队合作 — 教师既有 AI 研究背景 (Prof. Wu)，也有临床经验和初级保健(Primary Care)背景 (Dr. Jani)，有利于从多维角度理解医疗 AI。</li>
+  <li>短期 (两周) 集中学习 + 获得学分 — 对于希望尝试医疗 + AI 交叉领域但时间有限的人非常友好。</li>
+</ul>
+
+</div>
+</body>
+</html>

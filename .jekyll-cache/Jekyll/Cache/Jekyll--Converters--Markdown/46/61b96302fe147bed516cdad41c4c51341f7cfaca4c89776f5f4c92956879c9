@@ -1,0 +1,16 @@
+I"º<h2 id="the-question">The question</h2>
+
+<p>Network-based algorithms rank genes by how closely they connect to genes already known to cause a disease, using networks of protein interactions and gene-disease links. It is not obvious which algorithm is best for a specific disease. We looked at cerebral small vessel disease, a cause of stroke and dementia.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We curated protein-gene interactions and gene-disease associations from databases, built the networks, and benchmarked seven representative algorithms, using known disease genes as seeds. We tested them with leave-one-out cross-validation and with an external check against the MEGASTROKE genome-wide association study.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>A method called random walk with restart, which spreads a signal outwards from known disease genes through the network, performed best overall. A known disease gene held back as a test typically came back at about rank 186 out of 19,463 genes, although it is prone to bias from well-connected genes. Another algorithm, GenePanda, had the most genes later confirmed by GWAS in its top 200. Pure network methods are unlikely to find novel genes that are not linked to known ones.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>The choice of algorithm should be made before applying one to a specific disease. We released the tools so the benchmark can be repeated for other diseases.</p>
+:ET

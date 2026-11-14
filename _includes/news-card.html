@@ -50,6 +50,12 @@
 {%- else -%}
   {%- assign cta = 'Read the paper' -%}
 {%- endif -%}
+{%- assign story_url = '' -%}
+{%- assign pslug = post.slug | downcase -%}
+{%- for st in site.stories -%}
+  {%- assign nslug = st.news | downcase -%}
+  {%- if nslug == pslug -%}{%- assign story_url = st.url | prepend: site.baseurl -%}{%- endif -%}
+{%- endfor -%}
 {%- assign ri = post.related_image -%}
 {%- assign ri0 = ri | slice: 0 -%}
 {%- if include.row -%}
@@ -69,7 +75,10 @@
     {%- if blurb != blank %}
     <p class="card-text">{{ blurb }}</p>
     {%- endif %}
-    <a class="readmore" href="{{ target }}">{{ cta }} &rarr;</a>
+    <div class="card-links">
+      <a class="readmore" href="{{ target }}">{{ cta }} &rarr;</a>
+      {%- if story_url != '' %}<a class="readmore" href="{{ story_url }}">Read the story &rarr;</a>{% endif %}
+    </div>
   </div>
 </article>
 {%- endif -%}

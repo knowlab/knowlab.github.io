@@ -1,0 +1,16 @@
+I"k<h2 id="the-question">The question</h2>
+
+<p>To find diseases, symptoms and body locations in free-text records, a system has to do named entity recognition. You can write rules by hand, or train a model. Which approach is better on clinical text, and what does each cost?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We compared three kinds of system for brain imaging reports, with a focus on stroke: a rule-based one, a deep learning one and a transfer learning one. We trained on a common dataset and tested on Scottish radiology reports from two sources, the Edinburgh Stroke Study data from NHS Lothian and reports from NHS Tayside.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>A hand-crafted system was the most accurate way to label the records automatically. But machine learning approaches can be a feasible alternative where there are no resources to build a manual system.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Hand-written rules cost expert time. This comparison helps teams choose between that cost and a slightly less accurate model. It also fed into the later EdIE-R tool comparison work.</p>
+:ET

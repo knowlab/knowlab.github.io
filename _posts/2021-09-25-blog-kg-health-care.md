@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: story
 title: Derive insights from health data using knowledge graph technologies
 date: 2021-09-25
 author:
     name: Honghan Wu
 categories: blog
+summary: How knowledge graph technologies help computers read free-text health records, told through real examples from an invited talk.
+topics: [knowledge-graphs, clinical-text]
 ---
 This article describes how `knowledge graph technologies` can help with health data science, particularly on free-text electronic health records.
 <!--more-->

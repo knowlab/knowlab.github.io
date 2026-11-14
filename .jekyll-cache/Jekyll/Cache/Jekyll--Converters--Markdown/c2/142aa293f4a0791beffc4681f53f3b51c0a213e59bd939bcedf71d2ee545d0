@@ -1,0 +1,16 @@
+I"p<h2 id="the-question">The question</h2>
+
+<p>Radiology reports can contain errors, and language models are not by themselves reliable at finding and fixing them. Can giving them the right medical knowledge help?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We used retrieval-augmented generation. Internal retrieval picks out the relevant medical entities and relations from the report itself, and external retrieval brings in knowledge from outside sources. We split inference into three stages, detecting the error, locating it and correcting it, which also makes the system easier to explain. We tested it on a benchmark made by corrupting real radiology reports with realistic errors, guided by domain experts.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Combining internal and external retrieval significantly improved the accuracy of detection, location and correction across a range of state-of-the-art language models.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>More reliable error correction supports more dependable clinical documentation. This work led to our later AAAI 2026 paper on the same problem.</p>
+:ET

@@ -1,0 +1,790 @@
+I"A�<h3 id="selected-publications">Selected publications</h3>
+<div class="selectedPub">
+<ul class="grid-list" style="grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));">
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://arxiv.org/abs/2605.28301" target="_blank" rel="noopener noreferrer">Better Accuracies, Worse Reasoning: A Step-Level Audit of Medical Chain-of-Thought Distillation.</a>
+    </h3>
+    
+      <p class="pub-venue">Proceedings of EACL 2027 (2027)</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.1016/j.landig.2026.101066" target="_blank" rel="noopener noreferrer">From reactive diagnosis to proactive triage: connecting the dots at labour onset.</a>
+    </h3>
+    
+      <p class="pub-venue">The Lancet Digital Health (2026)</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.1016/j.landig.2025.100953" target="_blank" rel="noopener noreferrer">RareArena: a comprehensive benchmark dataset unveiling the potential of large language models in rare disease diagnosis.</a>
+    </h3>
+    
+      <p class="pub-venue">The Lancet Digital Health (2026)</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.1609/aaai.v40i46.41295" target="_blank" rel="noopener noreferrer">Error Correction in Radiology Reports: A Knowledge Distillation-Based Multi-Stage Framework</a>
+    </h3>
+    
+      <p class="pub-venue">Proceedings of the AAAI Conference on Artificial Intelligence, 40(46), 39451–39459</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://aclanthology.org/2025.findings-emnlp.490/" target="_blank" rel="noopener noreferrer">HARE: an entity and relation centric evaluation framework for histopathology reports.</a>
+    </h3>
+    
+      <p class="pub-venue">In Findings of the Association for Computational Linguistics: EMNLP 2025, pages 9218–9233, Suzhou, China</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://aclanthology.org/2025.findings-acl.909/).&lt;/p" target="_blank" rel="noopener noreferrer">Look &amp; Mark: Leveraging Radiologist Eye Fixations and Bounding boxes in Multimodal Large Language Models for Chest X-ray Report Generation.</a>
+    </h3>
+    
+      <p class="pub-venue">In Findings of the Association for Computational Linguistics: ACL 2025, pages 17680–17694, Vienna, Austria</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.18653/v1/2025.findings-acl.668" target="_blank" rel="noopener noreferrer">BioHopR: A Benchmark for Multi-Hop, Multi-Answer Reasoning in Biomedical Domain.</a>
+    </h3>
+    
+      <p class="pub-venue">In Findings of the Association for Computational Linguistics: ACL 2025, pages 12894–12908, Vienna, Austria</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.1016/S2589-7500(24)00253-X" target="_blank" rel="noopener noreferrer">Prevalence and demographics of 331 rare diseases and associated COVID-19-related mortality among 58 million individuals: a nationwide retrospective observational study.</a>
+    </h3>
+    
+      <p class="pub-venue">The Lancet Digital Health 7, 2 (2025): e145-e156</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.1038/s41746-024-01363-7" target="_blank" rel="noopener noreferrer">Optimising the paradigms of human AI collaborative clinical coding.</a>
+    </h3>
+    
+      <p class="pub-venue">npj Digital Medicine 7,  1 (2024): 368</p>
+    
+  </li>
+
+  
+
+
+
+
+  <!-- 1. Extract Title -->
+
+
+
+
+  <!-- 2. Clean up trailing ", no" -->
+
+
+  <!-- 3. Robust External Link Extraction -->
+
+
+
+
+
+
+<!-- Clean up common trailing markdown/HTML symbols -->
+
+<!-- If it's a valid URL chunk, capture it and break -->
+
+
+
+
+  <!-- Fallback only if absolutely no link was found -->
+
+
+  <li>
+    <h3>
+      <a href="https://doi.org/10.1038/s41746-023-00773-3" target="_blank" rel="noopener noreferrer">The impact of inconsistent human annotations on AI driven clinical decision making.</a>
+    </h3>
+    
+      <p class="pub-venue">npj Digital Medicine 6, 26 (2023)</p>
+    
+  </li>
+
+</ul>
+</div>
+
+<h3 id="recent-publications-2017-">recent publications (2017 ~)</h3>
+
+<h3 id="2026">2026</h3>
+
+<ul>
+  <li>
+    <p>Jiang, Zhaoyang, Xuanqi Peng, Fei Teng, Zhizhong Fu, Yunsoo Kim, Jiacong Mi, Zicheng Li, and Honghan Wu. “Better Accuracies, Worse Reasoning: A Step-Level Audit of Medical Chain-of-Thought Distillation.” Proceedings of EACL 2027 (2027). <a href="https://arxiv.org/abs/2605.28301">arXiv 2605.28301</a>.</p>
+  </li>
+  <li>
+    <p>Wu, Honghan, and Zhi Wang. “From reactive diagnosis to proactive triage: connecting the dots at labour onset.” The Lancet Digital Health (2026). <a href="https://doi.org/10.1016/j.landig.2026.101066">DOI:10.1016/j.landig.2026.101066</a>.</p>
+  </li>
+  <li>
+    <p>Jiang, Zhaoyang, Zhizhong Fu, Yunsoo Kim, Zicheng Li, Xuanqi Peng, Fei Teng, Jiacong Mi, and Honghan Wu. “Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis.” arXiv preprint arXiv:2609.02473 (2026). <a href="https://arxiv.org/abs/2609.02473">https://arxiv.org/abs/2609.02473</a>.</p>
+  </li>
+  <li>
+    <p>Jiang, Zhaoyang, Zhizhong Fu, Yunsoo Kim, Zicheng Li, Xuanqi Peng, Fei Teng, Jiacong Mi, and Honghan Wu. “One Score, Two Decisions: Selective Prediction on the Rare-Disease Tail.” arXiv preprint arXiv:2608.14683 (2026). <a href="https://arxiv.org/abs/2608.14683">https://arxiv.org/abs/2608.14683</a>.</p>
+  </li>
+  <li>
+    <p>Jiang, Zhaoyang, Zhizhong Fu, Zicheng Li, Yunsoo Kim, Jiacong Mi, Xuanqi Peng, Fei Teng, and Honghan Wu. “Presentation, Not Mechanism: A Render Confound in Deprecation-Aware Memory Evaluation.” arXiv preprint arXiv:2607.16019 (2026). <a href="https://arxiv.org/abs/2607.16019">https://arxiv.org/abs/2607.16019/</a>.</p>
+  </li>
+  <li>
+    <p>Guellil, Imane, Salomé Andres, Atul Anand, Bruce Guthrie, Fahrurrozi Rahman, Abul Kalam Md Rajib Hasan, Huayu Zhang, Honghan Wu, and Beatrice Alex. “Geriatric Syndromes Extraction from Discharge Summaries: A New Dataset, Annotation Scheme and Initial Findings.” Frontiers in Digital Health 8 (2026): 1591050. <a href="https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1591050/">https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1591050/</a>.</p>
+  </li>
+  <li>
+    <p>Camilleri, Michael PJ, Dorian Gouzou, Salim Al-Wasity, Muthu RK Mookiah, María Valdes Hernandez, Bea Alex, Sotirios A. Tsaftaris,  Andrew Brooks , Ruairidh MacLeod , Honghan Wu et al. “A large dataset of brain imaging linked to health systems data: curation and access to a whole system national cohort from NHS Scotland.” GigaScience (2026): giag072. <a href="https://doi.org/10.1093/gigascience/giag072"> DOI:10.1093/gigascience/giag072</a>.</p>
+  </li>
+  <li>
+    <p>Naidu, Sindhu Bhaarrati, Gabrielle Guvensen, Honghan Wu, Rumana Z. Omar, Usha Menon, Sanjay Popat, David A. Moore et al. “Observational study of predictors and outcomes of lung cancer in never-smokers in the UK (OLIVE): study protocol.” BMJ Open Respiratory Research 13, no. 1 (2026): e003966. <a href="https://doi.org/10.1136/bmjresp-2025-003966">DOI:10.1136/bmjresp-2025-003966</a>.</p>
+  </li>
+  <li>
+    <p>Zhaoyang Jiang, Zhizhong Fu, Yunsoo Kim, Jiacong Mi, Zicheng Li, Xuanqi Peng, Honghan Wu. “A Regime Theory of Controller Class Selection for LLM Action Decisions.” arXiv preprint arXiv:2605.06339 (2026). <a href="https://arxiv.org/abs/2605.06339">arXiv:2605.06339</a>.</p>
+  </li>
+  <li>
+    <p>Jinge Wu, Hongjian Zhou, Mingde Zeng, Jiayuan Zhu, Junde Wu, Jiazhen Pan, Sean Wu, Honghan Wu, Fenglin Liu, David A. Clifton. “BioMedArena: An Open-source Toolkit for Building and Evaluating Biomedical Deep Research Agents.”  arXiv preprint arXiv:2605.06177 (2026). <a href="https://arxiv.org/abs/2605.06177">arXiv:2605.06177</a>.</p>
+  </li>
+  <li>
+    <p>Wang, Song, Qi Huang, Yuxuan Luo, Yingying Luo, Honghan Wu, Zhouhui Lian, Linong Ji, and Xiantong Zou. “External validation and application of a machine learning–based model for diabetes progression in prediabetes.” Frontiers in Endocrinology 17 (2026): 1746570. <a href="https://doi.org/10.3389/fendo.2026.1746570">DOI:10.3389/fendo.2026.1746570</a>.</p>
+  </li>
+  <li>
+    <p>Jiang, Zhaoyang, Zhizhong Fu, David McAllister, Yunsoo Kim, and Honghan Wu. “LoV3D: Grounding Cognitive Prognosis Reasoning in Longitudinal 3D Brain MRI via Regional Volume Assessments.” arXiv preprint arXiv:2603.12071 (2026) <a href="https://arxiv.org/abs/2603.12071v2">arXiv:2603.12071</a>, <a href="https://github.com/Anonymous-TEVC/LoV-3D">Github Repo</a>.</p>
+  </li>
+  <li>
+    <p>Rahman, Fahrurrozi, Imane Guellil, Abul Hasan, Huayu Zhang, Matúš Falis, Arlene Casey, Honghan Wu, Bruce Guthrie, and Beatrice Alex. “Natural language processing for geriatric syndromes: a systematic review of methods, applications, and challenges.” BMC Medical Informatics and Decision Making (2026). <a href="https://link.springer.com/article/10.1186/s12911-026-03417-0">DOI:10.1186/s12911-026-03417-0</a>.</p>
+  </li>
+  <li>
+    <p>Chen, Haichao, Zhengyun Zhao, Songchi Zhou, Shikai Hu, Jinyuan Wang, Ye Jin, Xianghong Jin, Yih Chung Tham, Xiaofei Wang, Weizhi Ma, Honghan Wu, Bin Sheng, Shuyang Zhang, Sheng Yu, Tien Yin Wong. “RareArena: a comprehensive benchmark dataset unveiling the potential of large language models in rare disease diagnosis.” The Lancet Digital Health (2026). <a href="https://doi.org/10.1016/j.landig.2025.100953">10.1016/j.landig.2025.100953</a></p>
+  </li>
+  <li>
+    <p>Kottlors, Jonathan, Andra-Iza Iuga, Christian Bluethgen, Keno Bressem, Jakob Nikolas Kather, Linda Moy, Christoph Wald, Wei Wang, Tianming Liu, Erik Ranschaert, Thomas Dratsch, Jens Kleesiek, Roman Johannes Gertz, Pranav Rajpurkar, Arash Bedayat, Matthias A. Fink, Almut Zeeck, Akshay Chaudhari, Tarik Alkasab, Honghan Wu, Felix Nensa, Benyou Wang, Nils Große Hokamp, Kai Roman Laukamp, Thorsten Persigehl, David Maintz, Daniel Truhn, Simon Lennartz. “Guidelines for Reporting Studies on Large Language Models in Radiology: An International Delphi Expert Survey.” <em>Radiology</em> 318, 2 (2026): e250913. <a href="https://doi.org/10.1148/radiol.250913">https://pubs.rsna.org/doi/full/10.1148/radiol.250913</a></p>
+  </li>
+  <li>
+    <p>Gu, Qingze, Seyed Alireza Hasheminasab, Marta Pineda-Moncusi, Chimweta Chilala, Johan H. Thygesen, Honghan Wu, Sara Khalid, and CVD-COVID-UK/COVID-IMPACT consortium. “Prevalence of 406 rare diseases by ethnicity and their associated COVID-19 infection burden: A national cross-sectional study of 62.5 million people in England.” medRxiv (2026): 2026-01. <a href="https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1">https://www.medrxiv.org/content/10.64898/2026.01.13.26344068v1</a></p>
+  </li>
+</ul>
+
+<h3 id="2025">2025</h3>
+
+<ul>
+  <li>
+    <p>Jinge Wu, Zhaolong Wu, Ruizhe Li, Tong Chen, Abul Hasan, Yunsoo Kim, Jason Pui-Yin Cheung, Teng Zhang, Honghan Wu. “Error Correction in Radiology Reports: A Knowledge Distillation-Based Multi-Stage Framework” Proceedings of the AAAI Conference on Artificial Intelligence, 40(46), 39451–39459. <a href="https://doi.org/10.1609/aaai.v40i46.41295">DOI:10.1609/aaai.v40i46.41295</a></p>
+  </li>
+  <li>
+    <p>Mao, Xiangyun, Dian Zeng, Xiaocong Wang, David A. Pearce, Gareth Baynam, Niels H. Chavannes, Wendy K. Chung,  Honghan Wu, Yih-Chung Tham, Shuyang Zhang, Guanqiao Li &amp; Tien Yin Wong. “Digital health technology use in clinical trials of rare diseases: a systematic review.” <em>Communications Medicine</em> 5, no. 1 (2025): 449. <a href="https://www.nature.com/articles/s43856-025-01137-6">https://www.nature.com/articles/s43856-025-01137-6</a>.</p>
+  </li>
+  <li>
+    <p>Liu, Xianyuan,  Jiayang Zhang, Shuo Zhou, Thijs L. van der Plas, Avish Vijayaraghavan, Anastasiia Grishina, Mengdie Zhuang, Daniel Schofield, Christopher Tomlinson, Yuhan Wang, Ruizhe Li, Louisa van Zeeland, Sina Tabakhi, Cyndie Demeocq, Xiang Li, Arunav Das, Orlando Timmerman, Thomas Baldwin-McDonald, Jinge Wu, Peizhen Bai, Zahraa Al Sahili, Omnia Alwazzan, Thao N. Do, Mohammod N. I. Suvon, Angeline Wang, Lucia Cipolina-Kun, Luigi A. Moretti, Lucas Farndale, Nitisha Jain, Natalia Efremova, Yan Ge, Marta Varela, Hak-Keung Lam, Oya Celiktutan, Ben R. Evans, Alejandro Coca-Castro, Honghan Wu, Zahraa S. Abdallah, Chen Chen, Valentin Danchev, Nataliya Tkachenko, Lei Lu, Tingting Zhu, Gregory G. Slabaugh, Roger K. Moore, William K. Cheung, Peter H. Charlton &amp; Haiping Lu. “Towards deployment-centric multimodal AI beyond vision and language.” <em>Nature Machine Intelligence</em> (2025): 1-13. <a href="https://www.nature.com/articles/s42256-025-01116-5">https://www.nature.com/articles/s42256-025-01116-5</a>.</p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Michal WS Ong, Alex Shavick, Honghan Wu, and Adam P. Levine. “HARE: an entity and relation centric evaluation framework for histopathology reports.” In Findings of the Association for Computational Linguistics: EMNLP 2025, pages 9218–9233, Suzhou, China. Association for Computational Linguistics. <a href="https://aclanthology.org/2025.findings-emnlp.490/">2025.findings-emnlp.490</a>.</p>
+  </li>
+  <li>
+    <p>Abul Hasan, Jinge Wu, Quang Ngoc Nguyen, Salomé Andres, Imane Guellil, Huayu Zhang, Arlene Casey, Beatrice Alex, Bruce Guthrie, Honghan Wu. “Infusing clinical knowledge into language models by subword optimisation and embedding initialisation.” Computers in Biology and Medicine, Volume 196, Part C, 2025, 110747, ISSN 0010-4825, <a href="https://doi.org/10.1016/j.compbiomed.2025.110747">10.1016/j.compbiomed.2025.110747</a>.</p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Jinge Wu, and Honghan Wu. “RadEyeVideo: Enhancing general-domain Large Vision Language Model for chest X-ray analysis with video representations of eye gaze.” arXiv preprint arXiv:2507.09097 (2025). <a href="https://arxiv.org/abs/2507.09097">arXiv:2507.09097</a></p>
+  </li>
+  <li>
+    <p>Guellil, Imane, Salomé Andres, Atul Anand, Bruce Guthrie, Huayu Zhang, Abul Hasan, Honghan Wu, and Beatrice Alex. “Adverse Event Extraction from Discharge Summaries: A New Dataset, Annotation Scheme, and Initial Findings.” Accepted by <a href="https://2025.aclweb.org/program/main_papers/">ACL 2025</a>. arXiv preprint arXiv:2506.14900 (2025). <a href="https://doi.org/10.48550/arXiv.2506.14900">https://doi.org/10.48550/arXiv.2506.14900</a>.</p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Jinge Wu, Su-Hwan Kim, Pardeep Vasudev, Jiashu Shen, and Honghan Wu. “Look &amp; Mark: Leveraging Radiologist Eye Fixations and Bounding boxes in Multimodal Large Language Models for Chest X-ray Report Generation.” In Findings of the Association for Computational Linguistics: ACL 2025, pages 17680–17694, Vienna, Austria. Association for Computational Linguistics.[DOI:10.18653/v1/2025.findings-acl.909]https://aclanthology.org/2025.findings-acl.909/).</p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Yusuf Abdulle, and Honghan Wu. “BioHopR: A Benchmark for Multi-Hop, Multi-Answer Reasoning in Biomedical Domain.” In Findings of the Association for Computational Linguistics: ACL 2025, pages 12894–12908, Vienna, Austria. Association for Computational Linguistics. <a href="https://doi.org/10.18653/v1/2025.findings-acl.668">DOI:10.18653/v1/2025.findings-acl.668</a>.</p>
+  </li>
+  <li>
+    <p>Huang, Ruochen, Honghan Wu, Yuhan Yuan, Yifan Xu, Hao Qian, Changwei Zhang, Xin Wei et al. “Evaluation and Bias Analysis of Large Language Models in Generating Synthetic Electronic Health Records: Comparative Study.” Journal of Medical Internet Research 27 (2025): e65317. <a href="https://www.jmir.org/2025/1/e65317/">https://doi.org/10.2196/65317</a>.</p>
+  </li>
+  <li>
+    <p>Patra, Arijit, Jinge Wu, Vaanathi Sundaresan, Honghan Wu, and Phil Scordis. “Attentive Latent Replay for Continual Learning in Pathology.” In 2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI), pp. 1-5. IEEE, 2025. <a href="https://doi.org/10.1109/ISBI60581.2025.10980701">https://doi.org/10.1109/ISBI60581.2025.10980701</a>.</p>
+  </li>
+  <li>
+    <p>Tran QB Tran, Stefanie Lip, Honghan Wu, Shyam Visweswaran, Jill P Pell, Sandosh Padmanabhan. <em>A Transformer-Based Framework for Counterfactual Estimation of Antihypertensive Treatment Effect on COVID-19 Infection Risk - A Proof-of-Concept Study</em>. American Journal of Hypertension, 2025;, hpaf055, <a href="https://doi.org/10.1093/ajh/hpaf055">https://doi.org/10.1093/ajh/hpaf055</a>
+<span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/ajh/hpaf055" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Jamie Chow, Ryan Lee, Honghan Wu. <em>How Do Radiologists Currently Monitor AI in Radiology and What Challenges Do They Face? An Interview Study and Qualitative Analysis.</em> <em>Journal of Imaging Informatics in Medicine</em> (2025). <a href="https://doi.org/10.1007/s10278-025-01493-8">DOI:10.1007/s10278-025-01493-8</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1007/s10278-025-01493-8" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Yunsoo Kim, Michal W. S. Ong, Daniel W. Rogalsky, Manuel Rodriguez-Justo, Honghan Wu, Adam P. Levine. <em>IHC-LLMiner: Automated extraction of tumour immunohistochemical profiles from PubMed abstracts using large language models</em>. arXiv preprint arXiv:2504.00748v1 (2025). <a href="https://arxiv.org/abs/2504.00748">arXiv:2504.00748v1</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.48550/arXiv.2504.00748" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Thygesen, Johan H., Huayu Zhang, Hanane Issa, Jinge Wu, Tuankasfee Hama, Ana-Caterina Phiho-Gomes, Tudor Groza, <em>other 13 authors</em>, Honghan Wu. “Prevalence and demographics of 331 rare diseases and associated COVID-19-related mortality among 58 million individuals: a nationwide retrospective observational study.” The Lancet Digital Health 7, 2 (2025): e145-e156.<a href="https://doi.org/10.1016/S2589-7500(24)00253-X">DOI:10.1016/S2589-7500(24)00253-X</a>   <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/S2589-7500(24)00253-X" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Feng, Wei, Honghan Wu, Hui Ma,  Yuechuchu Yin, Zhenhuan Tao, Shan Lu, Xin Zhang, Yun Yu, Cheng Wan, and Yun Liu. “Deep Learning Based Prediction of Depression and Anxiety in Patients with Type 2 Diabetes Mellitus Using Regional Electronic Health Records”. International Journal of Medical Informatics. In press. 2025.  <a href="https://doi.org/10.1016/j.ijmedinf.2025.105801">DOI:10.1016/j.ijmedinf.2025.105801</a></p>
+  </li>
+</ul>
+
+<h3 id="2024">2024</h3>
+
+<ul>
+  <li>
+    <p>Gao, Yue, Yuepeng Chen, Minghao Wang, Jinge Wu, Yunsoo Kim, Kaiyin Zhou, Miao Li, Xien Liu, Xiangling Fu, Ji Wu &amp; Honghan Wu. “Optimising the paradigms of human AI collaborative clinical coding.” npj Digital Medicine 7,  1 (2024): 368. <a href="https://doi.org/10.1038/s41746-024-01363-7">DOI:10.1038/s41746-024-01363-7</a></p>
+  </li>
+  <li>
+    <p>Wu, Jinge, Hang Dong, Zexi Li, Haowei Wang, Runci Li, Arijit Patra, Chengliang Dai, Waqar Ali, Phil Scordis, and Honghan Wu. “A hybrid framework with large language models for rare disease phenotyping.” BMC Medical Informatics and Decision Making 24, no. 1 (2024): 289. <a href="https://doi.org/10.1186/s12911-024-02698-7">DOI:10.1186/s12911-024-02698-7</a></p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Jinge Wu, Yusuf Abdulle, Yue Gao, and Honghan Wu. “Human-in-the-Loop Chest X-Ray Diagnosis: Enhancing Large Multimodal Models with Eye Fixation Inputs.” In International Workshop on Trustworthy Artificial Intelligence for Healthcare, pp. 66-80. Cham: Springer Nature Switzerland, 2024. <a href="https://doi.org/10.1007/978-3-031-67751-9_6">DOI:10.1007/978-3-031-67751-9_6</a></p>
+  </li>
+  <li>
+    <p>Blayney, Michael C., Matthew J. Reed, John A. Masterson, Atul Anand, Matt M. Bouamrane, Jacques Fleuriot, Saturnino Luz, Marcus J Lyall, Stewart Mercer, Nicholas L Mills, Susan D Shenkin, Timothy S Walsh, Sarah H Wild, Honghan Wu, Stela McLachlan, Bruce Guthrie, Nazir I Lone. “Multimorbidity and adverse outcomes following emergency department attendance: population based cohort study.” BMJ Medicine 3, no. 1 (2024). <a href="https://doi.org/10.1136/bmjmed-2023-000731">DOI:10.1136/bmjmed-2023-000731</a></p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, and Honghan Wu. “Knowlab’s Submission to L+ M Shared Task: All you need is continued pretraining of chemistry texts even for molecule captioning.” In Proceedings of the 1st Workshop on Language+ Molecules (L+ M 2024), pp. 91-96. 2024. <a href="https://aclanthology.org/2024.langmol-1.11/">https://aclanthology.org/2024.langmol-1.11</a></p>
+  </li>
+  <li>
+    <p>Wu, Jinge, Zhaolong Wu, Abul Hasan, Yunsoo Kim, Jason PY Cheung, Teng Zhang, and Honghan Wu. “Harnessing Knowledge Retrieval with Large Language Models for Clinical Report Error Correction.” arXiv preprint arXiv:2406.15045 (2024).<a href="https://arxiv.org/abs/2406.15045v1">arXiv:2406.15045v1</a></p>
+  </li>
+  <li>
+    <p>Abul Hasan, Jinge Wu, Quang Ngoc Nguyen, Salomé Andres, Imane Guellil, Huayu Zhang, Arlene Casey, Beatrice Alex, Bruce Guthrie, Honghan Wu. “Infusing clinical knowledge into tokenisers for language models.” arXiv preprint arXiv:2406.14312 (2024). <a href="https://arxiv.org/abs/2406.14312">arXiv:2406.14312</a></p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Jinge Wu, Yusuf Abdulle, and Honghan Wu. “MedExQA: Medical Question Answering Benchmark with Multiple Explanations.” arXiv preprint arXiv:2406.06331 (2024). <a href="https://arxiv.org/abs/2406.06331v2">arXiv:2406.06331</a></p>
+  </li>
+  <li>
+    <p>Wu, Zhaolong, Abul Hasan, Jinge Wu, Yunsoo Kim, Jason PY Cheung, Teng Zhang, and Honghan Wu. “Chain-of-Though (CoT) prompting strategies for medical error detection and correction.” arXiv e-prints (2024): arXiv-2406. Accepted by <a href="https://clinical-nlp.github.io/2024/">NAACL 2024 Workshop Clinical NLP</a>. <a href="https://arxiv.org/abs/2406.09103">arXiv:2406.09103</a></p>
+  </li>
+  <li>
+    <p>Wu, Jinge, Abul Hasan, and Honghan Wu. “RadBARTsum: Domain Specific Adaption of Denoising Sequence-to-Sequence Models for Abstractive Radiology Report Summarization.” arXiv preprint arXiv:2406.03062 (2024). <a href="https://arxiv.org/abs/2406.03062">arXiv:2406.03062</a></p>
+  </li>
+  <li>
+    <p>Shaoxiong Ji, Xiaobo Li, Wei Sun, Hang Dong, Ara Taalas, Yijia Zhang, Honghan Wu, Esa Pitkänen, Pekka Marttinen. “A Unified Review of Deep Learning for Automated Medical Coding.” ACM Computing Surveys. Accepted in May 2024. <a href="https://doi.org/10.1145/3664615">doi:10.1145/3664615</a> (2024).</p>
+  </li>
+  <li>
+    <p>Kim, Yunsoo, Jinge Wu, Yusuf Abdulle, Yue Gao, and Honghan Wu. “Enhancing Human-Computer Interaction in Chest X-ray Analysis using Vision and Language Model with Eye Gaze Patterns.” arXiv preprint arXiv:2404.02370 (2024). Accepted by <a href="https://conferences.miccai.org/2024/en/"><em>MICCAI 2024</em></a>. <a href="https://arxiv.org/abs/2404.02370">arXiv:2404.02370</a></p>
+  </li>
+  <li>
+    <p>Greene, Charlotte, Luke Blackbourn, Stuart McGurnaghan, Stewart Mercer, Daniel Smith, Sarah Wild, Honghan Wu, and Caroline Jackson. “Antidepressant and antipsychotic prescribing in patients with type 2 diabetes in Scotland: a time-trend analysis from 2004-2021.” Preprint from Authorea Preprints, (2024). <a href="https://doi.org/10.22541/au.171195299.97836905/v1">DOI:10.22541/au.171195299.97836905/v1</a></p>
+  </li>
+  <li>
+    <p>Hama, Tuankasfee, Mohanad Alsaleh, Freya Allery, Jung Won Choi, Chris Tomlinson, Honghan Wu, Alvina Lai, Nikolas Pontikos, and Johan H. Thygesen. “Enhancing Patient Outcome Prediction through Deep Learning with Sequential Diagnosis Codes from structural EHR: A systematic review.” <a href="https://www.researchgate.net/publication/378402547_Enhancing_Patient_Outcome_Prediction_through_Deep_Learning_with_Sequential_Diagnosis_Codes_from_structural_EHR_A_systematic_review">Researchgate</a></p>
+  </li>
+  <li>
+    <p>Wu, Jinge, Yunsoo Kim, and Honghan Wu. “Hallucination Benchmark in Medical Visual Question Answering.” arXiv preprint arXiv:2401.05827 (2024). <a href="https://arxiv.org/abs/2401.05827">arXiv:2401.05827</a></p>
+  </li>
+</ul>
+
+<h3 id="2023">2023</h3>
+
+<ul>
+  <li>
+    <p>Jinge Wu, Yunsoo Kim, Eva C. Keller, Jamie Chow, Adam P. Levine, Nikolas Pontikos, Zina Ibrahim, Paul Taylor, Michelle C. Williams, and Honghan Wu. <em>“Exploring Multimodal Large Language Models for Radiology Report Error-checking.”</em> arXiv preprint arXiv:2312.13103 (2023). <a href="https://arxiv.org/abs/2312.13103">arXiv:2312.13103</a></p>
+  </li>
+  <li>
+    <p>Emily Groves, Minhong Wang, Yusuf Abdulle, Holger Kunz, Jason Hoelscher-Obermaier, Ronin Wu, and Honghan Wu. <em>“Benchmarking and Analyzing In-context Learning, Fine-tuning and Supervised Learning for Biomedical Knowledge Curation: a focused study on chemical entities of biological interest.”</em> arXiv preprint arXiv:2312.12989 (2023). <a href="https://arxiv.org/abs/2312.12989">arXiv:2312.12989</a></p>
+  </li>
+  <li>
+    <p>Wei Feng, Honghan Wu, Hui Ma, Zhenhuan Tao, Mengdie Xu, Xin Zhang, Shan Lu, Cheng Wan, and Yun Liu. <em>“Applying contrastive pre-training for depression and anxiety risk prediction in type 2 diabetes patients based on heterogeneous electronic health records: a primary healthcare case study.”</em> Journal of the American Medical Informatics Association (2023): ocad228. <a href="https://doi.org/10.1093/jamia/ocad228">DOI:10.1093/jamia/ocad228</a></p>
+  </li>
+  <li>
+    <p>Tudor Groza, Honghan Wu, Marcel E Dinger, Daniel Danis, Coleman Hilton, Anita Bagley, Jon R Davids, Ling Luo, Zhiyong Lu, Peter N Robinson. <em>“Term-BLAST-Like Alignment Tool for Concept Recognition in Noisy Clinical Texts.”</em> Bioinformatics (2023): btad716. <a href="https://doi.org/10.1093/bioinformatics/btad716">DOI:10.1093/bioinformatics/btad716</a></p>
+  </li>
+  <li>
+    <p>Zhang, Huayu, Arlene Casey, Imane Guellil, Víctor Suárez-Paniagua, Clare Macrae, Charis Marwick, Honghan Wu, Bruce Guthrie, and Beatrice Alex. <em>“FLAP: A framework for linking free-text addresses to the Ordnance Survey Unique Property Reference Number database.”</em> Frontiers in Digital Health 5: 1186208. <a href="https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1186208/">DOI: 10.3389/fdgth.2023.1186208</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.3389/fdgth.2023.1186208" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Casey, Arlene, Emma Davidson, Claire Grover, Richard Tobin, Andreas Grivas, Huayu Zhang, Patrick Schrempf, Alison Q. O’Neil, Liam Lee, Michael Walsh, Freya Pellie, Karen Ferguson, Vera Cvoro, Honghan Wu, Heather Whalley, Grant Mair, William Whiteley, Beatrice Alex. <em>“Understanding the performance and reliability of NLP tools: a comparison of four NLP tools predicting stroke phenotypes in radiology reports.”</em> Frontiers in Digital Health 5 (2023): 1184919. <a href="https://doi.org/10.3389/fdgth.2023.1184919">DOI: 10.3389/fdgth.2023.1184919</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.3389/fdgth.2023.1184919" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Fu, Yinghua, Ge Zhang, Xin Lu, Honghan Wu, and Dawei Zhang. <em>“RMCA U-net: Hard exudates segmentation for retinal fundus images.”</em> Expert Systems with Applications 234 (2023): 120987. <a href="https://doi.org/10.1016/j.eswa.2023.120987">DOI:10.1016/j.eswa.2023.120987</a></p>
+  </li>
+  <li>
+    <p>Jinge Wu, Daqian Shi, Abul Hasan, and Honghan Wu. 2023. <em>“KnowLab at RadSum23: comparing pre-trained language models in radiology report summarization.”</em> In The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks, pages 535–540, Toronto, Canada. Association for Computational Linguistics. <a href="https://aclanthology.org/2023.bionlp-1.54/">DOI:10.18653/v1/2023.bionlp-1.54</a></p>
+  </li>
+  <li>
+    <p>Hang Dong, Víctor Suárez-Paniagua, Huayu Zhang, Minhong Wang, Arlene Casey, Emma Davidson, Jiaoyan Chen, Beatrice Alex, William Whiteley &amp; Honghan Wu. <em>“Ontology-driven and weakly supervised rare disease identification from clinical notes”</em>. BMC Medical Informatics and Decision Making (2023). <a href="https://doi.org/10.1186/s12911-023-02181-9">DOI:10.1186/s12911-023-02181-9</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1186/s12911-023-02181-9" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Mohanad M. Alsaleh, Freya Allery, Jung Won Choi, Tuankasfee Hama, Andrew McQuillin, Honghan Wu, Johan H. Thygesen. ‘Prediction of disease comorbidity using explainable artificial intelligence and machine learning techniques: A systematic review’. International Journal of Medical Informatics (2023).<a href="https://doi.org/10.1016/j.ijmedinf.2023.105088">DOI:10.1016/j.ijmedinf.2023.105088</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.ijmedinf.2023.105088" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Charlotte R.L. Greene, Hanna Ward-Penny, Marianna F. Ioannou, Sarah H. Wild, Honghan Wu, Daniel J. Smith, Caroline A. Jackson. <em>“Antidepressant and antipsychotic drug prescribing and diabetes outcomes: A systematic review of observational studies”.</em> Diabetes Research and Clinical Practice (2023). <a href="https://doi.org/10.1016/j.diabres.2023.110649">DOI:10.1016/j.diabres.2023.110649</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.diabres.2023.110649" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Wu, Jinge, Rowena Smith, and Honghan Wu. <em>“Ontology-Driven Self-Supervision for Adverse Childhood Experiences Identification Using Social Media Datasets.”</em> In <em>Proceedings of the 1st Workshop on Scarce Data in Artificial Intelligence for Healthcare - SDAIH</em>, ISBN 978-989-758-629-3, SciTePress, pages 5-10. <a href="https://doi.org/10.5220/0011531100003523">DOI: 10.5220/0011531100003523</a>, <a href="https://www.scitepress.org/Papers/2022/115311/115311.pdf">pdf</a>, <a href="https://github.com/knowlab/ACE-NLP">Github Repo</a></p>
+  </li>
+  <li>
+    <p>Aneeta Sylolypavan, Derek Sleeman, Honghan Wu, and Malcolm Sim. <em>“The impact of inconsistent human annotations on AI driven clinical decision making.”</em> npj Digital Medicine 6, 26 (2023). <a href="https://doi.org/10.1038/s41746-023-00773-3">DOI:10.1038/s41746-023-00773-3</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-023-00773-3" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+</ul>
+
+<h3 id="2022">2022</h3>
+
+<ul>
+  <li>
+    <p>Honghan Wu, Minhong Wang, Jinge Wu, Farah Francis, Yun-Hsuan Chang, Alex Shavick, Hang Dong, et al. <em>“A Survey on Clinical Natural Language Processing in the United Kingdom from 2007 to 2022”.</em> npj Digital Medicine 5, 186 (2022). <a href="https://doi.org/10.1038/s41746-022-00730-6">DOI:10.1038/s41746-022-00730-6</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-022-00730-6" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Hang Dong, Matúš Falis, William Whiteley, Beatrice Alex, Joshua Matterson, Shaoxiong Ji, JiaoyanChen &amp; Honghan Wu. <em>“Automated Clinical Coding - What, Why, and Where We Are.”</em> npj Digital Medicine 5, 159 (2022). <a href="https://doi.org/10.1038/s41746-022-00705-7">DOI:10.1038/s41746-022-00705-7</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41746-022-00705-7" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Aneeta Sylolypavan, Derek Sleeman, Honghan Wu, and Malcolm Sim. The Impact of Inconsistent Human Annotations on AI driven Clinical Decision Making. Preprint:  <a href="https://doi.org/10.21203/rs.3.rs-1937575/v1">doi:10.21203/rs.3.rs-1937575/v1</a>, Oct 2022.</p>
+  </li>
+  <li>
+    <p>Minhong Wang, Farah Francis, Holger Kunz, Xiang Zhang, Cheng Wan, Yun Liu, Paul Taylor, Sarah H.Wild, Honghan Wu. <em>“Artificial intelligence models for predicting cardiovascular diseases in people with type 2 diabetes: a systematic review.”</em> Accepted by <a href="https://www.sciencedirect.com/science/article/pii/S2666521222000254">Intelligence-Based Medicine</a>. <a href="https://doi.org/10.1016/j.ibmed.2022.100072">DOI:10.1016/j.ibmed.2022.100072</a>, Aug 2022.</p>
+  </li>
+  <li>
+    <p>Cheng Wan, Steph Read, Honghan Wu, Shan Lu, Xin Zhang, Sarah H. Wild, and Yun Liu. Prediction of Five-Year Cardiovascular Disease Risk in People with Type 2 Diabetes Mellitus: Derivation in Nanjing, China and External Validation in Scotland, UK. Global Heart. 2022;17(1):46. <a href="http://doi.org/10.5334/gh.1131">DOI: 10.5334/gh.1131</a>.</p>
+  </li>
+  <li>
+    <p>Xihe Kuang, Jason Pui Yin Cheung, Kwan-Yee K. Wong, Wai Yi Lam, Chak Hei Lam, Richard W. Choy, Christopher P. Cheng, Honghan Wu, Cao Yang, Kun Wang, Yang Li, Teng Zhang. <em>Spine-GFlow: A Hybrid Learning Framework for Robust Multi-tissue Segmentation in Lumbar MRI without Manual Annotation</em>,
+Computerized Medical Imaging and Graphics, 2022, 102091, ISSN 0895-6111, <a href="https://doi.org/10.1016/j.compmedimag.2022.102091">DOI:10.1016/j.compmedimag.2022.102091</a>.</p>
+  </li>
+  <li>
+    <p>Johan H Thygesen, Christopher Tomlinson, Sam Hollings, Mehrdad Mizani, Alex Handy, Ashley Akbari Orcid Logo, Amitava Banerjee, Jennifer Cooper, Alvina Lai, Ken Li, Bilal Mateen, Naveed Sattar, Reecha Sofat, Ana Torralbo, Honghan Wu, Angela Wood, Jonathan A C Sterne, Christina Pagel, William Whiteley, Cathie Sudlow, Harry Hemingway, Spiros Denaxas. “COVID-19 trajectories among 57 million adults in England: a cohort study using electronic health records”. Lancet Digital Health. June 2022. <a href="https://doi.org/10.1016/S2589-7500(22)00091-7">DOI:10.1016/S2589-7500(22)00091-7</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/S2589-7500(22)00091-7" data-hide-no-mentions="true" class="altmetric-embed"></span>.</p>
+  </li>
+  <li>
+    <p>Honghan Wu, Minhong Wang, Aneeta Sylolypavan, Sarah Wild. <em>“Quantifying Health Inequalities Induced by Data and AI Models”.</em> In Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence (IJCAI-22), Special Track on AI for Good. Vienna 23-29 July, 2022. <a href="https://www.ijcai.org/proceedings/2022/0721.pdf">IJCAI-Proceedings</a>, <a href="https://knowlab.github.io/preprints/DA-AUC-IJCAI22.pdf">preprint</a>, <a href="https://www.ucl.ac.uk/research-it-services/sites/research_it_services/files/quantifying_health_inequalities_induced_by_data_and_ai_models_0.pdf">slides</a>, <a href="https://web.microsoftstream.com/video/568b2e88-5c21-466e-9bbf-63274048161d">recording</a>, <a href="https://github.com/knowlab/DAindex-Framework">repo</a>.</p>
+  </li>
+  <li>
+    <p>Isabel Straw and Honghan Wu. “Investigating for bias in healthcare algorithms: a sex-stratified analysis of supervised machine learning models in liver disease prediction”. BMJ Health &amp; Care Informatics 2022;29:e100457. doi: <a href="https://informatics.bmj.com/content/29/1/e100457">10.1136/bmjhci-2021-100457</a> (April 2022).</p>
+  </li>
+  <li>
+    <p>Qingyu Chen, Alexis Allot, Robert Leaman, Rezarta Islamaj Doğan, Jingcheng Du, Li Fang, Kai Wang, Shuo Xu, Yuefu Zhang, Parsa Bagherzadeh, Sabine Bergler, Aakash Bhatnagar, Nidhir Bhavsar, Yung-Chun Chang, Sheng-Jie Lin, Wentai Tang, Hongtong Zhang, Ilija Tavchioski, Senja Pollak, Shubo Tian, Jinfeng Zhang, Yulia Otmakhova, Antonio Jimeno Yepes, Hang Dong, Honghan Wu, Richard Dufour, Yanis Labrak, Niladri Chatterjee, Kushagri Tandon, Fréjus Laleye, Loïc Rakotoson, Emmanuele Chersoni, Jinghang Gu, Annemarie Friedrich, Subhash Chandra Pujari, Mariia Chizhikova, Naveen Sivadasan, Naveen Sivadasan, Zhiyong Lu. <em>Multi-label classification for biomedical literature: an overview of the BioCreative VII LitCovid Track for COVID-19 literature topic annotations</em>,
+Database, Volume 2022, 2022, baac069, <a href="https://doi.org/10.1093/database/baac069">DOI:10.1093/database/baac069</a> <a href="https://doi.org/10.48550/arXiv.2204.09781">arXiv:2204.09781</a>.</p>
+  </li>
+  <li>
+    <p>Huayu Zhang, Johan H. Thygesen, Ting Shi, Georgios Gkoutos, Harry Hemingway , Bruce Guthrie, Honghan Wu and Genomics England Research Consortium “Increased COVID-19 mortality rate in rare disease patients: a retrospective cohort study in participants of the Genomics England 100,000 Genomes project”. Orphanet Journal of Rare Diseases 17, 166 (2022). April 2022. <a href="https://doi.org/10.1186/s13023-022-02312-x">DOI:10.1186/s13023-022-02312-x</a>. <a href="/preprints/OJRD-D-21-00740_R2.pdf">preprint version</a>.</p>
+  </li>
+  <li>
+    <p>Ji, Shaoxiong, Wei Sun, Hang Dong, Honghan Wu, and Pekka Marttinen. “A Unified Review of Deep Learning for Automated Medical Coding.” arXiv preprint <a href="https://arxiv.org/abs/2201.02797">arXiv:2201.02797</a> (2022).</p>
+  </li>
+</ul>
+
+<h3 id="2021">2021</h3>
+
+<ul>
+  <li>
+    <p>L. Mirza, J. Das-Munshi, J. Chaturvedi, H. Wu, Z. Kraljewic, T. Searle, S. Shaari, A. Mascio, N. Skiada, A. Roberts, D. Bean, R. Stewart, R. Dobson, and R. Bendayan, “Investigating the Association between Physical Health Comorbidities and Disability in Individuals with Severe Mental Illness,” European Psychiatry, pp. 1–33, 2021. <a href="https://doi.org/10.1192/j.eurpsy.2021.2255">DOI: 10.1192/j.eurpsy.2021.2255</a></p>
+  </li>
+  <li>
+    <p>Huayu Zhang, Johan Thygesen, Honghan Wu. Increased COVID-19 related mortality rate for patients with rare diseases: a retrospective cohort study with data from Genomics England. The Lancet, Volume 398, S95. November 2021. (Conference Abstract) <a href="https://doi.org/10.1016/S0140-6736(21)02638-6">DOI: 10.1016/S0140-6736(21)02638-6</a></p>
+  </li>
+  <li>
+    <p>Davidson, Emma M., Michael TC Poon, Arlene Casey, Andreas Grivas, Daniel Duma, Hang Dong, Víctor Suárez-Paniagua, Claire Grover, Richard Tobin, Heather Whalley, Honghan Wu, Beatrice Alex &amp; William Whiteley. “The reporting quality of natural language processing studies: systematic review of studies of radiology reports.” BMC Medical Imaging 21, no. 1 (2021): 1-13. <a href="https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-021-00671-8">DOI:10.1186/s12880-021-00671-8</a>
+<span data-badge-popover="right" data-badge-type="4" data-doi="10.1186/s12880-021-00671-8" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Dong H, Suárez-Paniagua V, Zhang H, Wang M, Whitfield E, Wu H. Rare Disease Identification from Clinical Notes with Ontologies and Weak Supervision. Accepted for 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2021), 2021 Nov 01-05. p. 1-5. <a href="https://arxiv.org/abs/2105.01995">arXiv:2105.01995</a></p>
+  </li>
+  <li>
+    <p>Ibrahim, Zina M., Daniel Bean, Thomas Searle, Honghan Wu, Anthony Shek, Zeljko Kraljevic, James Galloway, Sam Norton, James T. Teo, and Richard JB Dobson. “A Knowledge Distillation Ensemble Framework for Predicting Short and Long-term Hospitalisation Outcomes from Electronic Health Records Data.” In press: IEEE Journal of Biomedical and Health Informatics. <a href="https://doi.org/10.1109/JBHI.2021.3089287">DOI: 10.1109/JBHI.2021.3089287</a> (2021).
+<span data-badge-popover="right" data-badge-type="4" data-doi="10.1109/JBHI.2021.3089287" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Kristiina Rannikmäe, Honghan Wu, Steven Tominey, William Whiteley, Naomi Allen and Cathie Sudlow. <em>Developing automated methods for disease subtyping in UK Biobank: an exemplar study on stroke.</em> <a href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01556-0">BMC Medical Informatics and Decision Making</a>. Volume 21, Article number: 191 (2021). <a href="https://doi.org/10.1186/s12911-021-01556-0">DOI:10.1186/s12911-021-01556-0</a>. <span data-badge-popover="right" data-badge-type="4" data-doi="10.1186/s12911-021-01556-0" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Casey A, Davidson E, Poon M, Dong H, Duma D, Grivas A, Grover C, Suárez-Paniagua V, Tobin R, Whiteley W, Wu H, Alex B. A Systematic Review of Natural Language Processing Applied to Radiology Reports. <a href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01533-7">BMC Medical Informatics and Decision Making</a>. Volume 21, , Article number: 179 (2021). <a href="https://doi.org/10.1186/s12911-021-01533-7">DOI:10.1186/s12911-021-01533-7</a>. <span data-badge-popover="right" data-badge-type="4" data-doi="10.1186/s12911-021-01533-7" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Hang Dong, Víctor Suárez-Paniagua, Huayu Zhang, Minhong Wang, Emma Whitfield and Honghan Wu. <em>Weakly supervised entity linking and ontology matching to enrich patients’ rare disease coding.</em> Poster. Accepted to <a href="https://phkg.github.io/">Workshop on Personal Health Knowledge Graphs 2021</a>.</p>
+  </li>
+  <li>
+    <p>Emma Whitfield, Claire Coffey, Huayu Zhang, Ting Shi, Xiaodong Wu, Qiang Li, Honghan Wu. Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes. <a href="https://www.amia.org/amia2021">AMIA 2021 Annual Symposium Proc 2021:1198-1207</a>. October 2021, San Diego, USA. PMID: 35308999; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861682/">PMC8861682</a>; <a href="https://doi.org/10.1101/2021.03.16.21253371">medRxiv. DOI:10.1101/2021.03.16.21253371</a>. <a href="https://github.com/knowlab/covid-subtypes">Github Repo</a>  <span data-badge-popover="right" data-badge-type="4" data-doi="10.1101/2021.03.16.21253371" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Hang Dong, Víctor Suárez-Paniagua, William Whiteley, Honghan Wu.
+<em>Explainable Automated Coding of Clinical Notes using Hierarchical Label-wise Attention Networks and Label Embedding Initialisation</em>. <em><a href="https://doi.org/10.1016/j.jbi.2021.103728">Journal of Biomedical Informatics</a></em>. 116 (2021): 103728. February 2021. <a href="https://doi.org/10.1016/j.jbi.2021.103728">DOI:10.1016/j.jbi.2021.103728</a>, <a href="https://github.com/acadTags/Explainable-Automated-Medical-Coding">GitHub Repo</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.jbi.2021.103728" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Huayu Zhang, Amy Ferguson, Grant Robertson, Muchen Jiang, Teng Zhang, Cathie Sudlow, Keith Smith, Kristiina Rannikmae, Honghan Wu. 
+<em>Benchmarking network-based gene prioritization methods for cerebral small vessel disease</em>.  Briefings in Bioinformatics. February 2021. <a href="https://doi.org/10.1093/bib/bbab006">DOI:10.1093/bib/bbab006</a>. <a href="https://github.com/huayu-zhang/gp-bench">GitHub Repo</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/bib/bbab006" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+</ul>
+
+<h3 id="2020">2020</h3>
+
+<ul>
+  <li>
+    <p>Honghan Wu, Huayu Zhang, Andreas Karwath, Zina Ibrahim, Ting Shi, Xin Zhang, Kun Wang, Jiaxing Sun, Kevin Dhaliwal, Daniel Bean, Victor Roth Cardoso, Kezhi Li, James T. Teo, Amitava Banerjee, Fang Gao-Smith, Tony Whitehouse, Tonny Veenith, Georgios V. Gkoutos, Xiaodong Wu, Richard Dobson, and Bruce Guthrie.
+<em>Ensemble learning for poor prognosis predictions: a case study on SARS-CoV2</em>. November 2020. Accepted by Journal of the American Medical Informatics Association: <a href="https://doi.org/10.1093/jamia/ocaa295">DOI:10.1093/jamia/ocaa295</a>. <a href="https://github.com/Honghan/EnsemblePrediction">GitHub Repo</a>  <span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/jamia/ocaa295" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Ewan Carr, Rebecca Bendayan, Daniel Bean, Matthew Stammers, Wenjuan Wang, Huayu Zhang, Thomas Searle, Zeljko Kraljevic, Anthony Shek, Hang T T Phan, Walter Muruet, Anthony J Shinton, Ting Shi, Xin Zhang, Andrew Pickles, Daniel Stahl, Rosita Zakeri, Kevin O’Gallagher, Amos Folarin, Lukasz Roguski, Florina Borca, James Batchelor, Xiaodong Wu, Jiaxing Sun, Ashwin Pinto, Bruce Guthrie, Cormac Breen, Abdel Douiri, Honghan Wu, Vasa Curcin, James T Teo, Ajay Shah, Richard Dobson.
+<em>Evaluation and Improvement of the National Early Warning Score (NEWS2) for COVID-19: a multi-hospital study</em>. BMC Med 19, 23 (2021). <a href="https://doi.org/10.1186/s12916-020-01893-3">https://doi.org/10.1186/s12916-020-01893-3</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1186/s12916-020-01893-3" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Amitava Banerjee, Suliang Chen, Laura Pasea, Alvina Lai, Michail Katsoulis, Spiros Denaxas, Vahe Nafilyan, Bryan Williams, Wai Keong Wong, Ameet Bakhai, Kamlesh Khunti, Deenan Pillay, Mahdad Noursadeghi, Honghan Wu, Nilesh Pareek, Daniel Bromage, Theresa Mcdonagh, Jonathan Byrne, James T Teo, Ajay Shah, Ben Humberstone, Liang V Tang, Anoop SV Shah, Andrea Rubboli, Yutao Guo, Yu Hu, Cathie LM Sudlow, Gregory YH Lip, Harry Hemingway.
+<em>Excess deaths in people with cardiovascular diseases during the COVID-19 pandemic</em>. 2021. European Journal of Preventive Cardiology, zwaa155, <a href="https://doi.org/10.1093/eurjpc/zwaa155">https://doi.org/10.1093/eurjpc/zwaa155</a>. <span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/eurjpc/zwaa155" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Huayu Zhang, Ting Shi, Xiaodong Wu, Xin Zhang, Kun Wang, Daniel Bean, Richard Dobson, James T Teo, Jiaxing Sun, Pei Zhao, Chenghong Li, Kevin Dhaliwal, Honghan Wu, Qiang Li, Bruce Guthrie. 
+<em>Risk prediction for poor outcome and death in hospital in-patients with COVID-19: derivation in Wuhan, China and external validation in London, UK</em>. 2020. Preprint: <a href="https://www.medrxiv.org/content/10.1101/2020.04.28.20082222v1">MedRxiv</a>. <span data-badge-popover="right" data-badge-type="4" data-doi="10.1101/2020.04.28.20082222" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Rebecca Bendayan, Honghan Wu, Zeljko Kraljevic, Robert Stewart, Tom Searle, Jaya Chaturvedi, Jayati Das-Munshi, Zina Ibrahim, Aurelie Mascio, Angus Roberts, Daniel Bean and Richard Dobson. Identifying physical health comorbidities in a cohort of individuals with severe mental illness: An application of SemEHR. Accepted by <a href="http://healtex.org/healtac-2020/">HealTAC 2020</a>, London.</p>
+  </li>
+  <li>
+    <p>Zina Ibrahim, Honghan Wu and Ricahrd Dobson. Modeling Rare Interactions in Time Series Data Through Qualitative Change: Application to Outcome Prediction in Intensive Care Units. Accepted by <a href="http://ecai2020.eu/">ECAI 2020</a>, Santiago, Spain.</p>
+  </li>
+  <li>
+    <p>Zina M Ibrahim, Honghan Wu, Ahmed Hamoud, Lukas Stappen, Richard J B Dobson, Andrea Agarossi, <em>On classifying sepsis heterogeneity in the ICU: insight using machine learning</em>, Journal of the American Medical Informatics Association, 2020, ocz211, <a href="https://doi.org/10.1093/jamia/ocz211">https://doi.org/10.1093/jamia/ocz211</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/jamia/ocz211" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+</ul>
+
+<h3 id="2019">2019</h3>
+
+<ul>
+  <li>
+    <p>Honghan Wu, Minhong Wang, Qianyi Zeng, Wenjun Chen, Jeff Z. Pan, Cathie Sudlow, Dave Robertson. Knowledge Driven Phenotyping. Preprint: medrxiv <a href="https://www.medrxiv.org/content/10.1101/19013748v1">doi:10.1101/19013748</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1101/19013748" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Pirathiv Kugathasan, HonghanWu, Fiona Gaughrancd, René Ernst Nielsen, Megan Pritchard, Richard Dobson, Robert Stewart, Brendon Stubbs. <em>Association of physical health multimorbidity with mortality in people with schizophrenia spectrum disorders: Using a novel semantic search system that captures physical diseases in electronic patient records.</em> Accepted/In press: Schizophrenia Research. 2019. <a href="https://doi.org/10.1016/j.schres.2019.10.061">DOI:10.1016/j.schres.2019.10.061</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.schres.2019.10.061" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Daniel M. Bean, James Teo, Honghan Wu, Ricardo Oliveira, Raj Patel, Rebecca Bendayan, Ajay M. Shah, Richard J. B. Dobson, Paul A. Scott. <em>Semantic computational analysis of anticoagulation use in atrial fibrillation from real world data.</em> Accepted/In press: PLoS ONE. 2019. <a href="https://doi.org/10.1371/journal.pone.0225625">doi:10.1371/journal.pone.0225625</a> Available at: <a href="https://www.medrxiv.org/content/10.1101/19011643v1">medRxiv</a></p>
+  </li>
+  <li>
+    <p>Honghan Wu, Karen Hodgson, Sue Dyson, Katherine I. Morley, Zina M. Ibrahim, Ehtesham Iqbal, Robert Stewart, Richard JB Dobson, Cathie Sudlow. <em>Efficient Reuse of Natural Language Processing Models for Phenotype-Mention Identification in Free-text Electronic Medical Records: A Phenotype Embedding Approach.</em> JMIR Med Inform 2019;7(4):e14782. DOI:<a href="https://doi.org/10.2196/14782">10.2196/14782</a> PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31845899">31845899</a>. 2019 <span data-badge-popover="right" data-badge-type="4" data-doi="10.2196/14782" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+  <li>
+    <p>Gorinski, Philip John and Wu, Honghan and Grover, Claire and Tobin, Richard and Talbot, Conn and Whalley, Heather and Sudlow, Cathie and Whiteley, William and Alex, Beatrice. <em>Named Entity Recognition for Electronic Health Records: A Comparison of Rule-based and Machine Learning Approaches.</em> In Proceedings: Second UK Healthcare Text Analytics Conference. <a href="https://arxiv.org/abs/1903.03985">arXiv:1903.03985</a>. 2019</p>
+  </li>
+</ul>
+
+<h3 id="2018">2018</h3>
+
+<ul>
+  <li>
+    <p>Jackson, Richard, Ismail Kartoglu, Clive Stringer, Genevieve Gorrell, Angus Roberts, Xingyi Song, Honghan W et al. “<em>CogStack-experiences of deploying integrated information retrieval and extraction services in a large National Health Service Foundation Trust hospital.</em>” BMC medical informatics and decision making 18, no. 1 (2018): 47. <a href="https://doi.org/10.1186/s12911-018-0623-9">10.1186/s12911-018-0623-9</a></p>
+  </li>
+  <li>
+    <p>Honghan Wu, Giulia Toti, Katherine I Morley, Zina Ibrahim, Amos Folarin, Ismail Kartoglu, Richard Jackson, Asha Agrawal, Clive Stringer, Darren Gale, Genevieve M Gorrell, Angus Roberts, Matthew Broadbent, Robert Stewart, Richard J B Dobson. <em>SemEHR: A General-purpose Semantic Search System to Surface Semantic Data from Clinical Notes for Tailored Care, Trial Recruitment and Clinical Research.</em> Journal of the American Medical Informatics Association, Volume 25, Issue 5, 1 May 2018, Pages 530–537, cx160, 2018. <a href="http://dx.doi.org/10.1093/jamia/ocx160">doi:10.1093/jamia/ocx160</a> <span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/jamia/ocx160" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+  </li>
+</ul>
+
+<h3 id="2017">2017</h3>
+
+<ul>
+  <li>
+    <p>Daniel M. Bean, Honghan Wu, Olubanke Dzahini, Matthew Broadbent, Robert Stewart &amp; Richard J. B. Dobson. <em>Knowledge graph prediction of unknown adverse drug reactions and validation in electronic health records.</em> Scientific Reports, Article number: 16416 (2017) <a href="http://dx.doi.org/10.1038/s41598-017-16674-x">doi:10.1038/s41598-017-16674-x</a></p>
+  </li>
+  <li>
+    <p>Honghan Wu, Anika Oellrich, Christine Girges, Bernard de Bono, Tim J.P. Hubbard, Richard J.B. Dobson. <em>Automated PDF highlighting to support faster curation of literature for Parkinson’s and Alzheimer’s disease.</em> Database (Oxford) 2017; 2017 (1): bax027. DOI: <a href="https://dx.doi.org/10.1093/database/bax027">10.1093/database/bax027</a></p>
+  </li>
+  <li>
+    <p>Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and <strong>Honghan Wu</strong> (Editors) <em>Exploiting Linked Data and Knowledge Graphs for Large Organisations.</em> Springer International Publishing. 2017. ISBN: 978-3-319-45652-2. DOI: <a href="https://dx.doi.org/10.1007/978-3-319-45654-6">10.1007/978-3-319-45654-6</a> Available at: <a href="http://www.springer.com/gp/book/9783319456522">Springer</a> (Edited Book)</p>
+  </li>
+</ul>
+
+<!--more-->
+
+<ul>
+  <li>
+    <p>Gomez-Perez, Jose Manuel, Jeff Z. Pan, Guido Vetere, and Honghan Wu. 2017. “Enterprise Knowledge Graph: An Introduction.” In Exploiting Linked Data and Knowledge Graphs in Large Organisations, edited by Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and Honghan Wu, 1-14. Cham: Springer International Publishing. DOI: 10.1007/978-3-319-45654-6_1</p>
+  </li>
+  <li>
+    <p>Villazon-Terrazas, Boris, Nuria Garcia-Santa, Yuan Ren, Alessandro Faraotti, Honghan Wu, Yuting Zhao, Guido Vetere, and Jeff Z. Pan. 2017. “Knowledge Graph Foundations.” In Exploiting Linked Data and Knowledge Graphs in Large Organisations, edited by Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and Honghan Wu, 17-55. Cham: Springer International Publishing. DOI: 10.1007/978-3-319-45654-6_2</p>
+  </li>
+  <li>
+    <p>Denaux, Ronald, Yuan Ren, Boris Villazon-Terrazas, Panos Alexopoulos, Alessandro Faraotti, and Honghan Wu. 2017. “Knowledge Architecture for Organisations.” In Exploiting Linked Data and Knowledge Graphs in Large Organisations, edited by Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and Honghan Wu, 57-84. Cham: Springer International Publishing. DOI: 10.1007/978-3-319-45654-6_3</p>
+  </li>
+  <li>
+    <p>Wu, Honghan, Ronald Denaux, Panos Alexopoulos, Yuan Ren, and Jeff Z. Pan. 2017. “Understanding Knowledge Graphs.” In Exploiting Linked Data and Knowledge Graphs in Large Organisations, edited by Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and Honghan Wu, 147-180. Cham: Springer International Publishing. DOI: 10.1007/978-3-319-45654-6_6</p>
+  </li>
+  <li>
+    <p>Moschitti, Alessandro, Kateryna Tymoshenko, Panos Alexopoulos, Andrew Walker, Massimo Nicosia, Guido Vetere, Alessandro Faraotti, Marco Monti, Jeff Z. Pan, Honghan Wu, and Yuting Zhao. 2017. “Question Answering and Knowledge Graphs.” In Exploiting Linked Data and Knowledge Graphs in Large Organisations, edited by Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and Honghan Wu, 181-212. Cham: Springer International Publishing. DOI: 10.1007/978-3-319-45654-6_7</p>
+  </li>
+  <li>
+    <p>Pan, Jeff Z., Jose Manuel Gomez-Perez, Guido Vetere, Honghan Wu, Yuting Zhao, and Marco Monti. 2017. “Enterprise Knowledge Graph: Looking into the Future.” In Exploiting Linked Data and Knowledge Graphs in Large Organisations, edited by Jeff Z. Pan, Guido Vetere, Jose Manuel Gomez-Perez and Honghan Wu, 237-249. Cham: Springer International Publishing. DOI: 10.1007/978-3-319-45654-6_9</p>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <p>Iqbal, Ehtesham; Mallah, Robbie; Rhodes, Daniel; Wu, Honghan; Romero, Alvin; Chang, Nynn; Dzahini, Olubanke; Pandey, Chandra; Broadbent, Matthew; Stewart, Robert; Dobson, Richard J. B.; Ibrahim, Zina M.; Groza, Tudor (Editor). <em>ADEPt, a semantically-enriched pipeline for extracting adverse drug events from free-text electronic health records.</em> PLoS One , Vol. 12, No. 11, 11.2017, p. e0187121. <a href="http://dx.doi.org/10.1371/journal.pone.0187121">doi:10.1371/journal.pone.0187121</a></p>
+  </li>
+</ul>
+
+:ET

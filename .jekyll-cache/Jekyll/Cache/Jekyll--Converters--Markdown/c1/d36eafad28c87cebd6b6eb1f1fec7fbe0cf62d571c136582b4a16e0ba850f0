@@ -1,0 +1,16 @@
+I"š<h2 id="the-question">The question</h2>
+
+<p>Medical AI is promising at reading clinical text and supporting diagnosis. But it is often tested on small or artificial sets of questions that do not look like the messy cases doctors really face. For rare diseases, where even specialists struggle, that is a particular problem.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We gathered thousands of real clinical case reports from PubMed Central and turned them into tasks that mimic real clinical problem-solving. These include screening a case for possible rare diseases and confirming a specific diagnosis from a free-text description. The result is a benchmark called RareArena.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>RareArena lets different AI models be compared on the same realistic cases, showing where they are strong and where they fall short at understanding medical language and recognising rare conditions.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A trustworthy test comes before a trustworthy tool. A realistic testing ground helps developers build safer AI that could help clinicians recognise rare diseases earlier and more accurately.</p>
+:ET

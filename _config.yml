@@ -135,6 +135,11 @@ var_your_message: Your message
 
 # You don't have to change these.
 
+collections:
+  stories:
+    output: true
+    permalink: /blog/:name/
+
 exclude: [vendor]
 highlighter: rouge
 kramdown:
@@ -149,3 +154,6 @@ defaults:
     values:
       layout: "post"
       excerpt_separator: "<!--more-->"
+
+# Homepage hero: slug of the post to feature (filename minus the date and .md). Leave empty to use the latest news post.
+hero_post:

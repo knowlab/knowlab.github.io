@@ -1,0 +1,16 @@
+I"ù<h2 id="the-question">The question</h2>
+
+<p>Radiologists are busy, and mistakes inevitably slip into their reports. Speech recognition mishears words, terms are ambiguous and templates cause inconsistencies. Such errors can delay treatment and sometimes harm patients. General language models are not yet good at catching them.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We gave language models medical expertise in two ways. One is distilling a medical knowledge graph, and the other is looking up outside reference knowledge. We also split the proofreading into three stages, detection, localisation and correction, much as an expert radiologist would review a report. To test it fairly we built a benchmark of real radiology reports with realistic errors, validated by practising radiologists.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Across several language models, error detection accuracy improved by up to 31.56% and processing time fell by 37.4%. Radiologists who reviewed the results judged them better in clinical relevance and factual consistency than existing approaches.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Better report quality with less effort from radiologists, which should particularly help places with fewer resources.</p>
+:ET

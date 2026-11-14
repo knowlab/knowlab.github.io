@@ -1,0 +1,16 @@
+I"à<h2 id="the-question">The question</h2>
+
+<p>Much of what a hospital knows about a patient is locked in free-text notes: nursing records, radiology reports and discharge summaries. Getting at it for research, to run a hospital or to find patients for a trial usually needs a bespoke tool built for each study, which is slow and expensive.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built SemEHR, an open-source search and analysis system for health records. It finds mentions of a wide range of medical concepts in notes, with their context (for example, whether the condition is present or ruled out), and assembles them into a timeline for each patient. Users search it through an ontology, a structured medical vocabulary, so ordinary extraction tasks become search queries.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>SemEHR has been used in several UK hospitals. In two studies on the Clinical Record Interactive Search system, it reached F-measures of 93% for hepatitis C and 99% for HIV when identifying the right patients. At Kingâ€™s College Hospital it supports recruitment into the 100,000 Genomes Project, and checking recruitment criteria dropped from days to minutes. Vital signs it extracted from intensive care notes were about 97% accurate.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Work that took weeks or months can sometimes be done in hours or minutes, with a more complete view of each patient than study-specific tools give. The code is open on GitHub.</p>
+:ET

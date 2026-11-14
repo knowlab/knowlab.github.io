@@ -1,0 +1,16 @@
+I"Z<h2 id="the-question">The question</h2>
+
+<p>Clinical coding turns the information in a patient’s record into structured codes, such as ICD-10, so it can be used for statistics and research. It is a cognitive, time-consuming task that follows a standard process to stay consistent. Can AI take it on?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>This perspective piece, led by Hang Dong, introduces the idea of automated clinical coding and summarises its challenges from an AI and language-processing point of view. It draws on the literature, our project experience from late 2019 to early 2022, and discussions with clinical coding experts in Scotland and the UK.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The piece covers seven challenges, including the lack of high-quality benchmark datasets, heterogeneous, incomplete and noisy data sources, and learning from low resources. It argues there is a gap between current deep learning approaches and the explainability and consistency that real practice needs, so knowledge-based methods that capture the standard process may need to be combined with deep learning.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Coders need to be involved in development. There is much to achieve before an AI system can support coding in routine use, which is the direction our later human-AI coding work took.</p>
+:ET

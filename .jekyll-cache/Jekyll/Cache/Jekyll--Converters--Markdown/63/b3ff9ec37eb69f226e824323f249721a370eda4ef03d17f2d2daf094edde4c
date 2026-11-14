@@ -1,0 +1,16 @@
+I"5<h2 id="the-question">The question</h2>
+
+<p>A radiology report has detailed findings, but busy clinicians mostly want the short impression at the end. Can language models write that summary well?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We took part in the RadSum23 shared task at BioNLP 2023. We compared state-of-the-art generative language models on turning radiology reports into summaries. We introduced a two-stage fine-tuning approach that uses knowledge learnt from different datasets, and measured results with several metrics including BLEU, ROUGE, BERTScore, CheXbert and RadGraph.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The results show the potential of different models for summarising radiology reports and the effectiveness of the two-stage fine-tuning. We also discuss the limits of our work and the need to understand better how model design and fine-tuning interact.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Good automatic summaries could save clinicians time, but only if we know which models and training recipes to trust.</p>
+:ET

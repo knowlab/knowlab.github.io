@@ -1,0 +1,16 @@
+I"j<h2 id="the-question">The question</h2>
+
+<p>Language models read text by chopping words into pieces called tokens. For everyday English that works well. For clinical text, long drug and disease names often get split into meaningless fragments, which makes it harder for models to learn their meaning.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built K-Tokeniser. It uses medical concepts from resources such as the UMLS, or from a specific task’s text, to choose better tokens at training and at use. For the new tokens, it sets up their starting representation in a way that avoids having to pre-train the language model from scratch.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>For automated clinical coding, a model built with K-Tokeniser improved the Micro F1 score by 13%. It beat the clinicalBERT baseline using only half the training data for extracting medical concepts and less than a fifth of it for coding.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Labelled clinical data is expensive. Building domain knowledge into the model’s reading process gets better results from far less of it.</p>
+:ET

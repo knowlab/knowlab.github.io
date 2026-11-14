@@ -1,0 +1,16 @@
+I"¶<h2 id="the-question">The question</h2>
+
+<p>Atrial fibrillation is the most common abnormal heart rhythm and it raises the risk of stroke, which anticoagulant drugs control well. Studies of how often they are used have relied on registries, which are costly to collect and may not reflect real practice. Hospital records contain the answer, but in free text.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built an open-source pipeline that reads clinical text, finds the risk factors and calculates two standard scores: CHA2DS2-VASc, for the risk of ischaemic stroke, and HAS-BLED, for bleeding. We applied it to the discharge summaries of 10,030 patients with atrial fibrillation discharged between 2011 and 2017, and checked scores against two independent experts for 40 patients.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The automatic CHA2DS2-VASc scores agreed strongly with the experts (average kappa 0.78, against 0.85 between the experts themselves). Agreement for HAS-BLED was lower (0.54, against 0.74). In high-risk patients, anticoagulant use rose significantly over the seven years, driven by the arrival of newer direct-acting drugs and by patients moving from antiplatelet drugs alone to anticoagulants.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Risk scores can be computed from hospital text at scale, though the tools need further validation. And routine records can reproduce findings from large curated registries.</p>
+:ET

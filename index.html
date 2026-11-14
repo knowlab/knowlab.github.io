@@ -2,7 +2,14 @@
 layout: home
 home: true
 ---
+{%- comment -%} Hero post: set hero_post in _config.yml to a post slug (filename minus the date, e.g. EACL2026); falls back to the latest news post. {%- endcomment -%}
 {%- assign featured = site.categories.news.first -%}
+{%- if site.hero_post -%}
+  {%- for p in site.posts -%}
+    {%- assign pslug = p.path | split: '/' | last | slice: 11, 200 | remove: '.md' | remove: '.markdown' -%}
+    {%- if pslug == site.hero_post -%}{%- assign featured = p -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 
 <section class="hero">
   <div class="wrap hero-grid">
@@ -12,12 +19,20 @@ home: true
       <p class="lede">KnowLab builds machine learning, multimodal language models and knowledge graphs for health. We are based at the University of Glasgow and University College London.</p>
       <div class="actions">
         <a class="btn solid" href="{{ site.baseurl }}/publications/">Browse publications</a>
-        <a class="btn ghost" href="{{ site.baseurl }}/contact/">Get in touch</a>
+        <a class="btn ghost" href="mailto:honghan.wu@glasgow.ac.uk">Get in touch</a>
       </div>
     </div>
     <div class="hero-feature">
       {% include news-card.html post=featured feature=true %}
     </div>
+  </div>
+</section>
+
+<section class="statbar" aria-label="At a glance">
+  <div class="wrap">
+    <span><strong>{{ site.stories.size }}</strong> papers explained in plain English</span>
+    <span><strong>{{ site.data.topics.size }}</strong> research directions</span>
+    <a href="{{ site.baseurl }}/blog/">Start with the stories &rarr;</a>
   </div>
 </section>
 
@@ -28,29 +43,46 @@ home: true
       <h2 class="serif">What we work on</h2>
     </div>
     <div class="tiles">
-      <div class="tile">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
-        <h3>AI reliability in medicine</h3>
-        <p>Understanding what clinical AI knows, where it fails, and how to tell the difference.</p>
-      </div>
-      <div class="tile">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
-        <h3>Language models for clinical text</h3>
-        <p>Reasoning, summarisation and coding over health records, evaluated step by step.</p>
-      </div>
-      <div class="tile">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg>
-        <h3>Multimodal health data</h3>
-        <p>Linking images, text and records at population scale to support research and care.</p>
-      </div>
-      <div class="tile">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.3 7l7.3 .3M7.3 8.2l3.6 7.6M16.9 9.3l-3.7 6.8"/></svg>
-        <h3>Knowledge graphs and rare disease</h3>
-        <p>Ontology-grounded diagnosis and phenotyping that keeps its evidence traceable.</p>
-      </div>
+      {%- for t in site.data.topics %}
+      <a class="tile {{ t.cls }}" href="{{ site.baseurl }}/blog/topic/{{ t.slug }}/">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ t.icon }}</svg>
+        <h3>{{ t.name }}</h3>
+        <p>{{ t.blurb }}</p>
+        <span class="readmore">Read the stories &rarr;</span>
+      </a>
+      {%- endfor %}
     </div>
   </div>
 </section>
+
+{%- assign stories = site.stories | concat: site.categories.blog | sort: 'date' | reverse -%}
+{%- if stories.size > 0 %}
+<section class="section" id="blog">
+  <div class="wrap stack">
+    <div class="sec-head row">
+      <div>
+        <div class="eyebrow">Blog</div>
+        <h2 class="serif">Our research, in plain English</h2>
+      </div>
+      <a class="readmore" href="{{ site.baseurl }}/blog/">All stories &rarr;</a>
+    </div>
+    <div class="cards story-strip">
+      {%- assign hero_slug = featured.path | split: '/' | last | slice: 11, 200 | remove: '.md' | remove: '.markdown' | downcase -%}
+      {%- assign top_stories = '' | split: '' -%}
+      {%- assign other_stories = '' | split: '' -%}
+      {%- for x in stories -%}
+        {%- assign xnews = x.news | downcase -%}
+        {%- if xnews == hero_slug -%}{%- continue -%}{%- endif -%}
+        {%- if x.featured -%}{%- assign top_stories = top_stories | push: x -%}{%- else -%}{%- assign other_stories = other_stories | push: x -%}{%- endif -%}
+      {%- endfor -%}
+      {%- assign top_stories = top_stories | concat: other_stories -%}
+      {%- for story in top_stories limit: 3 %}
+        {% include story-card.html story=story lead=forloop.first %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
 
 <section class="section" id="news">
   <div class="wrap stack">
@@ -62,7 +94,11 @@ home: true
       <a class="readmore" href="{{ site.baseurl }}/updates/">All updates &rarr;</a>
     </div>
     <div class="cards">
-      {% for post in site.categories.news offset: 1 limit: 6 %}
+      {%- assign news_shown = 0 -%}
+      {% for post in site.categories.news %}
+        {%- if post.url == featured.url -%}{%- continue -%}{%- endif -%}
+        {%- if news_shown >= 6 -%}{%- break -%}{%- endif -%}
+        {%- assign news_shown = news_shown | plus: 1 -%}
         {% include news-card.html post=post %}
       {% endfor %}
     </div>
@@ -78,7 +114,6 @@ home: true
       </div>
       <div class="actions">
         <a class="btn light" href="mailto:honghan.wu@glasgow.ac.uk">Email us</a>
-        <a class="btn outline-light" href="{{ site.baseurl }}/contact/">Contact page</a>
       </div>
     </div>
   </div>

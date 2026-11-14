@@ -1,0 +1,16 @@
+I"P<h2 id="the-question">The question</h2>
+
+<p>People with schizophrenia-spectrum disorders die earlier, and single physical conditions such as heart or lung disease are part of the reason. But people often have two or more at once. What does that do to their risk of dying?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We studied people with these disorders in a large mental health hospital’s records in a retrospective cohort between 2013 and 2017. Physical conditions are rarely recorded in structured fields there, so we used SemEHR, our semantic search system, to capture them from the electronic records, and then linked them to deaths. We calculated hazard ratios, which compare the rate of death between groups.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Among 9,775 people, 6,262 (64%) had physical multimorbidity, and 880 (9%) died in five years of follow-up. The three combinations with the highest risk were cardiovascular with respiratory (hazard ratio 2.23), respiratory with skin (2.06) and respiratory with digestive conditions (1.88).</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Roughly two thirds of these patients have several physical conditions, and their mortality risk is higher than for those with none or one. Prevention and care need to be proactive and co-ordinated, going beyond a focus on single conditions.</p>
+:ET

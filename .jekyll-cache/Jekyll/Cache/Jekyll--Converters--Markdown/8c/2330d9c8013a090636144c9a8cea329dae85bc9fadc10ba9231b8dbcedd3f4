@@ -1,0 +1,16 @@
+I"è<h2 id="the-question">The question</h2>
+
+<p>Hospitals turn clinical notes into standard codes. Deep learning can do this automatically, but its poor explainability stops clinicians from using it confidently. Medical codes are also correlated, which most models ignore.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We proposed the Hierarchical Label-wise Attention Network (HLAN), which shows how important each word and sentence is to each individual code. We also proposed label embedding initialisation, which captures how codes relate to one another and feeds that into the model. We tested on MIMIC-III discharge summaries with all codes, the top 50 codes, and the UK NHS COVID-19 shielding codes.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>HLAN gave better or comparable accuracy to the leading CNN-based models and more meaningful, comprehensive explanations. Label embedding initialisation consistently boosted most deep learning models, taking the previous best model to 52.5% micro-F1 on full-code prediction.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A coder can look at what the AI used as evidence and decide whether to trust it, which is the basis for the human-AI coding work we did later. Code and results are open.</p>
+:ET

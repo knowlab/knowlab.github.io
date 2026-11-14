@@ -1,0 +1,22 @@
+I"<h2 id="the-question">The question</h2>
+
+<p>Big AI models are expensive to run, so researchers often train a smaller one to imitate them. A popular recipe has the big model write out its reasoning, step by step, and the small model learns to produce the same kind of reasoning. This is called distillation.</p>
+
+<p>It is usually judged by one thing only: does the small model get the final answer right? In medicine that is not enough. A doctor who reads an AI’s explanation needs each step to be true, not only the last line.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We trained a small model this way on medical exam style questions, then checked it twice. First we looked at its answers, as everyone does. Then we looked at its working, one step at a time, with an independent AI judge that was blind to writing style. A clinical expert also checked 150 of the steps without knowing which model wrote them.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The answers got better. On a set of US medical licensing exam questions, accuracy rose from about 75% to about 84%, and the model’s confidence matched its accuracy more closely.</p>
+
+<p>The working got worse. The share of steps containing an error rose from about 31% to about 50%. The clinical expert saw the same pattern. It held across different judges, different teacher and student models, and other medical question sets.</p>
+
+<p>Our reading is that the short answer format does little to keep the explanation honest. A capable small model learns to sound like an expert, with the right shape of reasoning, without reliably checking each claim along the way. The usual accuracy scores and measures of hedging did not show this shift.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Distilled reasoning is now shared and reused widely. If a model’s explanation is going to be read by a clinician, or used to train the next model, a good score on answers alone can hide shaky thinking. Step-level checks should be part of how these models are judged before anyone relies on their explanations.</p>
+:ET

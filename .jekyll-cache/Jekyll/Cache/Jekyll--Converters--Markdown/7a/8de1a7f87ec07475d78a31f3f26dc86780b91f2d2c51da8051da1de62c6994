@@ -1,0 +1,16 @@
+I"p<h2 id="the-question">The question</h2>
+
+<p>Rare diseases are often mentioned in the free text of patient records, but finding those mentions automatically usually requires a lot of expert-labelled examples, which are expensive to produce.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We combined weakly supervised language processing with an ontology of rare diseases. The ontology supplies the knowledge of what to look for, so the system could learn from training data that needed no human annotation.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The approach identified rare disease mentions in electronic health records with more than 90% accuracy.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Removing the need for hand-labelled data makes it far cheaper to find patients with rare diseases in their records, which is a step towards earlier recognition.</p>
+:ET

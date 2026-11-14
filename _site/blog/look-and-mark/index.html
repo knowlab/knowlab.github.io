@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teaching AI to read chest X-rays by following where radiologists look &bull; KnowLab</title>
+<meta name="description" content="a research group doing machine learning, multimodal large language model, knowledge graph and their applications in health care">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<meta name="theme-color" content="#515675">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css?v=1794679885">
+
+</head>
+<body class="kl">
+  <header class="site-header">
+  <div class="wrap bar">
+    <a href="/" aria-label="KnowLab home"><img class="logo" src="/img/knowlab.v2.png" alt="KnowLab"></a>
+    <nav class="nav" aria-label="Main">
+      <a class="link" href="/">Home</a>
+      <a class="link" href="/updates/">News</a>
+      <a class="link on" href="/blog/">Blog</a>
+      <a class="link" href="/publications/">Publications</a>
+      <a class="link" href="/group-members/">Members</a>
+      <a class="link" href="/projects/">Projects</a>
+    </nav>
+  </div>
+</header>
+<main class="inner">
+    <div class="wrap">
+      <a class="readmore back" href="/blog/">&larr; All stories</a>
+      <div class="story-layout">
+        <article class="story">
+          <div class="tags"><a class="tp t3" href="/blog/topic/multimodal/">Multimodal data</a><a class="tp t1" href="/blog/topic/reliability/">AI reliability</a></div>
+          <h1 class="serif">Teaching AI to read chest X-rays by following where radiologists look</h1>
+          <div class="meta">28 May 2025 &middot; 1 min read &middot; by the KnowLab team</div><div class="short-version"><div class="eyebrow">The short version</div><p>Giving a multimodal model the places radiologists look and the regions they mark improves the reports it writes, without retraining it.</p></div>
+          <div class="story-body"><h2 id="the-question">The question</h2>
+
+<p>AI models that write radiology reports from X-rays can invent findings. Radiologists have knowledge the model lacks, such as where they look first and what they mark as important. Can we pass that expertise to the model?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We introduced Look &amp; Mark. Look uses the points where a radiologist fixed their gaze, and Mark uses boxes drawn around regions of interest. Both are given to the model as guidance, through in-context learning, so the models do not need extensive retraining.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Reports became more clinically relevant, with fewer hallucinations. The gains were largest on clinical measures. A domain-specific model, CXR-LLaVA, improved by 1.2% overall, while LLaVA-Med improved by 9.2%. A general-purpose model, LLaVA-OV, reached an 87.3% clinical average, the highest of all models tested, even above models trained specifically for chest X-ray reports.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Human expertise, added in a light-touch way, can make general AI models safer and more useful for reading medical images.</p>
+</div>
+        </article>
+        <aside class="story-side">
+          <div class="side-card">
+            <div class="eyebrow">The paper</div>
+            <div class="serif paper-title">Look & Mark: Leveraging Radiologist Eye Fixations and Bounding boxes in Multimodal Large Language Models for Chest X-ray Report Generation</div><div class="meta">Kim et al.. Findings of ACL, 2025</div>
+            <div class="links"><a href="https://aclanthology.org/2025.findings-acl.909/" target="_blank" rel="noopener">Read the paper</a></div>
+          </div>
+          <div class="side-card">
+            <div class="eyebrow">Part of</div><a class="side-link" href="/blog/topic/multimodal/">Multimodal health data</a><a class="side-link" href="/blog/topic/reliability/">AI reliability in medicine</a></div><div class="side-card"><div class="eyebrow">Keep reading</div><a class="side-link serif" href="/blog/cot-audit/">Better answers, shakier reasoning in small medical AI</a><a class="side-link serif" href="/blog/proactive-triage/">From spotting damage to preventing it: AI at the start of labour</a></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="contact">
+  <div class="wrap foot">
+    <div class="foot-about">
+      <div class="foot-name">KnowLab</div>
+      <div class="meta">School of Health and Wellbeing, University of Glasgow, and Institute of Health Informatics, University College London.</div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="/blog/">Blog</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/group-members/">Members</a>
+    </nav>
+  </div>
+  <div class="wrap meta foot-credit">Logo designed by Yuchen Wu.</div>
+</footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72059605-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72059605-3');
+</script>
+
+
+</body>
+</html>

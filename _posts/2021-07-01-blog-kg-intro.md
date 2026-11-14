@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: story
 title: A very simple guide of Knowledge Graph for Health Data Scientists
 date: 2021-07-01
 author:
     name: Honghan Wu
 categories: blog
+summary: A quick, jargon-light introduction to knowledge graphs and why they matter for health data science.
+topics: [knowledge-graphs]
 ---
 
 This article aims for a very quick introduction of knowledge graph 

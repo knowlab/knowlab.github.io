@@ -1,0 +1,16 @@
+I"]<h2 id="the-question">The question</h2>
+
+<p>Hospitals assign standard codes to describe what happened to each patient, which is essential for running health services. Deep learning can predict these codes from clinical documents, but the many published models are hard to compare because they are designed in different ways.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We proposed a unified framework that splits medical coding models into four components: encoders that extract features from the text, mechanisms for building deep encoder designs, decoders that turn the internal representation into codes, and the use of auxiliary information. We summarised recent advanced models within this framework, and described the benchmarks, real-world use and open challenges.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The framework gives a general understanding of the building blocks of medical coding models and a way to relate new work to previous work.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A common map helps newcomers get started and helps researchers see which ideas are really new.</p>
+:ET

@@ -1,0 +1,16 @@
+I"<h2 id="the-question">The question</h2>
+
+<p>Falls, dementia, delirium and malnutrition are among the geriatric syndromes that shape older people’s lives and care. They cut across disease types and are poorly captured in the structured parts of health records, but are often described in the text of hospital discharge summaries. Teaching computers to find them needs examples that experts have labelled by hand, and good ones are scarce.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We created a manually annotated collection of discharge summaries, with a labelling scheme for geriatric syndromes. We then tested several language models on it, both for deciding whether a document mentions a syndrome and for pinpointing where it is mentioned.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The best models scored about 0.9 out of 1 on the document-level task. Frailty, falls and delirium were the easiest to find, while rarer syndromes and subtle context were harder. The pinpointing scores were measured on a simplified version of the annotations, so they are a baseline and not a ceiling.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A shared, carefully labelled dataset gives researchers a common starting point for tools that help find older people at risk.</p>
+:ET

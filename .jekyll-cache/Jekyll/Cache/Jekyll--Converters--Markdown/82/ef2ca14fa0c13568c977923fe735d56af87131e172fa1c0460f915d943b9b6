@@ -1,0 +1,16 @@
+I"Ï<h2 id="the-question">The question</h2>
+
+<p>Adverse drug reactions cost the NHS an estimated Â£466 million a year in hospital admissions. Clinical trials can only reveal some of them, so a drug on the market may have side effects nobody knows about yet. Can we predict them before enough patients have been harmed to notice?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built a knowledge graph, a network linking drugs, their protein targets, their uses and their known side effects. An unknown side effect appears as a missing link, so the task is to predict the missing links. We then checked the predictions against anonymised electronic health records from the South London and Maudsley NHS Foundation Trust, rather than relying on spontaneous reports, which are known to be under-reported.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The method classified known causes of adverse reactions very well (AUC 0.92, where 1 is perfect). When 10% of the known links were hidden, it recovered 68% of them on average. High-confidence predictions were confirmed in the health records significantly more often than chance, and it outperformed standard methods such as logistic regression, decision trees and support vector machines.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Predicting reactions that trials did not observe could improve patient safety. The method is general, so it could also be applied to other questions, such as finding new uses for old drugs.</p>
+:ET

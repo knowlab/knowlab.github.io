@@ -1,0 +1,16 @@
+I"<h2 id="the-question">The question</h2>
+
+<p>Health and social care records hold addresses typed as free text, with typos, abbreviations and local shorthand. To study care-home residents, housing moves or the geography of care, they must be matched to the official property record (the UPRN).</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>FLAP pairs a machine-learning classifier, which judges whether a typed address and an official record match, with a fuzzy alignment step that copes with typos and reordered words. We tested it on the addresses of 771,588 people in NHS Tayside and NHS Fife.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Adjusted matching accuracy was 0.992 on a test set of 3,876 addresses. It coped with typos, alternative formats and partly wrong information, and lets users set a confidence threshold or return the top candidates.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Open, validated tools for address linkage open the door to geographic health research. The code is on GitHub.</p>
+:ET

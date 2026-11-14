@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SemEHR: turning weeks of hospital record searching into minutes &bull; KnowLab</title>
+<meta name="description" content="a research group doing machine learning, multimodal large language model, knowledge graph and their applications in health care">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<meta name="theme-color" content="#515675">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css?v=1794679885">
+
+</head>
+<body class="kl">
+  <header class="site-header">
+  <div class="wrap bar">
+    <a href="/" aria-label="KnowLab home"><img class="logo" src="/img/knowlab.v2.png" alt="KnowLab"></a>
+    <nav class="nav" aria-label="Main">
+      <a class="link" href="/">Home</a>
+      <a class="link" href="/updates/">News</a>
+      <a class="link on" href="/blog/">Blog</a>
+      <a class="link" href="/publications/">Publications</a>
+      <a class="link" href="/group-members/">Members</a>
+      <a class="link" href="/projects/">Projects</a>
+    </nav>
+  </div>
+</header>
+<main class="inner">
+    <div class="wrap">
+      <a class="readmore back" href="/blog/">&larr; All stories</a>
+      <div class="story-layout">
+        <article class="story">
+          <div class="tags"><a class="tp t2" href="/blog/topic/clinical-text/">Clinical text</a><a class="tp t4" href="/blog/topic/knowledge-graphs/">Knowledge graphs</a></div>
+          <h1 class="serif">SemEHR: turning weeks of hospital record searching into minutes</h1>
+          <div class="meta">10 Feb 2018 &middot; 2 min read &middot; by the KnowLab team</div><div class="short-version"><div class="eyebrow">The short version</div><p>SemEHR is an open-source tool that finds what clinical notes say about patients, cutting recruitment-criteria checking from days to minutes.</p></div>
+          <div class="story-body"><h2 id="the-question">The question</h2>
+
+<p>Much of what a hospital knows about a patient is locked in free-text notes: nursing records, radiology reports and discharge summaries. Getting at it for research, to run a hospital or to find patients for a trial usually needs a bespoke tool built for each study, which is slow and expensive.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built SemEHR, an open-source search and analysis system for health records. It finds mentions of a wide range of medical concepts in notes, with their context (for example, whether the condition is present or ruled out), and assembles them into a timeline for each patient. Users search it through an ontology, a structured medical vocabulary, so ordinary extraction tasks become search queries.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>SemEHR has been used in several UK hospitals. In two studies on the Clinical Record Interactive Search system, it reached F-measures of 93% for hepatitis C and 99% for HIV when identifying the right patients. At King’s College Hospital it supports recruitment into the 100,000 Genomes Project, and checking recruitment criteria dropped from days to minutes. Vital signs it extracted from intensive care notes were about 97% accurate.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Work that took weeks or months can sometimes be done in hours or minutes, with a more complete view of each patient than study-specific tools give. The code is open on GitHub.</p>
+</div>
+        </article>
+        <aside class="story-side">
+          <div class="side-card">
+            <div class="eyebrow">The paper</div>
+            <div class="serif paper-title">SemEHR: A general-purpose semantic search system to surface semantic data from clinical notes for tailored care, trial recruitment, and clinical research</div><div class="meta">Wu et al.. Journal of the American Medical Informatics Association, 2018</div>
+            <div class="links"><a href="https://doi.org/10.1093/jamia/ocx160" target="_blank" rel="noopener">Read the paper</a></div>
+          </div>
+          <div class="side-card">
+            <div class="eyebrow">Part of</div><a class="side-link" href="/blog/topic/clinical-text/">Language models for clinical text</a><a class="side-link" href="/blog/topic/knowledge-graphs/">Knowledge graphs and rare disease</a></div><div class="side-card"><div class="eyebrow">Keep reading</div><a class="side-link serif" href="/blog/cot-audit/">Better answers, shakier reasoning in small medical AI</a><a class="side-link serif" href="/blog/proactive-triage/">From spotting damage to preventing it: AI at the start of labour</a></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="contact">
+  <div class="wrap foot">
+    <div class="foot-about">
+      <div class="foot-name">KnowLab</div>
+      <div class="meta">School of Health and Wellbeing, University of Glasgow, and Institute of Health Informatics, University College London.</div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="/blog/">Blog</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/group-members/">Members</a>
+    </nav>
+  </div>
+  <div class="wrap meta foot-credit">Logo designed by Yuchen Wu.</div>
+</footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72059605-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72059605-3');
+</script>
+
+
+</body>
+</html>

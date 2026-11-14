@@ -1,0 +1,16 @@
+I"©<h2 id="the-question">The question</h2>
+
+<p>Pathology datasets arrive over time and bring new classes of data, so a model must keep learning. But when a model is trained on new tasks it tends to forget old ones, which is known as catastrophic forgetting. Privacy, legal and storage limits often make it impossible to keep the old images to retrain on.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We proposed a replay method built on generative models: instead of storing past images, the model replays generated latent representations of earlier tasks. We added a knowledge-regularisation step that uses attention embeddings from earlier tasks, so the model keeps track of which spatial features mattered most.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Combining attention-based regularisation with generative latent replay gave better continual-learning performance in non-stationary data settings, shown on a representative histology image analysis task.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Clinical AI will not be trained once and frozen. Learning from new data without hoarding patient images is a step towards models that can be updated safely over time.</p>
+:ET

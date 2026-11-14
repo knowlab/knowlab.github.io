@@ -1,0 +1,16 @@
+I"Å<h2 id="the-question">The question</h2>
+
+<p>Language models can write synthetic health records, realistic but invented patient notes that could be used to train or test systems without exposing real patients. But if the models carry hidden biases, the synthetic records will too.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We compared several language models on how well they generate health records and then looked at how the gender and racial make-up of the generated patients differed across diseases.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Larger models such as Yi-34B, Qwen-14B and Llama 2 13B wrote more comprehensive records, but their gender and racial biases grew as well, a trade-off between performance and bias. Bias showed up in all the models, not just the large ones. Gender bias closely followed real-world disease rates, while racial bias appeared only for some diseases, with some over-representing White or Black patients and under-representing Hispanic and Asian groups.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Better synthetic data should not come at the cost of fairness. These results show the need for methods that reduce bias and for benchmarks that test for it.</p>
+:ET
