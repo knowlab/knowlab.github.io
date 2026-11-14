@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kl
 title: Publications
 permalink: /publications/
 cover-image: gla-ucl-sketch.png

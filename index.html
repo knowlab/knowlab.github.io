@@ -1,0 +1,85 @@
+---
+layout: home
+home: true
+---
+{%- assign featured = site.categories.news.first -%}
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Health informatics research group</div>
+      <h1 class="serif">Knowledge-driven AI for better health care</h1>
+      <p class="lede">KnowLab builds machine learning, multimodal language models and knowledge graphs for health. We are based at the University of Glasgow and University College London.</p>
+      <div class="actions">
+        <a class="btn solid" href="{{ site.baseurl }}/publications/">Browse publications</a>
+        <a class="btn ghost" href="{{ site.baseurl }}/contact/">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-feature">
+      {% include news-card.html post=featured feature=true %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="research">
+  <div class="wrap stack">
+    <div class="sec-head">
+      <div class="eyebrow">Research</div>
+      <h2 class="serif">What we work on</h2>
+    </div>
+    <div class="tiles">
+      <div class="tile">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+        <h3>AI reliability in medicine</h3>
+        <p>Understanding what clinical AI knows, where it fails, and how to tell the difference.</p>
+      </div>
+      <div class="tile">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+        <h3>Language models for clinical text</h3>
+        <p>Reasoning, summarisation and coding over health records, evaluated step by step.</p>
+      </div>
+      <div class="tile">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg>
+        <h3>Multimodal health data</h3>
+        <p>Linking images, text and records at population scale to support research and care.</p>
+      </div>
+      <div class="tile">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.3 7l7.3 .3M7.3 8.2l3.6 7.6M16.9 9.3l-3.7 6.8"/></svg>
+        <h3>Knowledge graphs and rare disease</h3>
+        <p>Ontology-grounded diagnosis and phenotyping that keeps its evidence traceable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="news">
+  <div class="wrap stack">
+    <div class="sec-head row">
+      <div>
+        <div class="eyebrow">News</div>
+        <h2 class="serif">Latest from the lab</h2>
+      </div>
+      <a class="readmore" href="{{ site.baseurl }}/updates/">All updates &rarr;</a>
+    </div>
+    <div class="cards">
+      {% for post in site.categories.news offset: 1 limit: 6 %}
+        {% include news-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section join" id="join">
+  <div class="wrap">
+    <div class="band">
+      <div>
+        <h2 class="serif">Work with us</h2>
+        <p>We welcome collaborators, research visitors and prospective students. Get in touch to talk about working together.</p>
+      </div>
+      <div class="actions">
+        <a class="btn light" href="mailto:honghan.wu@glasgow.ac.uk">Email us</a>
+        <a class="btn outline-light" href="{{ site.baseurl }}/contact/">Contact page</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kl
 title: Projects
 permalink: /projects/
 cover-image: gla-ucl-sketch.png

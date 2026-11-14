@@ -1,0 +1,75 @@
+{%- comment -%}
+  Short news card built from an existing post, no post edits needed.
+  Headline = the *italic title* in the post's title line, or front matter "headline".
+  Summary  = front matter "summary", else the first paragraph after the first double line break.
+  Pass row=true for the compact one-line version used on the All updates page.
+  Kind     = Preprint / Commentary / Paper / Event, guessed from the title line and categories.
+{%- endcomment -%}
+{%- assign post = include.post -%}
+{%- assign parts = post.title | split: '<br/><br/>' -%}
+{%- assign head = parts[0] -%}
+{%- assign hs = head | split: '*' -%}
+{%- if post.headline -%}
+  {%- assign headline = post.headline -%}
+{%- elsif hs.size > 2 -%}
+  {%- assign headline = hs[1] | strip -%}
+{%- else -%}
+  {%- assign headline = head | strip_html | truncate: 120 -%}
+{%- endif -%}
+{%- if post.summary -%}
+  {%- assign blurb = post.summary -%}
+{%- elsif parts.size > 1 -%}
+  {%- assign blurb = parts[1] | strip_html | strip_newlines | truncatewords: 26 -%}
+{%- else -%}
+  {%- assign blurb = '' -%}
+{%- endif -%}
+{%- assign headlc = head | downcase -%}
+{%- if headlc contains 'preprint' -%}
+  {%- assign kind = 'Preprint' -%}{%- assign kclass = 'pre' -%}
+{%- elsif headlc contains 'commentary' -%}
+  {%- assign kind = 'Commentary' -%}{%- assign kclass = 'comm' -%}
+{%- elsif post.categories contains 'events' -%}
+  {%- assign kind = 'Event' -%}{%- assign kclass = 'paper' -%}
+{%- elsif post.categories contains 'paper' -%}
+  {%- assign kind = 'Paper' -%}{%- assign kclass = 'paper' -%}
+{%- else -%}
+  {%- assign kind = 'News' -%}{%- assign kclass = 'paper' -%}
+{%- endif -%}
+{%- assign l1 = head | split: '](' -%}
+{%- if l1.size > 1 -%}
+  {%- assign target = l1[1] | split: ')' | first -%}
+{%- else -%}
+  {%- assign target = post.url | prepend: site.baseurl -%}
+{%- endif -%}
+{%- if target contains 'arxiv' -%}
+  {%- assign cta = 'Read on arXiv' -%}
+{%- elsif kind == 'Commentary' -%}
+  {%- assign cta = 'Read the Comment' -%}
+{%- elsif kind == 'Event' -%}
+  {%- assign cta = 'Event details' -%}
+{%- else -%}
+  {%- assign cta = 'Read the paper' -%}
+{%- endif -%}
+{%- assign ri = post.related_image -%}
+{%- assign ri0 = ri | slice: 0 -%}
+{%- if include.row -%}
+<li class="row">
+  <span class="meta row-date">{{ post.date | date: "%-d %b %Y" }}</span>
+  <span class="chip {{ kclass }}">{{ kind }}</span>
+  <a class="row-title" href="{{ target }}">{{ headline }}</a>
+</li>
+{%- else -%}
+<article class="card{% if include.feature %} feature{% endif %}">
+  {%- if ri != blank %}
+  <a class="thumb" href="{{ target }}" tabindex="-1" aria-hidden="true"><img src="{% if ri0 == '/' %}{{ site.baseurl }}{{ ri }}{% else %}{{ site.baseurl }}/{{ ri }}{% endif %}" alt="" loading="lazy"></a>
+  {%- endif %}
+  <div class="card-body">
+    <div class="card-meta"><span class="chip {{ kclass }}">{{ kind }}</span><span class="meta">{{ post.date | date: "%-d %b %Y" }}</span></div>
+    <h3 class="serif card-title"><a href="{{ target }}">{{ headline }}</a></h3>
+    {%- if blurb != blank %}
+    <p class="card-text">{{ blurb }}</p>
+    {%- endif %}
+    <a class="readmore" href="{{ target }}">{{ cta }} &rarr;</a>
+  </div>
+</article>
+{%- endif -%}

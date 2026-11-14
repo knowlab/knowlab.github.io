@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kl
 title: Tools
 permalink: /tools/
 ---

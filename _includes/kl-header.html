@@ -1,0 +1,15 @@
+{%- assign u = page.url -%}
+<header class="site-header">
+  <div class="wrap bar">
+    <a href="{{ site.baseurl }}/" aria-label="{{ site.name }} home"><img class="logo" src="{{ site.baseurl }}{{ site.logo-image }}" alt="{{ site.name }}"></a>
+    <nav class="nav" aria-label="Main">
+      <a class="link{% if u == '/' %} on{% endif %}" href="{{ site.baseurl }}/">Home</a>
+      <a class="link" href="{{ site.baseurl }}/#research">Research</a>
+      <a class="link" href="{{ site.baseurl }}/#news">News</a>
+      <a class="link{% if u == '/publications/' %} on{% endif %}" href="{{ site.baseurl }}/publications/">Publications</a>
+      <a class="link{% if u == '/group-members/' %} on{% endif %}" href="{{ site.baseurl }}/group-members/">Members</a>
+      <a class="link{% if u == '/projects/' %} on{% endif %}" href="{{ site.baseurl }}/projects/">Projects</a>
+      <a class="link{% if u == '/contact/' %} on{% endif %}" href="{{ site.baseurl }}/contact/">Contact</a>
+    </nav>
+  </div>
+</header>

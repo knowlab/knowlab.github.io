@@ -1,0 +1,23 @@
+---
+layout: kl
+title: All updates
+permalink: /updates/
+---
+{%- assign years = site.categories.news | group_by_exp: "p", "p.date | date: '%Y'" -%}
+
+<nav class="years" aria-label="Jump to year">
+{%- for g in years %}
+  <a href="#y{{ g.name }}">{{ g.name }}</a>
+{%- endfor %}
+</nav>
+
+{% for g in years %}
+<section class="year-block" id="y{{ g.name }}">
+  <h2>{{ g.name }}</h2>
+  <ul class="rows">
+  {%- for post in g.items %}
+    {% include news-card.html post=post row=true %}
+  {%- endfor %}
+  </ul>
+</section>
+{% endfor %}
