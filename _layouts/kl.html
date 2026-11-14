@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" prefix="og: http://ogp.me/ns#">
+<head>
+  {% include kl-head.html %}
+</head>
+<body class="kl">
+  {% include kl-header.html %}
+  <main class="inner">
+    <div class="wrap">
+      <div class="page-head">
+        <div class="eyebrow">{{ site.name }}</div>
+        <h1 class="serif">{{ page.title }}</h1>
+      </div>
+      <div class="prose">
+        {{ content }}
+      </div>
+    </div>
+  </main>
+  {% include kl-footer.html %}
+  <script>
+    // Wrap wide tables so they scroll sideways on small screens instead of breaking the page.
+    document.querySelectorAll('.prose table').forEach(function (t) {
+      var w = document.createElement('div');
+      w.className = 'tablewrap';
+      t.parentNode.insertBefore(w, t);
+      w.appendChild(t);
+    });
+  </script>
+</body>
+</html>

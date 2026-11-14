@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kl
 title: Members
 permalink: /group-members/
 cover-image: gla-ucl-sketch.png
