@@ -5,7 +5,8 @@
 </head>
 <body class="kl">
   {% include kl-header.html %}
-  {%- assign topic = site.data.topics | where: 'slug', page.topic | first -%}
+  {%- assign topic = nil -%}
+  {%- if page.topic -%}{%- assign topic = site.data.topics | where: 'slug', page.topic | first -%}{%- endif -%}
   {%- assign stories = site.stories | concat: site.categories.blog | sort: 'date' | reverse -%}
   <main class="inner">
     <div class="wrap">
