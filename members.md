@@ -8,15 +8,29 @@ cover-image: gla-ucl-sketch.png
 <ul class="grid-list">
 <li> 
 <img src="/img/pics/honghan-mj-sq.jpg" class="img_head"> <p/>
+<div class="links">
+<a href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/" target="_blank" rel="noopener">Profile</a>
+<a href="https://scholar.google.com/citations?user=e0j8MpAAAAAJ" target="_blank" rel="noopener">Scholar</a>
+<a href="https://orcid.org/0000-0002-0213-5668" target="_blank" rel="noopener">ORCID</a>
+<a href="https://www.linkedin.com/in/honghan-wu/" target="_blank" rel="noopener">LinkedIn</a>
+</div>
 <a id="hw" href="https://www.gla.ac.uk/schools/healthwellbeing/staff/honghanwu/#biography">Honghan Wu (吴鸿汉)</a> is a Professor of Health Informatics and AI, based in the School of Health and Wellbeing of the University of Glasgow,  where he is the AI strategy co-lead. Prof Wu is <a href="https://www.hdruk.ac.uk/research/regional-networks/health-data-research-uk-hdr-uk-scotland/">a co-director of Health Data Research Scotland</a>. He also is an honorary professor at Hong Kong University, <a href="https://profiles.ucl.ac.uk/78197"> an honorary associate professor</a> at Institute of Health Informatics, UCL, and a former <a href="https://www.turing.ac.uk/people/researchers/honghan-wu">Turing Fellow of The Alan Turing Institute</a>, UK's national institute for data science and artificial intelligence. Prof Wu holds a PhD in Computing Science. His current research focuses on machine learning, natural language processing, knowledge graph and their applications in medicine.
 </li>
 
 <li> <img src="/img/pics/profile_image_yk.jpg" alt="drawing" width="100" class="img_head"> <p/>
-        <a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> is a research fellow based at UCL. He works on HDR UK's AI initatives including the <a href="https://gtr.ukri.org/projects?ref=UKRI2701">PAIR Project</a>. His research focuses on multimodal large language model in health data, particularly on applications for diagnosis and prognosis of neurodiseases such as dementia.
+<div class="links">
+<a href="https://scholar.google.com/citations?user=syKTylUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a>
+<a href="https://www.linkedin.com/in/yunsoo-kim-00637759/" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+<a id="YK" href="https://bluesky333.github.io/website/">Yunsoo Kim</a> is a research fellow based at UCL. He works on HDR UK's AI initatives including the <a href="https://gtr.ukri.org/projects?ref=UKRI2701">PAIR Project</a>. His research focuses on multimodal large language model in health data, particularly on applications for diagnosis and prognosis of neurodiseases such as dementia.
 </li>
 
 <li> <img src="/img/pics/xc.png" alt="drawing" width="100" class="img_head"> <p/>
-        <a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a> is based in School of Health and Wellbeing, University of Glasgow. He works on the HDR UK's AI initiatives including <a href="https://gtr.ukri.org/projects?ref=UKRI2701">PAIR Project</a>. His research interest is at the intersection of big health data analysis and data infrastructures for facilitating LLMs on EHRs.
+<div class="links">
+<a href="https://orcid.org/0009-0008-4487-8444" target="_blank" rel="noopener">ORCID</a>
+<a href="https://www.linkedin.com/in/chao-xu-314295269/" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+<a id="xc" href="https://www.gla.ac.uk/pgrs/chaoxu/">Chao Xu</a> is based in School of Health and Wellbeing, University of Glasgow. He works on the HDR UK's AI initiatives including <a href="https://gtr.ukri.org/projects?ref=UKRI2701">PAIR Project</a>. His research interest is at the intersection of big health data analysis and data infrastructures for facilitating LLMs on EHRs.
 </li>
 
 
