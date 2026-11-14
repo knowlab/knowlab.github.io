@@ -1,0 +1,16 @@
+I"ê<h2 id="the-question">The question</h2>
+
+<p>If a study does not describe its data, methods and checks clearly, others cannot compare it or reproduce it. We asked how well studies applying language technology to radiology reports describe themselves.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>A team including NLP researchers and an epidemiologist searched for studies published between 2015 and October 2019, screened thousands of records, and assessed the included studies against 15 criteria covering data source, datasets, ground truth, outcomes and reproducibility.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>We included 164 studies from 4,836 records. The commonest applications were disease information or classification (28%) and diagnostic surveillance (27.4%), and 86% used English reports. Few reported external validation (10.8%), data availability (8.5%) or code availability (9.1%), and only about half reported precision (48.8%) and recall (53.7%).</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Reporting quality fell short, which prevents comparison, reproducibility and replication. We argued for reporting standards specific to clinical NLP studies. This complements the companion review of what the field has built.</p>
+:ET

@@ -1,0 +1,16 @@
+I"Ÿ<h2 id="the-question">The question</h2>
+
+<p>Ontology-based tools for rare disease match a patientâ€™s features against known disease profiles, so every suggestion can be traced back to the features that support it. Language models can also suggest diagnoses from the same description, but without a clear evidence trail. Rather than choosing one over the other, can the language model make the tool better without giving up its evidence?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built a model that looks at both ranked lists, how much they agree, and the ontology support behind each candidate, and learns for each case how far to trust each side. Before comparing, we removed a known source of test leakage, caused by benchmark cases and ontology records coming from the same publications.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Across eight open language models, fusion raised the top-choice accuracy of the ontology tool by about 8 percentage points on one dataset and about 20 points on another. With a different model reached through an online service and without retraining, accuracy rose from 0.1657 to 0.2176. For 90.8% of correct fused diagnoses, the disease still had candidate-level evidence that can be inspected.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Language models can strengthen an established diagnostic tool without throwing away the structured evidence that makes it trustworthy.</p>
+:ET

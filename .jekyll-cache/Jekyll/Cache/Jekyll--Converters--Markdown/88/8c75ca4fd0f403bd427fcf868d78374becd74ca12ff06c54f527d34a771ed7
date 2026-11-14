@@ -1,0 +1,16 @@
+I"ž<h2 id="the-question">The question</h2>
+
+<p>Hospital record systems were built to support care at the bedside, not to let clinicians, researchers and managers ask questions across all the data. What is missing is the right data, in the right place, at the right time, within strict information governance rules. Commercial solutions are expensive.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We describe how we built and deployed CogStack at Kingâ€™s College Hospital, a low-cost system for searching and extracting information from both structured and unstructured records. The paper covers governance, the use cases and the cost savings.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>So far CogStack has processed over 300 million lines of clinical data, available to service improvement projects. On simulated clinical text, its de-identification algorithm reached up to 94% precision and 96% recall.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>It is the only open-source, easily deployable solution designed for the UK health system, in a field dominated by expensive proprietary systems. Such tools are a foundation for the genomic revolution in medicine.</p>
+:ET

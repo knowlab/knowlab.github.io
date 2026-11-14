@@ -1,0 +1,16 @@
+I"M<h2 id="the-question">The question</h2>
+
+<p>Health record text is full of spelling mistakes, abbreviations and non-standard ways of writing clinical concepts. Matching such text to standard medical concepts is hard for tools that expect clean input.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built the Term-BLAST-like alignment tool, TBLAT, inspired by the BLAST algorithm that biologists use to search DNA sequences. It screens text for likely matches by counting short fragments, then scores the candidates by how well they fit typical spelling-error patterns learnt from 2.9 million clinical notes. We compared it with five widely used tools.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>TBLAT increased recall by 10% on scientific publications and 20% on health records compared with the next best method. It can be used on its own or to complement existing tools.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Linking messy text to standard concepts is a first step for almost everything else we do with clinical language, so better matching helps everything downstream.</p>
+:ET

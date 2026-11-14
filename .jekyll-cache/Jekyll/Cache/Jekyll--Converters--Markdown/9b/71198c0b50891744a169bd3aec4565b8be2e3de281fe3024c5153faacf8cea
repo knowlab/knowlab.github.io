@@ -1,0 +1,16 @@
+I"�<h2 id="the-question">The question</h2>
+
+<p>Today’s interaction with medical AI assistants is mostly limited to sending an image and a text prompt. Radiologists have attention patterns, where they look and for how long, that carry expertise. Can an assistant use those?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We proposed a human-in-the-loop approach in which eye-fixation prompts, recording the location and duration of a radiologist’s attention, are given to a large language-and-vision assistant. The assistant interacts with the radiologist in two ways: recommending possible diagnoses and confirming the diagnosis in a report.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The eye-fixation prompts significantly improved accuracy for differential diagnosis and report confirmation. Fine-tuning LLaVA-1.5 with only 658 reports that include fixation information beat the previous state-of-the-art model, LLaVA-ERR, which was trained on 17,000 reports, by 5%.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>The interaction works both ways, since the model benefits from the radiologist’s expertise while supporting their decisions.</p>
+:ET

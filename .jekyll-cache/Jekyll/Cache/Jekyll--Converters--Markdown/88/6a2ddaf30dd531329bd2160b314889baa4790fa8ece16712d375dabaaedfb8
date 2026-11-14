@@ -1,0 +1,57 @@
+I"8<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Category</th>
+      <th>Github</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>covid.datahelps.life</td>
+      <td>COVID-19, datasets, risk prediction</td>
+      <td><a href="https://covid.datahelps.life/">https://covid.datahelps.life/</a></td>
+    </tr>
+    <tr>
+      <td>SemEHR</td>
+      <td>NLP, Ontology, Semantic Search</td>
+      <td><a href="https://github.com/CogStack/CogStack-SemEHR">https://github.com/CogStack/CogStack-SemEHR</a></td>
+    </tr>
+    <tr>
+      <td>EnsemblePrediction</td>
+      <td>Risk Prediction, COVID-19</td>
+      <td><a href="https://github.com/Honghan/EnsemblePrediction">https://github.com/Honghan/EnsemblePrediction</a></td>
+    </tr>
+    <tr>
+      <td>nlp2phenome</td>
+      <td>NLP, Phenotyping</td>
+      <td><a href="https://github.com/CogStack/nlp2phenome">https://github.com/CogStack/nlp2phenome</a></td>
+    </tr>
+    <tr>
+      <td>KGPhenotyping</td>
+      <td>Knowledge Graph, Ontology, Phenotyping</td>
+      <td><a href="https://github.com/Honghan/KGPhenotyping">https://github.com/Honghan/KGPhenotyping</a></td>
+    </tr>
+    <tr>
+      <td>NapEasy</td>
+      <td>NLP, Ontology</td>
+      <td><a href="https://github.com/Honghan/NapEasy">https://github.com/Honghan/NapEasy</a></td>
+    </tr>
+    <tr>
+      <td>EBEncoding</td>
+      <td>Machine Learning, Time Series</td>
+      <td><a href="https://github.com/Honghan/EBEncoding">https://github.com/Honghan/EBEncoding</a></td>
+    </tr>
+    <tr>
+      <td>Gene prioritisation benchmarking toolkit</td>
+      <td>Knowledge graph, machine learning, Gene-disase association</td>
+      <td><a href="https://github.com/huayu-zhang/gp-bench">https://github.com/huayu-zhang/gp-bench</a></td>
+    </tr>
+    <tr>
+      <td>Explanable Automated Medical Coding</td>
+      <td>deep learning, NLP, automated coding, attention visualisation, explainable AI</td>
+      <td><a href="https://github.com/acadTags/Explainable-Automated-Medical-Coding">https://github.com/acadTags/Explainable-Automated-Medical-Coding</a></td>
+    </tr>
+  </tbody>
+</table>
+:ET

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading discharge letters to track anticoagulant use in atrial fibrillation &bull; KnowLab</title>
+<meta name="description" content="a research group doing machine learning, multimodal large language model, knowledge graph and their applications in health care">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<meta name="theme-color" content="#515675">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css?v=1794679885">
+
+</head>
+<body class="kl">
+  <header class="site-header">
+  <div class="wrap bar">
+    <a href="/" aria-label="KnowLab home"><img class="logo" src="/img/knowlab.v2.png" alt="KnowLab"></a>
+    <nav class="nav" aria-label="Main">
+      <a class="link" href="/">Home</a>
+      <a class="link" href="/updates/">News</a>
+      <a class="link on" href="/blog/">Blog</a>
+      <a class="link" href="/publications/">Publications</a>
+      <a class="link" href="/group-members/">Members</a>
+      <a class="link" href="/projects/">Projects</a>
+    </nav>
+  </div>
+</header>
+<main class="inner">
+    <div class="wrap">
+      <a class="readmore back" href="/blog/">&larr; All stories</a>
+      <div class="story-layout">
+        <article class="story">
+          <div class="tags"><a class="tp t2" href="/blog/topic/clinical-text/">Clinical text</a></div>
+          <h1 class="serif">Reading discharge letters to track anticoagulant use in atrial fibrillation</h1>
+          <div class="meta">11 Nov 2019 &middot; 2 min read &middot; by the KnowLab team</div><div class="short-version"><div class="eyebrow">The short version</div><p>An open-source language-processing pipeline calculated stroke and bleeding risk scores from 10,030 discharge summaries and showed rising anticoagulant use over seven years.</p></div>
+          <div class="story-body"><h2 id="the-question">The question</h2>
+
+<p>Atrial fibrillation is the most common abnormal heart rhythm and it raises the risk of stroke, which anticoagulant drugs control well. Studies of how often they are used have relied on registries, which are costly to collect and may not reflect real practice. Hospital records contain the answer, but in free text.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built an open-source pipeline that reads clinical text, finds the risk factors and calculates two standard scores: CHA2DS2-VASc, for the risk of ischaemic stroke, and HAS-BLED, for bleeding. We applied it to the discharge summaries of 10,030 patients with atrial fibrillation discharged between 2011 and 2017, and checked scores against two independent experts for 40 patients.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The automatic CHA2DS2-VASc scores agreed strongly with the experts (average kappa 0.78, against 0.85 between the experts themselves). Agreement for HAS-BLED was lower (0.54, against 0.74). In high-risk patients, anticoagulant use rose significantly over the seven years, driven by the arrival of newer direct-acting drugs and by patients moving from antiplatelet drugs alone to anticoagulants.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Risk scores can be computed from hospital text at scale, though the tools need further validation. And routine records can reproduce findings from large curated registries.</p>
+</div>
+        </article>
+        <aside class="story-side">
+          <div class="side-card">
+            <div class="eyebrow">The paper</div>
+            <div class="serif paper-title">Semantic computational analysis of anticoagulation use in atrial fibrillation from real world data</div><div class="meta">Bean et al.. PLoS ONE, 2019</div>
+            <div class="links"><a href="https://doi.org/10.1371/journal.pone.0225625" target="_blank" rel="noopener">Read the paper</a></div>
+          </div>
+          <div class="side-card">
+            <div class="eyebrow">Part of</div><a class="side-link" href="/blog/topic/clinical-text/">Language models for clinical text</a></div><div class="side-card"><div class="eyebrow">Keep reading</div><a class="side-link serif" href="/blog/cot-audit/">Better answers, shakier reasoning in small medical AI</a><a class="side-link serif" href="/blog/proactive-triage/">From spotting damage to preventing it: AI at the start of labour</a></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="contact">
+  <div class="wrap foot">
+    <div class="foot-about">
+      <div class="foot-name">KnowLab</div>
+      <div class="meta">School of Health and Wellbeing, University of Glasgow, and Institute of Health Informatics, University College London.</div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="/blog/">Blog</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/group-members/">Members</a>
+    </nav>
+  </div>
+  <div class="wrap meta foot-credit">Logo designed by Yuchen Wu.</div>
+</footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72059605-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72059605-3');
+</script>
+
+
+</body>
+</html>

@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: story
 title: Why bother using free-text clinical notes for research or patient care?
 date: 2021-09-01
 author: 
     name: Honghan Wu
 categories: blog
+summary: Much of what hospitals record is free text. Here is why it is worth reading for research and patient care.
+topics: [clinical-text]
 ---
 Alright, in general, we know a significant proportion of the world’s data is in an unstructured format like news articles, Tweets and blogs. Some say 80% of our data is unstructured, while others estimate even more.
 <!--more-->

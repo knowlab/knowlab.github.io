@@ -1,0 +1,16 @@
+I"ó<h2 id="the-question">The question</h2>
+
+<p>Clinical notes can contain medical errors, and catching them automatically would help patient safety. The MEDIQA-CORR 2024 shared task set this as three sub-tasks: detect whether there is an error, find where it is, and correct it.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We used a large language model with few-shot in-context learning, augmented with step-by-step reasoning prompts. In one method, we studied examples to design three reasoning prompts based on error types. In another, we used the training data to have the model work out why a note is correct or incorrect. We then combined the two with a rule-based ensemble.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Across the three sub-tasks, the combined method ranked 3rd for sub-tasks 1 and 2 and 7th for sub-task 3 among all submissions.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Careful prompting, with no retraining, can make a general model a useful clinical proofreader.</p>
+:ET

@@ -1,0 +1,16 @@
+I"F<h2 id="the-question">The question</h2>
+
+<p>Older patients are often left out of the datasets used to teach computers to read clinical text, yet they are the ones most likely to have things go wrong in hospital. Discharge summaries describe these events, but in free text that is hard for software to read.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built a manually annotated collection of discharge summaries from elderly patients. It covers 14 clinically significant adverse events, such as falls, delirium and bleeding inside the skull, along with details like whether the event was negated and whether it happened in hospital. The labelling scheme can handle mentions that are split up or overlap, which is rare in earlier work. We then tested several language models.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Models did well at the broad document-level question of which events a letter mentions, with the best score of 0.943 out of 1. They did much worse at pinpointing fine detail, with a score of 0.675, especially for rare events and complex attributes.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>High overall scores can hide real gaps. The dataset, available on request through DataLoch, gives others a benchmark for improving how well computers detect underrepresented events and nuanced clinical language.</p>
+:ET

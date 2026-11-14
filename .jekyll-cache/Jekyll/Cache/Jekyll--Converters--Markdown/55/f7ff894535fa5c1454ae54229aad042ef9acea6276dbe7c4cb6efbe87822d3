@@ -1,0 +1,16 @@
+I"›<h2 id="the-question">The question</h2>
+
+<p>Given a patientâ€™s findings, a diagnostic system ranks possible diseases. It then has to decide whether to stand by its first choice or send the case for human review. Usually that decision is made by checking how high the top score is.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We looked at two checks that should come first. One is whether the system gets enough first choices right for deferring to help at all. The other is whether the confidence signal fits the decision being made. We tested eight small open language models on 2,000 patient records grouped by how rare the disease is, and also a tool that matches patient features to diseases.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>On the very rarest diseases, the models got the top choice right at most 4.6% of the time. At that level, even a perfect confidence ranking could not make the answers they kept reliable. For the matching tool, the gap between its top two candidates was a far better signal than the top score alone, picking out 10% of cases at 29.0% accuracy against 13.3% overall. But that signal can hide other information, and we show the right choice cannot be decided from unlabelled scores alone.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>For rare diseases, safe use of AI depends on knowing when it should not answer, and the right way to measure that depends on the situation.</p>
+:ET

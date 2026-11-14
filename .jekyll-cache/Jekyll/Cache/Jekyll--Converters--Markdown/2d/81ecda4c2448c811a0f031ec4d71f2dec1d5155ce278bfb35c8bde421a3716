@@ -1,0 +1,16 @@
+I"(<h2 id="the-question">The question</h2>
+
+<p>People with type 2 diabetes are more likely to struggle with depression and anxiety, but these problems are easy to miss. If we could see who is likely to develop them, support could start earlier.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built a deep learning model called REDAPM. It learns from both the tick-box style data in regional electronic health records, such as test results and diagnoses, and the free text that clinicians write. We tested it on data from the region it was built on and, importantly, on data from outside it.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>REDAPM predicted the onset of depression and anxiety better than the baseline models we compared it with, with strong scores in both the internal and the external tests.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Mental health is often overlooked in diabetes care. A tool that uses information the health system already holds could help clinicians and informaticians flag people who may need support sooner.</p>
+:ET

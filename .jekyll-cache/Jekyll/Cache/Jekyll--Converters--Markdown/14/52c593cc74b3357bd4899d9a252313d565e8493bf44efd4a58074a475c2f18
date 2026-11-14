@@ -1,0 +1,14 @@
+I"¨<h2 id="the-question">The question</h2>
+
+<p>Curating a biomedical ontology, the structured vocabulary that organises knowledge in a field, is slow manual work. We had the task of automating it for ChEBI, the Chemical Entities of Biological Interest ontology, and asked which AI approach works best.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We compared three ways of using language models: in-context learning, where the model is shown examples in the prompt, fine-tuning, and supervised learning. We broke the main question into four specific ones. The experiments covered three GPT models, including GPT-4, one domain-specific model, PubMedBERT, and six embedding models, across 15 set-ups and more than 1.8 million facts.</p>
+
+<h2 id="what-we-found">What we found</h2>
+<p>There was no single winner. Shown examples in the prompt, GPT-4 reached accuracies of 0.916, 0.766 and 0.874 on the three curation tasks. But a conventional supervised model trained on about 260,000 facts beat it on accuracy on all three. The fine-tuned PubMedBERT matched the best supervised models on two tasks and fell behind on the third. With less data, or more lopsided data, the supervised and fine-tuned models got worse, and GPT-4 came out ahead on two of the tasks when fewer than 6,000 facts were available.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+<p>Language models given good prompts can be useful curation assistants, but they do not make the older approaches obsolete. When you have plenty of task-specific data, training your own model still wins. When you have little, prompting GPT-4 is the better bet. Knowing which suits which situation saves effort for anyone maintaining a knowledge base.</p>
+:ET

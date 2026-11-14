@@ -1,0 +1,16 @@
+I"�<h2 id="the-question">The question</h2>
+
+<p>Brain scans taken over time can show how a disease such as Alzheimer’s is progressing. Today’s AI tools split this job up. Some give only a label, some give measurements nobody has interpreted, and AI that writes text can sound fluent while inventing conclusions.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>LoV3D follows the steps a careful reader would. It reads the scan, assesses each brain region, compares with the patient’s earlier scan, and only then gives a diagnosis of normal, mild cognitive impairment or dementia, with a written summary. Each step has to be consistent with the last. To train it, an automatic checker scores the model’s answers against standard reference measurements, so no human labelling was needed.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>On a held-out test of 479 scans from 258 people, the three-way diagnosis was right 93.7% of the time. It also worked on new data from other sites without retraining, scoring 95.4% on one collection and 82.9% on another.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A diagnosis that comes with its working can be checked. Grounding each step in measurable evidence is a way to make imaging AI less likely to hallucinate.</p>
+:ET

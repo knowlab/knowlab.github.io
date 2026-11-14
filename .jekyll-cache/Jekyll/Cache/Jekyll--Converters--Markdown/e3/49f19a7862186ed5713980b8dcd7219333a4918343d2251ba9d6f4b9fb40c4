@@ -1,0 +1,16 @@
+I"<h2 id="the-question">The question</h2>
+
+<p>Early in the pandemic, hospitals needed to know which COVID-19 patients were at highest risk of poor outcomes. Many prediction models had been published, but external validation was rare and usually done on data from other Wuhan hospitals.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We derived models in 775 adult inpatients from two hospitals in Wuhan, using demographics, comorbidities, symptoms and laboratory tests. We then tested the best models on 226 inpatients at King’s College Hospital in London.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>In the Wuhan data, models using age, sex and routine blood tests (neutrophil, lymphocyte and platelet counts, C-reactive protein and creatinine) discriminated very well, with a c-index (1.0 is perfect, 0.5 is chance) of 0.91 for death. In London, where far more patients died (34.1% against 4.3%), discrimination was still good (0.74) but the predicted risk groups were off: observed death rates were much higher than predicted.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>A model can look excellent where it was built and still disappoint elsewhere. We called for larger derivation datasets and rapid external validation of every proposed model before routine clinical use.</p>
+:ET

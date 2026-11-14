@@ -1,0 +1,16 @@
+I"ù<h2 id="the-question">The question</h2>
+
+<p>AI models that write radiology reports from X-rays can invent findings. Radiologists have knowledge the model lacks, such as where they look first and what they mark as important. Can we pass that expertise to the model?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We introduced Look &amp; Mark. Look uses the points where a radiologist fixed their gaze, and Mark uses boxes drawn around regions of interest. Both are given to the model as guidance, through in-context learning, so the models do not need extensive retraining.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Reports became more clinically relevant, with fewer hallucinations. The gains were largest on clinical measures. A domain-specific model, CXR-LLaVA, improved by 1.2% overall, while LLaVA-Med improved by 9.2%. A general-purpose model, LLaVA-OV, reached an 87.3% clinical average, the highest of all models tested, even above models trained specifically for chest X-ray reports.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Human expertise, added in a light-touch way, can make general AI models safer and more useful for reading medical images.</p>
+:ET

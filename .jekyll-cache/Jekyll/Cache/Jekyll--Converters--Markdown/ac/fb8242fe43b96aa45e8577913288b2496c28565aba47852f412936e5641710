@@ -1,0 +1,16 @@
+I"ô<h2 id="the-question">The question</h2>
+
+<p>Generative AI and foundation models are moving fast. In radiology, one practical question is whether they could be good assistants for spotting mistakes in reports by cross-checking them against the X-ray.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We created 1,000 reports with synthetic errors from two real-world chest X-ray datasets. We then set two kinds of tasks: a yes-or-no question, whether there is an error, and a multi-way question, what type of error it is. Multimodal language models were tested on both.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>This was an early exploration of the question, with a benchmark that others can build on. The paper reports how the models performed on each task.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Reports with errors can delay or misdirect care. An AI second reader that checks the words against the image could be a useful safety net, which is why we kept developing this line of work.</p>
+:ET

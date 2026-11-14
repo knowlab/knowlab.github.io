@@ -1,0 +1,16 @@
+I"�<h2 id="the-question">The question</h2>
+
+<p>Intensive care units record patients continuously, sometimes every few seconds. Yet outcomes are often decided by a small number of rare interactions between measurements, and those interactions are defined less by exact values than by how far readings drift from normal over time. Most prediction models cannot explain themselves.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built a framework that describes the data in qualitative terms such as “rising” or “low”, links events through a graph of their temporal relations, and then searches for the interaction patterns most likely to produce a given outcome. The patterns found are then used as features for prediction.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>In experiments on sepsis prediction with real ICU data, the discovered patterns were meaningful in medical terms, and using them as features gave better prediction. Unlike most approaches, the framework can also explain the outcomes it predicts.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Explainable patterns of deviation from normal are easier for clinicians to check and trust than a bare risk score.</p>
+:ET

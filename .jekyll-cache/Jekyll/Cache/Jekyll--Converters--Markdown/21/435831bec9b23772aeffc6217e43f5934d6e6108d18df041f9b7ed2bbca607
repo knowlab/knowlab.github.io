@@ -1,0 +1,16 @@
+I"j<h2 id="the-question">The question</h2>
+
+<p>Real biomedical questions rarely have a one-step answer. Which drugs treat the conditions linked to this gene? The answer means following a chain of facts and often gives several answers, not one. Can AI models do that reliably?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built BioHopR, a benchmark based on a large biomedical knowledge graph called PrimeKG. It asks questions that need one step or two steps of reasoning, with questions that have several correct answers. We then tested a range of models.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>A proprietary model with a built-in reasoning step, O3-mini, did better than open-source models, including biomedical ones such as HuatuoGPT-o1. For every model, accuracy dropped when moving from one step to two. The hard part is lining up the intermediate steps, in particular the bridging entity that connects one fact to the next.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Reliable biomedical AI has to connect facts, not just recall them. A benchmark like this shows where today’s models fall short.</p>
+:ET

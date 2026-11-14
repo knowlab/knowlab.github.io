@@ -1,0 +1,16 @@
+I"‚<h2 id="the-question">The question</h2>
+
+<p>AI models for medicine learn from labels that clinical experts provide. But even highly experienced experts do not always label the same case the same way, because of personal judgement, bias and simple slips. The effect of this on real-world AI had been little studied.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>In an MSc project with us, real intensive care data was labelled by 11 ICU consultants. We then compared AI models trained on each consultantâ€™s labels and on different ways of combining them.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>There may not always be a single super expert in acute clinical settings. The standard way of reaching consensus, such as a majority vote, consistently led to suboptimal models. A better approach was to assess how learnable each set of labels is and to build the consensus only from the learnable ones, which gave the best models in most cases.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>If the labels behind a medical AI are inconsistent, the AI inherits the confusion. Checking label quality is as important as building the model.</p>
+:ET

@@ -1,0 +1,16 @@
+I"a<h2 id="the-question">The question</h2>
+
+<p>Rare diseases are hard to diagnose and treat because each is uncommon and presents in varied ways. Clinical notes hold useful information for finding them, but reading through them by hand is slow and subjective.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We developed a hybrid approach that combines dictionary-based natural language processing tools with large language models to identify rare diseases in unstructured clinical reports.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The hybrid approach performed better than traditional language processing systems and than standalone language models. LLaMA3 and Phi3-mini achieved the highest F1 scores. Few-shot prompting with one to three examples worked best, while adding knowledge-augmented generation gave limited improvement. The approach also uncovered a significant number of potential rare disease cases that were not documented in structured diagnostic records.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>It shows a route to finding patients whose rare disease has not yet been recognised.</p>
+:ET

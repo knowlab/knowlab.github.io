@@ -1,0 +1,18 @@
+{%- comment -%} Card for one blog story. Pass story=... and optionally lead=true. {%- endcomment -%}
+{%- assign s = include.story -%}
+<article class="card story-card{% if include.lead %} lead{% endif %}">
+  {%- if s.image and include.lead %}
+  <a class="thumb" href="{{ s.url | prepend: site.baseurl }}" tabindex="-1" aria-hidden="true"><img src="{{ site.baseurl }}/{{ s.image }}" alt="" loading="lazy"></a>
+  {%- endif %}
+  <div class="card-body">
+    <div class="tags">
+      {%- for slug in s.topics -%}
+        {%- assign tp = site.data.topics | where: 'slug', slug | first -%}
+        {%- if tp %}<a class="tp {{ tp.cls }}" href="{{ site.baseurl }}/blog/topic/{{ tp.slug }}/">{{ tp.short }}</a>{% endif -%}
+      {%- endfor -%}
+    </div>
+    <h3 class="serif card-title"><a href="{{ s.url | prepend: site.baseurl }}">{{ s.title }}</a></h3>
+    <p class="card-text">{% if s.summary %}{{ s.summary }}{% else %}{{ s.excerpt | strip_html | strip | truncatewords: 28 }}{% endif %}</p>
+    <div class="meta">{{ s.date | date: "%b %Y" }} &middot; {{ s.content | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
+  </div>
+</article>

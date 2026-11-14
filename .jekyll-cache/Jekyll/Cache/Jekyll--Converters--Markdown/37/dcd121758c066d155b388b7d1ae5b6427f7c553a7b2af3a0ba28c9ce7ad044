@@ -1,0 +1,16 @@
+I"ƒ<h2 id="the-question">The question</h2>
+
+<p>A risk model built from one group of patients rarely performs well everywhere, and the COVID-19 pandemic exposed this clearly. Could we get a more robust model by combining models from different places?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We re-implemented seven published COVID-19 prediction models that came from diverse cohorts and used different techniques. We then built an ensemble framework that, for each individual patient, leans on the models best suited to that patient. We tested all models on four international cohorts, two from the UK and two from China, with 5,394 patients in total.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Individual models did well on some cohorts and badly on others, and all of them did better on the Chinese cohorts. The ensemble was consistently best at separating high- from low-risk patients, at predicting accurate risks, and in clinical usefulness.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>When models are learnt from complementary populations, combining them can deliver the strengths of all of them. The code is open on GitHub.</p>
+:ET

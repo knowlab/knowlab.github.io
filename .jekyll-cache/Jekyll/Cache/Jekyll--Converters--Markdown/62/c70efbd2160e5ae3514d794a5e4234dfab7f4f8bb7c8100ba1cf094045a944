@@ -1,0 +1,16 @@
+I"F<h2 id="the-question">The question</h2>
+
+<p>Updatable estimates of how COVID-19 starts and progresses underpin efforts to manage a pandemic. We asked whether national linked health records could give a consistent, large-scale picture of the course of disease.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>Using eight linked NHS datasets for people in England alive on 23 January 2020, in a study led by Johan Thygesen with a large consortium, we defined and validated ten COVID-19 phenotypes covering a positive test, primary care diagnosis, hospital admission, ventilation (four levels) and death. We then built patient trajectories showing how often and how quickly people moved between them, split by pandemic wave and vaccination status.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Among 57,032,174 people, 13,990,423 COVID-19 events were identified in 7,244,925 individuals, an infection rate of 12.7%. Of 460,737 admitted to hospital, 15.0% received non-invasive and 5.6% invasive ventilation. For patients not ventilated, mortality was higher in wave 1 (30.4%) than wave 2 (23.1%). Trajectories were longer in wave 2.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>The results show the wide spectrum of disease courses, and the modular framework can be reused to monitor future pandemic impact from multiple record sources.</p>
+:ET

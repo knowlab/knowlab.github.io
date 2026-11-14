@@ -1,0 +1,16 @@
+I"E<h2 id="the-question">The question</h2>
+
+<p>AI techniques are increasingly used to predict cardiovascular disease in people with type 2 diabetes. What has been done in the last ten years, and what is missing?</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We searched the literature for English-language studies of AI models predicting cardiovascular disease in adults with type 2 diabetes. Five studies, with 560 to 203,517 participants, met our criteria.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The models predicted risk over 5 or 10 years. Ensemble methods, especially random forests, were used most and performed consistently well. On external validation the AI models scored 0.75 on AUROC (1 is perfect, 0.5 is chance), against 0.69 for conventional risk scores. But only one model had been externally validated, reporting quality was generally low, and none were reproducible or reusable.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>The promise is real, but without external validation and clear reporting these models cannot yet be trusted or reused in clinics.</p>
+:ET

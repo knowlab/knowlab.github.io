@@ -1,0 +1,16 @@
+I"N<h2 id="the-question">The question</h2>
+
+<p>Primary care records in China are varied and limited, which makes it hard to assess the psychological risk of people with type 2 diabetes there. Hospitals hold better-quality data, but it is not the same setting.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built a deep learning framework called DAP. First we pre-trained a foundation model, using contrastive learning, a way for a model to learn patterns from unlabelled records, on good-quality records from 85,085 type 2 diabetes in-patients at a large university hospital. Then we fine-tuned it to predict depression using records from 149,596 patients on the Nanjing Health Information Platform.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The approach was useful for predicting depression and anxiety after discharge among type 2 diabetes patients in primary care, with much higher performance than baseline models.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Knowledge learnt in data-rich hospitals can be transferred to data-poor primary care, where most patients are seen.</p>
+:ET

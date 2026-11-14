@@ -1,0 +1,16 @@
+I"*<h2 id="the-question">The question</h2>
+
+<p>A deployed AI model has to decide, for each input, what to do. It can answer directly, look up evidence, hand the question to a stronger model, or decline to answer. The component that makes this choice is a controller. A common assumption is that the more detailed and flexible the controller, the better.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We grouped controllers into four classes ordered by complexity: a fixed action, a router that treats groups of inputs alike, a controller that decides input by input, and one that also uses prior information. We then worked out, in theory, which class to pick depending on three things you can estimate from your data.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>With limited data, more flexibility is not always better. Different tests preferred different classes, because the per-input confidence signals can only be trusted up to a point. Our theory predicted the winning class on four benchmarks, and on a fifth, the prior-based controller won when text read from the image provided useful prior information.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>It gives a practical rule for deciding how much machinery a safe, deferring AI really needs, rather than assuming the most complex option is best.</p>
+:ET

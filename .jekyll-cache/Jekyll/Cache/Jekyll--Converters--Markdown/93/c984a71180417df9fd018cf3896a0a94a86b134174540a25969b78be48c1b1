@@ -1,0 +1,16 @@
+I"Ï<h2 id="the-question">The question</h2>
+
+<p>Clinical coding means assigning standard codes, such as ICD-10, to a patientâ€™s visit or hospital stay. The codes are used in care, auditing and research. Today it is mostly done by hand by clinical coders, which is expensive, slow and error-prone.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We developed CliniCoCo, a deep-learning-based paradigm in which the AI and the human coder work together. It was built using real health record datasets from two hospitals in China and evaluated by human coders at a third hospital.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>CliniCoCo reduced coding time by 40%, and professional coders using it achieved an F1 score (a combined accuracy measure, where 1 is perfect) above 0.93.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Keeping people in the loop while saving their time is a practical route to more accurate coding, and to the better data that depends on it.</p>
+:ET

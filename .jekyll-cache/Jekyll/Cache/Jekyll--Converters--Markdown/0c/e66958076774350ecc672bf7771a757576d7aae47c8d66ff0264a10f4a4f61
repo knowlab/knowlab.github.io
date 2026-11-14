@@ -1,0 +1,16 @@
+I"^<h2 id="the-question">The question</h2>
+
+<p>AI systems increasingly look things up in records that change over time, such as issue threads, encyclopedia histories and policy logs. The hard part is not only finding evidence. It is deciding which statements are still true, which have been replaced, and when to say nothing. Structured memories promise to help with this.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We compared three approaches: plain retrieval, a coarse method that marks old information as invalid, and a detailed method called RevisionLedger. We tested them on 2,907 questions drawn from code repositories, Wikipedia and other changing sources. Crucially, we added a control that kept the layout of the information the same while switching the update logic off.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The detailed method seemed to win by a clear margin. But once the layout was matched, almost all of that advantage disappeared. It came from easier presentation, not from a better mechanism. After that correction, the simple coarse approach was the only one that paid off for questions about the current state.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Fair tests of AI memory should hold the presentation fixed. And a system should keep the simplest record of what changed that still answers the questions it will be asked.</p>
+:ET

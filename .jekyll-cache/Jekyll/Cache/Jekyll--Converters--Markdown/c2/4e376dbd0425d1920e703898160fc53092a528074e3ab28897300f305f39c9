@@ -1,0 +1,16 @@
+I"%<h2 id="the-question">The question</h2>
+
+<p>Most MRI segmentation models learn from outlines drawn by hand. That is tedious, and more so when several structures must be outlined on every scan.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>Spine-GFlow combines what a neural network learns from the image with anatomical prior knowledge. A rule-based method first produces rough seed areas automatically, a proposal step blends multi-scale image features with anatomy, and a training loss refines pixel classification. No manual annotation is used. We tested it on two independent datasets, one with images from three different scanners.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Without any manual labels, segmentation of vertebral bodies, discs and the spinal canal was comparable to a fully supervised model (mean Dice 0.914 vs 0.916), and it held up across scanner settings.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Removing the annotation bottleneck makes it far easier to build spine-imaging tools for new hospitals and scanners.</p>
+:ET

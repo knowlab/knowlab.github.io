@@ -1,0 +1,16 @@
+I" <h2 id="the-question">The question</h2>
+
+<p>Large AI models that look at pictures and answer questions about them could make useful visual assistants in health care. But they can hallucinate, which means giving confident answers that are not supported by the image. That had not been tested thoroughly in clinical settings.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We created a hallucination benchmark of medical images paired with question-and-answer sets, and used it to evaluate the state-of-the-art models in depth.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The study analyses the limitations of current models in detail and shows how effective different prompting strategies are at reducing the problem.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Before such assistants are trusted in clinics, we need to measure how often they make things up. A benchmark gives everyone a common way to check.</p>
+:ET

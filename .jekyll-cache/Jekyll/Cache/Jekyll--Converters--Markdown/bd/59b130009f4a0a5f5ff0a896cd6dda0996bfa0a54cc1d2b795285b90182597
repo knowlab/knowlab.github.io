@@ -1,0 +1,16 @@
+I"»<h2 id="the-question">The question</h2>
+
+<p>Spotting sepsis early is vital for patient outcomes. Machine-learning models try to recognise it from health records, but sepsis is not one condition: patients differ in which organs fail and how. Ignoring that may be why results have been mixed.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>Using 13,728 intensive care records from the public MIMIC-III database, we identified sepsis subpopulations with clearly different patterns of organ dysfunction. We then picked, for each group, the measurements that matter most, and used these as background knowledge in classification experiments with random forests, gradient boosting and support vector machines to tell patients who develop sepsis in the ICU from those who do not.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Features chosen using the subpopulations performed better whichever model was used. The gain was especially clear in specificity, which is a current bottleneck for sepsis prediction.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Accounting for the different faces of a disease can steer machine learning towards more personalised models for complex conditions such as sepsis.</p>
+:ET

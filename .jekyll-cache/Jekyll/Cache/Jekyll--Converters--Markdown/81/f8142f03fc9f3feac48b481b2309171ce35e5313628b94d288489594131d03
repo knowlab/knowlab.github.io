@@ -1,0 +1,16 @@
+I"7<h2 id="the-question">The question</h2>
+
+<p>Pathologists use a lab test called immunohistochemistry, or IHC, to help work out what kind of tumour they are looking at. Which stains show up in which tumours is written across a huge number of research papers, but gathering it by hand is slow.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We built IHC-LLMiner, a pipeline with two jobs. First it decides which PubMed abstracts are relevant. Then it pulls out the tumour and staining details from the relevant ones. We fine-tuned a language model called Gemma-2 for the task and mapped the results onto standard medical concepts so they can be compared consistently.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The fine-tuned model got the relevance decision right 91.5% of the time and extracted the profiles correctly 63.3% of the time. It beat GPT-4o on both accuracy and speed.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>This points to a way of turning scattered literature into organised, searchable data that researchers and clinicians can use at scale.</p>
+:ET

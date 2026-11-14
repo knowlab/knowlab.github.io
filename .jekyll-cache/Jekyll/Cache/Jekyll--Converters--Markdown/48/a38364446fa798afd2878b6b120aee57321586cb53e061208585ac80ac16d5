@@ -1,0 +1,16 @@
+I"h<h2 id="the-question">The question</h2>
+
+<p>People often have several conditions at once, and spotting which ones tend to come together can help prevent problems. AI can predict this from health records, but clinicians are reluctant to trust predictions they cannot understand.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>In a PhD project, we carried out a systematic review of studies that used explainable AI and machine learning to predict comorbidity from electronic health records.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>Explainable AI can improve predictions by making the reasoning behind them transparent, which helps clinicians make informed decisions. Combining genetic data with health records has great potential to uncover new links between diseases and to understand how diseases arise. More broadly, AI that identifies disease risk and supports personalised treatment plans may improve patient outcomes and reduce costs.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Predictions that come with reasons are easier to check and to trust, which matters if they are to be used in real care.</p>
+:ET

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Read the full paper at [https://doi.org/10.1109/ISBI60581.2025.10980701](https://doi.org/10.1109/ISBI60581.2025.10980701).
+title: Paper accepted by ISBI 2025 – *Attentive Latent Replay for Continual Learning in Pathology* – at [https://doi.org/10.1109/ISBI60581.2025.10980701](https://doi.org/10.1109/ISBI60581.2025.10980701)  <br/><br/> Deep learning has shown promise in advancing pathology image analysis, yet reliable deployment remains challenging in settings where datasets arrive over extended time, necessitating adaptation to new data classes. Privacy concerns, legal issues, and storage constraints often complicate data retention. Moreover, existing models suffer from catastrophic forgetting when trained on new tasks. There is a pressing need for algorithms resilient to forgetting and capable of generalizing to new data without substantially storing past examples. To address such challenges, we propose a novel replay methodology using generative models, enhanced by a knowledge regularization approach leveraging attention embeddings from prior tasks. By integrating attention-based regularization that prioritizes relative spatial feature importance, with generative latent replay, we demonstrate superior continual learning performance in non-stationary data environments, exemplified here in a representative histology image analysis task.<br/><br/>Read the full paper at [https://doi.org/10.1109/ISBI60581.2025.10980701](https://doi.org/10.1109/ISBI60581.2025.10980701).
 date: 2025-05-12
 categories: [paper]
 ---

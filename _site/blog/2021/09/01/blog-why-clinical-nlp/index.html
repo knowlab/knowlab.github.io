@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why bother using free-text clinical notes for research or patient care? &bull; KnowLab</title>
+<meta name="description" content="a research group doing machine learning, multimodal large language model, knowledge graph and their applications in health care">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<meta name="theme-color" content="#515675">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css?v=1794679885">
+
+</head>
+<body class="kl">
+  <header class="site-header">
+  <div class="wrap bar">
+    <a href="/" aria-label="KnowLab home"><img class="logo" src="/img/knowlab.v2.png" alt="KnowLab"></a>
+    <nav class="nav" aria-label="Main">
+      <a class="link" href="/">Home</a>
+      <a class="link" href="/updates/">News</a>
+      <a class="link on" href="/blog/">Blog</a>
+      <a class="link" href="/publications/">Publications</a>
+      <a class="link" href="/group-members/">Members</a>
+      <a class="link" href="/projects/">Projects</a>
+    </nav>
+  </div>
+</header>
+<main class="inner">
+    <div class="wrap">
+      <a class="readmore back" href="/blog/">&larr; All stories</a>
+      <div class="story-layout">
+        <article class="story">
+          <div class="tags"><a class="tp t2" href="/blog/topic/clinical-text/">Clinical text</a></div>
+          <h1 class="serif">Why bother using free-text clinical notes for research or patient care?</h1>
+          <div class="meta">1 Sep 2021 &middot; 3 min read &middot; by Honghan Wu</div><div class="short-version"><div class="eyebrow">The short version</div><p>Much of what hospitals record is free text. Here is why it is worth reading for research and patient care.</p></div>
+          <div class="story-body"><p>Alright, in general, we know a significant proportion of the world’s data is in an unstructured format like news articles, Tweets and blogs. Some say 80% of our data is unstructured, while others estimate even more.
+<!--more-->
+Unsurprisingly, such phenomena is also observed in health care, such as electronic health records at hospitals.</p>
+
+<p><img src="/img/blog/img-mimic.png" alt="" /></p>
+<div class="img-cap">https://physionet.org/content/mimiciii/1.4/</div>
+
+<p>For example, there is a widely used clinical dataset called MIMIC, which contains 11 years of data from 2 US based intensive care units. It has nearly 60 thousand ICU admissions. On average, there are more than <span class="blog-highlight">34 clinical notes for each admission</span>. These notes contain <span class="blog-highlight">very important information that is never recorded in MIMIC’s structured database</span>, including the drugs people were using at admission, and patient’s past medical history such as whether they had stroke or heart attacks before.</p>
+
+<p>Another example, in 2018, <em>H. Kharrazi</em> and colleagues <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jgs.15411">published a paper</a> which studied the value of fee-text hospital data in identifying conditions that are prevalent in older adults, such as fall and dementia. They produced a very nice chart as shown here. To me, this is a great chart because it delivers a very strong message on how useful and critical free-text data is.</p>
+
+<p><img src="/img/blog/img-free-text-value.png" alt="img-free-text-value.png" /></p>
+<div class="img-cap">Reproduced from: J Am Geriatr Soc. 2018 Aug;66(8):1499-1507. doi: 10.1111/jgs.15411</div>
+
+<p>In each of the Venn diagrams,</p>
+<blockquote>
+  <p>the top right circle represents claims data (in red color), the bottom right circle represents structured EHR data (in blue), and the left circle represents unstructured free-text EHR data (in green).</p>
+</blockquote>
+
+<p>In all geriatric syndrome cases, the Venn diagram shows the significance of free-text data. In particular, for “lack of social support” and “malnutrition” cases, the unstructured data constitutes <span class="blog-highlight">more than 95% of the cases</span>. Even for things like “dementia”, which one might expect good coded data, free-text data still helped to identify a lot of cases that are missing from the structured data.</p>
+
+<p><img src="/img/blog/img-40p-stroke-unspecified.png" alt="40% unspecified stroke cases" /></p>
+<div class="img-cap">40% of incident stroke cases ascertained via linked, structured data in the prospective, population-based UK Biobank cohort are coded as being of unspecified type.</div>
+
+<p>In addition to helping identify cases missed by structured data, free-text data is also very valuable in so-called <span class="blog-highlight">“deep phenotyping”</span>, that is to identify more specific information of a patient’s condition. Let’s use stroke as an example. In a study published in July 2020, <a href="https://n.neurology.org/content/95/6/e697.abstract">Kristiina and colleagues</a> studied incident stroke cases of UK Biobank cohort in Scotland, which contains 17k people. They found 40% of the cases were coded as unspecified stroke in structured data. We know there are three main subtypes of stroke, they have different causes and hence need to be treated differently. Only knowing unspecified stroke is apparently not very useful. Fortunately, <a href="https://doi.org/10.1186/s12911-021-01556-0">a further study</a> has shown free-text data such as radiology reports can help identify the stroke subtypes of all these 40% cases.</p>
+
+<h2 id="summary">Summary</h2>
+<p>Ok, till now, I hope I have successfully convinced you that free-text data is important and critical in some scenarios in disease phenotyping.</p>
+</div>
+        </article>
+        <aside class="story-side">
+          <div class="side-card">
+            <div class="eyebrow">Part of</div><a class="side-link" href="/blog/topic/clinical-text/">Language models for clinical text</a></div><div class="side-card"><div class="eyebrow">Keep reading</div><a class="side-link serif" href="/blog/cot-audit/">Better answers, shakier reasoning in small medical AI</a><a class="side-link serif" href="/blog/proactive-triage/">From spotting damage to preventing it: AI at the start of labour</a></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="contact">
+  <div class="wrap foot">
+    <div class="foot-about">
+      <div class="foot-name">KnowLab</div>
+      <div class="meta">School of Health and Wellbeing, University of Glasgow, and Institute of Health Informatics, University College London.</div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="/blog/">Blog</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/group-members/">Members</a>
+    </nav>
+  </div>
+  <div class="wrap meta foot-credit">Logo designed by Yuchen Wu.</div>
+</footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72059605-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72059605-3');
+</script>
+
+
+</body>
+</html>

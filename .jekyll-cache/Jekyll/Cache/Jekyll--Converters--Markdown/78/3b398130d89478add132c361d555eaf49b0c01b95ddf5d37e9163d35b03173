@@ -1,0 +1,16 @@
+I"ë<h2 id="the-question">The question</h2>
+
+<p>The Indian Liver Patient Dataset is used extensively to build algorithms that predict liver disease. Given known differences between the sexes in how liver disease is diagnosed and managed, these algorithms need scrutiny for bias.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>In work led by Isabel Straw, we reviewed the published studies on this dataset, recreated the reported models (random forests, support vector machines, Gaussian Naive Bayes and logistic regression), and examined them by sex. We defined four experiments: training on sex-unbalanced or balanced data, with and without feature selection.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>We reproduced published accuracies above 70% and found a previously unobserved performance gap. Across all classifiers, women had a higher false-negative rate. The two models reported as the most effective, random forest and logistic regression, showed the largest gap.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>In practice a higher false-negative rate means more missed diagnoses for women and a lack of appropriate care. Checking for bias early can reveal inequalities in current practice, and stops them being built into algorithms.</p>
+:ET

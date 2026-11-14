@@ -1,0 +1,16 @@
+I"L<h2 id="the-question">The question</h2>
+
+<p>Building a language-processing model for clinical text takes effort, so reusing one built elsewhere is attractive. But in a new setting, with new data or new conditions to find, you normally have to keep validating and retraining it to see whether it works. That is slow and often wasteful.</p>
+
+<h2 id="what-we-did">What we did</h2>
+
+<p>We framed the problem of adapting a model to a new task and identified two sources of waste, “duplicate waste” and “imbalance waste”, that get in the way. Our fix is a phenotype embedding, a way of making the language patterns of an old setting and a new one visible and comparable, without needing labelled data from the new setting. We tested it on a large mental health registry, reusing models in four tasks for identifying phenotype mentions, meaning mentions of a condition or trait relating to a person.</p>
+
+<h2 id="what-we-found">What we found</h2>
+
+<p>The approach modelled language patterns well and could guide which model to reuse. It also showed which novel language patterns need validation and retraining in the new task, saving around 80% of the effort that “blind” adaptation requires.</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+
+<p>Clinical NLP will only spread if reusing tools is cheap. Knowing where a model will fail is the key.</p>
+:ET

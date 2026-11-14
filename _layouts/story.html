@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" prefix="og: http://ogp.me/ns#">
+<head>
+  {% include kl-head.html %}
+</head>
+<body class="kl">
+  {% include kl-header.html %}
+  {%- assign others = site.stories | concat: site.categories.blog | sort: 'date' | reverse -%}
+  <main class="inner">
+    <div class="wrap">
+      <a class="readmore back" href="{{ site.baseurl }}/blog/">&larr; All stories</a>
+      <div class="story-layout">
+        <article class="story">
+          <div class="tags">
+            {%- for slug in page.topics -%}
+              {%- assign tp = site.data.topics | where: 'slug', slug | first -%}
+              {%- if tp %}<a class="tp {{ tp.cls }}" href="{{ site.baseurl }}/blog/topic/{{ tp.slug }}/">{{ tp.short }}</a>{% endif -%}
+            {%- endfor -%}
+          </div>
+          <h1 class="serif">{{ page.title }}</h1>
+          <div class="meta">{{ page.date | date: "%-d %b %Y" }} &middot; {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read{% if page.byline %} &middot; {{ page.byline }}{% elsif page.author.name %} &middot; by {{ page.author.name }}{% endif %}</div>
+          {%- if page.summary %}<div class="short-version"><div class="eyebrow">The short version</div><p>{{ page.summary }}</p></div>{% endif %}
+          <div class="story-body">{{ content }}</div>
+        </article>
+        <aside class="story-side">
+          {%- if page.paper_title %}
+          <div class="side-card">
+            <div class="eyebrow">The paper</div>
+            <div class="serif paper-title">{{ page.paper_title }}</div>
+            {%- if page.authors or page.venue %}<div class="meta">{{ page.authors }}{% if page.authors and page.venue %}. {% endif %}{{ page.venue }}</div>{% endif %}
+            <div class="links">
+              {%- if page.paper_url %}<a href="{{ page.paper_url }}" target="_blank" rel="noopener">Read the paper</a>{% endif -%}
+              {%- if page.code_url %}<a href="{{ page.code_url }}" target="_blank" rel="noopener">Code</a>{% endif -%}
+            </div>
+          </div>
+          {%- endif %}
+          <div class="side-card">
+            <div class="eyebrow">Part of</div>
+            {%- for slug in page.topics -%}
+              {%- assign tp = site.data.topics | where: 'slug', slug | first -%}
+              {%- if tp %}<a class="side-link" href="{{ site.baseurl }}/blog/topic/{{ tp.slug }}/">{{ tp.name }}</a>{% endif -%}
+            {%- endfor -%}
+          </div>
+          {%- assign more = 0 -%}
+          {%- capture keep -%}
+            {%- for o in others -%}
+              {%- if o.url != page.url and more < 2 -%}
+                {%- assign more = more | plus: 1 -%}
+                <a class="side-link serif" href="{{ o.url | prepend: site.baseurl }}">{{ o.title }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endcapture -%}
+          {%- if more > 0 %}<div class="side-card"><div class="eyebrow">Keep reading</div>{{ keep }}</div>{% endif %}
+        </aside>
+      </div>
+    </div>
+  </main>
+  {% include kl-footer.html %}
+</body>
+</html>
