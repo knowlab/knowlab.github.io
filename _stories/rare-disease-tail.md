@@ -2,7 +2,8 @@
 layout: story
 title: "Knowing when a rare-disease AI should hold back its answer"
 summary: "A diagnostic tool needs to know when to commit to its top guess and when to pass the case to a person, and for rare diseases that is hard to get right."
-topics: [knowledge-graphs, reliability]
+topics: [reliability]
+areas: [rare-diseases]
 paper_title: "One Score, Two Decisions: Selective Prediction on the Rare-Disease Tail"
 paper_url: https://arxiv.org/abs/2608.14683
 authors: Jiang et al.

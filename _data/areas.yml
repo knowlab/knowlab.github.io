@@ -1,0 +1,42 @@
+# Health areas: the clinical problems we work on. A second axis next to the methods in topics.yml.
+# Stories opt in with  areas: [slug, ...]  in their front matter.
+- slug: cardiometabolic
+  name: Heart, stroke and diabetes
+  short: Heart & diabetes
+  blurb: Predicting risk and finding gaps in care for cardiovascular disease, stroke and type 2 diabetes.
+  icon: '<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>'
+- slug: mental-health
+  name: Mental health
+  short: Mental health
+  blurb: Depression, anxiety, psychosis and the drugs used to treat them, studied from health records.
+  icon: '<path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-1 5 3 3 0 0 0 2 5 3 3 0 0 0 5 2V4a3 3 0 0 0-3 0z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 1 5 3 3 0 0 1-2 5 3 3 0 0 1-5 2"/>'
+- slug: covid-19
+  name: COVID-19
+  short: COVID-19
+  blurb: Who is most at risk, how the disease unfolds, and what the pandemic cost, across millions of people.
+  icon: '<circle cx="12" cy="12" r="4"/><path d="M16.0 12.0L19.0 12.0"/><circle cx="20.2" cy="12.0" r="1"/><path d="M14.83 14.83L16.95 16.95"/><circle cx="17.8" cy="17.8" r="1"/><path d="M12.0 16.0L12.0 19.0"/><circle cx="12.0" cy="20.2" r="1"/><path d="M9.17 14.83L7.05 16.95"/><circle cx="6.2" cy="17.8" r="1"/><path d="M8.0 12.0L5.0 12.0"/><circle cx="3.8" cy="12.0" r="1"/><path d="M9.17 9.17L7.05 7.05"/><circle cx="6.2" cy="6.2" r="1"/><path d="M12.0 8.0L12.0 5.0"/><circle cx="12.0" cy="3.8" r="1"/><path d="M14.83 9.17L16.95 7.05"/><circle cx="17.8" cy="6.2" r="1"/>'
+- slug: rare-diseases
+  name: Rare diseases
+  short: Rare diseases
+  blurb: Finding patients, speeding up diagnosis and understanding who is affected by rare conditions.
+  icon: '<path d="M7 3c0 5 10 5 10 9s-10 4-10 9"/><path d="M17 3c0 5-10 5-10 9s10 4 10 9"/><path d="M9.2 6.4h5.6M7 12h10M9.2 17.6h5.6"/>'
+- slug: radiology
+  name: Radiology and medical imaging
+  short: Radiology
+  blurb: AI that reads, writes and checks radiology reports and scans, and keeps radiologists in the loop.
+  icon: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M12 7v10M8.5 9.5c0 3 1.5 5 3.5 5M15.5 9.5c0 3-1.5 5-3.5 5"/>'
+- slug: cancer-pathology
+  name: Cancer and pathology
+  short: Cancer & pathology
+  blurb: Learning from tumour and pathology reports and slides, and judging AI-written findings.
+  icon: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><circle cx="10.5" cy="10.5" r="2"/>'
+- slug: ageing
+  name: Ageing and frailty
+  short: Ageing & frailty
+  blurb: Spotting falls, frailty and delirium in older adults' records.
+  icon: '<path d="M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9"/>'
+- slug: perinatal
+  name: Pregnancy and newborn health
+  short: Maternal & perinatal
+  blurb: Reading the heart-rate trace in labour and catching at-risk babies early.
+  icon: '<circle cx="12" cy="9" r="4"/><path d="M8 20c0-3 1.8-5 4-5s4 2 4 5"/>'

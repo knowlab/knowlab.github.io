@@ -3,6 +3,7 @@ layout: story
 title: "Finding traces of difficult childhoods in social media, with ontologies to guide the AI"
 summary: "An ontology-guided, self-supervised method for spotting adverse childhood experiences in social media posts, producing a public resource for further research."
 topics: [clinical-text]
+areas: [mental-health]
 paper_title: "Ontology-Driven Self-Supervision for Adverse Childhood Experiences Identification Using Social Media Datasets"
 paper_url: https://doi.org/10.5220/0011531100003523
 authors: Wu, Smith and Wu

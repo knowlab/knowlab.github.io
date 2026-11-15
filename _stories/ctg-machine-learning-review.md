@@ -3,6 +3,7 @@ layout: story
 title: "Can machine learning read a baby's heart-rate trace in labour?"
 summary: "A scoping review of 36 studies found promise for predicting fetal hypoxia from cardiotocography, but weak benchmarks and small, repeated datasets."
 topics: [reliability]
+areas: [perinatal]
 paper_title: "Machine learning on cardiotocography data to classify fetal outcomes: a scoping review"
 paper_url: https://doi.org/10.1016/j.compbiomed.2024.108220
 authors: Francis et al.

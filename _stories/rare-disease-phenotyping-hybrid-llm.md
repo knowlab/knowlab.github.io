@@ -2,7 +2,8 @@
 layout: story
 title: "Finding rare disease patients in clinical notes with a hybrid of dictionaries and language models"
 summary: "Combining dictionary-based language processing with large language models identified rare diseases better than either alone, and found patients missing from structured records."
-topics: [knowledge-graphs, clinical-text]
+topics: [clinical-text]
+areas: [rare-diseases]
 paper_title: "A hybrid framework with large language models for rare disease phenotyping"
 paper_url: https://doi.org/10.1186/s12911-024-02698-7
 authors: Wu et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Mining tumour test results from thousands of research abstracts with AI"
 summary: "IHC-LLMiner uses a language model to find and extract tumour staining profiles from PubMed abstracts, faster and more accurately than GPT-4o on this task."
 topics: [clinical-text]
+areas: [cancer-pathology]
 paper_title: "IHC-LLMiner: Automated extraction of tumour immunohistochemical profiles from PubMed abstracts using large language models"
 paper_url: https://arxiv.org/abs/2504.00748
 authors: Kim et al.

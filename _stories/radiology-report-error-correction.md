@@ -3,6 +3,7 @@ layout: story
 title: "An AI proofreader for radiology reports"
 summary: "A three-stage method that detects, locates and corrects mistakes in radiology reports, using medical knowledge to help language models do it."
 topics: [clinical-text, knowledge-graphs]
+areas: [radiology]
 paper_title: "Error Correction in Radiology Reports: A Knowledge Distillation-Based Multi-Stage Framework"
 paper_url: https://doi.org/10.1609/aaai.v40i46.41295
 authors: Wu et al.

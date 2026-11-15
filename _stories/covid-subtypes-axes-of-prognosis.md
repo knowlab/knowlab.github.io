@@ -3,6 +3,7 @@ layout: story
 title: "Beyond mild or severe: finding hidden subtypes of COVID-19 outcomes"
 summary: "Two clustering methods using axes of prognosis revealed distinct subgroups of poor outcome, especially among respiratory patients, and predicted membership on admission."
 topics: [multimodal]
+areas: [covid-19]
 paper_title: "Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes"
 paper_url: https://doi.org/10.1101/2021.03.16.21253371
 authors: Whitfield, Coffey et al.

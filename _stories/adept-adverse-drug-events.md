@@ -3,6 +3,7 @@ layout: story
 title: "Finding drug side effects hidden in psychiatric clinical notes"
 summary: "ADEPt, a rule-based pipeline built with clinicians and pharmacists, found 19 side effects of antipsychotics and antidepressants in free-text records, with an average F-measure of 0.83."
 topics: [clinical-text]
+areas: [mental-health]
 paper_title: "ADEPt, a semantically-enriched pipeline for extracting adverse drug events from free-text electronic health records"
 paper_url: https://doi.org/10.1371/journal.pone.0187121
 authors: Iqbal et al.

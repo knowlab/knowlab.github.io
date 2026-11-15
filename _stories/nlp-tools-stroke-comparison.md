@@ -3,6 +3,7 @@ layout: story
 title: "Four NLP tools, one brain-scan task: don't expect them to work out of the box"
 summary: "Comparing four off-the-shelf tools on brain radiology reports showed that performance varies widely, so tools need checking and adapting before clinical use."
 topics: [clinical-text, reliability]
+areas: [cardiometabolic, radiology]
 paper_title: "Understanding the performance and reliability of NLP tools: a comparison of four NLP tools predicting stroke phenotypes in radiology reports"
 paper_url: https://doi.org/10.3389/fdgth.2023.1184919
 authors: Casey et al.

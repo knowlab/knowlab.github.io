@@ -3,6 +3,7 @@ layout: story
 title: "Using retrieval to help language models correct radiology report errors"
 summary: "A three-stage method that detects, locates and corrects errors in radiology reports using internal and external knowledge retrieval."
 topics: [clinical-text, knowledge-graphs]
+areas: [radiology]
 paper_title: "Harnessing Knowledge Retrieval with Large Language Models for Clinical Report Error Correction"
 paper_url: https://arxiv.org/abs/2406.15045
 authors: Wu et al.

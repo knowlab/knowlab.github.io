@@ -3,6 +3,7 @@ layout: story
 title: "Teaching a language model radiology vocabulary to write better report summaries"
 summary: "RadBARTsum retrains a language model with medical-entity masking so it learns radiology knowledge, which improves summaries of radiology reports."
 topics: [clinical-text, knowledge-graphs]
+areas: [radiology]
 paper_title: "RadBARTsum: Domain Specific Adaption of Denoising Sequence-to-Sequence Models for Abstractive Radiology Report Summarization"
 paper_url: https://arxiv.org/abs/2406.03062
 authors: Wu, Hasan and Wu

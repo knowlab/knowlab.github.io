@@ -1,0 +1,16 @@
+{%- comment -%} Segmented toggle between the two category axes. Panes are elements with data-pane="area|method";
+   the toggle is .seg with buttons data-axis. Without JavaScript every pane stays visible. {%- endcomment -%}
+<script>
+(function(){
+  document.querySelectorAll('.seg').forEach(function(seg){
+    var scope=document.getElementById(seg.getAttribute('data-for'))||document;
+    var btns=[].slice.call(seg.querySelectorAll('button')), panes=[].slice.call(scope.querySelectorAll('[data-pane]'));
+    function show(axis){
+      btns.forEach(function(b){var on=b.getAttribute('data-axis')===axis;b.setAttribute('aria-pressed',on);b.classList.toggle('on',on);});
+      panes.forEach(function(p){p.hidden=p.getAttribute('data-pane')!==axis;});
+    }
+    btns.forEach(function(b){b.addEventListener('click',function(){show(b.getAttribute('data-axis'));});});
+    show(seg.getAttribute('data-default')||'area');
+  });
+})();
+</script>

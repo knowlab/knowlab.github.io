@@ -3,6 +3,7 @@ layout: story
 title: "Teaching computers to spot falls, frailty and delirium in hospital discharge letters"
 summary: "We built a hand-annotated collection of discharge summaries so that language models can learn to find geriatric syndromes in them."
 topics: [clinical-text]
+areas: [ageing]
 paper_title: "Geriatric Syndromes Extraction from Discharge Summaries: A New Dataset, Annotation Scheme and Initial Findings"
 paper_url: https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1591050/
 authors: Guellil et al.

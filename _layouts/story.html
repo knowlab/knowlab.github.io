@@ -12,6 +12,10 @@
       <div class="story-layout">
         <article class="story">
           <div class="tags">
+            {%- for slug in page.areas -%}
+              {%- assign ar = site.data.areas | where: 'slug', slug | first -%}
+              {%- if ar %}<a class="tp area" href="{{ site.baseurl }}/blog/area/{{ ar.slug }}/">{{ ar.short }}</a>{% endif -%}
+            {%- endfor -%}
             {%- for slug in page.topics -%}
               {%- assign tp = site.data.topics | where: 'slug', slug | first -%}
               {%- if tp %}<a class="tp {{ tp.cls }}" href="{{ site.baseurl }}/blog/topic/{{ tp.slug }}/">{{ tp.short }}</a>{% endif -%}
@@ -36,6 +40,10 @@
           {%- endif %}
           <div class="side-card">
             <div class="eyebrow">Part of</div>
+            {%- for slug in page.areas -%}
+              {%- assign ar = site.data.areas | where: 'slug', slug | first -%}
+              {%- if ar %}<a class="side-link" href="{{ site.baseurl }}/blog/area/{{ ar.slug }}/">{{ ar.name }}</a>{% endif -%}
+            {%- endfor -%}
             {%- for slug in page.topics -%}
               {%- assign tp = site.data.topics | where: 'slug', slug | first -%}
               {%- if tp %}<a class="side-link" href="{{ site.baseurl }}/blog/topic/{{ tp.slug }}/">{{ tp.name }}</a>{% endif -%}

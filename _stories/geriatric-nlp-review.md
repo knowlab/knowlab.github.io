@@ -3,6 +3,7 @@ layout: story
 title: "Can computers read the signs of frailty and falls in older adults’ records? A review"
 summary: "We reviewed how language technology has been used to find geriatric syndromes in the free text of health records, and what is still hard."
 topics: [clinical-text]
+areas: [ageing]
 paper_title: "Natural language processing for geriatric syndromes: a systematic review of methods, applications, and challenges"
 paper_url: https://link.springer.com/article/10.1186/s12911-026-03417-0
 authors: Rahman et al.

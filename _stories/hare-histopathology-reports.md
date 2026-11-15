@@ -3,6 +3,7 @@ layout: story
 title: "How do you judge an AI-written pathology report? HARE"
 summary: "HARE is a way to score generated histopathology reports by checking the key findings and how they relate, which matches pathologists better than standard metrics."
 topics: [clinical-text]
+areas: [cancer-pathology]
 paper_title: "HARE: an entity and relation centric evaluation framework for histopathology reports"
 paper_url: https://arxiv.org/abs/2509.16326
 authors: Kim et al.

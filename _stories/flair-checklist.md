@@ -3,6 +3,7 @@ layout: story
 title: "A checklist for reporting studies that use AI language models in radiology"
 summary: "Studies of AI language models in radiology are often reported in ways that make them hard to repeat or compare, so an international panel built a checklist."
 topics: [reliability]
+areas: [radiology]
 paper_title: "Guidelines for Reporting Studies on Large Language Models in Radiology: An International Delphi Expert Survey"
 paper_url: https://doi.org/10.1148/radiol.250913
 authors: Kottlors et al.

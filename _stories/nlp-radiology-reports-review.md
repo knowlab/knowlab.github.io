@@ -3,6 +3,7 @@ layout: story
 title: "Ten years of language technology for radiology reports, mapped"
 summary: "A systematic review of 164 studies shows rapid growth in NLP for radiology reports, but little sharing of data or code and little evidence of real clinical use."
 topics: [clinical-text]
+areas: [radiology]
 paper_title: "A systematic review of natural language processing applied to radiology reports"
 paper_url: https://doi.org/10.1186/s12911-021-01533-7
 authors: Casey et al.

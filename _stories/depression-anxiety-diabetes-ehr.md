@@ -3,6 +3,7 @@ layout: story
 title: "Spotting depression and anxiety early in people with type 2 diabetes"
 summary: "A deep learning model that reads both the structured and the free-text parts of regional health records to predict who with type 2 diabetes will develop depression or anxiety."
 topics: [multimodal, clinical-text]
+areas: [cardiometabolic, mental-health]
 paper_title: "Deep Learning Based Prediction of Depression and Anxiety in Patients with Type 2 Diabetes Mellitus Using Regional Electronic Health Records"
 paper_url: https://doi.org/10.1016/j.ijmedinf.2025.105801
 authors: Feng et al.

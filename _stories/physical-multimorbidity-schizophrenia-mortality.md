@@ -3,6 +3,7 @@ layout: story
 title: "Physical illness and early death in people with schizophrenia"
 summary: "Two thirds of 9,775 people with schizophrenia-spectrum disorders had several physical conditions, and some combinations roughly doubled the risk of death."
 topics: [clinical-text]
+areas: [mental-health]
 paper_title: "Association of physical health multimorbidity with mortality in people with schizophrenia spectrum disorders: Using a novel semantic search system that captures physical diseases in electronic patient records"
 paper_url: https://doi.org/10.1016/j.schres.2019.10.061
 authors: Kugathasan et al.

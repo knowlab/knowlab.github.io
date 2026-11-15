@@ -3,6 +3,7 @@ layout: story
 title: "How do radiologists keep an eye on the AI they use?"
 summary: "Interviews with 16 radiologists show that checking AI tools in practice is mostly manual, slow and unsupported by clear guidelines."
 topics: [reliability]
+areas: [radiology]
 paper_title: "How Do Radiologists Currently Monitor AI in Radiology and What Challenges Do They Face? An Interview Study and Qualitative Analysis"
 paper_url: https://doi.org/10.1007/s10278-025-01493-8
 authors: Chow, Lee and Wu

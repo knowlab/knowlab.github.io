@@ -3,6 +3,7 @@ layout: story
 title: "Can AI that sees X-rays catch mistakes in radiology reports?"
 summary: "We tested multimodal language models on spotting errors in chest X-ray reports by checking them against the radiograph."
 topics: [multimodal, reliability]
+areas: [radiology]
 paper_title: "Exploring Multimodal Large Language Models for Radiology Report Error-checking"
 paper_url: https://arxiv.org/abs/2312.13103
 authors: Wu et al.

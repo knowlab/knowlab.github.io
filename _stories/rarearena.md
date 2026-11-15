@@ -2,7 +2,8 @@
 layout: story
 title: "A realistic test for AI that diagnoses rare diseases"
 summary: "RareArena is a large test built from real case reports, designed to show how well AI language models can spot rare diseases."
-topics: [knowledge-graphs, reliability]
+topics: [reliability]
+areas: [rare-diseases]
 paper_title: "RareArena: a comprehensive benchmark dataset unveiling the potential of large language models in rare disease diagnosis"
 paper_url: https://doi.org/10.1016/j.landig.2025.100953
 authors: Chen et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Predicting who will do badly in hospital with COVID-19, tested in two countries"
 summary: "A simple model using age, sex and routine blood tests worked well in Wuhan but less well in London, where patients were far sicker, showing why external validation matters."
 topics: [reliability]
+areas: [covid-19]
 paper_title: "Risk prediction for poor outcome and death in hospital in-patients with COVID-19: derivation in Wuhan, China and external validation in London, UK"
 paper_url: https://www.medrxiv.org/content/10.1101/2020.04.28.20082222v1
 authors: Zhang et al.

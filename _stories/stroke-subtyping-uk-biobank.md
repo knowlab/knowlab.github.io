@@ -3,6 +3,7 @@ layout: story
 title: "Telling types of stroke apart in UK Biobank by reading brain scan reports"
 summary: "Combining language processing with clinical rules on brain scan reports identified bleeding strokes in UK Biobank with high accuracy, improving on coded data alone."
 topics: [clinical-text, knowledge-graphs]
+areas: [cardiometabolic, radiology]
 paper_title: "Developing automated methods for disease subtyping in UK Biobank: an exemplar study on stroke"
 paper_url: https://doi.org/10.1186/s12911-021-01556-0
 authors: Rannikmae, Wu et al.

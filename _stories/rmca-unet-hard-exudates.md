@@ -3,6 +3,7 @@ layout: story
 title: "Spotting tiny lesions in eye scans for diabetic retinopathy"
 summary: "RMCA U-net is a neural network that outlines hard exudates in retinal photos more accurately than standard networks."
 topics: [multimodal]
+areas: [cardiometabolic, radiology]
 paper_title: "RMCA U-net: Hard exudates segmentation for retinal fundus images"
 paper_url: https://doi.org/10.1016/j.eswa.2023.120987
 authors: Fu et al.

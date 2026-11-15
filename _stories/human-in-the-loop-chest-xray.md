@@ -3,6 +3,7 @@ layout: story
 title: "A chest X-ray assistant that learns from where the radiologist looks"
 summary: "Eye-fixation prompts improved a multimodal model for chest X-ray diagnosis, and fine-tuning with only 658 reports beat a model trained on 17,000."
 topics: [multimodal, reliability]
+areas: [radiology]
 paper_title: "Human-in-the-Loop Chest X-Ray Diagnosis: Enhancing Large Multimodal Models with Eye Fixation Inputs"
 paper_url: https://doi.org/10.1007/978-3-031-67751-9_6
 authors: Kim et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Showing AI not just where a radiologist looked, but in what order"
 summary: "Turning a radiologist's eye movements into a short video helped general-purpose vision-language models write better chest X-ray reports and diagnoses, in one case beating specialist medical models."
 topics: [multimodal, reliability]
+areas: [radiology]
 paper_title: "RadEyeVideo: Enhancing general-domain Large Vision Language Model for chest X-ray analysis with video representations of eye gaze"
 paper_url: https://arxiv.org/abs/2507.09097
 authors: Kim, Wu and Wu

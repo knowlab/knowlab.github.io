@@ -3,6 +3,7 @@ layout: story
 title: "Finding adverse events in the discharge letters of older patients"
 summary: "A hand-labelled collection of discharge summaries from older patients, covering 14 adverse events such as falls and delirium, shows where language models still struggle."
 topics: [clinical-text]
+areas: [ageing]
 paper_title: "Adverse Event Extraction from Discharge Summaries: A New Dataset, Annotation Scheme, and Initial Findings"
 paper_url: https://arxiv.org/abs/2506.14900
 authors: Guellil et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Teaching AI to read chest X-rays by following where radiologists look"
 summary: "Giving a multimodal model the places radiologists look and the regions they mark improves the reports it writes, without retraining it."
 topics: [multimodal, reliability]
+areas: [radiology]
 paper_title: "Look & Mark: Leveraging Radiologist Eye Fixations and Bounding boxes in Multimodal Large Language Models for Chest X-ray Report Generation"
 paper_url: https://aclanthology.org/2025.findings-acl.909/
 authors: Kim et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Hand-written rules or machine learning for reading brain scan reports?"
 summary: "On Scottish stroke imaging reports, a hand-crafted system was the most accurate, but machine learning was a feasible alternative when no one has time to write rules."
 topics: [clinical-text]
+areas: [cardiometabolic, radiology]
 paper_title: "Named Entity Recognition for Electronic Health Records: A Comparison of Rule-based and Machine Learning Approaches"
 paper_url: https://arxiv.org/abs/1903.03985
 authors: Gorinski et al.

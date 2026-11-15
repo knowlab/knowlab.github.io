@@ -244,3 +244,16 @@
 .kl .statbar{border-block:1px solid var(--line,#e5e7eb)}.kl .statbar .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;padding-block:14px;font-size:15px;color:var(--muted)}.kl .statbar strong{color:inherit;font-size:18px}.kl .statbar a{margin-left:auto;font-weight:600}
 
 .kl .prose table.projects th:nth-child(n+3),.kl .prose table.projects td:nth-child(n+3){white-space:nowrap}
+
+.kl .tp.area,.kl .pill.area{background:#e4efe9;color:#1f5a45}
+.kl .pill.area.on{border-color:var(--ink)}
+.kl .tile.area{color:#2f7a5c}
+.kl .filter-label{align-self:center;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:92px}
+.kl .filters+.filters{margin-top:-12px}
+
+.kl .seg{display:inline-flex;align-items:center;gap:4px;padding:4px;border-radius:999px;background:#e9ebf3;margin:0 0 20px}
+.kl .sec-head.row .seg{margin:0}
+.kl .seg-label{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 10px 0 12px}
+.kl .seg button{font:inherit;font-size:14px;font-weight:600;border:0;border-radius:999px;padding:8px 16px;background:transparent;color:var(--ink);cursor:pointer}
+.kl .seg button.on{background:#fff;box-shadow:0 1px 3px rgba(20,24,50,.18)}
+.kl [data-pane][hidden]{display:none}

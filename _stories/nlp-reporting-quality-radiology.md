@@ -3,6 +3,7 @@ layout: story
 title: "Are language-technology studies on radiology reports described well enough to repeat?"
 summary: "Of 164 studies, few shared data or code or tested their work externally, so we called for reporting standards specific to clinical NLP."
 topics: [clinical-text, reliability]
+areas: [radiology]
 paper_title: "The reporting quality of natural language processing studies: systematic review of studies of radiology reports"
 paper_url: https://doi.org/10.1186/s12880-021-00671-8
 authors: Davidson et al.

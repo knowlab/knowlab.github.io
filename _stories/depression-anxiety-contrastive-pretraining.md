@@ -3,6 +3,7 @@ layout: story
 title: "Predicting depression and anxiety in diabetes with limited primary care data"
 summary: "We pre-trained a model on good-quality hospital records and fine-tuned it on primary care data, which predicted post-discharge depression and anxiety much better than baselines."
 topics: [multimodal, clinical-text]
+areas: [cardiometabolic, mental-health]
 paper_title: "Applying contrastive pre-training for depression and anxiety risk prediction in type 2 diabetes patients based on heterogeneous electronic health records: a primary healthcare case study"
 paper_url: https://doi.org/10.1093/jamia/ocad228
 authors: Feng et al.

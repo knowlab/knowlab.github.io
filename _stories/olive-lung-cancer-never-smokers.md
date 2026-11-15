@@ -3,6 +3,7 @@ layout: story
 title: "Studying lung cancer in people who have never smoked"
 summary: "OLIVE is a UK study plan to learn what predicts, and what follows, lung cancer in people who have never smoked, using routine health records and language technology."
 topics: [multimodal, clinical-text]
+areas: [cancer-pathology]
 paper_title: "Observational study of predictors and outcomes of lung cancer in never-smokers in the UK (OLIVE): study protocol"
 paper_url: https://doi.org/10.1136/bmjresp-2025-003966
 authors: Naidu et al.

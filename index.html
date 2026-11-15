@@ -31,18 +31,35 @@ home: true
 <section class="statbar" aria-label="At a glance">
   <div class="wrap">
     <span><strong>{{ site.stories.size }}</strong> papers explained in plain English</span>
-    <span><strong>{{ site.data.topics.size }}</strong> research directions</span>
+    <span><strong>{{ site.data.areas.size }}</strong> health areas, <strong>{{ site.data.topics.size }}</strong> methods</span>
     <a href="{{ site.baseurl }}/blog/">Start with the stories &rarr;</a>
   </div>
 </section>
 
 <section class="section" id="research">
-  <div class="wrap stack">
-    <div class="sec-head">
-      <div class="eyebrow">Research</div>
-      <h2 class="serif">What we work on</h2>
+  <div class="wrap stack" id="research-panel">
+    <div class="sec-head row">
+      <div>
+        <div class="eyebrow">Research</div>
+        <h2 class="serif">What we work on</h2>
+      </div>
+      <div class="seg" role="group" aria-label="Show research by" data-for="research-panel" data-default="method">
+        <button type="button" data-axis="method" class="on" aria-pressed="true">Methods</button>
+        <button type="button" data-axis="area" aria-pressed="false">Health areas</button>
+      </div>
     </div>
-    <div class="tiles">
+    <div class="tiles" data-pane="area">
+      {%- for a in site.data.areas %}
+      {%- assign n = site.stories | where_exp: 's', 's.areas contains a.slug' | size %}
+      <a class="tile area" href="{{ site.baseurl }}/blog/area/{{ a.slug }}/">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ a.icon }}</svg>
+        <h3>{{ a.name }}</h3>
+        <p>{{ a.blurb }}</p>
+        <span class="readmore">{{ n }} {% if n == 1 %}story{% else %}stories{% endif %} &rarr;</span>
+      </a>
+      {%- endfor %}
+    </div>
+    <div class="tiles" data-pane="method">
       {%- for t in site.data.topics %}
       <a class="tile {{ t.cls }}" href="{{ site.baseurl }}/blog/topic/{{ t.slug }}/">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ t.icon }}</svg>
@@ -118,3 +135,4 @@ home: true
     </div>
   </div>
 </section>
+{% include axis-toggle.html %}

@@ -2,7 +2,8 @@
 layout: story
 title: "Can wearables and apps make rare disease clinical trials easier?"
 summary: "A review of 262 trials in ten rare diseases shows digital tools increasingly used for remote monitoring, treatment and long-term care."
-topics: [knowledge-graphs]
+topics: [multimodal]
+areas: [rare-diseases]
 paper_title: "Digital health technology use in clinical trials of rare diseases: a systematic review"
 paper_url: https://www.nature.com/articles/s43856-025-01137-6
 authors: Mao et al.

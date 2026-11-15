@@ -3,6 +3,7 @@ layout: story
 title: "Which algorithm best finds new genes for small vessel disease of the brain?"
 summary: "We benchmarked seven network-based gene-ranking methods for cerebral small vessel disease and found one clearly best overall, with an important limit on discovering truly new genes."
 topics: [knowledge-graphs]
+areas: [cardiometabolic]
 paper_title: "Benchmarking network-based gene prioritization methods for cerebral small vessel disease"
 paper_url: https://doi.org/10.1093/bib/bbab006
 authors: Zhang et al.

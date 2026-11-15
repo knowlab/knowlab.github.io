@@ -3,6 +3,7 @@ layout: story
 title: "Did people with rare diseases face a higher risk of dying from COVID-19?"
 summary: "In 283 Genomics England participants, rare disease was linked to higher COVID-19 death, especially neurological and neurodevelopmental conditions, though numbers were small."
 topics: [multimodal]
+areas: [covid-19, rare-diseases]
 paper_title: "Increased COVID-19 mortality rate in rare disease patients: a retrospective cohort study in participants of the Genomics England 100,000 Genomes project"
 paper_url: https://doi.org/10.1186/s13023-022-02312-x
 authors: Zhang et al.

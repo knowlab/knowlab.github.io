@@ -2,7 +2,8 @@
 layout: story
 title: "Rare diseases and COVID-19: what the records of 58 million people show"
 summary: "Eight rare diseases carried a clearly higher risk of dying from COVID-19, even after vaccination, in a study covering 331 rare diseases and 58 million people."
-topics: [knowledge-graphs]
+topics: [multimodal]
+areas: [covid-19, rare-diseases]
 paper_title: "Prevalence and demographics of 331 rare diseases and associated COVID-19-related mortality among 58 million individuals: a nationwide retrospective observational study"
 paper_url: https://doi.org/10.1016/S2589-7500(24)00253-X
 authors: Thygesen et al.

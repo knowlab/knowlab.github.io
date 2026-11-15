@@ -2,7 +2,8 @@
 layout: story
 title: "Who has which rare disease? A map of 406 rare diseases across ethnic groups in England"
 summary: "Of 62.5 million people in England, 1.7% had one of 406 rare diseases, and they had more recorded COVID-19 infection (32.8% vs 29.0%)."
-topics: [knowledge-graphs]
+topics: [multimodal]
+areas: [covid-19, rare-diseases]
 paper_title: "Prevalence of 406 rare diseases by ethnicity and recorded COVID-19 infection rates among 62.5 million people in England"
 paper_url: https://doi.org/10.1038/s41598-026-70531-4
 authors: Gu et al.

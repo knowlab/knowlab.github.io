@@ -3,6 +3,7 @@ layout: story
 title: "Does a diabetes prediction model still work on new people? Testing it in prediabetes"
 summary: "We tested a machine learning model for predicting type 2 diabetes on 3,081 people with prediabetes, and checked whether it could guide who benefits most from treatment."
 topics: [reliability]
+areas: [cardiometabolic]
 paper_title: "External validation and application of a machine learning-based model for diabetes progression in prediabetes"
 paper_url: https://doi.org/10.3389/fendo.2026.1746570
 authors: Wang et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Following COVID-19 across 57 million people in England"
 summary: "Linking eight national NHS datasets, we defined ten COVID-19 stages and mapped how patients moved between them in the first two waves."
 topics: [multimodal]
+areas: [covid-19]
 paper_title: "COVID-19 trajectories among 57 million adults in England: a cohort study using electronic health records"
 paper_url: https://doi.org/10.1016/S2589-7500(22)00091-7
 authors: Thygesen et al.

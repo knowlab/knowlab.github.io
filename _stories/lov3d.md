@@ -3,6 +3,7 @@ layout: story
 title: "Teaching an AI to read brain scans over time and show its working"
 summary: "LoV3D reads a patient’s brain MRI scans over time, measures regions step by step, and only then gives a diagnosis, which cuts down on made-up conclusions."
 topics: [multimodal, reliability]
+areas: [radiology]
 paper_title: "LoV3D: Grounding Cognitive Prognosis Reasoning in Longitudinal 3D Brain MRI via Regional Volume Assessments"
 paper_url: https://arxiv.org/abs/2603.12071
 authors: Jiang et al.

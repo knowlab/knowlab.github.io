@@ -3,6 +3,7 @@ layout: story
 title: "Antidepressants, antipsychotics and diabetes: what does the evidence say?"
 summary: "A systematic review found little and mixed evidence on how these medicines relate to diabetes outcomes, so general diabetes guidance should apply for now."
 topics: [reliability]
+areas: [cardiometabolic, mental-health]
 paper_title: "Antidepressant and antipsychotic drug prescribing and diabetes outcomes: A systematic review of observational studies"
 paper_url: https://doi.org/10.1016/j.diabres.2023.110649
 authors: Greene et al.

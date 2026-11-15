@@ -3,6 +3,7 @@ layout: story
 title: "Letting a pathology AI learn new things without forgetting the old, and without keeping patient images"
 summary: "Generative latent replay plus attention-based regularisation reduced catastrophic forgetting in a histology image task without storing past examples."
 topics: [reliability, multimodal]
+areas: [cancer-pathology]
 paper_title: "Attentive Latent Replay for Continual Learning in Pathology"
 paper_url: https://doi.org/10.1109/ISBI60581.2025.10980701
 authors: Patra et al.

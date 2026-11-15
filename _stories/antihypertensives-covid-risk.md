@@ -3,6 +3,7 @@ layout: story
 title: "Could blood pressure drugs change COVID-19 risk? A proof-of-concept with AI"
 summary: "A transformer-based model estimated what would have happened under different blood pressure treatments, using data from over 300,000 patients."
 topics: [multimodal]
+areas: [cardiometabolic, covid-19]
 paper_title: "A Transformer-Based Framework for Counterfactual Estimation of Antihypertensive Treatment Effect on COVID-19 Infection Risk: A Proof-of-Concept Study"
 paper_url: https://doi.org/10.1093/ajh/hpaf055
 authors: Tran et al.

@@ -3,6 +3,7 @@ layout: story
 title: "Do AI models predict heart disease in diabetes better than standard scores?"
 summary: "A systematic review found promising AI performance, but only one of the reviewed models had been externally validated and reporting quality was low."
 topics: [reliability]
+areas: [cardiometabolic]
 paper_title: "Artificial intelligence models for predicting cardiovascular diseases in people with type 2 diabetes: A systematic review"
 paper_url: https://doi.org/10.1016/j.ibmed.2022.100072
 authors: Wang et al.

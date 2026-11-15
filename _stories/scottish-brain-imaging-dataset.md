@@ -3,6 +3,7 @@ layout: story
 title: "A national library of brain scans linked to health records in Scotland"
 summary: "We describe how a huge set of Scottish head scans was prepared, linked to health records and made available for AI research."
 topics: [multimodal]
+areas: [radiology]
 paper_title: "A large dataset of brain imaging linked to health systems data: curation and access to a whole system national cohort from NHS Scotland"
 paper_url: https://doi.org/10.1093/gigascience/giag072
 authors: Camilleri et al.

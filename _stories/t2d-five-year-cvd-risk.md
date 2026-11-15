@@ -3,6 +3,7 @@ layout: story
 title: "A heart-risk score for people with type 2 diabetes, built in China and checked in Scotland"
 summary: "A five-year cardiovascular risk model built from routine Nanjing hospital data held up in a Scottish population (C-statistic 0.716 externally)."
 topics: [reliability]
+areas: [cardiometabolic]
 paper_title: "Prediction of Five-Year Cardiovascular Disease Risk in People with Type 2 Diabetes Mellitus: Derivation in Nanjing, China and External Validation in Scotland, UK"
 paper_url: https://doi.org/10.5334/gh.1131
 authors: Wan et al.

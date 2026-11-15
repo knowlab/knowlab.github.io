@@ -78,7 +78,7 @@ cover-image: gla-ucl-sketch.png
 </ul>
 </div>
 
-### recent publications (2017 ~)
+### recent publications (2016 ~)
 {% for post in site.categories.paper %}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}

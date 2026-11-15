@@ -3,6 +3,7 @@ layout: story
 title: "Combining seven COVID-19 risk models so the best one is used for each patient"
 summary: "An ensemble that picks the most competent models for each patient beat every individual model across four cohorts in the UK and China."
 topics: [reliability]
+areas: [covid-19]
 paper_title: "Ensemble learning for poor prognosis predictions: a case study on SARS-CoV-2"
 paper_url: https://doi.org/10.1093/jamia/ocaa295
 authors: Wu et al.

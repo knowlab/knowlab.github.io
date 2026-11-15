@@ -3,6 +3,7 @@ layout: story
 title: "From spotting damage to preventing it: AI at the start of labour"
 summary: "Our invited commentary argues for catching at-risk babies early enough to prevent injury, by combining several kinds of data."
 topics: [multimodal]
+areas: [perinatal]
 paper_title: "From reactive diagnosis to proactive triage: connecting the dots at labour onset"
 paper_url: https://doi.org/10.1016/j.landig.2026.101066
 authors: Wu and Wang

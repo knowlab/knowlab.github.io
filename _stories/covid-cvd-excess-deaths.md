@@ -3,6 +3,7 @@ layout: story
 title: "The hidden toll of COVID-19 on people with heart disease"
 summary: "Hospital activity for cardiovascular disease fell by 60 to 100% during the pandemic, and we estimated tens of thousands of excess deaths in England, direct and indirect."
 topics: [multimodal]
+areas: [cardiometabolic, covid-19]
 paper_title: "Excess deaths in people with cardiovascular diseases during the COVID-19 pandemic"
 paper_url: https://doi.org/10.1093/eurjpc/zwaa155
 authors: Banerjee et al.

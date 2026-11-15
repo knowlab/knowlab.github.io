@@ -3,6 +3,7 @@ layout: story
 title: "Finding rare diseases in clinical notes without hand-labelled training data"
 summary: "By combining language technology with a disease ontology, we identified rare disease mentions in health records with over 90% accuracy, with no human annotation of the training data."
 topics: [knowledge-graphs, clinical-text]
+areas: [rare-diseases]
 paper_title: "Ontology-driven and weakly supervised rare disease identification from clinical notes"
 paper_url: https://doi.org/10.1186/s12911-023-02181-9
 authors: Dong et al.

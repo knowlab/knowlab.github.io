@@ -6,6 +6,10 @@
   {%- endif %}
   <div class="card-body">
     <div class="tags">
+      {%- for slug in s.areas -%}
+        {%- assign ar = site.data.areas | where: 'slug', slug | first -%}
+        {%- if ar %}<a class="tp area" href="{{ site.baseurl }}/blog/area/{{ ar.slug }}/">{{ ar.short }}</a>{% endif -%}
+      {%- endfor -%}
       {%- for slug in s.topics -%}
         {%- assign tp = site.data.topics | where: 'slug', slug | first -%}
         {%- if tp %}<a class="tp {{ tp.cls }}" href="{{ site.baseurl }}/blog/topic/{{ tp.slug }}/">{{ tp.short }}</a>{% endif -%}

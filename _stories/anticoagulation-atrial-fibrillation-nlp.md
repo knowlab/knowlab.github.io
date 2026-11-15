@@ -3,6 +3,7 @@ layout: story
 title: "Reading discharge letters to track anticoagulant use in atrial fibrillation"
 summary: "An open-source language-processing pipeline calculated stroke and bleeding risk scores from 10,030 discharge summaries and showed rising anticoagulant use over seven years."
 topics: [clinical-text]
+areas: [cardiometabolic]
 paper_title: "Semantic computational analysis of anticoagulation use in atrial fibrillation from real world data"
 paper_url: https://doi.org/10.1371/journal.pone.0225625
 authors: Bean et al.

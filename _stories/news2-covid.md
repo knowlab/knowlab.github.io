@@ -3,6 +3,7 @@ layout: story
 title: "Does the standard hospital warning score work for COVID-19?"
 summary: "The NEWS2 score was a weak predictor of severe COVID-19, but adding age and a few routine blood tests improved it across hospitals in the UK, Norway and China."
 topics: [reliability]
+areas: [covid-19]
 paper_title: "Evaluation and improvement of the National Early Warning Score (NEWS2) for COVID-19: a multi-hospital study"
 paper_url: https://doi.org/10.1186/s12916-020-01893-3
 authors: Carr et al.

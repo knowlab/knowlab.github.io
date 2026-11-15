@@ -3,6 +3,7 @@ layout: story
 title: "Letting AI see where the radiologist looks on a chest X-ray"
 summary: "Overlaying a radiologist’s eye-gaze heatmap on the X-ray improved the accuracy of vision-language models across several chest X-ray tasks."
 topics: [multimodal, reliability]
+areas: [radiology]
 paper_title: "Enhancing Human-Computer Interaction in Chest X-ray Analysis using Vision and Language Model with Eye Gaze Patterns"
 paper_url: https://arxiv.org/abs/2404.02370
 authors: Kim et al.

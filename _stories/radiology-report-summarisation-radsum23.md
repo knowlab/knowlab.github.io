@@ -3,6 +3,7 @@ layout: story
 title: "Summarising radiology reports: comparing language models in a shared challenge"
 summary: "Our entry to a BioNLP shared task compared generative language models on summarising radiology reports and used a two-stage fine-tuning approach."
 topics: [clinical-text]
+areas: [radiology]
 paper_title: "KnowLab at RadSum23: comparing pre-trained language models in radiology report summarization"
 paper_url: https://aclanthology.org/2023.bionlp-1.54/
 authors: Wu et al.

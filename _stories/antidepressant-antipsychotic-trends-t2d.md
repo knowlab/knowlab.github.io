@@ -3,6 +3,7 @@ layout: story
 title: "More people with type 2 diabetes are prescribed antidepressants and antipsychotics"
 summary: "Between 2004 and 2021 in Scotland, antidepressant prescribing in people with type 2 diabetes rose from 20.0 to 33.3 per 100 person-years."
 topics: [reliability]
+areas: [cardiometabolic, mental-health]
 paper_title: "Antidepressant and antipsychotic prescribing in patients with type 2 diabetes in Scotland: a time-trend analysis from 2004-2021"
 paper_url: https://doi.org/10.1111/bcp.16171
 authors: Greene et al.

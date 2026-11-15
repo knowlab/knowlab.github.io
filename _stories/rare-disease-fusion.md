@@ -3,6 +3,7 @@ layout: story
 title: "Using language models to improve a traceable rare-disease diagnosis tool"
 summary: "Combining a language model with an ontology-based ranking tool improves rare-disease diagnosis while keeping the evidence trail."
 topics: [knowledge-graphs, clinical-text]
+areas: [rare-diseases]
 paper_title: "Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis"
 paper_url: https://arxiv.org/abs/2609.02473
 authors: Jiang et al.
