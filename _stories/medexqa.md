@@ -4,9 +4,9 @@ title: "Testing whether medical AI can explain its answers, not just choose them
 summary: "MedExQA is a medical question benchmark with several reference explanations per answer, plus a small open model, MedPhi-2."
 topics: [reliability]
 paper_title: "MedExQA: Medical Question Answering Benchmark with Multiple Explanations"
-paper_url: https://arxiv.org/abs/2406.06331
-authors: Kim et al.
-venue: "arXiv preprint, 2024"
+paper_url: https://aclanthology.org/2024.bionlp-1.14/
+authors: Kim, Wu, Abdulle and Wu
+venue: "BioNLP 2024 workshop (ACL), Bangkok"
 news: medexqa
 image: img/news/medexqa-2024.png
 byline: by the KnowLab team
