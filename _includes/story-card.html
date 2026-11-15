@@ -17,6 +17,7 @@
     </div>
     <h3 class="serif card-title"><a href="{{ s.url | prepend: site.baseurl }}">{{ s.title }}</a></h3>
     <p class="card-text">{% if s.summary %}{{ s.summary }}{% else %}{{ s.excerpt | strip_html | strip | truncatewords: 28 }}{% endif %}</p>
+    {%- if s.audio %}<button type="button" class="listen" data-audio="{{ site.baseurl }}/{{ s.audio }}" aria-label="Play audio: {{ s.title | escape }}" aria-pressed="false"><span class="ico" aria-hidden="true">&#9654;</span><span class="lbl">Listen{% if s.audio_minutes %} &middot; {{ s.audio_minutes }} min{% endif %}</span></button><audio class="listen-audio" preload="none" src="{{ site.baseurl }}/{{ s.audio }}"></audio>{% endif %}
     <div class="meta">{{ s.date | date: "%b %Y" }} &middot; {{ s.content | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
   </div>
 </article>

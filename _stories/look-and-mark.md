@@ -10,6 +10,8 @@ authors: Kim et al.
 venue: "Findings of ACL, 2025"
 news: look_mark
 image: img/news/landm.png
+audio: audio/look-and-mark.mp3
+audio_minutes: 1
 featured: true
 byline: by the KnowLab team
 date: 2025-05-28

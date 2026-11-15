@@ -10,6 +10,8 @@ authors: Wu et al.
 venue: "AAAI 2026 (AI for Social Impact track)"
 news: RadCorrection-AAAI2026
 image: img/news/RadCorrAAAI2026.png
+audio: audio/radiology-report-error-correction.mp3
+audio_minutes: 1
 featured: true
 byline: by the KnowLab team
 date: 2026-01-20

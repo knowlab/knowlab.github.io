@@ -24,6 +24,7 @@
           <h1 class="serif">{{ page.title }}</h1>
           <div class="meta">{{ page.date | date: "%-d %b %Y" }} &middot; {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read{% if page.byline %} &middot; {{ page.byline }}{% elsif page.author.name %} &middot; by {{ page.author.name }}{% endif %}</div>
           {%- if page.summary %}<div class="short-version"><div class="eyebrow">The short version</div><p>{{ page.summary }}</p></div>{% endif %}
+          {%- if page.audio %}<div class="story-audio"><div class="eyebrow">Listen to this story{% if page.audio_minutes %} &middot; {{ page.audio_minutes }} min{% endif %}</div><audio controls preload="none" src="{{ site.baseurl }}/{{ page.audio }}">Your browser does not support audio. <a href="{{ site.baseurl }}/{{ page.audio }}">Download the audio</a>.</audio></div>{% endif %}
           <div class="story-body">{{ content }}</div>
         </article>
         <aside class="story-side">
