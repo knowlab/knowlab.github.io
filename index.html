@@ -49,6 +49,7 @@ home: true
       </div>
     </div>
     <div class="tiles" data-pane="area">
+      <h3 class="sr-only">Browse stories by health area</h3>
       {%- for a in site.data.areas %}
       {%- assign n = site.stories | where_exp: 's', 's.areas contains a.slug' | size %}
       <a class="tile area" href="{{ site.baseurl }}/blog/area/{{ a.slug }}/">
@@ -60,6 +61,7 @@ home: true
       {%- endfor %}
     </div>
     <div class="tiles" data-pane="method">
+      <h3 class="sr-only">Browse stories by method</h3>
       {%- for t in site.data.topics %}
       <a class="tile {{ t.cls }}" href="{{ site.baseurl }}/blog/topic/{{ t.slug }}/">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ t.icon }}</svg>

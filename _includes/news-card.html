@@ -12,7 +12,12 @@
 {%- if post.headline -%}
   {%- assign headline = post.headline -%}
 {%- elsif hs.size > 2 -%}
-  {%- assign headline = hs[1] | strip -%}
+  {%- comment -%} Several *italic* parts (e.g. a journal name and the paper title): use the longest, which is the paper title. {%- endcomment -%}
+  {%- assign headline = '' -%}
+  {%- for seg in hs -%}
+    {%- assign odd = forloop.index0 | modulo: 2 -%}
+    {%- if odd == 1 and seg.size > headline.size -%}{%- assign headline = seg | strip -%}{%- endif -%}
+  {%- endfor -%}
 {%- else -%}
   {%- assign headline = head | strip_html | truncate: 120 -%}
 {%- endif -%}

@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for p in site.pages %}{% if p.url contains '.' or p.url contains '/old' or p.sitemap == false %}{% continue %}{% endif %}
+  <url><loc>https://{{ site.url }}{{ p.url }}</loc></url>
+{%- endfor %}
+{%- for s in site.stories %}
+  <url><loc>https://{{ site.url }}{{ s.url }}</loc><lastmod>{{ s.date | date_to_xmlschema }}</lastmod></url>
+{%- endfor %}
+</urlset>

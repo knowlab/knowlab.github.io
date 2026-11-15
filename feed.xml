@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{{ site.name | xml_escape }} stories</title>
+  <link>https://{{ site.url }}/blog/</link>
+  <description>Plain-English stories behind KnowLab's research papers.</description>
+  {%- assign recent = site.stories | sort: 'date' | reverse %}
+  {%- for s in recent limit: 30 %}
+  <item>
+    <title>{{ s.title | xml_escape }}</title>
+    <link>https://{{ site.url }}{{ s.url }}</link>
+    <guid>https://{{ site.url }}{{ s.url }}</guid>
+    <pubDate>{{ s.date | date_to_rfc822 }}</pubDate>
+    <description>{{ s.summary | xml_escape }}</description>
+  </item>
+  {%- endfor %}
+</channel>
+</rss>

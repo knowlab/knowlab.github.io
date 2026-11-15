@@ -24,12 +24,14 @@
           <button type="button" data-axis="area" aria-pressed="false">Health area</button>
         </div>
         <nav class="filters" data-pane="area" aria-label="Filter stories by health area">
+          <h2 class="sr-only">Browse stories by health area</h2>
           <a class="pill{% unless topic or area %} on{% endunless %}" href="{{ site.baseurl }}/blog/">All stories</a>
           {%- for a in site.data.areas %}
           <a class="pill area{% if page.area == a.slug %} on{% endif %}" href="{{ site.baseurl }}/blog/area/{{ a.slug }}/">{{ a.short }}</a>
           {%- endfor %}
         </nav>
         <nav class="filters" data-pane="method" aria-label="Filter stories by method">
+          <h2 class="sr-only">Browse stories by method</h2>
           <a class="pill{% unless topic or area %} on{% endunless %}" href="{{ site.baseurl }}/blog/">All stories</a>
           {%- for t in site.data.topics %}
           <a class="pill {{ t.cls }}{% if page.topic == t.slug %} on{% endif %}" href="{{ site.baseurl }}/blog/topic/{{ t.slug }}/">{{ t.short }}</a>

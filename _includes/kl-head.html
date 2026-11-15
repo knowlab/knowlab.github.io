@@ -1,7 +1,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title and page.layout != 'home' %}{{ page.title }} &bull; {% endif %}{{ site.name }}</title>
-<meta name="description" content="{{ site.description.meta }}">
+{%- assign base_url = "https://" | append: site.url -%}
+{%- assign page_desc = page.summary | default: page.description | default: site.description.meta -%}
+{%- assign page_url = base_url | append: page.url -%}
+<meta name="description" content="{{ page_desc | strip_html | escape }}">
+<link rel="canonical" href="{{ page_url }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:type" content="{% if page.layout == 'story' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ page.title | default: site.name | strip_html | escape }}">
+<meta property="og:description" content="{{ page_desc | strip_html | escape }}">
+<meta property="og:url" content="{{ page_url }}">
+{%- if page.image %}
+<meta property="og:image" content="{{ base_url }}/{{ page.image | remove_first: '/' }}">
+{%- endif %}
+<meta name="twitter:card" content="summary">
+{%- if page.layout == 'story' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.summary | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": "{{ page_url }}",
+  "author": { "@type": "Organization", "name": "KnowLab", "url": "{{ base_url }}/" },
+  "publisher": { "@type": "Organization", "name": "KnowLab", "url": "{{ base_url }}/" }{% if page.paper_title %},
+  "about": {
+    "@type": "ScholarlyArticle",
+    "name": {{ page.paper_title | jsonify }},
+    "url": {{ page.paper_url | jsonify }},
+    "author": {{ page.authors | jsonify }},
+    "isPartOf": {{ page.venue | jsonify }}
+  }{% endif %}
+}
+</script>
+{%- endif %}
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" sizes="32x32">
