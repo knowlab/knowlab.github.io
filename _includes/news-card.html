@@ -56,10 +56,13 @@
   {%- assign cta = 'Read the paper' -%}
 {%- endif -%}
 {%- assign story_url = '' -%}
+{%- assign story_audio = '' -%}
+{%- assign story_audio_min = '' -%}
+{%- assign story_title = '' -%}
 {%- assign pslug = post.slug | downcase -%}
 {%- for st in site.stories -%}
   {%- assign nslug = st.news | downcase -%}
-  {%- if nslug == pslug -%}{%- assign story_url = st.url | prepend: site.baseurl -%}{%- endif -%}
+  {%- if nslug == pslug -%}{%- assign story_url = st.url | prepend: site.baseurl -%}{%- assign story_audio = st.audio -%}{%- assign story_audio_min = st.audio_minutes -%}{%- assign story_title = st.title -%}{%- endif -%}
 {%- endfor -%}
 {%- assign ri = post.related_image -%}
 {%- assign ri0 = ri | slice: 0 -%}
@@ -80,6 +83,7 @@
     {%- if blurb != blank %}
     <p class="card-text">{{ blurb }}</p>
     {%- endif %}
+    {%- if include.feature and story_audio != '' %}<button type="button" class="listen" data-audio="{{ site.baseurl }}/{{ story_audio }}" aria-label="Play audio: {{ story_title | escape }}" aria-pressed="false"><span class="ico" aria-hidden="true">&#9654;</span><span class="lbl">Listen{% if story_audio_min != '' %} &middot; {{ story_audio_min }} min{% endif %}</span></button><audio class="listen-audio" preload="none" src="{{ site.baseurl }}/{{ story_audio }}"></audio>{% endif %}
     <div class="card-links">
       <a class="readmore" href="{{ target }}">{{ cta }} &rarr;</a>
       {%- if story_url != '' %}<a class="readmore" href="{{ story_url }}">Read the story &rarr;</a>{% endif %}
