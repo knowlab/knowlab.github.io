@@ -92,11 +92,14 @@ home: true
       {%- for x in stories -%}
         {%- assign xnews = x.news | downcase -%}
         {%- if xnews == hero_slug -%}{%- continue -%}{%- endif -%}
-        {%- if x.featured -%}{%- assign top_stories = top_stories | push: x -%}{%- else -%}{%- assign other_stories = other_stories | push: x -%}{%- endif -%}
+        {%- if x.featured and x.image -%}{%- assign top_stories = top_stories | push: x -%}{%- else -%}{%- assign other_stories = other_stories | push: x -%}{%- endif -%}
       {%- endfor -%}
+      {%- assign with_img = '' | split: '' -%}{%- assign no_img = '' | split: '' -%}
       {%- assign top_stories = top_stories | concat: other_stories -%}
-      {%- for story in top_stories limit: 3 %}
-        {% include story-card.html story=story lead=forloop.first %}
+      {%- for x in top_stories -%}{%- if x.image -%}{%- assign with_img = with_img | push: x -%}{%- else -%}{%- assign no_img = no_img | push: x -%}{%- endif -%}{%- endfor -%}
+      {%- assign top_stories = with_img | concat: no_img -%}
+      {%- for story in top_stories limit: 2 %}
+        {% include story-card.html story=story lead=forloop.first thumb=true %}
       {%- endfor %}
     </div>
   </div>

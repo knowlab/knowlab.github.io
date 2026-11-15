@@ -1,7 +1,7 @@
 {%- comment -%} Card for one blog story. Pass story=... and optionally lead=true. {%- endcomment -%}
 {%- assign s = include.story -%}
 <article class="card story-card{% if include.lead %} lead{% endif %}">
-  {%- if s.image and include.lead %}
+  {%- if s.image and include.lead or s.image and include.thumb %}
   <a class="thumb" href="{{ s.url | prepend: site.baseurl }}" tabindex="-1" aria-hidden="true"><img src="{{ site.baseurl }}/{{ s.image }}" alt="" loading="lazy"></a>
   {%- endif %}
   <div class="card-body">
