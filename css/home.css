@@ -259,3 +259,22 @@
 .kl [data-pane][hidden]{display:none}
 
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ---------- Projects tables as cards (all screen sizes) ---------- */
+.kl .tablewrap:has(table.projects){border:none;background:none;overflow:visible;border-radius:0}
+.kl .prose table.projects{min-width:0;display:block;font-size:14.5px}
+.kl .prose table.projects thead{display:none}
+.kl .prose table.projects tbody{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:12px}
+.kl .prose table.projects tbody tr{display:block;margin:0;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.kl .prose table.projects tbody tr:hover td{background:none}
+.kl .prose table.projects tbody tr:hover{border-color:var(--accent)}
+.kl .prose table.projects td{display:flex;gap:10px;align-items:baseline;padding:2px 0;border:none !important;white-space:normal !important}
+.kl .prose table.projects td:empty{display:none}
+.kl .prose table.projects td:first-child{display:block;font-weight:600;padding-bottom:6px;line-height:1.4}
+.kl .prose table.projects td[data-label]:not(:first-child)::before{content:attr(data-label);flex:0 0 56px;font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+
+/* Homepage story strip: two cards side by side, one column on phones */
+.kl .story-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:640px){.kl .story-strip{grid-template-columns:1fr}}
+/* with two cards, the lead card shares the row instead of spanning it */
+@media (min-width:760px){.kl .story-strip .story-card.lead{grid-column:auto}.kl .story-strip .story-card.lead .card-title{font-size:inherit}}

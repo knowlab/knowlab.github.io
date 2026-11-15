@@ -20,6 +20,11 @@
   <script>
     // Wrap wide tables so they scroll sideways on small screens instead of breaking the page.
     document.querySelectorAll('.prose table').forEach(function (t) {
+      // Copy column headings onto cells so narrow screens can show them as labels (see css/home.css).
+      var heads = [].map.call(t.querySelectorAll('thead th'), function (th) { return th.textContent.trim(); });
+      t.querySelectorAll('tbody tr').forEach(function (tr) {
+        [].forEach.call(tr.children, function (td, i) { if (heads[i]) td.setAttribute('data-label', heads[i]); });
+      });
       var w = document.createElement('div');
       w.className = 'tablewrap';
       t.parentNode.insertBefore(w, t);
