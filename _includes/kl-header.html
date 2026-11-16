@@ -1,7 +1,7 @@
 {%- assign u = page.url -%}
 <header class="site-header">
   <div class="wrap bar">
-    <a href="{{ site.baseurl }}/" aria-label="{{ site.name }} home"><img class="logo" src="{{ site.baseurl }}{{ site.logo-image }}" alt="{{ site.name }}"></a>
+    <a class="brand" href="{{ site.baseurl }}/" aria-label="{{ site.name }} home"><img class="logo" src="{{ site.baseurl }}/img/knowlab-mark.svg" alt=""><span class="wordmark" aria-hidden="true"><span>Know</span><span>Lab</span></span></a>
     <nav class="nav" aria-label="Main">
       <a class="link{% if u == '/' %} on{% endif %}" href="{{ site.baseurl }}/">Home</a>
       <a class="link{% if u == '/updates/' %} on{% endif %}" href="{{ site.baseurl }}/updates/">News</a>
