@@ -286,3 +286,10 @@
 .kl .listen.playing{background:#eef0f6;border-color:var(--accent)}
 .kl .story-audio{margin:0 0 24px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
 .kl .story-audio audio{display:block;width:100%;margin-top:8px}
+
+/* Selected publications: short explanation + links on each card */
+.kl .selectedPub .grid-list li{display:flex;flex-direction:column}
+.kl .pub-summary{font-size:14.5px;line-height:1.5;color:var(--muted);margin:8px 0 0}
+.kl .pub-links{display:flex;flex-wrap:wrap;gap:6px 16px;margin:auto 0 0;padding-top:10px;font-size:14px;font-weight:600}
+.kl .pub-links a{color:var(--accent);text-decoration:none}
+.kl .pub-links a:hover{text-decoration:underline}
