@@ -9,6 +9,8 @@ paper_url: https://www.medrxiv.org/content/10.1101/2025.07.01.25330428v1
 authors: Abdulle et al.
 venue: "medRxiv preprint, 2025"
 news: MND-early-diagnosis-medrxiv
+audio: audio/mnd-early-diagnosis.mp3
+audio_minutes: 2
 byline: by the KnowLab team
 date: 2025-07-02
 ---
