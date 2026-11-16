@@ -10,7 +10,7 @@ venue: EACL 2027, main conference
 news: cot-audit
 image: img/news/medical_cot_audit.png
 audio: audio/cot-audit.mp3
-audio_minutes: 2
+audio_minutes: 1
 byline: by the KnowLab team
 date: 2026-11-14
 ---
