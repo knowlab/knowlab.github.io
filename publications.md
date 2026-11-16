@@ -8,7 +8,7 @@ cover-image: gla-ucl-sketch.png
 ### Selected publications
 <div class="selectedPub">
 <ul class="grid-list" style="grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));">
-{% for post in site.categories.selected limit:10 %}
+{% for post in site.categories.selected limit:12 %}
   {% assign clean_text = post.content | strip_html | strip %}
 
 {% assign pub_title = nil %}
@@ -66,13 +66,29 @@ cover-image: gla-ucl-sketch.png
 {% assign ext_link = post.url %}
 {% endif %}
 
+{% assign story_url = "" %}
+{% assign story_summary = "" %}
+{% assign story_venue = "" %}
+{% assign pslug = post.slug | downcase %}
+{% for st in site.stories %}
+{% assign nslug = st.news | downcase %}
+{% if nslug == pslug %}{% assign story_url = st.url | prepend: site.baseurl %}{% assign story_summary = st.summary %}{% assign story_venue = st.venue %}{% endif %}
+{% endfor %}
+
   <li>
     <h3>
-      <a href="{{ ext_link }}" target="_blank" rel="noopener noreferrer">{{ pub_title }}</a>
+      {% if story_url != "" %}<a href="{{ story_url }}">{{ pub_title }}</a>{% else %}<a href="{{ ext_link }}" target="_blank" rel="noopener noreferrer">{{ pub_title }}</a>{% endif %}
     </h3>
-    {% if venue_year %}
-      <p class="pub-venue">{{ venue_year }}</p>
+    {% assign shown_venue = venue_year | strip %}
+    {% if shown_venue.size == 0 %}{% assign shown_venue = story_venue | strip %}{% endif %}
+    {% if shown_venue.size > 0 %}
+      <p class="pub-venue">{{ shown_venue }}</p>
     {% endif %}
+    {% if story_summary != "" %}<p class="pub-summary">{{ story_summary }}</p>{% endif %}
+    <p class="pub-links">
+      {% if story_url != "" %}<a href="{{ story_url }}">Read the story &rarr;</a>{% endif %}
+      <a href="{{ ext_link }}" target="_blank" rel="noopener noreferrer">Paper &rarr;</a>
+    </p>
   </li>
 {% endfor %}
 </ul>

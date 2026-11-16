@@ -6,7 +6,7 @@ topics: [reliability]
 paper_title: "Quantifying Health Inequalities Induced by Data and AI Models"
 paper_url: https://doi.org/10.24963/ijcai.2022/721
 authors: Wu, Sylolypavan, Wang and Wild
-venue: "IJCAI-ECAI 2022 (AI for Good track)"
+venue: "IJCAI 2022 (AI for Good track)"
 news: DA-AUC-IJCAI2022
 image: img/news/DAindex-news.png
 byline: by the KnowLab team
