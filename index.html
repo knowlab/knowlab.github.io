@@ -142,32 +142,4 @@ home: true
 </section>
 {% include axis-toggle.html %}
 
-<script>
-(function () {
-  var btns = document.querySelectorAll('button.listen');
-  if (!btns.length) return;
-  function paint(b, on) {
-    b.setAttribute('aria-pressed', on ? 'true' : 'false');
-    b.classList.toggle('playing', on);
-    b.querySelector('.ico').innerHTML = on ? '&#10074;&#10074;' : '&#9654;';
-  }
-  [].forEach.call(btns, function (b) {
-    var a = b.nextElementSibling;
-    if (!a || a.tagName !== 'AUDIO') return;
-    a.addEventListener('play', function () {
-      [].forEach.call(document.querySelectorAll('audio.listen-audio'), function (o) { if (o !== a) o.pause(); });
-      paint(b, true);
-    });
-    a.addEventListener('pause', function () { paint(b, false); });
-    a.addEventListener('ended', function () { paint(b, false); });
-    a.addEventListener('error', function () {
-      console.warn('Story audio error', a.error && a.error.code, a.error && a.error.message, a.currentSrc);
-      b.querySelector('.lbl').textContent = 'Audio error ' + (a.error ? a.error.code : '') + ' - open story';
-    });
-    b.addEventListener('click', function () {
-      if (a.paused) { a.play().catch(function (e) { console.warn('Story audio play() rejected', e); b.querySelector('.lbl').textContent = 'Audio: ' + e.name; }); }
-      else { a.pause(); }
-    });
-  });
-})();
-</script>
+{% include listen.html %}
