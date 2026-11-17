@@ -20,7 +20,7 @@
   icon: '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17l9 5 9-5"/>'
 - slug: knowledge-graphs
   cls: t4
-  name: Knowledge graphs and ontologies
-  short: Knowledge graphs
-  blurb: Medical knowledge as graphs and ontologies, so diagnosis, phenotyping and reasoning stay traceable.
+  name: Knowledge representation
+  short: Knowledge
+  blurb: How medical knowledge is represented, as explicit graphs and ontologies and as structure learned inside models, so it can be inspected, traced and reused.
   icon: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="7" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.3 7l7.3 .3M7.3 8.2l3.6 7.6M16.9 9.3l-3.7 6.8"/>'
